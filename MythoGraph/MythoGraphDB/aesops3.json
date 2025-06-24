@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Ass" },
+    { "id": "Grasshoppers" }
+  ],
+  "links": [
+    {
+      "source": "Ass",
+      "target": "Grasshoppers",
+      "label": "asked",
+      "weight": 0.70
+    },
+    {
+      "source": "Grasshoppers",
+      "target": "Ass",
+      "label": "replied",
+      "weight": 0.70
+    },
+    {
+      "source": "Ass",
+      "target": "",
+      "label": "decided_to_live_on_dew",
+      "weight": 0.70
+    },
+    {
+      "source": "Ass",
+      "target": "",
+      "label": "died",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "AN ASS having heard some Grasshoppers chirping, was highly enchanted; and, desiring to possess the same charms of melody, demanded what sort of food they lived on to give them such beautiful voices. They replied, \"The dew.\"he Ass resolved that he would live only upon dew, and in a short time died of hunger."
+}

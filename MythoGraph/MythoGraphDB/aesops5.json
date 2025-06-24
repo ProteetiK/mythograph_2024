@@ -1,0 +1,31 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Charcoal-Burner" },
+    { "id": "Fuller" }
+  ],
+  "links": [
+    {
+      "source": "Charcoal-Burner",
+      "target": "Fuller",
+      "label": "met",
+      "weight": 0.70
+    },
+    {
+      "source": "Charcoal-Burner",
+      "target": "Fuller",
+      "label": "asked_to_live_with",
+      "weight": 0.70
+    },
+    {
+      "source": "Fuller",
+      "target": "Charcoal-Burner",
+      "label": "rejected",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A CHARCOAL-BURNER carried on his trade in his own house. One day he met a friend, a Fuller, and entreated him to come and live with him, saying that they should be far better neighbors and that their housekeeping expenses would be lessened. The Fuller replied, \"The arrangement is impossible as far as I am concerned, for whatever I should whiten, you would immediately blacken again with your charcoal.\" Like will draw like."
+}
+
