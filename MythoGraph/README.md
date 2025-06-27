@@ -1,1 +1,1 @@
-streamlit run MythoGraph.py
+streamlit run app.py

@@ -9,10 +9,8 @@ W1 = 0.7
 
 st.title("View Knowledge Graph from Database")
 
-# Folder with JSON graph files
 folder_path = "MythoGraphDB"
 
-# List available JSON files
 json_files = [f for f in os.listdir(folder_path) if f.endswith(".json")]
 
 if not json_files:
@@ -33,8 +31,9 @@ else:
                     src = link.get("source")
                     tgt = link.get("target")
                     rel = link.get("label")
+                    motif = link.get("motif", None)
                     if src and tgt and rel:
-                        edges.append((src, tgt, {'weight': W1, 'label': rel}))
+                        edges.append((src, tgt, {'weight': W1, 'label': rel, 'motif': motif}))
                 return create_graph(edges), myth_text
 
         def create_graph(edge_list):
@@ -53,6 +52,9 @@ else:
             edge_count = defaultdict(int)
             for u, v, k, data in G.edges(keys=True, data=True):
                 rel = data.get('label', '')
+                motif = data.get('motif', '')
+                if motif:
+                    rel = f"{rel} / {motif}"
                 edge_count[(u, v)] += 1
                 rad = 0.15 * edge_count[(u, v)]
                 nx.draw_networkx_edges(
@@ -73,15 +75,13 @@ else:
             ax.axis('off')
             return fig
 
-        # Build and draw the graph
         G, myth_text = load_graph_from_file(file_path)
         st.subheader("Knowledge Graph")
         fig = draw_graph(G, title=selected_file)
         st.pyplot(fig)
 
-        # Display triples
         st.subheader("Extracted Triples")
-        st.write([(u, v, d['label']) for u, v, d in G.edges(data=True)])
+        st.write([(u, v, d['label'], d['motif']) for u, v, d in G.edges(data=True)])
 
         st.subheader("Myth Text")
         st.write(myth_text)

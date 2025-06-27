@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Mapping\Mapping.py" />
     <Compile Include="MythoGraph.py" />
     <Compile Include="MythoGraphUtil.py" />
     <Compile Include="pages\1_View_Myths_in_DB.py" />
@@ -29,6 +30,7 @@
   <ItemGroup>
     <Folder Include="MythoGraphDB\" />
     <Folder Include=".streamlit\" />
+    <Folder Include="Mapping\" />
     <Folder Include="pages\" />
   </ItemGroup>
   <ItemGroup>
