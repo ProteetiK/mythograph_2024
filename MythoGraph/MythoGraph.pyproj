@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c3b63431-1ed6-4cee-a4a7-07c973c294bd</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MythoGraph.py</StartupFile>
+    <StartupFile>app.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,15 +22,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Mapping\Mapping.py" />
-    <Compile Include="MythoGraph.py" />
+    <Compile Include="MythExtraction\MythExtract.py" />
+    <Compile Include="MythExtraction\MythExtractEval.py" />
+    <Compile Include="MythExtraction\MythExtractUtil.py" />
+    <Compile Include="MythGraph\MythGraphDraw.py" />
+    <Compile Include="MythoMapping\Mapping.py" />
+    <Compile Include="MythoMapping\MappingHelper.py" />
+    <Compile Include="app.py" />
     <Compile Include="MythoGraphUtil.py" />
     <Compile Include="pages\1_View_Myths_in_DB.py" />
+    <Compile Include="pages\2_View_Isomorphic_Clusters.py" />
+    <Compile Include="MythModelTrain\MotifTrainer.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MythoGraphDB\" />
     <Folder Include=".streamlit\" />
-    <Folder Include="Mapping\" />
+    <Folder Include="MythoMapping\" />
+    <Folder Include="MythExtraction\" />
+    <Folder Include="MythGraph\" />
+    <Folder Include="MythModelTrain\" />
     <Folder Include="pages\" />
   </ItemGroup>
   <ItemGroup>
