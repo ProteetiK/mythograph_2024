@@ -11,56 +11,57 @@
     {
       "source": "Lion",
       "target": "Mouse",
-      "label": "ran_over",
+      "label": "run_over",
+      "motif": "Conflict",
       "weight": 0.70
     },
     {
       "source": "Lion",
       "target": "Mouse",
-      "label": "caught",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+    {
+      "source": "Mouse",
+      "target": "Lion",
+      "label": "beg",
+      "motif": "Trickery",
       "weight": 0.70
     },
     {
       "source": "Lion",
       "target": "Mouse",
-      "label": "about_to_kill",
+      "label": "free",
+      "motif": "Victory",
       "weight": 0.70
     },
-
     {
-      "source": "Mouse",
+      "source": "Hunters",
       "target": "Lion",
-      "label": "begged",
-      "weight": 0.70
-    },
-    {
-      "source": "Lion",
-      "target": "Mouse",
-      "label": "freed",
-      "weight": 0.70
-    },
-    {
-      "source": "Lion",
-      "target": "Hunters",
-      "label": "was_caught_by",
+      "label": "catch",
+      "motif": "Conflict",
       "weight": 0.70
     },
     {
       "source": "Mouse",
       "target": "Lion",
-      "label": "recognized",
+      "label": "recognize",
+      "motif": "Decision",
       "weight": 0.70
     },
     {
       "source": "Mouse",
       "target": "Lion",
-      "label": "gnawed_rope",
+      "label": "gnaw_rope",
+      "motif": "Quest",
       "weight": 0.70
     },
     {
       "source": "Mouse",
       "target": "Lion",
-      "label": "freed",
+      "label": "free",
+      "motif": "Victory",
       "weight": 0.70
     }
   ],

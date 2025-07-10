@@ -5,49 +5,92 @@
   "nodes": [
     { "id": "Bat" },
     { "id": "Weasel" },
-    { "id": "mouse" }
+    { "id": "Mouse" },
+    { "id": "Bird" }
   ],
   "links": [
     {
-      "source": "Bat",
-      "target": "Weasel",
-      "label": "caught",
-      "weight": 0.70
-    },
-    {
-      "source": "Bat",
-      "target": "mouse",
-      "label": "asserted_to_be",
-      "weight": 0.70
-    },
-    {
       "source": "Weasel",
       "target": "Bat",
-      "label": "did_not_eat",
+      "label": "catch",
+      "motif": "Conflict",
       "weight": 0.70
     },
     {
       "source": "Bat",
       "target": "Weasel",
-      "label": "caught",
+      "label": "plead",
+      "motif": "Appeal",
       "weight": 0.70
     },
     {
       "source": "Weasel",
       "target": "Bat",
-      "label": "pleaded",
+      "label": "refuse",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+    {
+      "source": "Weasel",
+      "target": "Bird",
+      "label": "is_enemy",
+      "motif": "Conflict",
       "weight": 0.70
     },
     {
       "source": "Bat",
-      "target": "mouse",
-      "label": "not_asserted_to_be",
+      "target": "Bird",
+      "label": "not_be",
+      "motif": "Trickery",
+      "weight": 0.70
+    },
+    {
+      "source": "Bat",
+      "target": "Mouse",
+      "label": "be",
+      "motif": "Trickery",
       "weight": 0.70
     },
     {
       "source": "Weasel",
       "target": "Bat",
-      "label": "ate",
+      "label": "not_eat",
+      "motif": "Victory",
+      "weight": 0.70
+    },
+    {
+      "source": "Weasel",
+      "target": "Bat",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+    {
+      "source": "Bat",
+      "target": "Weasel",
+      "label": "entreat",
+      "motif": "Appeal",
+      "weight": 0.70
+    },
+    {
+      "source": "Bat",
+      "target": "Mouse",
+      "label": "not_be",
+      "motif": "Trickery",
+      "weight": 0.70
+    },
+    {
+      "source": "Bat",
+      "target": "Bat",
+      "label": "be",
+      "motif": "Trickery",
+      "weight": 0.70
+    },
+    {
+      "source": "Weasel",
+      "target": "Bat",
+      "label": "not_eat",
+      "motif": "Victory",
       "weight": 0.70
     }
   ],

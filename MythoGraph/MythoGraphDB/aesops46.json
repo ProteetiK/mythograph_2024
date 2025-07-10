@@ -1,0 +1,55 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Boy" },
+	{ "id": "Pitcher" },
+	{ "id": "Bystander" }
+  ],
+  "links": [
+    {
+      "source": "Boy",
+      "target": "Pitcher",
+      "label": "put_hand",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Boy",
+      "target": "Filberts",
+      "label": "grasp",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Boy",
+      "target": "Pithcer",
+      "label": "pull_hand",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Pitcher",
+      "target": "Boy",
+      "label": "prevent",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Boy",
+      "target": "Tears",
+      "label": "burst",
+      "motif": "Defeat",
+      "weight": 0.70
+    },
+	{
+      "source": "Bystander",
+      "target": "Boy",
+      "label": "said",
+      "motif": "Guidance",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A BOY put his hand into a pitcher full of filberts. He grasped as many as he could possibly hold, but when he tried to pull out his hand, he was prevented from doing so by the neck of the pitcher. Unwilling to lose his filberts, and yet unable to withdraw his hand, he burst into tears and bitterly lamented his disappointment. A bystander said to him, \"Be satisfied with half the quantity, and you will readily draw out your hand.\" Do not attempt too much at once."
+}

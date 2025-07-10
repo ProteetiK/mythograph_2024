@@ -1,0 +1,61 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Pigeon" },
+    { "id": "Axle_trees" }
+  ],
+  "links": [
+	{
+      "source": "Thirst",
+      "target": "Pigeon",
+      "label": "oppress",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Pigeon",
+      "target": "Signboard",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Pigeon",
+      "target": "Water",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Pigeon",
+      "target": "Water",
+      "label": "flew",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Pigeon",
+      "target": "Signboard",
+      "label": "dash",
+      "motif": "Defeat",
+      "weight": 0.70
+    },
+	{
+      "source": "Pigeon",
+      "target": "Wings",
+      "label": "break",
+      "motif": "Defeat",
+      "weight": 0.70
+    },
+	{
+      "source": "Bystander",
+      "target": "Pigeon",
+      "label": "catch",
+      "motif": "Defeat",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A PIGEON, oppressed by excessive thirst, saw a goblet of water painted on a signboard. Not supposing it to be only a picture, she flew towards it with a loud whir and unwittingly dashed against the signboard, jarring herself terribly. Having broken her wings by the blow, she fell to the ground, and was caught by one of the bystanders. Zeal should not outrun discretion."
+}

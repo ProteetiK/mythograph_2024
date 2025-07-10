@@ -10,25 +10,29 @@
     {
       "source": "Wolf",
       "target": "Lamb",
-      "label": "met",
+      "label": "meet",
+      "motif":  "General",
       "weight": 0.70
     },
     {
       "source": "Wolf",
       "target": "Lamb",
-      "label": "accused",
+      "label": "accuse",
+      "motif": "Conflict",
       "weight": 0.70
     },
     {
       "source": "Lamb",
       "target": "Wolf",
-      "label": "countered",
+      "label": "counter",
+      "motif": "Trickery",
       "weight": 0.70
     },
     {
       "source": "Wolf",
       "target": "Lamb",
-      "label": "ate",
+      "label": "eat",
+      "motif": "Defeat",
       "weight": 0.70
     }
   ],

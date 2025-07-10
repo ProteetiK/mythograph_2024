@@ -1,0 +1,26 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Dog" },
+    { "id": "Oxen" }
+  ],
+  "links": [
+    {
+      "source": "Dog",
+      "target": "Oxen",
+      "label": "prevent",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Oxen",
+      "target": "Dog",
+      "label": "say_selfish",
+      "motif": "Conflict",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A DOG lay in a manger, and by his growling and snapping prevented the oxen from eating the hay which had been placed for them. \"What a selfish Dog!\" said one of them to his companions; \"he cannot eat the hay himself, and yet refuses to allow those to eat who can.\""
+}

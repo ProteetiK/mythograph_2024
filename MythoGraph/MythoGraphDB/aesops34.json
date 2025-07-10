@@ -1,0 +1,47 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Oxen" },
+    { "id": "Axle_trees" }
+  ],
+  "links": [
+    {
+      "source": "Oxen",
+      "target": "Wagon",
+      "label": "drag",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Axle_trees",
+      "target": "Oxen",
+      "label": "groan",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Axle_trees",
+      "target": "Oxen",
+      "label": "creak",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Oxen",
+      "target": "Axle_trees",
+      "label": "address",
+      "motif": "Communitcation",
+      "weight": 0.70
+    },
+	{
+      "source": "Oxen",
+      "target": "Labor",
+      "label": "bear",
+      "motif": "Conflict",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A HEAVY WAGON was being dragged along a country lane by a team of Oxen. The Axle-trees groaned and creaked terribly; whereupon the Oxen, turning round, thus addressed the wheels: \"Hullo there! why do you make so much noise? We bear all the labor, and we, not you, ought to cry out.\" Those who suffer most cry out the least.\""
+}

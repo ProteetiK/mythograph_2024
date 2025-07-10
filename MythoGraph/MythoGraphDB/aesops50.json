@@ -1,0 +1,48 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Ass" },
+	{ "id": "Mule" },
+	{ "id": "Muleteer" }
+  ],
+  "links": [
+    {
+      "source": "Muleteer",
+      "target": "Journey",
+      "label": "set",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Ass",
+      "target": "Mule",
+      "label": "entreat",
+      "motif": "Appeal",
+      "weight": 0.70
+    },
+	{
+      "source": "Mule",
+      "target": "Ass",
+      "label": "pay_no_attention",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Ass",
+      "target": "Dead",
+      "label": "die",
+      "motif": "Defeat",
+      "weight": 0.70
+    },
+	{
+      "source": "Muleteer",
+      "target": "Mule",
+      "label": "place_load_addition",
+      "motif": "Defeat",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A MULETEER set forth on a journey, driving before him an Ass and a Mule, both well laden. The Ass, as long as he traveled along the plain, carried his load with ease, but when he began to ascend the steep path of the mountain, felt his load to be more than he could bear. He entreated his companion to relieve him of a small portion, that he might carry home the rest; but the Mule paid no attention to the request. The Ass shortly afterwards fell down dead under his burden. Not knowing what else to do in so wild a region, the Muleteer placed upon the Mule the load carried by the Ass in addition to his own, and at the top of all placed the hide ofthe Ass, after he had skinned him. The Mule, groaning beneath his heavy burden, said to himself: \"I am treated according to my deserts. If I had only been willing to assist the Ass a little in his need, I should not now be bearing, together with his burden, himself as well.\""
+}

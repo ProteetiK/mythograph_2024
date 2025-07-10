@@ -1,0 +1,34 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Oxen" },
+	{ "id": "Ox" },
+	{ "id": "Butchers" }
+  ],
+  "links": [
+    {
+      "source": "Oxen",
+      "target": "Butchers",
+      "label": "seek_destroy",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Oxen",
+      "target": "Horn",
+      "label": "sharpen",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Ox",
+      "target": "Oxen",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "THE OXEN once upon a time sought to destroy the Butchers, who practiced a trade destructive to their race. They assembled on a certain day to carry out their purpose, and sharpened their horns for the contest. But one of them who was exceedingly old (for many a field had he plowed) thus spoke: \"These Butchers, it is true, slaughter us, but they do so with skillful hands, and with no unnecessary pain. If we get rid of them, we shall fall into the hands of unskillful operators, and thus suffer a double death: for you may be assured, that though all the Butchers should perish, yet will men never want beef.\" Do not be in a hurry to change one evil for another."
+}

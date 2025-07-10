@@ -10,25 +10,29 @@
     {
       "source": "Ass",
       "target": "Grasshoppers",
-      "label": "asked",
+      "label": "ask",
+      "motif": "Quest",
       "weight": 0.70
     },
     {
       "source": "Grasshoppers",
       "target": "Ass",
-      "label": "replied",
+      "label": "reply",
+      "motif": "Guidance",
       "weight": 0.70
     },
     {
       "source": "Ass",
       "target": "",
-      "label": "decided_to_live_on_dew",
+      "label": "decide_to_live_on_dew",
+      "motif": "Decision",
       "weight": 0.70
     },
     {
       "source": "Ass",
       "target": "",
-      "label": "died",
+      "label": "die",
+      "motif": "Defeat",
       "weight": 0.70
     }
   ],

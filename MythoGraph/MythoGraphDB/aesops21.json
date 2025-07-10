@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Farmer" },
+	{ "id": "Snake" }
+  ],
+  "links": [
+    {
+      "source": "Farmer",
+      "target": "Snake",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Farmer",
+      "target": "Snake",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Snake",
+      "target": "Farmer",
+      "label": "bite",
+      "motif": "Defeat",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "ONE WINTER a Farmer found a Snake stiff and frozen with cold. He had compassion on it, and taking it up, placed it in his bosom. The Snake was quickly revived by the warmth, and resuming its natural instincts, bit its benefactor, inflicting on him a mortal wound. \"Oh,\" cried the Farmer with his last breath, \"I am rightly served for pitying a scoundrel.\" The greatest kindness will not bind the ungrateful."
+}

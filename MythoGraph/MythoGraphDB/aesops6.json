@@ -4,37 +4,43 @@
   "graph": {},
   "nodes": [
     { "id": "Father" },
-    { "id": "Sons" }
+    { "id": "Sons" },
+    {"id":  "Sticks"}
   ],
   "links": [
     {
       "source": "Father",
       "target": "Sons",
-      "label": "gave_all_sticks",
+      "label": "give_all_stick",
+      "motif": "Quest",
       "weight": 0.70
     },
     {
       "source": "Father",
       "target": "Sons",
-      "label": "ordered_to_break_sticks",
+      "label": "order_to_break_sticks",
+      "motif": "Quest",
       "weight": 0.70
     },
     {
       "source": "Sons",
-      "target": "Father",
-      "label": "could_not_break",
+      "target": "Sticks",
+      "label": "not_break",
+      "motif": "Defeat",
       "weight": 0.70
     },
     {
       "source": "Father",
       "target": "Sons",
-      "label": "gave_one_stick",
+      "label": "give_one_stick",
+      "motif": "Quest",
       "weight": 0.70
     },
     {
       "source": "Sons",
       "target": "Father",
       "label": "could_break",
+      "motif": "Victory",
       "weight": 0.70
     }
   ],

@@ -1,0 +1,48 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Lion" },
+	{ "id": "Mouse" },
+	{ "id": "Fox" }
+  ],
+  "links": [
+    {
+      "source": "Lion",
+      "target": "Den",
+      "label": "sleep",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Mouse",
+      "target": "Lion",
+      "label": "ran_over",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Lion",
+      "target": "Mouse",
+      "label": "search",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Fox",
+      "target": "Lion",
+      "label": "say_frighten",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Lion",
+      "target": "Fox",
+      "label": "say_resent_mouse",
+      "motif": "Conflict",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A LION, fatigued by the heat of a summer's day, fell fast asleep in his den. A Mouse ran over his mane and ears and woke him from his slumbers. He rose up and shook himself in great wrath, and searched every corner of his den to find the Mouse. A Fox seeing him said: \"A fine Lion you are, to be frightened of a Mouse.\" \"Tis not the Mouse I fear,\" said the Lion; \"I resent his familiarity and ill-breeding.\" Little liberties are great offenses."
+}

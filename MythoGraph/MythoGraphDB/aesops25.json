@@ -1,0 +1,34 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Mountain" },
+    { "id": "Mouse" },
+    { "id": "People" }
+  ],
+  "links": [
+    {
+      "source": "Mountain",
+      "target": "People",
+      "label": "agitation",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "People",
+      "target": "Calamity",
+      "label": "expectation",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Mouse",
+      "target": "Mountain",
+      "label": "came_out",
+      "motif": "Trickery",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A MOUNTAIN was once greatly agitated. Loud groans and noises were heard, and crowds of people came from all parts to see what was the matter. While they were assembled in anxious expectation of some terrible calamity, out came a Mouse. Don't make much ado about nothing."
+}

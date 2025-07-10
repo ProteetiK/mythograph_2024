@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Wolf" },
+	{ "id": "Crane" }
+  ],
+  "links": [
+    {
+      "source": "Wolf",
+      "target": "Bone",
+      "label": "stick",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+    {
+      "source": "Wolf",
+      "target": "Crane",
+      "label": "hire",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Crane",
+      "target": "Bone",
+      "label": "extract",
+      "motif": "Victory",
+      "weight": 0.70
+    },
+	{
+      "source": "Crane",
+      "target": "Payment",
+      "label": "demand",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Wolf",
+      "target": "Crane",
+      "label": "exclaim",
+      "motif": "Defeat",
+      "weight": 0.70
+    },
+	{
+      "source": "Dog",
+      "target": "Hare",
+      "label": "live_together",
+      "motif": "Quest",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A WOLF who had a bone stuck in his throat hired a Crane, for a large sum, to put her head into his mouth and draw out the bone. When the Crane had extracted the bone and demanded the promised payment, the Wolf, grinning and grinding his teeth, exclaimed: \"Why, you have surely already had a sufficient recompense, in having been permitted to draw out your head in safety from the mouth and jaws of a wolf.\" In serving the wicked, expect no reward, and be thankful if you escape injury for your pains."
+}

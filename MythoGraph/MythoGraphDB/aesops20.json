@@ -1,0 +1,62 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Farmer" },
+	{ "id": "Cranes" },
+	{ "id": "Stork" }
+  ],
+  "links": [
+    {
+      "source": "Cranes",
+      "target": "Seed",
+      "label": "pick",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Farmer",
+      "target": "Cranes",
+      "label": "caught",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Farmer",
+      "target": "Stork",
+      "label": "trap",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Stork",
+      "target": "Farmer",
+      "label": "beseech",
+      "motif": "Appeal",
+      "weight": 0.70
+    },
+	{
+      "source": "Stork",
+      "target": "Farmer",
+      "label": "say_not_crane",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Farmer",
+      "target": "Stork",
+      "label": "laugh",
+      "motif": "Defeat",
+      "weight": 0.70
+    },
+	{
+      "source": "Cranes",
+      "target": "Stork",
+      "label": "die_together",
+      "motif": "Defeat",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A FARMER placed nets on his newly-sown plowlands and caught a number of Cranes, which came to pick up his seed. With them he trapped a Stork that had fractured his leg in the net and was earnestly beseeching the Farmer to spare his life. \"Pray save me, Master,\" he said, \"and let me go free this once. My broken limb should excite your pity. Besides, I am no Crane, I am a Stork, a bird of excellent character; and see how I love and slave for my father and mother. Look too, at my feathers, they are not the least like those of a Crane.\" The Farmer laughed aloud and said, \"It may be all as you say, I only know this: I have taken you with these robbers, the Cranes, and you must die in their company.\" Birds of a feather flock together."
+}

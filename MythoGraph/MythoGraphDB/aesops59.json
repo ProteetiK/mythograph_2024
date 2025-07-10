@@ -1,0 +1,41 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Dog" },
+	{ "id": "Master" },
+	{ "id": "Hound" }
+  ],
+  "links": [
+    {
+      "source": "Dog",
+      "target": "Heels",
+      "label": "bite",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Master",
+      "target": "Dog",
+      "label": "suspend_bell",
+      "motif": "Victory",
+      "weight": 0.70
+    },
+	{
+      "source": "Dog",
+      "target": "Bell",
+      "label": "proud_tinkle",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Hound",
+      "target": "Dog",
+      "label": "say_exhibition_disgrace",
+      "motif": "Guidance",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A DOG used to run up quietly to the heels of everyone he met, and to bite them without notice. His master suspended a bell about his neck so that the Dog might give notice of his presence wherever he went. Thinking it a mark of distinction, the Dog grew proud of his bell and went tinkling it all over the marketplace. One day an old hound said to him: \"Why do you make such an exhibition of yourself? That bell that you carry is not, believe me, any order of merit, but on the contrary a mark of disgrace, a public notice to all men to avoid you as an ill mannered dog.\" Notoriety is often mistaken for fame."
+}

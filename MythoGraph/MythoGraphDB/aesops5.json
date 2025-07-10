@@ -10,19 +10,22 @@
     {
       "source": "Charcoal-Burner",
       "target": "Fuller",
-      "label": "met",
+      "label": "meet",
+      "motif": "General",
       "weight": 0.70
     },
     {
       "source": "Charcoal-Burner",
       "target": "Fuller",
-      "label": "asked_to_live_with",
+      "label": "ask_to_live_with",
+      "motif": "Quest",
       "weight": 0.70
     },
     {
       "source": "Fuller",
       "target": "Charcoal-Burner",
-      "label": "rejected",
+      "label": "reject",
+      "motif": "Defeat",
       "weight": 0.70
     }
   ],

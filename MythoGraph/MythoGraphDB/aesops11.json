@@ -1,0 +1,40 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Fisherman" },
+    { "id": "Fish" }
+  ],
+  "links": [
+    {
+      "source": "Fisherman",
+      "target": "Flute",
+      "label": "play",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+    {
+      "source": "Fisherman",
+      "target": "Fish",
+      "label": "not_dance",
+      "motif": "Defeat",
+      "weight": 0.70
+    },
+    {
+      "source": "Fisherman",
+      "target": "Net",
+      "label": "throw",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+    {
+      "source": "Fisherman",
+      "target": "Fish",
+      "label": "catch",
+      "motif": "Victory",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A FISHERMAN skilled in music took his flute and his nets to the seashore. Standing on a projecting rock, he played several tunes in the hope that the fish, attracted by his melody, would of their own accord dance into his net, which he had placed below. At last, having long waited in vain, he laid aside his flute, and casting his net into the sea, made an excellent haul of fish. When he saw them leaping about in the net upon the rock he said: \"O you most perverse creatures, when I piped you would not dance, but now that I have ceased you do so merrily\""
+}
