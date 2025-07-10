@@ -26,13 +26,11 @@
     <Compile Include="MythExtraction\MythExtractEval.py" />
     <Compile Include="MythExtraction\MythExtractUtil.py" />
     <Compile Include="MythGraph\MythGraphDraw.py" />
+    <Compile Include="MythModelTrain\MotifTrainer.py" />
     <Compile Include="MythoMapping\Mapping.py" />
-    <Compile Include="MythoMapping\MappingHelper.py" />
     <Compile Include="app.py" />
-    <Compile Include="MythoGraphUtil.py" />
     <Compile Include="pages\1_View_Myths_in_DB.py" />
     <Compile Include="pages\2_View_Isomorphic_Clusters.py" />
-    <Compile Include="MythModelTrain\MotifTrainer.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MythoGraphDB\" />
