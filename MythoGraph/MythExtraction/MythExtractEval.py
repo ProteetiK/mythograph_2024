@@ -66,9 +66,6 @@ def evaluate_extraction_accuracy(text, extract_function, db_folder="MythoGraphDB
     precision = tp / (tp + fp + 1e-10)
     recall = tp / (tp + fn + 1e-10)
     f1 = 2 * precision * recall / (precision + recall + 1e-10)
-    #print(f"Extracted triples (with counts):", extracted_counter)
-    #print(f"Reference triples (with counts):", reference_counter)
-    #print(f"Precision: {precision:.3f}, Recall: {recall:.3f}, F1: {f1:.3f}")
     return {
         "precision": precision,
         "recall": recall,

@@ -1,7 +1,6 @@
 import os
 import json
 import spacy
-from rdflib import Graph, URIRef
 from urllib.parse import quote
 import networkx as nx
 from collections import defaultdict
@@ -31,29 +30,6 @@ def build_nx_graph(triples):
         G.add_edge(s, o, label=p, motif=motif, weight=weight)
     return G
 
-
-def build_rdf_graph(triples, myth_text=None):
-    g = Graph()
-    for triple in triples:
-        if len(triple) == 5:
-            s, o, p, motif, _weight = triple
-        elif len(triple) == 4:
-            s, o, p, motif = triple
-        else:
-            continue
-        if all(isinstance(x, str) and x.strip() for x in (s, o, p, motif)):
-            subj = URIRef(quote(s.strip().replace(" ", "_")))
-            obj = URIRef(quote(o.strip().replace(" ", "_")))
-            pred = URIRef(quote(f"{p}_motif_{motif}".strip().replace(" ", "_")))
-            g.add((subj, pred, obj))
-    return g
-
-def rdf_to_nx(rdf_graph):
-    G = nx.MultiDiGraph()
-    for s, p, o in rdf_graph:
-        G.add_edge(str(s), str(o), label=str(p), weight=0.9)
-    return G
-
 def save_graph_to_json(G, filepath, myth_text=""):
     data = nx.node_link_data(G)
     data["multigraph"] = True
@@ -72,7 +48,6 @@ def draw_graph(G, title="Knowledge Graph"):
         target = v
         label = data.get('label', '')
         motif = data.get('motif', '')
-        #print(f"Source: {source} -> Target: {target}, Label: {label}, Motif: {motif}")
         rel = label
         if motif:
             rel = f"{label} / {motif}"

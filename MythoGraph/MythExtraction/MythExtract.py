@@ -28,7 +28,6 @@ def extract_characters(text):
     return characters
 
 def build_coref_cache(doc):
-    """Build a reference to most recent male/female/neutral subjects."""
     cache = {
         "he": None, "him": None, "his": None,
         "she": None, "her": None, "hers": None,
@@ -50,10 +49,9 @@ def build_coref_cache(doc):
             if token.pos_ == "PROPN" and not token.is_stop:
                 character_mentions.append(token.text)
 
-        # Update latest seen characters by pronoun class
         for pronoun in cache:
             if character_mentions:
-                cache[pronoun] = character_mentions[-1]  # most recent
+                cache[pronoun] = character_mentions[-1]
 
     return cache
 
