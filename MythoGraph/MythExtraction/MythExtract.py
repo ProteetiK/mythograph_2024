@@ -1,19 +1,27 @@
 import spacy
-from sentence_transformers import SentenceTransformer
+from transformers import BertTokenizer
+import torch
+from MythModelTrain.MotifTrainer import load_motif_classifier
+from MythModelTrain.TripleTrainer import load_triple_extractor, extract_triples_from_text
 
 nlp = spacy.load("en_core_web_sm")
-sbert_model = SentenceTransformer('all-MiniLM-L6-v2')
+tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+
+model_path = "D:/MythoGraph/MythoGraph/MythoGraph/MythModelTrain/model/motif_classifier.pt"
+encoder_path = "D:/MythoGraph/MythoGraph/MythoGraph/MythModelTrain/model/label_encoder.json"
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+model, label_encoder = load_motif_classifier(model_path, encoder_path)
+model.to(device)
 
 def get_core_noun(token):
     for chunk in token.doc.noun_chunks:
-        if token.i >= chunk.start and token.i < chunk.end:
+        if chunk.start <= token.i < chunk.end:
             nouns = [t.text.lower() for t in chunk if t.pos_ in ("NOUN", "PROPN")]
             if nouns:
                 return " ".join(nouns)
     nouns = [t.text.lower() for t in token.subtree if t.pos_ in ("NOUN", "PROPN")]
-    if nouns:
-        return " ".join(nouns)
-    return token.text.lower()
+    return " ".join(nouns) if nouns else token.text.lower()
 
 def extract_characters(text):
     doc = nlp(text)
@@ -23,8 +31,7 @@ def extract_characters(text):
             characters.add(ent.text.title())
     for token in doc:
         if token.pos_ == "PROPN" and not token.is_stop:
-            if token.text.title() not in characters:
-                characters.add(token.text.title())
+            characters.add(token.text.title())
     return characters
 
 def build_coref_cache(doc):
@@ -32,11 +39,6 @@ def build_coref_cache(doc):
         "he": None, "him": None, "his": None,
         "she": None, "her": None, "hers": None,
         "they": None, "them": None, "their": None
-    }
-    gender_map = {
-        "he": "male", "him": "male", "his": "male",
-        "she": "female", "her": "female", "hers": "female",
-        "they": "neutral", "them": "neutral", "their": "neutral"
     }
     character_mentions = []
 
@@ -72,6 +74,9 @@ def extract_triples_with_nlp(text):
 
     coref_cache = build_coref_cache(doc)
 
+    last_character_subject = None
+    last_character_object = None
+
     for sent in doc.sents:
         verbs = [token for token in sent if token.pos_ == "VERB"]
         for verb in verbs:
@@ -93,9 +98,8 @@ def extract_triples_with_nlp(text):
             for child in verb.children:
                 if child.dep_ in object_deps:
                     if child.pos_ == "VERB":
-                        obj_candidate = child.lemma_
-                    else:
-                        obj_candidate = get_core_noun(child)
+                        continue
+                    obj_candidate = get_core_noun(child)
                     if obj_candidate.lower() in pronouns:
                         obj_candidate = resolve_pronoun(obj_candidate, coref_cache)
                     if obj_candidate:
@@ -108,18 +112,29 @@ def extract_triples_with_nlp(text):
                     xcomp_verb = child.lemma_.lower()
 
             if verb_lemma in {"have", "be", "do"} and xcomp_verb:
-                verb_lemma = xcomp_verb
+                verb_lemma = f"{verb_lemma}_{xcomp_verb}"
 
-            verb_semantic = verb_lemma
+            if verb_lemma == "have" and any(o.lower() in {"hostility", "anger", "fear"} for o in objects):
+                verb_lemma = "express"
+            elif verb_lemma == "say":
+                verb_lemma = "speak"
 
-            if verb_semantic == "have" and any(o.lower() in {"hostility", "anger", "fear"} for o in objects):
-                verb_semantic = "express"
-            elif verb_semantic == "say":
-                verb_semantic = "speak"
+            if subj and not objects and verb.lemma_.lower() in {"refuse", "reject", "deny"}:
+                if last_character_subject and last_character_subject != subj:
+                    objects = [last_character_subject]
+                elif last_character_object and last_character_object != subj:
+                    objects = [last_character_object]
+
+            if subj and subj.lower() in characters_lower:
+                last_character_subject = subj
+            if objects:
+                for o in objects:
+                    if o.lower() in characters_lower:
+                        last_character_object = o
 
             if subj and objects:
                 for obj in objects:
-                    triples.append((subj, obj, verb_semantic, "TEMP"))
+                    triples.append((subj, obj, verb_lemma, "TEMP"))
 
     filtered_triples = []
     for (subj, obj, verb_semantic, label) in triples:
@@ -127,3 +142,29 @@ def extract_triples_with_nlp(text):
             filtered_triples.append((subj, obj, verb_semantic, label))
 
     return filtered_triples
+
+def extract_triples_with_model(text):
+    model = load_triple_extractor()
+    triples = extract_triples_from_text(model, text)
+    return triples
+
+def extract_triples_combined(text):
+    model_triples = []
+    nlp_triples_raw = []
+    try:
+        model_triples_raw = extract_triples_with_model(text)
+    except Exception as e:
+        print(f"[Model extractor error] {e}")
+        model_triples_raw = []
+    for triple in model_triples_raw:
+        if len(triple) == 3:
+            subj, pred, obj = triple
+            model_triples.append((subj.strip(), obj.strip(), pred.strip()))
+    try:
+        nlp_triples_raw = extract_triples_with_nlp(text)
+    except Exception as e:
+        print(f"[NLP extractor error] {e}")
+        nlp_triples_raw = []
+    combined = model_triples + nlp_triples_raw
+
+    return combined
