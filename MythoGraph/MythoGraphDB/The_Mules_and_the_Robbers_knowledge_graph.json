@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "mule"
+    },
+    {
+      "id": "bells"
+    },
+    {
+      "id": "misfortunes"
+    }
+  ],
+  "links": [
+    {
+      "source": "mule",
+      "target": "bells",
+      "label": "tossed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "mule",
+      "target": "misfortunes",
+      "label": "bewail",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "TWO MULES well-laden with packs were trudging along. One carried panniers\n      filled with money, the other sacks weighted with grain. The Mule carrying\n      the treasure walked with head erect, as if conscious of the value of his\n      burden, and tossed up and down the clear-toned bells fastened to his neck.\n      His companion followed with quiet and easy step. All of a sudden Robbers\n      rushed upon them from their hiding-places, and in the scuffle with their\n      owners, wounded with a sword the Mule carrying the treasure, which they\n      greedily seized while taking no notice of the grain. The Mule which had\n      been robbed and wounded bewailed his misfortunes. The other replied, \"I am\n      indeed glad that I was thought so little of, for I have lost nothing, nor\n      am I hurt with any wound.\""
+}

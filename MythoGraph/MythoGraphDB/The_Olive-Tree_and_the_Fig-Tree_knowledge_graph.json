@@ -1,0 +1,37 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "olive"
+    },
+    {
+      "id": "fig tree"
+    }
+  ],
+  "links": [
+    {
+      "source": "olive",
+      "target": "fig",
+      "label": "ridiculed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+	{
+      "source": "snow",
+      "target": "olive",
+      "label": "killing",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+	{
+      "source": "snow",
+      "target": "fig",
+      "label": "fell_through",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE OLIVE-TREE ridiculed the Fig-Tree because, while she was green all the\n      year round, the Fig-Tree changed its leaves with the seasons. A shower of\n      snow fell upon them, and, finding the Olive full of foliage, it settled\n      upon its branches and broke them down with its weight, at once despoiling\n      it of its beauty and killing the tree. But finding the Fig-Tree denuded of\n      leaves, the snow fell through to the ground, and did not injure it at all."
+}

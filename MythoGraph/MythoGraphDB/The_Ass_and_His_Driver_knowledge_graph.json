@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "ass"
+    },
+    {
+      "id": "owner"
+    }
+  ],
+  "links": [
+    {
+      "source": "ass",
+      "target": "precipice",
+      "label": "bolted",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "owner",
+      "target": "ass",
+      "label": "seized",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+	{
+      "source": "ass",
+      "target": "effort",
+      "label": "persisted",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+	{
+      "source": "owner",
+      "target": "ass",
+      "label": "let_go",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN ASS, being driven along a high road, suddenly started off and bolted to\n      the brink of a deep precipice. While he was in the act of throwing himself\n      over, his owner seized him by the tail, endeavoring to pull him back. When\n      the Ass persisted in his effort, the man let him go and said, \"Conquer,\n      but conquer to your cost.\""
+}

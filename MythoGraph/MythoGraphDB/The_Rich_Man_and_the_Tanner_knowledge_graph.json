@@ -1,0 +1,40 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "neighbor"
+    },
+    {
+      "id": "tan"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "tanner",
+      "label": "pressed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "tanner",
+      "target": "departure",
+      "label": "put_off",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+	{
+      "source": "man",
+      "target": "tanner",
+      "label": "accustomed",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A RICH MAN lived near a Tanner, and not being able to bear the unpleasant\n      smell of the tan-yard, he pressed his neighbor to go away. The Tanner put\n      off his departure from time to time, saying that he would leave soon. But\n      as he still continued to stay, as time went on, the rich man became\n      accustomed to the smell, and feeling no manner of inconvenience, made no\n      further complaints."
+}

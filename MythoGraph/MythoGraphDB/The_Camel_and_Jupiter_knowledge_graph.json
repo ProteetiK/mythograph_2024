@@ -1,0 +1,43 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "camel"
+    },
+    {
+      "id": "jupiter"
+    },
+    {
+      "id": "honors"
+    },
+    {
+      "id": "size strength body horns portion ears"
+    }
+  ],
+  "links": [
+    {
+      "source": "camel",
+      "target": "jupiter",
+      "label": "wished",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "camel",
+      "label": "vexed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "camel",
+      "label": "deprived",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE CAMEL, when he saw the Bull adorned with horns, envied him and wished\n      that he himself could obtain the same honors. He went to Jupiter, and\n      besought him to give him horns. Jupiter, vexed at his request because he\n      was not satisfied with his size and strength of body, and desired yet\n      more, not only refused to give him horns, but even deprived him of a\n      portion of his ears."
+}

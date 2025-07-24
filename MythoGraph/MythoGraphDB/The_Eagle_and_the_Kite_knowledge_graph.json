@@ -1,0 +1,47 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "eagle"
+    },
+    {
+      "id": "kite"
+    },
+    {
+      "id": "is"
+    }
+  ],
+  "links": [
+    {
+      "source": "eagle",
+      "target": "mate",
+      "label": "seek",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "kite",
+      "target": "eagle",
+      "label": "returned",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+	{
+      "source": "eagle",
+      "target": "kite",
+      "label": "said",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+	{
+      "source": "kite",
+      "target": "mouse",
+      "label": "brought",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN EAGLE, overwhelmed with sorrow, sat upon the branches of a tree in\n      company with a Kite. \"Why,\" said the Kite, \"do I see you with such a\n      rueful look?\" \"I seek,\" she replied, \"a mate suitable for me, and am not\n      able to find one.\" \"Take me,\" returned the Kite, \"I am much stronger than\n      you are.\" \"Why, are you able to secure the means of living by your\n      plunder?\" \"Well, I have often caught and carried away an ostrich in my\n      talons.\" The Eagle, persuaded by these words, accepted him as her mate.\n      Shortly after the nuptials, the Eagle said, \"Fly off and bring me back the\n      ostrich you promised me.\" The Kite, soaring aloft into the air, brought\n      back the shabbiest possible mouse, stinking from the length of time it had\n      lain about the fields. \"Is this,\" said the Eagle, \"the faithful\n      fulfillment of your promise to me?\" The Kite replied, \"That I might attain\n      your royal hand, there is nothing that I would not have promised, however\n      much I knew that I must fail in the performance.\""
+}

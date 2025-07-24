@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "neighbor"
+    },
+    {
+      "id": "eagle"
+    },
+    {
+      "id": "fox"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "eagle",
+      "label": "clipped",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "neighbor",
+      "target": "eagle",
+      "label": "purchased",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "hare",
+      "label": "brought",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "eagle",
+      "label": "exclaimed",
+      "motif": "Guidance",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN EAGLE was once captured by a man, who immediately clipped his wings and\n      put him into his poultry-yard with the other birds, at which treatment the\n      Eagle was weighed down with grief. Later, another neighbor purchased him\n      and allowed his feathers to grow again. The Eagle took flight, and\n      pouncing upon a hare, brought it at once as an offering to his benefactor.\n      A Fox, seeing this, exclaimed, \"Do not cultivate the favor of this man,\n      but of your former owner, lest he should again hunt for you and deprive\n      you a second time of your wings.\""
+}

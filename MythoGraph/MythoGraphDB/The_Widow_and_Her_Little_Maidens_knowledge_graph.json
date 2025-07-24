@@ -1,0 +1,47 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "widow"
+    },
+    {
+      "id": "cock"
+    },
+    {
+      "id": "maidens"
+    }
+  ],
+  "links": [
+	{
+      "source": "widow",
+      "target": "maidens",
+      "label": "have_wait",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+	{
+      "source": "widow",
+      "target": "maidens",
+      "label": "wake_early",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "maidens",
+      "target": "cock",
+      "label": "kill",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+	{
+      "source": "widow",
+      "target": "maidens",
+      "label": "wake",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WIDOW who was fond of cleaning had two little maidens to wait on her.\n      She was in the habit of waking them early in the morning, at cockcrow. The\n      maidens, aggravated by such excessive labor, resolved to kill the cock who\n      roused their mistress so early. When they had done this, they found that\n      they had only prepared for themselves greater troubles, for their\n      mistress, no longer hearing the hour from the cock, woke them up to their\n      work in the middle of the night."
+}

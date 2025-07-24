@@ -1,0 +1,30 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "deep"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "sea",
+      "label": "argued",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+	{
+      "source": "sea",
+      "target": "man",
+      "label": "Guidance",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A SHIPWRECKED MAN, having been cast upon a certain shore, slept after his\n      buffetings with the deep. After a while he awoke, and looking upon the\n      Sea, loaded it with reproaches. He argued that it enticed men with the\n      calmness of its looks, but when it had induced them to plow its waters, it\n      grew rough and destroyed them. The Sea, assuming the form of a woman,\n      replied to him: \"Blame not me, my good sir, but the winds, for I am by my\n      own nature as calm and firm even as this earth; but the winds suddenly\n      falling on me create these waves, and lash me into fury.\""
+}

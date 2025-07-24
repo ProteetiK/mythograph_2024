@@ -1,0 +1,37 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "flea"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "flea",
+      "label": "caught",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+	{
+      "source": "flea",
+      "target": "man",
+      "label": "repled_pray",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+	{
+      "source": "man",
+      "target": "flea",
+      "label": "replied_die",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MAN, very much annoyed with a Flea, caught him at last, and said, \"Who\n      are you who dare to feed on my limbs, and to cost me so much trouble in\n      catching you?\" The Flea replied, \"O my dear sir, pray spare my life, and\n      destroy me not, for I cannot possibly do you much harm.\" The Man,\n      laughing, replied, \"Now you shall certainly die by mine own hands, for no\n      evil, whether it be small or large, ought to be tolerated.\""
+}

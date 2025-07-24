@@ -1,0 +1,47 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "amaranth"
+    },
+    {
+      "id": "gods"
+    },
+    {
+      "id": "Rose-tree"
+    }
+  ],
+  "links": [
+    {
+      "source": "amaranth",
+      "target": "Rose-tree",
+      "label": "address",
+      "motif": "Communication",
+      "weight": 0.9
+    },
+	{
+      "source": "Rose-tree",
+      "target": "amaranth",
+      "label": "reply",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+	{
+      "source": "Rose-tree",
+      "target": "Doom",
+      "label": "perish",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+	{
+      "source": "amaranth",
+      "target": "Immortal",
+      "label": "bloom",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN AMARANTH planted in a garden near a Rose-Tree, thus addressed it: \"What\n      a lovely flower is the Rose, a favorite alike with Gods and with men. I\n      envy you your beauty and your perfume.\" The Rose replied, \"I indeed, dear\n      Amaranth, flourish but for a brief season! If no cruel hand pluck me from\n      my stem, yet I must perish by an early doom. But thou art immortal and\n      dost never fade, but bloomest for ever in renewed youth.\""
+}

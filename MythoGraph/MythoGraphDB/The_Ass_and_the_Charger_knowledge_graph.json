@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "ass"
+    },
+    {
+      "id": "horse"
+    },
+    {
+      "id": "soldier"
+    }
+  ],
+  "links": [
+    {
+      "source": "ass",
+      "target": "horse",
+      "label": "congratulated",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "horse",
+      "label": "congratulate",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "mind",
+      "label": "change",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "soldier",
+      "target": "horse",
+      "label": "mount",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+	{
+      "source": "horse",
+      "target": "battlefield",
+      "label": "dead",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN ASS congratulated a Horse on being so ungrudgingly and carefully\n      provided for, while he himself had scarcely enough to eat and not even\n      that without hard work. But when war broke out, a heavily armed soldier\n      mounted the Horse, and riding him to the charge, rushed into the very\n      midst of the enemy. The Horse was wounded and fell dead on the\n      battlefield. Then the Ass, seeing all these things, changed his mind, and\n      commiserated the Horse."
+}

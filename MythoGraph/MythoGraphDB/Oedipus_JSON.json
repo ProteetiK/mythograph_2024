@@ -1,0 +1,82 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "cadmos"
+    },
+    {
+      "id": "sister europa zeus"
+    },
+    {
+      "id": "spartoi"
+    },
+    {
+      "id": "one"
+    },
+    {
+      "id": "labdacos"
+    },
+    {
+      "id": "lame"
+    },
+    {
+      "id": "oedipus"
+    },
+    {
+      "id": "father"
+    },
+    {
+      "id": "sphinx"
+    },
+    {
+      "id": "mother"
+    }
+  ],
+  "links": [
+    {
+      "source": "cadmos",
+      "target": "sister europa zeus",
+      "label": "seek",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "spartoi",
+      "target": "one",
+      "label": "kill",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "labdacos",
+      "target": "lame",
+      "label": "=",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "oedipus",
+      "target": "father",
+      "label": "kill",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "oedipus",
+      "target": "sphinx",
+      "label": "kill",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "oedipus",
+      "target": "mother",
+      "label": "marry",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Cadmos seeks his sister Europa, ravished by Zeus. Cadmos kils the dragon. The Spartoi kill one another. Labdacos (Laios\u2019 father) = lame (?). Oedipus kills his father, Laois.  Laois (Oedipus' father) = left-sided(?). Oedipus kills the Sphinx. Oedipus=swollen-foot(?). Oedipus marries his mother, Jocasta. Eteocles kills his brother, Polynices. Antigone buries her brother, Polynices, despite prohibition."
+}

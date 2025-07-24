@@ -22,25 +22,25 @@
       "motif": "Quest",
       "weight": 0.70
     },
-	{
+    {
       "source": "Fox",
       "target": "Course",
       "label": "choose",
       "motif": "Guidance",
       "weight": 0.70
     },
-	{
-      "source": "Tortoise",
-      "target": "Goal",
-      "label": "Go",
-      "motif": "Victory",
+    {
+      "source": "Hare",
+      "target": "Asleep",
+      "label": "fall",
+      "motif": "Defeat",
       "weight": 0.70
     },
 	{
-      "source": "Hare",
-      "target": "Tortoise",
+      "source": "Tortoise",
+      "target": "Goal",
       "label": "reach",
-      "motif": "Defeat",
+      "motif": "Victory",
       "weight": 0.70
     }
   ],
