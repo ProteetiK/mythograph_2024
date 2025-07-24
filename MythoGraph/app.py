@@ -3,11 +3,15 @@ import re
 import json
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
 from MythModelTrain.MotifTrainer import train_unsupervised_model, is_model_trained, train_motif_model
+from MythModelTrain.TripleTrainer import train_triple_extractor
 from MythGraph.MythGraphDraw import export_graph_as_custom_json, draw_graph
 from MythExtraction.MythExtractUtil import extract_knowledge_graph
-from MythExtraction.MythExtractIsomorphism import find_any_isomorphic, load_motifs_from_dict
+from MythExtraction.MythExtractIsomorphism import find_any_isomorphic, find_any_similar
+
+from sentence_transformers import SentenceTransformer
+model = SentenceTransformer("C:/Users/KIIT/all-MiniLM-L6-v2/")
+#model = SentenceTransformer("all-MiniLM-L6-v2")
 
 st.set_page_config(page_title="Myth Knowledge Graph", layout="wide")
 st.title("Myth Knowledge Graph Visualizer")
@@ -18,8 +22,9 @@ else:
     st.warning("Model is NOT trained. Please click 'Train Model' below.")
     if st.button("Train Model", key="train_model"):
         with st.spinner("Training the unsupervised model..."):
-            train_motif_model()
-            train_unsupervised_model("MythoGraphDB", n_clusters=3)
+            #train_motif_model()
+            train_triple_extractor()
+            #train_unsupervised_model("MythoGraphDB", n_clusters=3)
         st.success("Training complete.")
 
 DATA_FOLDER = "MythoGraphDB"
@@ -61,7 +66,6 @@ if uploaded_file:
                     for idx, row in df.iterrows():
                         title = str(row["Title"])
                         content = str(row["Content"])
-
                         G = extract_knowledge_graph(content)
                         graph_json = export_graph_as_custom_json(G, content)
 
@@ -146,11 +150,19 @@ if uploaded_file:
                 with st.spinner("Checking for myths with same motif sequence..."):
                     matches = find_any_isomorphic(graph_json, all_graph_files)
                     if matches:
-                        st.success("Myths with the same motif sequence:")
+                        st.success("Isomorphic Myths:")
+                        for m in matches:
+                            st.write(f"- {m.replace('_knowledge_graph.json', '').replace('_', ' ')}")
+                    else:
+                        st.info("No isomorphic myths.")
+
+                    matches = find_any_similar(graph_json, all_graph_files)
+                    if matches:
+                        st.success("Similar Myths:")
                         for m in matches:
                             st.write(f"- {m['file'].replace('_knowledge_graph.json','').replace('_', ' ')} ({m['similarity']}% match)")
                     else:
-                        st.info("No myths found with the same motif sequence.")
+                        st.info("No similar myths.")
 
     else:
         st.error("Unsupported file type. Please upload a .txt or .csv file.")
