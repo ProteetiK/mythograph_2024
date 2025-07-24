@@ -81,7 +81,7 @@ def train_motif_model(dataset_dir="D:/MythoGraph/MythoGraph/MythoGraph/MythoGrap
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
     raw_data = load_all_json_from_folder(dataset_dir)
-    print(raw_data)
+    #print(raw_data)
     motifs = []
     all_links = []    
 
@@ -91,9 +91,7 @@ def train_motif_model(dataset_dir="D:/MythoGraph/MythoGraph/MythoGraph/MythoGrap
         for link in links:
             if "motif" in link:
                 motifs.append(link["motif"])
-    print(motifs)
     unique_motifs = sorted(set(motifs))
-    print(unique_motifs)
     label_encoder = LabelEncoder()
     label_encoder.fit(motifs)
 
@@ -181,12 +179,12 @@ def save_unsupervised_model():
         }, f)
 
 def extract_graph_features(graph):
-    simple_graph = nx.Graph(graph)  # Convert multigraph to simple graph
+    simple_graph = nx.Graph(graph)
     return [
         graph.number_of_nodes(),
         graph.number_of_edges(),
         nx.density(graph),
-        nx.average_clustering(simple_graph),  # Use simple graph here
+        nx.average_clustering(simple_graph),
     ]
 
 def train_unsupervised_model(graph_folder, n_clusters=N_CLUSTERS):
