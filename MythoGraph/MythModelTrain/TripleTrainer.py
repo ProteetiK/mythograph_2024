@@ -8,6 +8,8 @@ from transformers import (
 )
 from torch.nn import CrossEntropyLoss
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report, precision_score, recall_score, f1_score
+from sklearn.utils.class_weight import compute_class_weight
 
 LABELS = ["O", "B-source", "I-source", "B-PRED", "I-PRED", "B-OBJ", "I-OBJ"]
 LABEL2ID = {label: idx for idx, label in enumerate(LABELS)}
@@ -123,8 +125,9 @@ class BertTokenClassifier(nn.Module):
 def train_triple_extractor(
     data_folder="D:/MythoGraph/MythoGraph/MythoGraph/MythoGraphDB/",
     save_model_path="D:/MythoGraph/MythoGraph/MythoGraph/MythModelTrain/model/triple_classifier.pt",
-    batch_size=4,
-    epochs=15,
+    val_data_folder="D:/MythoGraph/MythoGraph/MythoGraph/MythoGraphDB/ValidationDataSet/",
+    batch_size=10,
+    epochs=51,
     max_len=64,
     lr=2e-5,
     device=None,
@@ -136,14 +139,17 @@ def train_triple_extractor(
     if device is None:
         device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    raw_data = load_data_from_json_folder(data_folder)
-    processed_data = preprocess_for_training(raw_data)
+    raw_train = load_data_from_json_folder(data_folder)
+    raw_val = load_data_from_json_folder(val_data_folder)
 
-    train_data, val_data = train_test_split(processed_data, test_size=0.1, random_state=42)
-    train_ds = TripleExtractionDataset(train_data, tokenizer, max_len)
-    val_ds = TripleExtractionDataset(val_data, tokenizer, max_len)
+    train_processed = preprocess_for_training(raw_train)
+    val_processed = preprocess_for_training(raw_val)
+
+    train_ds = TripleExtractionDataset(train_processed, tokenizer, max_len)
+    val_ds = TripleExtractionDataset(val_processed, tokenizer, max_len)
+
     train_loader = DataLoader(train_ds, batch_size=batch_size, shuffle=True, collate_fn=collate_fn)
-    val_loader = DataLoader(val_ds, batch_size=batch_size, collate_fn=collate_fn)
+    val_loader = DataLoader(val_ds, batch_size=batch_size, shuffle=False, collate_fn=collate_fn)
 
     model = BertTokenClassifier().to(device)
 
@@ -157,8 +163,10 @@ def train_triple_extractor(
         num_training_steps=len(train_loader) * epochs,
     )
 
+    best_f1 = 0.0
     for epoch in range(epochs):
         model.train()
+
         if epoch == freeze_epochs:
             for p in model.bert.bert.encoder.parameters():
                 p.requires_grad = True
@@ -175,7 +183,8 @@ def train_triple_extractor(
             optimizer.zero_grad()
             outputs = model(**batch)
             logits = outputs.logits
-            loss_fct = CrossEntropyLoss(weight=weights, ignore_index=-100)
+
+            loss_fct = CrossEntropyLoss(weight=weights.to(device), ignore_index=-100)
             loss = loss_fct(logits.view(-1, len(LABELS)), batch["labels"].view(-1))
             loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
@@ -183,11 +192,62 @@ def train_triple_extractor(
             scheduler.step()
             total_loss += loss.item()
 
-        print(f"Epoch {epoch+1}: Loss {total_loss / len(train_loader):.4f}")
+        print(f"Epoch {epoch+1}: Training Loss: {total_loss / len(train_loader):.4f}")
 
-    os.makedirs(os.path.dirname(save_model_path), exist_ok=True)
-    torch.save(model.state_dict(), save_model_path)
-    print(f"Model saved at {save_model_path}")
+        if val_loader is not None and epoch % 10 == 0:
+            print(f"Epoch {epoch+1} Validation:")
+            evaluate_motif_model(model, val_loader, device)
+
+        torch.save(model.state_dict(), save_model_path)
+        print(f"Triple classifier model saved to {save_model_path}")
+
+def evaluate_motif_model(model, dataloader, device):
+    model.eval()
+    all_preds = []
+    all_labels = []
+    total_loss = 0
+
+    loss_fct = CrossEntropyLoss(ignore_index=-100)
+
+    with torch.no_grad():
+        for batch in dataloader:
+            input_ids = batch["input_ids"].to(device)
+            attention_mask = batch["attention_mask"].to(device)
+            labels = batch["labels"].to(device)
+
+            outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+            logits = outputs.logits
+            preds = torch.argmax(logits, dim=-1)
+
+            # Loss computation
+            loss = loss_fct(logits.view(-1, len(LABELS)), labels.view(-1))
+            total_loss += loss.item()
+
+            # Flatten predictions and labels (skip special tokens)
+            for true_seq, pred_seq in zip(labels, preds):
+                for true_label, pred_label in zip(true_seq, pred_seq):
+                    if true_label != -100:
+                        all_labels.append(true_label.item())
+                        all_preds.append(pred_label.item())
+
+    precision = precision_score(all_labels, all_preds, average='micro', zero_division=0)
+    recall    = recall_score(all_labels, all_preds, average='micro', zero_division=0)
+    f1        = f1_score(all_labels, all_preds, average='micro', zero_division=0)
+    avg_loss  = total_loss / len(dataloader)
+
+    print("Evaluation metrics:")
+    print(f"Precision: {precision:.4f}")
+    print(f"Recall:    {recall:.4f}")
+    print(f"F1-score:  {f1:.4f}")
+    print(f"Val Loss:  {avg_loss:.4f}")
+    print("\nClassification Report:\n", classification_report(
+        all_labels, all_preds,
+        labels=list(ID2LABEL.keys()),
+        target_names=LABELS,
+        zero_division=0
+    ))
+
+    return avg_loss, precision, recall, f1
 
 def load_triple_extractor(model_path="D:/MythoGraph/MythoGraph/MythoGraph/MythModelTrain/model/triple_classifier.pt", device=None):
     if device is None:
