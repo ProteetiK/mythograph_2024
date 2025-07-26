@@ -40,8 +40,8 @@ def save_graph_to_json(G, filepath, myth_text=""):
 def draw_graph(G, title="Knowledge Graph"):
     pos = nx.spring_layout(G, seed=123, k=2)
     fig, ax = plt.subplots(figsize=(12, 8))
-    nx.draw_networkx_nodes(G, pos, node_color='orange', node_size=500, ax=ax)
-    nx.draw_networkx_labels(G, pos, font_size=12, ax=ax)
+    nx.draw_networkx_nodes(G, pos, node_color='#FFBF00', node_size=500, ax=ax, alpha=0.2)
+    nx.draw_networkx_labels(G, pos, font_size=15, ax=ax)
     edge_count = defaultdict(int)
     for u, v, k, data in G.edges(keys=True, data=True):
         source = u
@@ -64,7 +64,7 @@ def draw_graph(G, title="Knowledge Graph"):
         )
         mid_x = (pos[u][0] + pos[v][0]) / 2
         mid_y = (pos[u][1] + pos[v][1]) / 2 + rad * 0.5
-        ax.text(mid_x, mid_y, rel, fontsize=9, color='red', ha='center',
+        ax.text(mid_x, mid_y, rel, fontsize=12, color='red', ha='center',
                 bbox=dict(facecolor='white', alpha=0.6, edgecolor='none'))
     ax.set_title(title)
     ax.axis('off')

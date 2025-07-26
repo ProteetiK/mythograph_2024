@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from collections import defaultdict
 from MythoMapping.Mapping import MOTIF_DICT
-from MythModelTrain.MotifTrainer import load_motif_classifier, classify_motif_with_model, load_motif_classifier
+from MythModelTrain.MotifTrainer import load_motif_model, classify_motif_with_model, load_motif_model
 from MythExtraction.MythExtract import extract_triples_combined
 from MythExtraction.MythExtractEval import evaluate_extraction_accuracy
 from MythGraph.MythGraphDraw import build_nx_graph
@@ -97,7 +97,7 @@ def classify_motif(verb, predicted_cluster_motif=None, subject=None, obj=None):
     if subject and obj:
         if motif_model is None or label_encoder is None:
             try:
-                motif_model, label_encoder = load_motif_classifier()
+                motif_model, label_encoder = load_motif_model()
             except Exception as e:
                 print(f"Error loading motif model: {e}")
                 motif_model = None
@@ -137,7 +137,7 @@ def extract_knowledge_graph(myth_text):
     evaluate_extraction_accuracy(myth_text, extract_triples_combined, db_folder="MythoGraphDB")
     temp_triples = [(s, o, p, "TEMP", 0.9) for s, o, p, *rest in raw_triples]
     temp_nx = build_nx_graph(temp_triples)
-    model, label_encoder = load_motif_classifier()
+    model, label_encoder = load_motif_model()
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
     device = "cuda" if torch.cuda.is_available() else "cpu"
     predicted_cluster = None

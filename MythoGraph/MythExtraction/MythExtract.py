@@ -1,7 +1,7 @@
 import spacy
 from transformers import BertTokenizer
 import torch
-from MythModelTrain.MotifTrainer import load_motif_classifier
+from MythModelTrain.MotifTrainer import load_motif_model
 from MythModelTrain.TripleTrainer import load_triple_extractor, extract_triples_from_text
 
 nlp = spacy.load("en_core_web_sm")
@@ -9,10 +9,6 @@ tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
 model_path = "D:/MythoGraph/MythoGraph/MythoGraph/MythModelTrain/model/motif_classifier.pt"
 encoder_path = "D:/MythoGraph/MythoGraph/MythoGraph/MythModelTrain/model/label_encoder.json"
-device = "cuda" if torch.cuda.is_available() else "cpu"
-
-model, label_encoder = load_motif_classifier(model_path, encoder_path)
-model.to(device)
 
 def get_core_noun(token):
     for chunk in token.doc.noun_chunks:
@@ -144,6 +140,9 @@ def extract_triples_with_nlp(text):
     return filtered_triples
 
 def extract_triples_with_model(text):
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model, label_encoder = load_motif_model(model_path, encoder_path)
+    model.to(device)
     model = load_triple_extractor()
     triples = extract_triples_from_text(model, text)
     return triples
