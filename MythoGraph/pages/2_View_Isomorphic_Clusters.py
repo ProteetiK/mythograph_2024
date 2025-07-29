@@ -22,6 +22,7 @@ from MythIsomorphism.MythIsomorphismUtil import (
     get_all_cluster_labels,
     compare_clusterings,
     iso_algorithms,
+    evaluate_clusters_vs_reference
 )
 
 st.title("Myth Clusters Viewer")
@@ -57,10 +58,20 @@ def load_graphs(files):
     return graphs
 
 if st.button("Generate Clusters"):
-    folder = "MythoGraphDB"
-    files = sorted([f for f in os.listdir(folder) if f.endswith(".json")])
+    # folder = "MythoGraphDB"
+    # files = sorted([f for f in os.listdir(folder) if f.endswith(".json")])
+    # n = len(files)
+    
+    #folder = os.path.abspath("MythoGraphDB")
+    #folder = os.path.abspath("MythoGraphDB/Other_Data")
+    folder = os.path.abspath("MythoGraphDB/LeviStrauss_Gold_JSON_Prep_Clusters")    
+    #folder = os.path.abspath("MythoGraphDB/Panchatantra_AutoExtract")
+    files = sorted([
+        os.path.join(root, f)
+        for root, _, filenames in os.walk(folder)
+        for f in filenames if f.endswith(".json")
+    ])
     n = len(files)
-
     if n == 0:
         st.warning("No myth JSON files found.")
     else:
@@ -128,7 +139,7 @@ if st.button("Generate Clusters"):
             clust[uf.f(i)].append(i)
 
         st.success(f"Processed {n} myths into {len(clust)} clusters.")
-
+        
         st.subheader("Cluster Network Graph")
         net = Network(height="600px", width="100%", notebook=False, bgcolor="#ffffff", font_color="#000000")
         net.force_atlas_2based()
@@ -139,17 +150,20 @@ if st.button("Generate Clusters"):
 
         for i in range(n):
             cid = cid_map[i]
-            net.add_node(i, label=files[i], title=files[i], color=colors[cid], group=cid)
+            file_name = os.path.basename(files[i])
+            net.add_node(i, label=file_name, title=file_name, color=colors[cid], group=cid)
 
         for (i, j), v in sims.items():
             if v >= thr:
-                net.add_edge(i, j, value=v)
+                net.add_edge(i, j, value=v, title=str(v), label=str(round(v/100, 2)), color="#808080", font={"color": "#808080"})
 
         with tempfile.NamedTemporaryFile(delete=False, suffix=".html", mode="w", encoding="utf-8") as html_tmp:
             net.save_graph(html_tmp.name)
             html_content = open(html_tmp.name, encoding="utf-8").read()
             components.html(html_content, height=600, scrolling=True)
 
+
+        evaluate_clusters_vs_reference(files, cid_map)
         st.subheader("Cluster Quality (Intra vs Inter Similarity)")
         intra_sims, inter_sims = [], []
 
@@ -172,7 +186,8 @@ if st.button("Generate Clusters"):
 
         for root, mem in clust.items():
             if len(mem) > 1:
-                graphs_cluster = [json.load(open(os.path.join(folder, files[i]), encoding="utf-8")) for i in mem]
+                file_name = os.path.basename(files[i])
+                graphs_cluster = [json.load(open(os.path.join(folder, file_name), encoding="utf-8")) for i in mem]
                 motif_counts = defaultdict(int)
                 source_counts = defaultdict(int)
                 target_counts = defaultdict(int)

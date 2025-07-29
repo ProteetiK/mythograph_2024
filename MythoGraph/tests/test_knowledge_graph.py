@@ -3,7 +3,6 @@ from pathlib import Path
 import pytest
 import pandas as pd
 import json
-import networkx as nx
 from networkx.readwrite import json_graph
 import logging
 import csv
@@ -14,7 +13,8 @@ project_root = current_dir.parent.parent
 sys.path.insert(0, str(project_root))
 
 from MythExtraction.MythExtractUtil import extract_knowledge_graph
-from MythIsomorphism.MythIsomorphismUtil import extract_anonymized_triples, extract_surface_triples, compute_similarity
+from MythIsomorphism.MythIsomorphismUtil import extract_anonymized_triples, extract_surface_triples, get_similarity_scores
+from MythGraph.MythGraphDraw import build_nx_graph
 
 logger = logging.getLogger("test_logger")
 logger.setLevel(logging.INFO)
@@ -44,6 +44,7 @@ def test_extract_knowledge_graph_similarity(graph_id, title, content):
             "Title": title,
             "AnonSim": "N/A",
             "SurfaceSim": "N/A",
+            "JaccardSim": "N/A",         # Add this line
             "FinalScore": "N/A",
             "Result": "SKIPPED"
         })
@@ -52,21 +53,20 @@ def test_extract_knowledge_graph_similarity(graph_id, title, content):
     try:
         with open(reference_path, encoding="utf-8") as f:
             reference_graph = json.load(f)
+                
+        ref_graph = build_nx_graph(reference_graph)
 
-        ref_anonymized = extract_anonymized_triples(reference_graph)
-        ref_surface = extract_surface_triples(reference_graph)
+        anon_sim, surf_sim, jaccard_sim = get_similarity_scores(ref_graph, current_anonymized, current_surface)
+        final_score = round(0.7 * anon_sim + 0.2 * surf_sim + jaccard_sim * 10, 2)
 
-        anon_sim = compute_similarity(current_anonymized, ref_anonymized)
-        surf_sim = compute_similarity(current_surface, ref_surface)
-        final_score = round(0.8 * anon_sim + 0.2 * surf_sim, 2)
-
-        print(f"Score for {graph_id}: Anon={anon_sim:.2f}, Surface={surf_sim:.2f}, Final={final_score:.2f}")
+        print(f"Score for {graph_id}: Anon={anon_sim:.2f}, Surface={surf_sim:.2f}, Jaccard={jaccard_sim:.4f}, Final={final_score:.2f}")
 
         all_scores.append({
             "ID": graph_id,
             "Title": title,
             "AnonSim": f"{anon_sim:.2f}",
             "SurfaceSim": f"{surf_sim:.2f}",
+            "JaccardSim": f"{jaccard_sim:.4f}",      # Add this line
             "FinalScore": f"{final_score:.2f}",
             "Result": "PASS" if final_score >= 70.0 else "FAIL"
         })
@@ -80,6 +80,7 @@ def test_extract_knowledge_graph_similarity(graph_id, title, content):
             "Title": title,
             "AnonSim": "ERROR",
             "SurfaceSim": "ERROR",
+            "JaccardSim": "ERROR",
             "FinalScore": "ERROR",
             "Result": f"ERROR: {str(e)}"
         })
@@ -89,7 +90,7 @@ def test_extract_knowledge_graph_similarity(graph_id, title, content):
 def write_results_to_csv():
     if all_scores:
         with open(SCORES_CSV_PATH, "w", newline='', encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=["ID", "Title", "AnonSim", "SurfaceSim", "FinalScore", "Result"])
+            writer = csv.DictWriter(f, fieldnames=["ID", "Title", "AnonSim", "SurfaceSim", "JaccardSim", "FinalScore", "Result"])  # Add JaccardSim here
             writer.writeheader()
             writer.writerows(all_scores)
         print(f"\nSimilarity scores written to: {SCORES_CSV_PATH}")

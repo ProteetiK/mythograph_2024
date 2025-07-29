@@ -22,8 +22,12 @@ else:
     st.warning("Model is NOT trained. Please click 'Train Model' below.")
     if st.button("Train Model", key="train_model"):
         with st.spinner("Training the unsupervised model..."):
-            #train_motif_model()
+            #train the model to extract triples from text
             train_triple_extractor()
+
+            #train the model to extract motifs from text
+            #train_motif_model()
+
             #train_unsupervised_model("MythoGraphDB", n_clusters=3)
         st.success("Training complete.")
 
@@ -60,27 +64,32 @@ if uploaded_file:
         if not {"Title", "Content"}.issubset(df.columns):
             st.error("CSV must contain 'Title' and 'Content' columns.")
         else:
+            csv_file_name = os.path.splitext(uploaded_file.name)[0]
+            output_folder = os.path.join(DATA_FOLDER, csv_file_name)
+            os.makedirs(output_folder, exist_ok=True)
             st.subheader(f"Processing {len(df)} myths from CSV")
             if st.button("Process & Save All Myths", key="process_all"):
                 with st.spinner("Processing all myths and saving JSONs..."):
+                    progress_bar = st.progress(0)
                     for idx, row in df.iterrows():
                         title = str(row["Title"])
                         content = str(row["Content"])
                         G = extract_knowledge_graph(content)
                         graph_json = export_graph_as_custom_json(G, content)
-
                         safe_title = re.sub(r'[^a-zA-Z0-9_\-]', '_', title.strip())
-                        save_path = os.path.join(DATA_FOLDER, f"{safe_title}_knowledge_graph.json")
+                        save_path = os.path.join(output_folder, f"{safe_title}_knowledge_graph.json")
                         with open(save_path, "w", encoding="utf-8") as f_out:
                             json.dump(graph_json, f_out, indent=2)
-                st.success(f"Processed and saved {len(df)} graphs to {DATA_FOLDER}")
+                        progress_bar.progress((idx + 1) / len(df))
+                    progress_bar.empty()
+                st.success(f"Processed and saved {len(df)} graphs to `{output_folder}`")
 
             for idx, row in df.iterrows():
                 title = str(row["Title"])
                 content = str(row["Content"])
                 safe_title = re.sub(r'[^a-zA-Z0-9_\-]', '_', title.strip())
                 json_filename = f"{safe_title}_knowledge_graph.json"
-                json_path = os.path.join(DATA_FOLDER, json_filename)
+                json_path = os.path.join(output_folder, json_filename)
 
                 with st.expander(f"Myth: {title}", expanded=False):
                     st.text_area("Myth Content", content, height=200, key=f"content_{idx}")
@@ -142,7 +151,7 @@ if uploaded_file:
             st.download_button(
                 label="Download JSON",
                 data=json.dumps(graph_json, indent=2),
-                file_name="myth_knowledge_graph.json",
+                file_name=uploaded_file.name + "_JSON.json",
                 mime="application/json"
             )
 

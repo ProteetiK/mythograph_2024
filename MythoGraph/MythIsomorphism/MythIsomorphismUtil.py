@@ -2,6 +2,7 @@ import streamlit as st, time
 import pandas as pd
 import numpy as np
 import spacy
+import os
 import networkx as nx
 from nltk.corpus import wordnet as wn
 from functools import lru_cache
@@ -10,8 +11,11 @@ from nltk.corpus import wordnet as wn
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy.optimize import linear_sum_assignment
 from networkx.algorithms.isomorphism import isomorphvf2
-from sklearn.metrics import adjusted_rand_score, normalized_mutual_info_score
+from sklearn.metrics import adjusted_rand_score, normalized_mutual_info_score, homogeneity_score, completeness_score, v_measure_score, adjusted_rand_score
 import time
+from networkx.algorithms import isomorphism as iso
+from collections import Counter
+from MythGraph.MythGraphDraw import build_nx_graph
 
 nlp = spacy.load("en_core_web_sm")
 sbert_model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -200,36 +204,82 @@ def generate_graph_from_links(links):
         G.add_edge(source, target)
     return G
 
-def isomorphism_babai(G1, G2):
+# def isomorphism_babai(G1, G2):
+#     start = time.time()
+#     result = nx.is_isomorphic(G1, G2)
+#     return result, time.time() - start
+
+# def isomorphism_wl(G1, G2):
+#     start = time.time()
+#     gm = isomorphvf2.GraphMatcher(G1, G2)
+#     return gm.is_isomorphic(), time.time() - start
+
+def WL_refinement(G, max_iter=10):
+    labels = {v: str(G.degree[v]) for v in G.nodes()}    
+    for _ in range(max_iter):
+        new_labels = {}
+        for v in G.nodes():
+            neighbor_labels = sorted(labels[n] for n in G.neighbors(v))
+            new_labels[v] = str(hash(labels[v] + "_" + "_".join(neighbor_labels)))
+        if new_labels == labels:
+            break
+        labels = new_labels
+    return labels
+
+def isomorphism_wl_vf2(G1, G2):
     start = time.time()
-    result = nx.is_isomorphic(G1, G2)
+    labels1 = WL_refinement(G1)
+    labels2 = WL_refinement(G2)
+    hist1 = Counter(labels1.values())
+    hist2 = Counter(labels2.values())
+    if hist1 != hist2:
+        return False, time.time() - start
+    gm = iso.GraphMatcher(G1, G2)
+    result = gm.is_isomorphic()
     return result, time.time() - start
 
-def isomorphism_wl(G1, G2):
+def isomorphism_spectral(G1, G2, tol=1e-6):
     start = time.time()
-    gm = isomorphvf2.GraphMatcher(G1, G2)
-    return gm.is_isomorphic(), time.time() - start
-
-def isomorphism_spectral(G1, G2):
-    start = time.time()
-    s1 = sorted(nx.adjacency_spectrum(G1))
-    s2 = sorted(nx.adjacency_spectrum(G2))
+    s1 = np.sort(nx.adjacency_spectrum(G1))
+    s2 = np.sort(nx.adjacency_spectrum(G2))
     if len(s1) != len(s2):
         return False, time.time() - start
-    result = np.allclose(s1, s2)
-    return result, time.time() - start
+    result = np.allclose(s1, s2, atol=tol)
+    elapsed = time.time() - start
+    return result, elapsed
 
 def isomorphism_degree(G1, G2):
     start = time.time()
-    d1 = sorted([d for _, d in G1.degree()])
-    d2 = sorted([d for _, d in G2.degree()])
-    return d1 == d2, time.time() - start
+    d1 = sorted(dict(G1.degree()).values())
+    d2 = sorted(dict(G2.degree()).values())
+    result = (d1 == d2)
+    elapsed = time.time() - start
+    return result, elapsed
+
+def jaccard_similarity_wl(G1, G2, max_iter=10):
+    def WL_labels_multiset(G, max_iter=10):
+        labels = {v: str(G.degree[v]) for v in G.nodes()}
+        for _ in range(max_iter):
+            new_labels = {}
+            for v in G.nodes():
+                neighbor_labels = sorted(labels[n] for n in G.neighbors(v))
+                new_labels[v] = labels[v] + "_" + "_".join(neighbor_labels)
+            if new_labels == labels:
+                break
+            labels = new_labels
+        return Counter(labels.values())
+
+    c1 = WL_labels_multiset(G1, max_iter)
+    c2 = WL_labels_multiset(G2, max_iter)
+
+    intersection = sum((c1 & c2).values())
+    union = sum((c1 | c2).values())
+    return intersection / union if union > 0 else 1.0
 
 iso_algorithms = {
-    #"Babai (Quasipolynomial)": isomorphism_babai,
-    "Weisfeiler-Lehman": isomorphism_wl,
-    #"Spectral (Eigenvalue)": isomorphism_spectral,
-    #"Degree Sequence": isomorphism_degree
+    "Weisfeiler-Lehman": isomorphism_wl_vf2,
+    "Spectral (Eigenvalue)": isomorphism_spectral,
+    "Degree Sequence": isomorphism_degree
 }
 
 def cluster_graphs(graphs_nx, iso_fn):
@@ -247,8 +297,8 @@ def cluster_graphs(graphs_nx, iso_fn):
 
 def get_all_cluster_labels(graphs_nx):
     methods = {
-        "Babai": isomorphism_babai,
-        "WL_Hash": isomorphism_wl,
+        #"Babai": isomorphism_babai,
+        "WL_Hash": isomorphism_wl_vf2,
         "Degree": isomorphism_degree,
         "Spectral": isomorphism_spectral,
     }
@@ -283,3 +333,66 @@ def compare_clusterings(labels_dict):
             })
     return pd.DataFrame(results)
 
+def get_similarity_scores(other_graph, current_anonymized, current_surface):
+    
+    other_anonymized = extract_anonymized_triples(other_graph)
+    other_surface = extract_surface_triples(other_graph)
+
+    predicted_graph = build_nx_graph(current_anonymized)
+    ref_graph = build_nx_graph(other_anonymized)
+
+    anon_sim = compute_similarity(current_anonymized, other_anonymized)
+    surf_sim = compute_similarity(current_surface, other_surface)
+    jaccard_sim = jaccard_similarity_wl(predicted_graph, ref_graph)
+    return anon_sim, surf_sim, jaccard_sim
+
+def evaluate_clusters_vs_reference(files, cid_map):
+    st.subheader("Evaluate Clustering Against Reference")
+
+    reference_csv_path = "D:/MythoGraph/MythoGraph/MythoGraph/LeviStrauss_Gold_JSON_Prep_Clusters.csv"
+    
+    if reference_csv_path:
+        try:
+            ref_df = pd.read_csv(reference_csv_path)
+        except Exception as e:
+            st.error(f"Error reading CSV: {str(e)}")
+            return
+
+        if not {"Title", "Cluster"}.issubset(ref_df.columns):
+            st.error("CSV must contain both 'Title' and 'Cluster' columns.")
+            return
+        title_to_true_cluster = {
+            os.path.splitext(str(row["Title"]).replace(".txt", "").strip())[0]: str(row["Cluster"]).strip()
+            for _, row in ref_df.iterrows()
+        }
+
+        predicted_labels = []
+        true_labels = []
+
+        for idx, file_path in enumerate(files):
+            file_name = os.path.basename(file_path)
+            file_base = os.path.splitext(file_name)[0]
+            file_base_clean = file_base.replace("_txt_knowledge_graph", "").strip()
+
+            predicted = cid_map[idx]
+            true = title_to_true_cluster.get(file_base_clean)
+
+            if true is not None:
+                predicted_labels.append(predicted)
+                true_labels.append(true)
+
+        if not predicted_labels:
+            st.warning("No title matches found between JSONs and the reference CSV.")
+            return
+
+        # Compute clustering evaluation metrics
+        homogeneity = homogeneity_score(true_labels, predicted_labels)
+        completeness = completeness_score(true_labels, predicted_labels)
+        v_measure = v_measure_score(true_labels, predicted_labels)
+        ari = adjusted_rand_score(true_labels, predicted_labels)
+
+        st.subheader("Cluster Evaluation Metrics")
+        st.metric("Homogeneity", f"{homogeneity:.3f}")
+        st.metric("Completeness", f"{completeness:.3f}")
+        st.metric("V-Measure", f"{v_measure:.3f}")
+        st.metric("Adjusted Rand Index (ARI)", f"{ari:.3f}")

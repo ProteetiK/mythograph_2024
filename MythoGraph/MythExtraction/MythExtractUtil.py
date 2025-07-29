@@ -132,7 +132,8 @@ def classify_motif(verb, predicted_cluster_motif=None, subject=None, obj=None):
 
 KMEANS = None
 
-def extract_knowledge_graph(myth_text):
+def extract_knowledge_graph(myth_text_raw):
+    myth_text = myth_text_raw.title()
     raw_triples = extract_triples_combined(myth_text)
     evaluate_extraction_accuracy(myth_text, extract_triples_combined, db_folder="MythoGraphDB")
     temp_triples = [(s, o, p, "TEMP", 0.9) for s, o, p, *rest in raw_triples]
