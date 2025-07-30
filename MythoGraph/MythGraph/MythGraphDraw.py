@@ -26,6 +26,10 @@ def build_nx_graph(triples):
         elif len(triple) == 4:
             s, o, p, motif = triple
             weight = 0.9
+        elif len(triple) == 3:
+                s, o, motif = triple
+                p = "Unknown"
+                weight = 0.9
         else:
             continue
         G.add_edge(s, o, label=p, motif=motif, weight=weight)

@@ -6,7 +6,7 @@ import streamlit as st
 from MythModelTrain.MotifTrainer import train_unsupervised_model, is_model_trained, train_motif_model
 from MythModelTrain.TripleTrainer import train_triple_extractor
 from MythGraph.MythGraphDraw import export_graph_as_custom_json, draw_graph
-from MythExtraction.MythExtractUtil import extract_knowledge_graph
+from MythExtraction.MythExtractUtil import extract_knowledge_graph, extract_oppositions
 from MythExtraction.MythExtractIsomorphism import find_any_isomorphic, find_any_similar
 
 from sentence_transformers import SentenceTransformer
@@ -15,6 +15,31 @@ model = SentenceTransformer("C:/Users/KIIT/all-MiniLM-L6-v2/")
 
 st.set_page_config(page_title="Myth Knowledge Graph", layout="wide")
 st.title("Myth Knowledge Graph Visualizer")
+
+def display_similarity(graph_json):
+    all_graph_files = [
+        os.path.join(root, file)
+        for root, _, files in os.walk(DATA_FOLDER)
+        for file in files
+        if file.endswith(".json")
+    ]
+    with st.spinner("Checking for myths with same motif sequence..."):
+        matches = find_any_isomorphic(graph_json, all_graph_files)
+    if matches:
+        st.success(f"Isomorphic Myths:")
+        for m in matches:
+            st.write(f"- {m.replace('_knowledge_graph.json','').replace('_', ' ')}")
+    else:
+        st.info(f"No isomorphic myths.")
+
+    with st.spinner("Checking for myths with similar motif sequence..."):
+        matches = find_any_similar(graph_json, all_graph_files)
+    if matches:
+        st.success("Similar Myths:")
+        for m in matches:
+            st.write(f"- {m['file'].replace('_knowledge_graph.json','').replace('_', ' ')} ({m['similarity']}% match)")
+    else:
+        st.info("No similar myths.")
 
 if is_model_trained():
     st.success("Model is trained and ready.")
@@ -34,31 +59,14 @@ else:
 DATA_FOLDER = "MythoGraphDB"
 os.makedirs(DATA_FOLDER, exist_ok=True)
 
-def load_motifs_from_json(file_path):
-    with open(file_path, encoding='utf-8') as f:
-        data = json.load(f)
-    motifs = [link.get("motif", "Unknown") for link in data.get("links", [])]
-    return motifs
-
-def find_isomorphic_myths(current_motifs, all_files, current_file):
-    matches = []
-    for f in all_files:
-        if f == current_file:
-            continue
-        motifs = load_motifs_from_json(os.path.join(DATA_FOLDER, f))
-        if motifs == current_motifs:
-            matches.append(f)
-    return matches
-
 uploaded_file = st.file_uploader(
-    "Upload a myth text file (.txt) OR a CSV file (.csv) with 'Title' and 'Content' columns",
+    "Upload a myth text file (.txt) OR a CSV file (.csv)",
     type=["txt", "csv"]
 )
 
 if uploaded_file:
     file_type = uploaded_file.type
-    all_graph_files = [f for f in os.listdir(DATA_FOLDER) if f.endswith(".json")]
-
+    
     if file_type == "text/csv" or uploaded_file.name.endswith(".csv"):
         df = pd.read_csv(uploaded_file)
         if not {"Title", "Content"}.issubset(df.columns):
@@ -94,27 +102,29 @@ if uploaded_file:
                 with st.expander(f"Myth: {title}", expanded=False):
                     st.text_area("Myth Content", content, height=200, key=f"content_{idx}")
 
-                    if st.button(f"Visualize Knowledge Graph for '{title}'", key=f"btn_{idx}"):
+                    if st.button(f"Visualize Knowledge Graph", key=f"btn_{idx}"):
                         with st.spinner("Extracting entities and relationships..."):
                             G = extract_knowledge_graph(content)
                         graph_json = export_graph_as_custom_json(G, content)
+                        st.subheader("Knowledge Graph Visualization")
+                        fig = draw_graph(G, title=f"Knowledge Graph")
+                        st.pyplot(fig)
                         st.subheader("Extracted Triples (Links)")
                         st.json(graph_json["links"])
-                        st.subheader("Knowledge Graph Visualization")
-                        fig = draw_graph(G, title=f"Knowledge Graph for '{title}'")
-                        st.pyplot(fig)
+                        st.subheader("Opposition Pairs in the Knowledge Graph")
+                        opposition_freq = extract_oppositions(graph_json["links"])
+                        if opposition_freq:
+                            for pair, freq in opposition_freq.items():
+                                st.write(f"**{pair}** -> {freq} occurrence(s)")
+                        else:
+                            st.info("No opposition pairs found in this myth.")
 
                     if os.path.exists(json_path):
-                        if st.button(f"Check Isomorphic Myths for '{title}'", key=f"isom_{idx}"):
-                            with st.spinner("Checking for myths with same motif sequence..."):
-                                current_motifs = load_motifs_from_json(json_path)
-                                matches = find_isomorphic_myths(current_motifs, all_graph_files, json_filename)
-                                if matches:
-                                    st.success(f"Myths with the same motif sequence as '{title}':")
-                                    for m in matches:
-                                        st.write(f"- {m.replace('_knowledge_graph.json','').replace('_', ' ')}")
-                                else:
-                                    st.info(f"No myths found with the same motif sequence as '{title}'.")
+                        if st.button(f"Check for Similar Myths", key=f"isom_{idx}"):
+                            with st.spinner("Extracting entities and relationships..."):
+                                G = extract_knowledge_graph(content)
+                            graph_json = export_graph_as_custom_json(G, content)
+                            display_similarity(graph_json)
 
     elif file_type == "text/plain" or uploaded_file.name.endswith(".txt"):
         myth_text = uploaded_file.read().decode("utf-8")
@@ -141,11 +151,20 @@ if uploaded_file:
             graph_json = st.session_state.graph_json
             G = st.session_state.G
 
-            st.subheader("Extracted Triples (Links)")
-            st.json(graph_json["links"])
             st.subheader("Knowledge Graph Visualization")
             fig = draw_graph(G, title="Knowledge Graph")
             st.pyplot(fig)
+            st.subheader("Extracted Triples (Links)")
+            st.json(graph_json["links"])
+
+            links = graph_json.get("links", [])
+            st.subheader("Opposition Pairs in the Knowledge Graph")
+            opposition_freq = extract_oppositions(graph_json["links"])
+            if opposition_freq:
+                for pair, freq in opposition_freq.items():
+                    st.write(f"**{pair}** -> {freq} occurrence(s)")
+            else:
+                st.info("No opposition pairs found in this myth.")
 
             st.subheader("Download Graph JSON")
             st.download_button(
@@ -155,23 +174,8 @@ if uploaded_file:
                 mime="application/json"
             )
 
-            if st.button("Check for Isomorphic Myths", key="check_isomorphic_txt"):
-                with st.spinner("Checking for myths with same motif sequence..."):
-                    matches = find_any_isomorphic(graph_json, all_graph_files)
-                    if matches:
-                        st.success("Isomorphic Myths:")
-                        for m in matches:
-                            st.write(f"- {m.replace('_knowledge_graph.json', '').replace('_', ' ')}")
-                    else:
-                        st.info("No isomorphic myths.")
-
-                    matches = find_any_similar(graph_json, all_graph_files)
-                    if matches:
-                        st.success("Similar Myths:")
-                        for m in matches:
-                            st.write(f"- {m['file'].replace('_knowledge_graph.json','').replace('_', ' ')} ({m['similarity']}% match)")
-                    else:
-                        st.info("No similar myths.")
+            if st.button("Check for Similar or Isomorphic Myths", key="check_isomorphic_txt"):
+                display_similarity(graph_json)
 
     else:
         st.error("Unsupported file type. Please upload a .txt or .csv file.")

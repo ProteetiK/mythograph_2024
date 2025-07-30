@@ -1,64 +1,64 @@
 ID,Title,AnonSim,SurfaceSim,JaccardSim,FinalScore,Result
-aesops1,The Wolf And The Lamb,78.26,80.42,0.0000,70.87,PASS
-aesops2,The Bat And The Weasels,96.17,93.77,0.1111,87.18,PASS
-aesops3,The Ass And The Grasshopper,72.25,65.57,0.3333,67.02,FAIL
-aesops4,The Lion And The Mouse,94.82,82.80,0.1250,84.18,PASS
-aesops5,The Charcoal-Burner And The Fuller,79.33,74.63,0.1250,71.71,PASS
-aesops6,The Father And His Sons,84.85,83.32,0.3333,79.39,PASS
-aesops7,The Boy Hunting Locusts,100.00,100.00,0.3333,93.33,PASS
-aesops8,The Cock and the Jewel,69.10,87.50,0.0000,65.87,FAIL
-aesops9,The Kingdom of the Lion,77.77,78.46,0.6250,76.38,PASS
-aesops10,The Wolf and the Crane,81.20,78.95,0.2500,75.13,PASS
-aesops11,The Fisherman Piping,100.00,89.73,0.2857,90.80,PASS
-aesops12,Hercules and the Wagoner,82.81,82.60,0.2857,77.34,PASS
-aesops13,The Ants and the Grasshopper,73.16,68.77,0.5714,70.68,PASS
-aesops14,The Traveler and His Dog,0.00,0.00,0.0000,0.00,FAIL
-aesops15,The Dog and the Shadow,85.43,75.59,0.0000,74.92,PASS
-aesops16,The Mole and His Mother,76.55,65.26,0.3333,69.97,FAIL
-aesops17,The Herdsman and the Lost Bull,52.91,43.27,0.4286,49.98,FAIL
-aesops18,The Hare and the Tortoise,100.00,100.00,1.0000,100.00,PASS
-aesops19,"The Pomegranate, Apple-Tree, and Bramble",100.00,55.90,0.2857,84.04,PASS
-aesops20,The Farmer and the Stork,89.53,76.50,1.0000,87.97,PASS
-aesops21,The Farmer and the Snake,74.94,76.44,0.1111,68.86,FAIL
-aesops22,The Fawn and His Mother,81.53,64.63,0.6667,76.66,PASS
-aesops23,The Bear and the Fox,100.00,100.00,0.3333,93.33,PASS
-aesops24,The Swallow and the Crow,86.51,76.03,0.5714,81.48,PASS
-aesops25,The Mountain in Labor,84.57,67.91,0.3333,76.11,PASS
-aesops26,"The Ass, the Fox, and the Lion",90.02,89.56,0.1111,82.04,PASS
-aesops27,The Tortoise and the Eagle,35.40,29.03,0.6250,36.84,FAIL
-aesops28,The Flies and the Honey-Pot,0.00,0.00,0.0000,0.00,FAIL
-aesops29,The Man and the Lion,88.92,94.14,0.6667,87.74,PASS
-aesops30,The Farmer and the Cranes,88.68,38.20,0.0000,69.72,FAIL
-aesops31,The Dog in the Manger,100.00,95.37,0.3333,92.41,PASS
-aesops32,The Fox and the Goat,94.14,86.21,0.1250,84.39,PASS
-aesops33,The Bear and the Two Travelers,66.10,37.48,0.4167,57.93,FAIL
-aesops34,The Oxen and the Axle-Trees,95.62,84.30,0.6667,90.46,PASS
-aesops35,The Thirsty Pigeon,83.68,41.82,0.6667,73.61,PASS
-aesops36,The Raven and the Swan,90.04,77.69,0.5000,83.57,PASS
-aesops37,The Goat and the Goatherd,100.00,100.00,0.3333,93.33,PASS
-aesops38,The Miser,88.80,66.54,0.5714,81.18,PASS
-aesops39,The Sick Lion,100.00,84.07,0.5714,92.53,PASS
-aesops40,The Horse and Groom,98.71,99.33,0.2857,91.82,PASS
-aesops41,The Ass and the Lapdog,91.91,70.25,0.3077,81.46,PASS
-aesops42,The Lioness,0.00,0.00,0.0000,0.00,FAIL
-aesops43,The Boasting Traveler,67.10,56.07,0.0909,59.09,FAIL
-aesops44,The Cat and the Cock,88.56,91.41,0.2500,82.77,PASS
-aesops45,"The Piglet, the Sheep, and the Goat",93.08,68.42,0.3333,82.17,PASS
-aesops46,The Boy and the Filberts,94.26,54.57,0.2857,79.75,PASS
-aesops47,The Lion in Love,88.90,75.28,0.0000,77.29,PASS
-aesops48,The Laborer and the Snake,87.36,80.02,0.2857,80.01,PASS
-aesops49,The Wolf in Sheep's Clothing,84.84,93.21,0.0000,78.03,PASS
-aesops50,The Ass and the Mule,64.49,66.58,0.3000,61.46,FAIL
-aesops51,The Frogs Asking for a King,71.60,70.79,0.2727,67.01,FAIL
-aesops52,The Boys and the Frogs,66.70,67.48,0.2857,63.04,FAIL
-aesops53,The Sick Stag,0.00,0.00,0.0000,0.00,FAIL
-aesops54,The Salt Merchant and His Ass,94.23,82.43,0.2857,85.30,PASS
-aesops55,The Oxen and the Butchers,63.29,71.35,0.3333,61.91,FAIL
-aesops56,"The Lion, the Mouse, and the Fox",68.99,71.73,0.3750,66.39,FAIL
-aesops57,The Vain Jackdaw,88.51,83.12,0.5714,84.30,PASS
-aesops58,The Goatherd and the Wild Goats,0.00,0.00,0.0000,0.00,FAIL
-aesops59,The Mischievous Dog,72.40,76.35,0.2222,68.17,FAIL
-aesops60,The Fox Who Had Lost His Tail,79.95,91.67,0.3333,77.63,PASS
-aesops61,The Boy and the Nettles,85.37,75.30,0.3333,78.15,PASS
-aesops62,The Man and His Two Sweethearts,68.90,79.18,0.2857,66.92,FAIL
-aesops63,The Astronomer,100.00,100.00,0.3333,93.33,PASS
+aesops1,The Wolf And The Lamb,76.37,82.50,0.0000,69.96,PASS
+aesops2,The Bat And The Weasels,88.63,85.66,0.0000,79.17,PASS
+aesops3,The Ass And The Grasshopper,62.97,58.93,0.0000,55.86,FAIL
+aesops4,The Lion And The Mouse,67.68,59.19,0.0000,59.21,FAIL
+aesops5,The Charcoal-Burner And The Fuller,30.63,31.81,0.0000,27.80,FAIL
+aesops6,The Father And His Sons,86.41,73.73,0.0000,75.23,PASS
+aesops7,The Boy Hunting Locusts,88.51,72.22,0.2500,78.90,PASS
+aesops8,The Cock and the Jewel,84.66,88.31,0.0000,76.92,PASS
+aesops9,The Kingdom of the Lion,77.50,78.10,0.1111,70.98,PASS
+aesops10,The Wolf and the Crane,76.51,69.30,0.0000,67.42,PASS
+aesops11,The Fisherman Piping,82.26,80.91,0.1667,75.43,PASS
+aesops12,Hercules and the Wagoner,83.92,82.95,0.0000,75.33,PASS
+aesops13,The Ants and the Grasshopper,65.03,62.88,0.2500,60.60,PASS
+aesops14,The Traveler and His Dog,75.72,48.70,0.2500,65.24,PASS
+aesops15,The Dog and the Shadow,100.00,100.00,0.2000,92.00,PASS
+aesops16,The Mole and His Mother,100.00,81.31,0.0000,86.26,PASS
+aesops17,The Herdsman and the Lost Bull,50.18,48.16,0.1429,46.19,FAIL
+aesops18,The Hare and the Tortoise,82.76,80.04,0.0000,73.94,PASS
+aesops19,"The Pomegranate, Apple-Tree, and Bramble",0.00,0.00,0.0000,0.00,FAIL
+aesops20,The Farmer and the Stork,73.53,64.33,0.0000,64.34,PASS
+aesops21,The Farmer and the Snake,45.19,40.93,0.0000,39.82,FAIL
+aesops22,The Fawn and His Mother,39.75,44.38,0.0000,36.70,FAIL
+aesops23,The Bear and the Fox,83.81,83.43,0.1429,76.78,PASS
+aesops24,The Swallow and the Crow,85.25,79.63,0.0000,75.60,PASS
+aesops25,The Mountain in Labor,69.70,62.85,0.0000,61.36,PASS
+aesops26,"The Ass, the Fox, and the Lion",79.39,82.23,0.0000,72.02,PASS
+aesops27,The Tortoise and the Eagle,73.11,66.71,0.0000,64.52,PASS
+aesops28,The Flies and the Honey-Pot,73.38,36.16,0.0000,58.60,FAIL
+aesops29,The Man and the Lion,79.73,82.94,0.1429,73.83,PASS
+aesops30,The Farmer and the Cranes,76.57,34.44,0.0000,60.49,PASS
+aesops31,The Dog in the Manger,95.23,74.54,0.0000,81.57,PASS
+aesops32,The Fox and the Goat,79.86,75.09,0.0000,70.92,PASS
+aesops33,The Bear and the Two Travelers,75.08,51.88,0.0000,62.93,PASS
+aesops34,The Oxen and the Axle-Trees,71.60,59.32,0.0000,61.98,PASS
+aesops35,The Thirsty Pigeon,66.10,30.63,0.1667,54.06,FAIL
+aesops36,The Raven and the Swan,95.12,93.21,0.2000,87.23,PASS
+aesops37,The Goat and the Goatherd,0.00,0.00,0.0000,0.00,FAIL
+aesops38,The Miser,72.92,59.65,0.0000,62.97,PASS
+aesops39,The Sick Lion,84.25,73.46,0.0000,73.67,PASS
+aesops40,The Horse and Groom,76.26,74.54,0.2000,70.29,PASS
+aesops41,The Ass and the Lapdog,93.39,71.33,0.0000,79.64,PASS
+aesops42,The Lioness,82.64,75.88,0.0000,73.02,PASS
+aesops43,The Boasting Traveler,79.69,57.92,0.0000,67.37,PASS
+aesops44,The Cat and the Cock,82.85,75.71,0.0000,73.14,PASS
+aesops45,"The Piglet, the Sheep, and the Goat",65.27,59.08,0.0000,57.50,FAIL
+aesops46,The Boy and the Filberts,72.81,53.18,0.0000,61.60,PASS
+aesops47,The Lion in Love,58.04,55.00,0.1667,53.29,FAIL
+aesops48,The Laborer and the Snake,87.64,83.16,0.0000,77.98,PASS
+aesops49,The Wolf in Sheep's Clothing,84.75,86.22,0.1667,78.24,PASS
+aesops50,The Ass and the Mule,73.49,72.47,0.0000,65.94,PASS
+aesops51,The Frogs Asking for a King,87.08,78.42,0.1429,78.07,PASS
+aesops52,The Boys and the Frogs,82.95,84.77,0.0000,75.02,PASS
+aesops53,The Sick Stag,47.24,48.00,0.0000,42.67,FAIL
+aesops54,The Salt Merchant and His Ass,88.62,72.33,0.0000,76.50,PASS
+aesops55,The Oxen and the Butchers,79.32,69.85,0.4000,73.49,PASS
+aesops56,"The Lion, the Mouse, and the Fox",52.14,58.93,0.0000,48.28,FAIL
+aesops57,The Vain Jackdaw,83.28,79.72,0.0000,74.24,PASS
+aesops58,The Goatherd and the Wild Goats,52.74,63.88,0.1429,51.12,FAIL
+aesops59,The Mischievous Dog,68.76,72.67,0.1429,64.09,PASS
+aesops60,The Fox Who Had Lost His Tail,74.80,77.32,0.0000,67.82,PASS
+aesops61,The Boy and the Nettles,32.75,56.51,0.0000,34.23,FAIL
+aesops62,The Man and His Two Sweethearts,78.46,54.00,0.0000,65.72,PASS
+aesops63,The Astronomer,69.75,70.68,0.0000,62.96,PASS

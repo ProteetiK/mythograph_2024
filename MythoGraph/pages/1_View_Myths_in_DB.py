@@ -9,13 +9,17 @@ from MythGraph.MythGraphDraw import draw_graph
 W1 = 0.7
 st.title("View Knowledge Graph from Database")
 folder_path = "MythoGraphDB"
-json_files = [f for f in os.listdir(folder_path) if f.endswith(".json")]
+json_files = [
+    os.path.join(root, f)
+    for root, _, files in os.walk("MythoGraphDB")
+    for f in files if f.endswith(".json")
+]
+
 if not json_files:
     st.warning("No JSON files found in the 'MythoGraphDB' folder.")
 else:
     selected_file = st.selectbox("Select a file to view its knowledge graph", json_files)
     if selected_file:
-        file_path = os.path.join(folder_path, selected_file)
 
         def load_graph_from_file(path):
             with open(path, "r", encoding="utf-8") as f:
@@ -38,7 +42,7 @@ else:
                 G.add_edge(u, v, **attr)
             return G
 
-        G, myth_text = load_graph_from_file(file_path)
+        G, myth_text = load_graph_from_file(selected_file)
         st.subheader("Knowledge Graph")
         fig = draw_graph(G, title=selected_file)
         st.pyplot(fig)

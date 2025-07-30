@@ -15,6 +15,7 @@ from MythIsomorphism.MythIsomorphismUtil import (
     triple_to_sentence,
     get_embeddings,
     sim_score,
+    compute_similarity,
     extract_original_triples,
     extract_characters,
     characters_to_sentence,
@@ -30,11 +31,11 @@ st.title("Myth Clusters Viewer")
 mode = st.radio("Choose Clustering Type", [
     "Structural Similarity (Anonymized)",
     "Character Similarity",
-    "Structural Similarity (Original JSON)",
-    "Isomorphism-Based Clustering"
+    "Structural Similarity (Original JSON)"
 ])
 
-thr = st.slider("Similarity Threshold (%)", 40, 100, 60, 5)
+#"Isomorphism-Based Clustering"
+thr = st.slider("Similarity Threshold (%)", 50, 100, 70, 5)
 
 def cluster_color(cid):
     random.seed(cid)
@@ -57,14 +58,10 @@ def load_graphs(files):
             st.stop()
     return graphs
 
-if st.button("Generate Clusters"):
-    # folder = "MythoGraphDB"
-    # files = sorted([f for f in os.listdir(folder) if f.endswith(".json")])
-    # n = len(files)
-    
-    #folder = os.path.abspath("MythoGraphDB")
+if st.button("Generate Clusters"):    
+    folder = os.path.abspath("MythoGraphDB")
     #folder = os.path.abspath("MythoGraphDB/Other_Data")
-    folder = os.path.abspath("MythoGraphDB/LeviStrauss_Gold_JSON_Prep_Clusters")    
+    #folder = os.path.abspath("MythoGraphDB/LeviStrauss_Test_Demo")    
     #folder = os.path.abspath("MythoGraphDB/Panchatantra_AutoExtract")
     files = sorted([
         os.path.join(root, f)
@@ -82,6 +79,7 @@ if st.button("Generate Clusters"):
             sentences = [[triple_to_sentence(t) for t in tr] for tr in triples]
             emb = get_embeddings(sentences)
             compare_fn = lambda i, j: sim_score(emb[i], emb[j])
+            #compare_fn = lambda i, j: compute_similarity(triples[i], triples[j])
             compare_fn_cosine = compare_fn
 
         elif mode == "Structural Similarity (Original JSON)":
@@ -89,6 +87,7 @@ if st.button("Generate Clusters"):
             sentences = [[triple_to_sentence(t) for t in tr] for tr in triples]
             emb = get_embeddings(sentences)
             compare_fn = lambda i, j: sim_score(emb[i], emb[j])
+            #compare_fn = lambda i, j: compute_similarity(triples[i], triples[j])
             compare_fn_cosine = compare_fn
 
         elif mode == "Character Similarity":
@@ -96,25 +95,26 @@ if st.button("Generate Clusters"):
             sentences = [[characters_to_sentence(c)] for c in characters]
             emb = get_embeddings(sentences)
             compare_fn = lambda i, j: sim_score(emb[i], emb[j])
+            #compare_fn = lambda i, j: compute_similarity(triples[i], triples[j])
             compare_fn_cosine = compare_fn
 
-        elif mode == "Isomorphism-Based Clustering":
-            graphs_nx = [generate_graph_from_links(g.get("links", [])) for g in graphs]
+        # elif mode == "Isomorphism-Based Clustering":
+        #     graphs_nx = [generate_graph_from_links(g.get("links", [])) for g in graphs]
+            
+        #     def graph_to_vector(g: nx.Graph):
+        #         return [
+        #             g.number_of_nodes(),
+        #             g.number_of_edges(),
+        #             nx.density(g),
+        #             nx.average_clustering(g) if g.number_of_nodes() > 1 else 0,
+        #         ]
 
-            def graph_to_vector(g: nx.Graph):
-                return [
-                    g.number_of_nodes(),
-                    g.number_of_edges(),
-                    nx.density(g),
-                    nx.average_clustering(g) if g.number_of_nodes() > 1 else 0,
-                ]
+        #     graph_vectors = [graph_to_vector(g) for g in graphs_nx]
+        #     similarity_matrix = cosine_similarity(graph_vectors)
+        #     compare_fn_cosine = lambda i, j: similarity_matrix[i][j] * 100
 
-            graph_vectors = [graph_to_vector(g) for g in graphs_nx]
-            similarity_matrix = cosine_similarity(graph_vectors)
-            compare_fn_cosine = lambda i, j: similarity_matrix[i][j] * 100
-
-            iso_fn = iso_algorithms["Weisfeiler-Lehman"]
-            compare_fn = lambda i, j: 100.0 if iso_fn(graphs_nx[i], graphs_nx[j])[0] else 0.0
+        #     iso_fn = iso_algorithms["Weisfeiler-Lehman"]
+        #     compare_fn = lambda i, j: 100.0 if iso_fn(graphs_nx[i], graphs_nx[j])[0] else 0.0
 
         uf = UF(n)
         sims, sims_measure = {}, {}
@@ -163,83 +163,83 @@ if st.button("Generate Clusters"):
             components.html(html_content, height=600, scrolling=True)
 
 
-        evaluate_clusters_vs_reference(files, cid_map)
-        st.subheader("Cluster Quality (Intra vs Inter Similarity)")
-        intra_sims, inter_sims = [], []
+        # evaluate_clusters_vs_reference(files, cid_map)
+        # st.subheader("Cluster Quality (Intra vs Inter Similarity)")
+        # intra_sims, inter_sims = [], []
 
-        for i in range(n):
-            for j in range(i + 1, n):
-                sim_measure = sims_measure.get((i, j)) or sims_measure.get((j, i)) or 0
-                if cid_map[i] == cid_map[j]:
-                    intra_sims.append(sim_measure)
-                else:
-                    inter_sims.append(sim_measure)
+        # for i in range(n):
+        #     for j in range(i + 1, n):
+        #         sim_measure = sims_measure.get((i, j)) or sims_measure.get((j, i)) or 0
+        #         if cid_map[i] == cid_map[j]:
+        #             intra_sims.append(sim_measure)
+        #         else:
+        #             inter_sims.append(sim_measure)
 
-        avg_intra = np.mean(intra_sims) if intra_sims else 0
-        avg_inter = np.mean(inter_sims) if inter_sims else 0
+        # avg_intra = np.mean(intra_sims) if intra_sims else 0
+        # avg_inter = np.mean(inter_sims) if inter_sims else 0
 
-        st.metric("Avg Intra-cluster Similarity", f"{avg_intra:.2f}")
-        st.metric("Avg Inter-cluster Similarity", f"{avg_inter:.2f}")
+        # st.metric("Avg Intra-cluster Similarity", f"{avg_intra:.2f}")
+        # st.metric("Avg Inter-cluster Similarity", f"{avg_inter:.2f}")
 
-        st.subheader("Cluster Details")
-        rows = []
+        # st.subheader("Cluster Details")
+        # rows = []
 
-        for root, mem in clust.items():
-            if len(mem) > 1:
-                file_name = os.path.basename(files[i])
-                graphs_cluster = [json.load(open(os.path.join(folder, file_name), encoding="utf-8")) for i in mem]
-                motif_counts = defaultdict(int)
-                source_counts = defaultdict(int)
-                target_counts = defaultdict(int)
+        # for root, mem in clust.items():
+        #     if len(mem) > 1:
+        #         file_name = os.path.basename(files[i])
+        #         graphs_cluster = [json.load(open(os.path.join(folder, file_name), encoding="utf-8")) for i in mem]
+        #         motif_counts = defaultdict(int)
+        #         source_counts = defaultdict(int)
+        #         target_counts = defaultdict(int)
 
-                for g in graphs_cluster:
-                    for link in g.get("links", []):
-                        motif = link.get("motif") or link.get("label", "Unknown")
-                        src = link.get("source", "Unknown")
-                        tgt = link.get("target", "Unknown")
-                        motif_counts[motif] += 1
-                        source_counts[src] += 1
-                        target_counts[tgt] += 1
+        #         for g in graphs_cluster:
+        #             for link in g.get("links", []):
+        #                 motif = link.get("motif") or link.get("label", "Unknown")
+        #                 src = link.get("source", "Unknown")
+        #                 tgt = link.get("target", "Unknown")
+        #                 motif_counts[motif] += 1
+        #                 source_counts[src] += 1
+        #                 target_counts[tgt] += 1
 
-                if motif_counts:
-                    top_motifs = sorted(motif_counts.items(), key=lambda x: -x[1])[:5]
-                    top_sources = sorted(source_counts.items(), key=lambda x: -x[1])[:5]
-                    top_targets = sorted(target_counts.items(), key=lambda x: -x[1])[:5]
-                    cluster_name = f"{top_motifs[0][0]} | {top_sources[0][0]} | {top_targets[0][0]}"
-                    color_display = f'<span style="color:{colors[root]}; font-weight:bold;">Cluster ID: {cluster_name}</span>'
-                    st.markdown(color_display, unsafe_allow_html=True)
+        #         if motif_counts:
+        #             top_motifs = sorted(motif_counts.items(), key=lambda x: -x[1])[:5]
+        #             top_sources = sorted(source_counts.items(), key=lambda x: -x[1])[:5]
+        #             top_targets = sorted(target_counts.items(), key=lambda x: -x[1])[:5]
+        #             cluster_name = f"{top_motifs[0][0]} | {top_sources[0][0]} | {top_targets[0][0]}"
+        #             color_display = f'<span style="color:{colors[root]}; font-weight:bold;">Cluster ID: {cluster_name}</span>'
+        #             st.markdown(color_display, unsafe_allow_html=True)
 
-                for i in mem:
-                    rows.append({"cluster_id": cluster_name, "file": files[i]})
+        #         for i in mem:
+        #             rows.append({"cluster_id": cluster_name, "file": files[i]})
 
-                st.markdown("---")
+        #         st.markdown("---")
 
-        if rows:
-            df = pd.DataFrame(rows)
-            st.download_button(
-                label="Download Cluster Info CSV",
-                data=df.to_csv(index=False),
-                file_name="myth_clusters.csv",
-                mime="text/csv"
-            )
+        # if rows:
+        #     df = pd.DataFrame(rows)
+        #     st.download_button(
+        #         label="Download Cluster Info CSV",
+        #         data=df.to_csv(index=False),
+        #         file_name="myth_clusters.csv",
+        #         mime="text/csv"
+        #     )
 
-elif st.button("Generate Comparative Report"):
-    folder = "MythoGraphDB"
-    files = sorted([f for f in os.listdir(folder) if f.endswith(".json")])
-    n = len(files)
+# elif st.button("Generate Comparative Report"):
+#     folder = "MythoGraphDB"
+#     files = sorted([f for f in os.listdir(folder) if f.endswith(".json")])
+#     n = len(files)
 
-    if n == 0:
-        st.warning("No myth JSON files found.")
-    else:
-        graphs = load_graphs(files)
+#     if n == 0:
+#         st.warning("No myth JSON files found.")
+#     else:
+#         graphs = load_graphs(files)
 
-        graphs_nx = [generate_graph_from_links(g.get("links", [])) for g in graphs]
+#         graphs_nx = [generate_graph_from_links(g.get("links", [])) for g in graphs]
 
-        labels_dict, timings = get_all_cluster_labels(graphs_nx)
+#         labels_dict, timings = get_all_cluster_labels(graphs_nx)
 
-        for method, t in timings.items():
-            st.write(f"{method}: {t} seconds")
+#         for method, t in timings.items():
+#             st.write(f"{method}: {t} seconds")
 
-        df_similarity = compare_clusterings(labels_dict)
-        st.subheader("Similarity of Clusters Between Isomorphism Methods")
-        st.dataframe(df_similarity)
+#         df_similarity = compare_clusterings(labels_dict)
+#         st.subheader("Similarity of Clusters Between Isomorphism Methods")
+#         st.dataframe(df_similarity)

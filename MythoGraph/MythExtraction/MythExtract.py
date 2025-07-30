@@ -1,3 +1,4 @@
+from itertools import combinations_with_replacement
 import spacy
 from transformers import BertTokenizer
 import torch
@@ -57,8 +58,91 @@ def resolve_pronoun(token_text, coref_cache):
     token_text = token_text.lower()
     return coref_cache.get(token_text, token_text)
 
+# def extract_triples_with_nlp(text):
+#     doc = nlp(text.lower())
+#     triples = []
+
+#     subject_deps = ("nsubj", "nsubjpass", "csubj", "agent", "expl")
+#     object_deps = ("dobj", "dative", "attr", "oprd", "xcomp", "ccomp", "acomp", "advcl", "relcl")
+
+#     characters = extract_characters(text)
+#     characters_lower = {c.lower() for c in characters}
+#     pronouns = {"he", "she", "they", "him", "her", "them", "his", "their", "i", "you"}
+
+#     coref_cache = build_coref_cache(doc)
+
+#     last_character_subject = None
+#     last_character_object = None
+
+#     for sent in doc.sents:
+#         verbs = [token for token in sent if token.pos_ == "VERB"]
+#         for verb in verbs:
+#             subj = None
+#             objects = []
+
+#             for child in verb.children:
+#                 if child.dep_ in subject_deps:
+#                     subj_candidate = get_core_noun(child)
+#                     if subj_candidate.lower() in pronouns:
+#                         subj_candidate = resolve_pronoun(subj_candidate, coref_cache)
+#                     subj = subj_candidate
+
+#             if not subj and verb.tag_ == "VBN":
+#                 for child in verb.children:
+#                     if child.dep_ == "agent":
+#                         subj = get_core_noun(child)
+
+#             for child in verb.children:
+#                 if child.dep_ in object_deps:
+#                     if child.pos_ == "VERB":
+#                         continue
+#                     obj_candidate = get_core_noun(child)
+#                     if obj_candidate.lower() in pronouns:
+#                         obj_candidate = resolve_pronoun(obj_candidate, coref_cache)
+#                     if obj_candidate:
+#                         objects.append(obj_candidate)
+
+#             verb_lemma = verb.lemma_.lower()
+#             xcomp_verb = None
+#             for child in verb.children:
+#                 if child.dep_ == "xcomp" and child.pos_ == "VERB":
+#                     xcomp_verb = child.lemma_.lower()
+
+#             if verb_lemma in {"have", "be", "do"} and xcomp_verb:
+#                 verb_lemma = f"{verb_lemma}_{xcomp_verb}"
+
+#             if verb_lemma == "have" and any(o.lower() in {"hostility", "anger", "fear"} for o in objects):
+#                 verb_lemma = "express"
+#             elif verb_lemma == "say":
+#                 verb_lemma = "speak"
+
+#             if subj and not objects and verb.lemma_.lower() in {"refuse", "reject", "deny"}:
+#                 if last_character_subject and last_character_subject != subj:
+#                     objects = [last_character_subject]
+#                 elif last_character_object and last_character_object != subj:
+#                     objects = [last_character_object]
+
+#             if subj and subj.lower() in characters_lower:
+#                 last_character_subject = subj
+#             if objects:
+#                 for o in objects:
+#                     if o.lower() in characters_lower:
+#                         last_character_object = o
+
+#             if subj and objects:
+#                 for obj in objects:
+#                     triples.append((subj, obj, verb_lemma, "TEMP"))
+
+#     filtered_triples = []
+#     for (subj, obj, verb_semantic, label) in triples:
+#         if subj.lower() in characters_lower or obj.lower() in characters_lower:
+#             filtered_triples.append((subj, obj, verb_semantic, label))
+
+#     return filtered_triples
+
 def extract_triples_with_nlp(text):
-    doc = nlp(text.lower())
+    #doc = nlp(text.lower())
+    doc = nlp(text.title())
     triples = []
 
     subject_deps = ("nsubj", "nsubjpass", "csubj", "agent", "expl")
@@ -73,6 +157,12 @@ def extract_triples_with_nlp(text):
     last_character_subject = None
     last_character_object = None
 
+    def resolve_noun(token):
+        noun = get_core_noun(token)
+        if noun.lower() in pronouns:
+            return resolve_pronoun(noun, coref_cache)
+        return noun
+
     for sent in doc.sents:
         verbs = [token for token in sent if token.pos_ == "VERB"]
         for verb in verbs:
@@ -81,41 +171,41 @@ def extract_triples_with_nlp(text):
 
             for child in verb.children:
                 if child.dep_ in subject_deps:
-                    subj_candidate = get_core_noun(child)
-                    if subj_candidate.lower() in pronouns:
-                        subj_candidate = resolve_pronoun(subj_candidate, coref_cache)
-                    subj = subj_candidate
+                    subj = resolve_noun(child)
 
             if not subj and verb.tag_ == "VBN":
                 for child in verb.children:
                     if child.dep_ == "agent":
-                        subj = get_core_noun(child)
+                        subj = resolve_noun(child)
 
             for child in verb.children:
-                if child.dep_ in object_deps:
-                    if child.pos_ == "VERB":
-                        continue
-                    obj_candidate = get_core_noun(child)
-                    if obj_candidate.lower() in pronouns:
-                        obj_candidate = resolve_pronoun(obj_candidate, coref_cache)
-                    if obj_candidate:
-                        objects.append(obj_candidate)
+                if child.dep_ in object_deps and child.pos_ != "VERB":
+                    obj = resolve_noun(child)
+                    if obj:
+                        objects.append(obj)
+                        for conj in child.conjuncts:
+                            conj_obj = resolve_noun(conj)
+                            if conj_obj:
+                                objects.append(conj_obj)
+
+                if child.dep_ == "prep":
+                    for pobj in child.children:
+                        if pobj.dep_ == "pobj":
+                            obj = resolve_noun(pobj)
+                            if obj:
+                                objects.append(obj)
 
             verb_lemma = verb.lemma_.lower()
-            xcomp_verb = None
             for child in verb.children:
                 if child.dep_ == "xcomp" and child.pos_ == "VERB":
-                    xcomp_verb = child.lemma_.lower()
-
-            if verb_lemma in {"have", "be", "do"} and xcomp_verb:
-                verb_lemma = f"{verb_lemma}_{xcomp_verb}"
+                    verb_lemma += f"_{child.lemma_.lower()}"
 
             if verb_lemma == "have" and any(o.lower() in {"hostility", "anger", "fear"} for o in objects):
                 verb_lemma = "express"
             elif verb_lemma == "say":
                 verb_lemma = "speak"
 
-            if subj and not objects and verb.lemma_.lower() in {"refuse", "reject", "deny"}:
+            if subj and not objects and verb_lemma in {"refuse", "reject", "deny"}:
                 if last_character_subject and last_character_subject != subj:
                     objects = [last_character_subject]
                 elif last_character_object and last_character_object != subj:
@@ -123,19 +213,18 @@ def extract_triples_with_nlp(text):
 
             if subj and subj.lower() in characters_lower:
                 last_character_subject = subj
-            if objects:
-                for o in objects:
-                    if o.lower() in characters_lower:
-                        last_character_object = o
+            for o in objects:
+                if o.lower() in characters_lower:
+                    last_character_object = o
 
             if subj and objects:
                 for obj in objects:
                     triples.append((subj, obj, verb_lemma, "TEMP"))
 
-    filtered_triples = []
-    for (subj, obj, verb_semantic, label) in triples:
-        if subj.lower() in characters_lower or obj.lower() in characters_lower:
-            filtered_triples.append((subj, obj, verb_semantic, label))
+    filtered_triples = [
+        (s, o, v, l) for s, o, v, l in triples
+        if s.lower() in characters_lower or o.lower() in characters_lower
+    ]
 
     return filtered_triples
 
@@ -164,6 +253,6 @@ def extract_triples_combined(text):
     except Exception as e:
         print(f"[NLP extractor error] {e}")
         nlp_triples_raw = []
-    combined = model_triples + nlp_triples_raw
 
+    combined = model_triples + nlp_triples_raw
     return combined

@@ -8,8 +8,10 @@ from MythModelTrain.MotifTrainer import load_motif_model, classify_motif_with_mo
 from MythExtraction.MythExtract import extract_triples_combined
 from MythExtraction.MythExtractEval import evaluate_extraction_accuracy
 from MythGraph.MythGraphDraw import build_nx_graph
+from MythoMapping.Mapping import MOTIF_DICT
 import torch
 from transformers import BertTokenizer
+from collections import Counter
 
 nlp = spacy.load("en_core_web_sm")
 sbert_model = SentenceTransformer("C:/Users/KIIT/all-MiniLM-L6-v2/")
@@ -148,8 +150,41 @@ def extract_knowledge_graph(myth_text_raw):
             motif = classify_motif_with_model(model, label_encoder, tokenizer, s, p, o, device=device)
         else:
             motif = classify_motif(p, predicted_cluster, subject=s, obj=o)
-        
+        if MOTIF_DICT.get(p) != None:
+            motif = MOTIF_DICT.get(p)
+
         final_triples.append((s, o, p, motif, 0.9))
 
     final_nx = build_nx_graph(final_triples)
     return final_nx
+
+def extract_oppositions(links):
+    oppositions = [
+        ("Victory", "Defeat"),
+        ("Guidance", "Trickery"),
+        ("Appeal", "Conflict"),
+        ("Appeal", "Competition")
+    ]
+
+    motifs_sequence = []
+    seen = set()
+    for link in links:
+        motif = link.get("motif")
+        if motif and motif not in seen:
+            motifs_sequence.append(motif)
+            seen.add(motif)
+
+    motif_counts = Counter(link.get("motif") for link in links if link.get("motif"))
+
+    opposition_freq = {}
+    counted_pairs = set()
+
+    for a, b in oppositions:
+        if a in motifs_sequence and b in motifs_sequence:
+            key = f"{a} vs. {b}"
+            if key not in counted_pairs and f"{b} vs. {a}" not in counted_pairs:
+                total = motif_counts[a] + motif_counts[b]
+                opposition_freq[key] = total
+                counted_pairs.add(key)
+
+    return opposition_freq

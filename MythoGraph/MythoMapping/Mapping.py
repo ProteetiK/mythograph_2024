@@ -6,7 +6,7 @@ MOTIF_DICT = {
     "mock": "Conflict",
     "win": "Victory",
     "lose": "Defeat",
-    "help": "Assistance",
+    "help": "Guidance",
     "attack": "Conflict",
     "escape": "Victory",
     "follow": "Pursuit",
@@ -14,7 +14,9 @@ MOTIF_DICT = {
     "teach": "Guidance",
     "deceive": "Trickery",
     "warn": "Conflict",
-    "forgive": "Victory",
+    "forgive": "Appeal",
+    "asleep": "Defeat",
+    "beat": "Victory",
     "punish": "Justice",
     "trick": "Trickery",
     "betray": "Betrayal",
@@ -45,14 +47,13 @@ MOTIF_DICT = {
 }
 
 CLUSTER_LABELS = {
-    0: "Conflict",
-    1: "Victory",
-    2: "Quest",
-    3: "Defeat",
-    4: "Appeal",
+    0: "General",
+    1: "Trickery",
+    2: "Appeal",
+    3: "Guidance",
+    4: "Quest",
     5: "Competition",
-    6: "Trickery",
-    7: "Guidance",
-    8: "Communication",
-    9: "Appeal"
+    6: "Conflict",
+    7: "Victory",
+    8: "Defeat"
 }

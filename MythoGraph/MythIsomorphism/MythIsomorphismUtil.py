@@ -102,7 +102,7 @@ def are_isomorphic(g1_triples, g2_triples):
                             edge_match=edge_match)
 
 def compute_similarity(triples1, triples2):
-    if not triples1 or not triples2:
+    if triples1 is None or len(triples1) == 0 or triples2 is None or len(triples2) == 0:
         return 0.0
 
     sents1 = [triple_to_sentence(t) for t in triples1]
@@ -337,14 +337,21 @@ def get_similarity_scores(other_graph, current_anonymized, current_surface):
     
     other_anonymized = extract_anonymized_triples(other_graph)
     other_surface = extract_surface_triples(other_graph)
-
-    predicted_graph = build_nx_graph(current_anonymized)
-    ref_graph = build_nx_graph(other_anonymized)
-
+    # print()
+    # print(current_surface)
+    # print()
+    # print(other_surface)
+    predicted_graph_anon = build_nx_graph(current_anonymized)
+    ref_graph_anon = build_nx_graph(other_anonymized)
+    predicted_graph_surface = build_nx_graph(current_anonymized)
+    ref_graph_surface = build_nx_graph(other_anonymized)
+    
     anon_sim = compute_similarity(current_anonymized, other_anonymized)
     surf_sim = compute_similarity(current_surface, other_surface)
-    jaccard_sim = jaccard_similarity_wl(predicted_graph, ref_graph)
-    return anon_sim, surf_sim, jaccard_sim
+    jaccard_sim_anon = jaccard_similarity_wl(predicted_graph_anon, ref_graph_anon)
+    jaccard_sim_surface = jaccard_similarity_wl(predicted_graph_surface, ref_graph_surface)
+    jaccard_sim = (jaccard_sim_anon+jaccard_sim_surface)/2.0
+    return anon_sim, surf_sim, jaccard_sim_anon
 
 def evaluate_clusters_vs_reference(files, cid_map):
     st.subheader("Evaluate Clustering Against Reference")

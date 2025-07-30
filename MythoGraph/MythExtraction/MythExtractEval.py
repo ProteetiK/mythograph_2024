@@ -5,15 +5,16 @@ from collections import Counter
 
 def load_mythographs(db_folder="MythoGraphDB"):
     mythographs = []
-    for filename in os.listdir(db_folder):
-        if filename.endswith(".json"):
-            filepath = os.path.join(db_folder, filename)
-            with open(filepath, "r", encoding="utf-8") as f:
+    for root, _, files in os.walk(db_folder):
+        for filename in files:
+            if filename.endswith(".json"):
+                filepath = os.path.join(root, filename)
                 try:
-                    data = json.load(f)
-                    mythographs.append(data)
+                    with open(filepath, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                        mythographs.append(data)
                 except Exception as e:
-                    print(f"Error loading {filename}: {e}")
+                    print(f"Error loading {filepath}: {e}")
     return mythographs
 
 def similar(a, b):
