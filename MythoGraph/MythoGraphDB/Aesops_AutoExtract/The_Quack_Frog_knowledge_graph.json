@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "frog"
+    },
+    {
+      "id": "diseases"
+    }
+  ],
+  "links": [
+    {
+      "source": "frog",
+      "target": "diseases",
+      "label": "proclaimed",
+      "motif": "Appeal",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FROG once upon a time came forth from his home in the marsh and\n      proclaimed to all the beasts that he was a learned physician, skilled in\n      the use of drugs and able to heal all diseases. A Fox asked him, \"How can\n      you pretend to prescribe for others, when you are unable to heal your own\n      lame gait and wrinkled skin?\""
+}

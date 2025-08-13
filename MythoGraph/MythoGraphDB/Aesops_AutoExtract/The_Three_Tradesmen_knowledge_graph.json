@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "##layer"
+    },
+    {
+      "id": "material"
+    },
+    {
+      "id": "carpenter"
+    },
+    {
+      "id": "timber"
+    },
+    {
+      "id": "there"
+    }
+  ],
+  "links": [
+    {
+      "source": "##layer",
+      "target": "material",
+      "label": "recommended",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "carpenter",
+      "target": "timber",
+      "label": "proposed",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "material",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A GREAT CITY was besieged, and its inhabitants were called together to\n      consider the best means of protecting it from the enemy. A Bricklayer\n      earnestly recommended bricks as affording the best material for an\n      effective resistance. A Carpenter, with equal enthusiasm, proposed timber\n      as a preferable method of defense. Upon which a Currier stood up and said,\n      \"Sirs, I differ from you altogether: there is no material for resistance\n      equal to a covering of hides; and nothing so good as leather.\" Every man for himself."
+}

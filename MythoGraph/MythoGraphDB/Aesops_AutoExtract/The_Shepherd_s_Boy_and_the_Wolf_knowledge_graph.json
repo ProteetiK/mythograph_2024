@@ -1,0 +1,99 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "boy"
+    },
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "flock"
+    },
+    {
+      "id": "shepherd boy"
+    },
+    {
+      "id": "villagers"
+    },
+    {
+      "id": "sheep"
+    },
+    {
+      "id": "one"
+    },
+    {
+      "id": "heed"
+    },
+    {
+      "id": "cries"
+    },
+    {
+      "id": "truth"
+    }
+  ],
+  "links": [
+    {
+      "source": "boy",
+      "target": "wolf",
+      "label": "laughed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "sheep",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "truth",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "flock",
+      "label": "watch",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "shepherd boy",
+      "target": "villagers",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "shepherd boy",
+      "target": "wolf",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "one",
+      "target": "heed",
+      "label": "pay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "one",
+      "target": "cries",
+      "label": "pay",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A SHEPHERD-BOY, who watched a flock of sheep near a village, brought out\n      the villagers three or four times by crying out, \"Wolf! Wolf!\" and when\n      his neighbors came to help him, laughed at them for their pains. The Wolf,\n      however, did truly come at last. The Shepherd-boy, now really alarmed,\n      shouted in an agony of terror: \"Pray, do come and help me; the Wolf is\n      killing the sheep;\" but no one paid any heed to his cries, nor rendered\n      any assistance. The Wolf, having no cause of fear, at his leisure\n      lacerated or destroyed the whole flock. There is no believing a liar, even when he speaks the truth."
+}

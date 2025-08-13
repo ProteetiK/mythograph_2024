@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "shepherds"
+    }
+  ],
+  "links": [
+    {
+      "source": "wolf",
+      "target": "shepherds",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WOLF, passing by, saw some Shepherds in a hut eating a haunch of mutton\n      for their dinner. Approaching them, he said, \"What a clamor you would\n      raise if I were to do as you are doing!\""
+}

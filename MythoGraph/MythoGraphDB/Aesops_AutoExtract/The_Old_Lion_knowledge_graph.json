@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "lion"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "bull"
+    },
+    {
+      "id": "thee"
+    },
+    {
+      "id": "enemy"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "insults"
+    }
+  ],
+  "links": [
+    {
+      "source": "lion",
+      "target": "ground",
+      "label": "lay",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bull",
+      "target": "thee",
+      "label": "gore",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bull",
+      "target": "enemy",
+      "label": "gore",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "insults",
+      "label": "brook",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A LION, worn out with years and powerless from disease, lay on the ground\n      at the point of death. A Boar rushed upon him, and avenged with a stroke\n      of his tusks a long-remembered injury. Shortly afterwards the Bull with\n      his horns gored him as if he were an enemy. When the Ass saw that the huge\n      beast could be assailed with impunity, he let drive at his forehead with\n      his heels. The expiring Lion said, \"I have reluctantly brooked the insults\n      of the brave, but to be compelled to endure such treatment from thee, a\n      disgrace to Nature, is indeed to die a double death.\""
+}

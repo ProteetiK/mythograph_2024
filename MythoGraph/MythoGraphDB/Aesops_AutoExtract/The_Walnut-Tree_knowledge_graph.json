@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "walnut tree"
+    },
+    {
+      "id": "crop"
+    },
+    {
+      "id": "fruit"
+    },
+    {
+      "id": "me"
+    }
+  ],
+  "links": [
+    {
+      "source": "walnut tree",
+      "target": "crop",
+      "label": "bear",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "fruit",
+      "target": "me",
+      "label": "repay",
+      "motif": "Appeal",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WALNUT TREE standing by the roadside bore an abundant crop of fruit. For\n      the sake of the nuts, the passers-by broke its branches with stones and\n      sticks. The Walnut-Tree piteously exclaimed, \"O wretched me! that those\n      whom I cheer with my fruit should repay me with these painful requitals!\""
+}

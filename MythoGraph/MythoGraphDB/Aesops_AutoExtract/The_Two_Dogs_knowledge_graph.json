@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "hound"
+    },
+    {
+      "id": "##og"
+    },
+    {
+      "id": "companion"
+    }
+  ],
+  "links": [
+    {
+      "source": "hound",
+      "target": "##og",
+      "label": "watch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hound",
+      "target": "companion",
+      "label": "reproach",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MAN had two dogs: a Hound, trained to assist him in his sports, and a\n      Housedog, taught to watch the house. When he returned home after a good\n      day's sport, he always gave the Housedog a large share of his spoil. The\n      Hound, feeling much aggrieved at this, reproached his companion, saying,\n      \"It is very hard to have all this labor, while you, who do not assist in\n      the chase, luxuriate on the fruits of my exertions.\" The Housedog replied,\n      \"Do not blame me, my friend, but find fault with the master, who has not\n      taught me to labor, but to depend for subsistence on the labor of others.\" Children are not to be blamed for the faults of their parents."
+}

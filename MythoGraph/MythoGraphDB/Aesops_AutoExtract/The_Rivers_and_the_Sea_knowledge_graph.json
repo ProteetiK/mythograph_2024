@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "rivers"
+    },
+    {
+      "id": "tides"
+    }
+  ],
+  "links": [
+    {
+      "source": "rivers",
+      "target": "tides",
+      "label": "##iving",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE RIVERS joined together to complain to the Sea, saying, \"Why is it that\n      when we flow into your tides so potable and sweet, you work in us such a\n      change, and make us salty and unfit to drink?\" The Sea, perceiving that\n      they intended to throw the blame on him, said, \"Pray cease to flow into\n      me, and then you will not be made briny.\""
+}

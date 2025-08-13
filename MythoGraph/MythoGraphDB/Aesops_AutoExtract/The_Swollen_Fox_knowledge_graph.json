@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fox"
+    },
+    {
+      "id": "oak"
+    },
+    {
+      "id": "cries"
+    }
+  ],
+  "links": [
+    {
+      "source": "fox",
+      "target": "oak",
+      "label": "lame",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "cries",
+      "label": "hear",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A VERY HUNGRY FOX, seeing some bread and meat left by shepherds in the\n      hollow of an oak, crept into the hole and made a hearty meal. When he\n      finished, he was so full that he was not able to get out, and began to\n      groan and lament his fate. Another Fox passing by heard his cries, and\n      coming up, inquired the cause of his complaining. On learning what had\n      happened, he said to him, \"Ah, you will have to remain there, my friend,\n      until you become such as you were when you crept in, and then you will\n      easily get out.\""
+}

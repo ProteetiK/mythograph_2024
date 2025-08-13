@@ -1,0 +1,79 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "swallow"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "herself"
+    },
+    {
+      "id": "nest"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "serpent nest hole wall"
+    },
+    {
+      "id": "nestlings"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "wrong"
+    }
+  ],
+  "links": [
+    {
+      "source": "swallow",
+      "target": "birds",
+      "label": "hatch",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "swallow",
+      "target": "herself",
+      "label": "build",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "swallow",
+      "target": "nest",
+      "label": "build",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "birds",
+      "label": "hatch",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "serpent nest hole wall",
+      "target": "nestlings",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "wrong",
+      "label": "suffer",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A SWALLOW, returning from abroad and especially fond of dwelling with men,\n      built herself a nest in the wall of a Court of Justice and there hatched\n      seven young birds. A Serpent gliding past the nest from its hole in the\n      wall ate up the young unfledged nestlings. The Swallow, finding her nest\n      empty, lamented greatly and exclaimed: \"Woe to me a stranger! that in this\n      place where all others' rights are protected, I alone should suffer\n      wrong.\""
+}

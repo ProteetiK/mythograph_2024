@@ -1,0 +1,62 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "oaks"
+    },
+    {
+      "id": "axe"
+    },
+    {
+      "id": "we"
+    },
+    {
+      "id": "burden"
+    },
+    {
+      "id": "jupiter"
+    },
+    {
+      "id": "answer"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "pillars"
+    }
+  ],
+  "links": [
+    {
+      "source": "oaks",
+      "target": "axe",
+      "label": "complaint",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "we",
+      "target": "burden",
+      "label": "bear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "answer",
+      "label": "make",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "pillars",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE OAKS presented a complaint to Jupiter, saying, \"We bear for no purpose\n      the burden of life, as of all the trees that grow we are the most\n      continually in peril of the axe.\" Jupiter made answer: \"You have only to\n      thank yourselves for the misfortunes to which you are exposed: for if you\n      did not make such excellent pillars and posts, and prove yourselves so\n      serviceable to the carpenters and the farmers, the axe would not so\n      frequently be laid to your roots.\""
+}

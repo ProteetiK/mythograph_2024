@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "shepherd"
+    },
+    {
+      "id": "lamb"
+    },
+    {
+      "id": "whelp"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "lookout"
+    },
+    {
+      "id": "flock"
+    }
+  ],
+  "links": [
+    {
+      "source": "shepherd",
+      "target": "lamb",
+      "label": "taught",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "shepherd",
+      "target": "whelp",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "lookout",
+      "label": "keep",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "flock",
+      "label": "lose",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A SHEPHERD once found the whelp of a Wolf and brought it up, and\nafter a while taught it to steal lambs from the neighboring flocks. The\nWolf, having shown himself an apt pupil, said to the Shepherd, \"Since\nyou have taught me to steal, you must keep a sharp lookout, or you will\nlose some of your own flock.\""
+}

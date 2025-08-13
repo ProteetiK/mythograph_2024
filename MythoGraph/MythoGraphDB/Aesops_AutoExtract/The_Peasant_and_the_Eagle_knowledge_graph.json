@@ -1,0 +1,53 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "peasant"
+    },
+    {
+      "id": "eagle"
+    },
+    {
+      "id": "bird"
+    },
+    {
+      "id": "free"
+    },
+    {
+      "id": "deliverer"
+    }
+  ],
+  "links": [
+    {
+      "source": "peasant",
+      "target": "eagle",
+      "label": "flew",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "peasant",
+      "target": "eagle",
+      "label": "find",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "deliverer",
+      "label": "prove",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "free",
+      "label": "set",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A PEASANT found an Eagle captured in a trap, and much admiring the bird,\n      set him free. The Eagle did not prove ungrateful to his deliverer, for\n      seeing the Peasant sitting under a wall which was not safe, he flew toward\n      him and with his talons snatched a bundle from his head. When the Peasant\n      rose in pursuit, the Eagle let the bundle fall again. Taking it up, the\n      man returned to the same place, to find that the wall under which he had\n      been sitting had fallen to pieces; and he marveled at the service rendered\n      him by the Eagle."
+}

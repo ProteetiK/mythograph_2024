@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "##l"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "fate"
+    }
+  ],
+  "links": [
+    {
+      "source": "##l",
+      "target": "fish",
+      "label": "burst",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "fate",
+      "label": "deserve",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A SEAGULL having bolted down too large a fish, burst its deep gullet-bag\n      and lay down on the shore to die. A Kite saw him and exclaimed: \"You\n      richly deserve your fate; for a bird of the air has no business to seek\n      its food from the sea.\" Every man should be content to mind his own business."
+}

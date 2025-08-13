@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "horse"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "untouched"
+    },
+    {
+      "id": "oats"
+    },
+    {
+      "id": "deed"
+    }
+  ],
+  "links": [
+    {
+      "source": "wolf",
+      "target": "horse",
+      "label": "meet",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "untouched",
+      "label": "leave",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "oats",
+      "target": "deed",
+      "label": "perform",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WOLF coming out of a field of oats met a Horse and thus addressed him:\n      \"I would advise you to go into that field. It is full of fine oats, which\n      I have left untouched for you, as you are a friend whom I would love to\n      hear enjoying good eating.\" The Horse replied, \"If oats had been the food\n      of wolves, you would never have indulged your ears at the cost of your\n      belly.\" Men of evil reputation, when they perform a good deed, fail to get credit\n      for it."
+}

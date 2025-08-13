@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "hound"
+    },
+    {
+      "id": "boar"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "infirmities"
+    }
+  ],
+  "links": [
+    {
+      "source": "hound",
+      "target": "boar",
+      "label": "encountered",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "infirmities",
+      "label": "help",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A HOUND, who in the days of his youth and strength had never yielded to\n      any beast of the forest, encountered in his old age a boar in the chase.\n      He seized him boldly by the ear, but could not retain his hold because of\n      the decay of his teeth, so that the boar escaped. His master, quickly\n      coming up, was very much disappointed, and fiercely abused the dog. The\n      Hound looked up and said, \"It was not my fault master: my spirit was as\n      good as ever, but I could not help my infirmities. I rather deserve to be\n      praised for what I have been, than to be blamed for what I am.\""
+}

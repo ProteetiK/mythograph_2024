@@ -1,0 +1,63 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fowler"
+    },
+    {
+      "id": "partridge"
+    },
+    {
+      "id": "master"
+    },
+    {
+      "id": "scruple"
+    },
+    {
+      "id": "life"
+    },
+    {
+      "id": "cost friends relations"
+    }
+  ],
+  "links": [
+    {
+      "source": "fowler",
+      "target": "partridge",
+      "label": "##tic",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fowler",
+      "target": "partridge",
+      "label": "catch",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "partridge",
+      "target": "master",
+      "label": "beg",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "scruple",
+      "target": "life",
+      "label": "take",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "scruple",
+      "target": "cost friends relations",
+      "label": "take",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FOWLER caught a Partridge and was about to kill it. The Partridge\n      earnestly begged him to spare his life, saying, \"Pray, master, permit me\n      to live and I will entice many Partridges to you in recompense for your\n      mercy to me.\" The Fowler replied, \"I shall now with less scruple take your\n      life, because you are willing to save it at the cost of betraying your\n      friends and relations.\""
+}

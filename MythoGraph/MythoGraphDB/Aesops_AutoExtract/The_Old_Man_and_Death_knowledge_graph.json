@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "death"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "death",
+      "label": "##ught",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN OLD MAN was employed in cutting wood in the forest, and, in carrying\n      the faggots to the city for sale one day, became very wearied with his\n      long journey. He sat down by the wayside, and throwing down his load,\n      besought \"Death\" to come. \"Death\" immediately appeared in answer to his\n      summons and asked for what reason he had called him. The Old Man hurriedly\n      replied, \"That, lifting up the load, you may place it again upon my\n      shoulders.\""
+}

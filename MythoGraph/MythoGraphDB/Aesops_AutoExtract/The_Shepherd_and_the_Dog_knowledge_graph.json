@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "shepherd"
+    },
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "you"
+    }
+  ],
+  "links": [
+    {
+      "source": "shepherd",
+      "target": "wolf",
+      "label": "master",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "wolf",
+      "label": "admit",
+      "motif": "Appeal",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A SHEPHERD penning his sheep in the fold for the night was about to shut\n      up a wolf with them, when his Dog perceiving the wolf said, \"Master, how\n      can you expect the sheep to be safe if you admit a wolf into the fold?\""
+}

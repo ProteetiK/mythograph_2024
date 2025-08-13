@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "benefactor"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "wealth"
+    },
+    {
+      "id": "yourself"
+    },
+    {
+      "id": "things"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "benefactor",
+      "label": "cried",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "wealth",
+      "label": "bestow",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "yourself",
+      "target": "things",
+      "label": "enjoy",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CERTAIN MAN made a wooden image of Mercury and offered it for sale. When\n      no one appeared willing to buy it, in order to attract purchasers, he\n      cried out that he had the statue to sell of a benefactor who bestowed\n      wealth and helped to heap up riches. One of the bystanders said to him,\n      \"My good fellow, why do you sell him, being such a one as you describe,\n      when you may yourself enjoy the good things he has to give?\" \"Why,\" he\n      replied, \"I am in need of immediate help, and he is wont to give his good\n      gifts very slowly.\""
+}

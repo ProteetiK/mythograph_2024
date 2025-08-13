@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "woman"
+    },
+    {
+      "id": "barley"
+    },
+    {
+      "id": "hen"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "egg"
+    },
+    {
+      "id": "fat"
+    }
+  ],
+  "links": [
+    {
+      "source": "woman",
+      "target": "barley",
+      "label": "pondered",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "hen",
+      "label": "possess",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "hen",
+      "target": "fat",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "egg",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WOMAN possessed a Hen that gave her an egg every day. She often pondered\n      how she might obtain two eggs daily instead of one, and at last, to gain\n      her purpose, determined to give the Hen a double allowance of barley. From\n      that day the Hen became fat and sleek, and never once laid another egg."
+}

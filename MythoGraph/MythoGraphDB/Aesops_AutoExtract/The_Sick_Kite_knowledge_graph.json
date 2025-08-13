@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "kite"
+    },
+    {
+      "id": "gods"
+    },
+    {
+      "id": "you"
+    }
+  ],
+  "links": [
+    {
+      "source": "kite",
+      "target": "gods",
+      "label": "##ke",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "gods",
+      "target": "you",
+      "label": "pity",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A KITE, sick unto death, said to his mother: \"O Mother! do not mourn, but\n      at once invoke the gods that my life may be prolonged.\" She replied,\n      \"Alas! my son, which of the gods do you think will pity you? Is there one\n      whom you have not outraged by filching from their very altars a part of\n      the sacrifice offered up to them?\" We must make friends in prosperity if we would have their help in\n      adversity."
+}

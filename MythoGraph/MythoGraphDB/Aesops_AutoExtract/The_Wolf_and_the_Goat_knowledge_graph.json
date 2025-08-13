@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "goat"
+    }
+  ],
+  "links": [
+    {
+      "source": "wolf",
+      "target": "goat",
+      "label": "begged",
+      "motif": "Appeal",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WOLF saw a Goat feeding at the summit of a steep precipice, where he had\n      no chance of reaching her. He called to her and earnestly begged her to\n      come lower down, lest she fall by some mishap; and he added that the\n      meadows lay where he was standing, and that the herbage was most tender.\n      She replied, \"No, my friend, it is not for the pasture that you invite me,\n      but for yourself, who are in want of food.\""
+}

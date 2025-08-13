@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "sick"
+    },
+    {
+      "id": "want food"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "drink"
+    }
+  ],
+  "links": [
+    {
+      "source": "wolf",
+      "target": "water",
+      "label": "called",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "sick",
+      "label": "lie",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "want food",
+      "label": "call",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "drink",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WOLF, sorely wounded and bitten by dogs, lay sick and maimed in his\n      lair. Being in want of food, he called to a Sheep who was passing, and\n      asked him to fetch some water from a stream flowing close beside him.\n      \"For,\" he said, \"if you will bring me drink, I will find means to provide\n      myself with meat.\" \"Yes,\" said the Sheep, \"if I should bring you the\n      draught, you would doubtless make me provide the meat also.\" Hypocritical speeches are easily seen through."
+}

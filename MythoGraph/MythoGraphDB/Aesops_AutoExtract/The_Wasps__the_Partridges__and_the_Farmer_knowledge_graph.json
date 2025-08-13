@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "i"
+    },
+    {
+      "id": "oxen"
+    },
+    {
+      "id": "me"
+    },
+    {
+      "id": "water"
+    }
+  ],
+  "links": [
+    {
+      "source": "i",
+      "target": "oxen",
+      "label": "have",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "me",
+      "target": "water",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE WASPS and the Partridges, overcome with thirst, came to a Farmer and\n      besought him to give them some water to drink. They promised amply to\n      repay him the favor which they asked. The Partridges declared that they\n      would dig around his vines and make them produce finer grapes. The Wasps\n      said that they would keep guard and drive off thieves with their stings.\n      But the Farmer interrupted them, saying: \"I have already two oxen, who,\n      without making any promises, do all these things. It is surely better for\n      me to give the water to them than to you.\""
+}

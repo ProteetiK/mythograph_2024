@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "boy"
+    },
+    {
+      "id": "cloak"
+    },
+    {
+      "id": "mother"
+    },
+    {
+      "id": "whereon"
+    }
+  ],
+  "links": [
+    {
+      "source": "boy",
+      "target": "cloak",
+      "label": "commended",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "mother",
+      "target": "whereon",
+      "label": "upbraid",
+      "motif": "Appeal",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BOY stole a lesson-book from one of his schoolfellows and took it home\n      to his Mother. She not only abstained from beating him, but encouraged\n      him. He next time stole a cloak and brought it to her, and she again\n      commended him. The Youth, advanced to adulthood, proceeded to steal things\n      of still greater value. At last he was caught in the very act, and having\n      his hands bound behind him, was led away to the place of public execution.\n      His Mother followed in the crowd and violently beat her breast in sorrow,\n      whereupon the young man said, \"I wish to say something to my Mother in her\n      ear.\" She came close to him, and he quickly seized her ear with his teeth\n      and bit it off. The Mother upbraided him as an unnatural child, whereon he\n      replied, \"Ah! if you had beaten me when I first stole and brought to you\n      that lesson-book, I should not have come to this, nor have been thus led\n      to a disgraceful death.\""
+}

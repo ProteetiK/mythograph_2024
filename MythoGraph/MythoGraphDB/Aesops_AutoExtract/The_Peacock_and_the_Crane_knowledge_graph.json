@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "peacock"
+    },
+    {
+      "id": "plumage"
+    },
+    {
+      "id": "crane"
+    },
+    {
+      "id": "feathers"
+    },
+    {
+      "id": "birds"
+    }
+  ],
+  "links": [
+    {
+      "source": "peacock",
+      "target": "plumage",
+      "label": "robe",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "peacock",
+      "target": "crane",
+      "label": "mock",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "feathers",
+      "target": "birds",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A PEACOCK spreading its gorgeous tail mocked a Crane that passed by,\n      ridiculing the ashen hue of its plumage and saying, \"I am robed, like a\n      king, in gold and purple and all the colors of the rainbow; while you have\n      not a bit of color on your wings.\" \"True,\" replied the Crane; \"but I soar\n      to the heights of heaven and lift up my voice to the stars, while you walk\n      below, like a cock, among the birds of the dunghill.\" Fine feathers don't make fine birds."
+}

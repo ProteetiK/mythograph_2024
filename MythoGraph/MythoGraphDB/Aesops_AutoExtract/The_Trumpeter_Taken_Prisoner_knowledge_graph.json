@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "trumpeter"
+    },
+    {
+      "id": "soldiers"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "trumpet"
+    },
+    {
+      "id": "others"
+    }
+  ],
+  "links": [
+    {
+      "source": "trumpeter",
+      "target": "soldiers",
+      "label": "cried",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "man",
+      "label": "slay",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "trumpet",
+      "target": "others",
+      "label": "stir",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A TRUMPETER, bravely leading on the soldiers, was captured by the enemy.\n      He cried out to his captors, \"Pray spare me, and do not take my life\n      without cause or without inquiry. I have not slain a single man of your\n      troop. I have no arms, and carry nothing but this one brass trumpet.\"\n       \"That is the very reason for which you should be put to death,\" they said;\n      \"for, while you do not fight yourself, your trumpet stirs all the others\n      to battle.\""
+}

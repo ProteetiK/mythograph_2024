@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "peasant"
+    },
+    {
+      "id": "axe"
+    },
+    {
+      "id": "apple tree"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "fruit"
+    },
+    {
+      "id": "self interest"
+    },
+    {
+      "id": "men"
+    }
+  ],
+  "links": [
+    {
+      "source": "peasant",
+      "target": "axe",
+      "label": "cut",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "peasant",
+      "target": "apple tree",
+      "label": "have",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "fruit",
+      "label": "bear",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "self interest",
+      "target": "men",
+      "label": "move",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A PEASANT had in his garden an Apple-Tree which bore no fruit but only\n      served as a harbor for the sparrows and grasshoppers. He resolved to cut\n      it down, and taking his axe in his hand, made a bold stroke at its roots.\n      The grasshoppers and sparrows entreated him not to cut down the tree that\n      sheltered them, but to spare it, and they would sing to him and lighten\n      his labors. He paid no attention to their request, but gave the tree a\n      second and a third blow with his axe. When he reached the hollow of the\n      tree, he found a hive full of honey. Having tasted the honeycomb, he threw\n      down his axe, and looking on the tree as sacred, took great care of it. Self-interest alone moves some men."
+}

@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "axe"
+    },
+    {
+      "id": "handle"
+    },
+    {
+      "id": "we"
+    },
+    {
+      "id": "privileges"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "axe",
+      "label": "fell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "handle",
+      "label": "fit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "we",
+      "target": "privileges",
+      "label": "retain",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MAN came into a forest and asked the Trees to provide him a handle for\n      his axe. The Trees consented to his request and gave him a young ash-tree.\n      No sooner had the man fitted a new handle to his axe from it, than he\n      began to use it and quickly felled with his strokes the noblest giants of\n      the forest. An old oak, lamenting when too late the destruction of his\n      companions, said to a neighboring cedar, \"The first step has lost us all.\n      If we had not given up the rights of the ash, we might yet have retained\n      our own privileges and have stood for ages.\""
+}

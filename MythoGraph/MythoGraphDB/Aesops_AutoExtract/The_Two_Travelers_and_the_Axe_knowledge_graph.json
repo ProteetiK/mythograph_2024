@@ -1,0 +1,103 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "one"
+    },
+    {
+      "id": "axe"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "nay"
+    },
+    {
+      "id": "other"
+    },
+    {
+      "id": "we"
+    },
+    {
+      "id": "owner"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "are"
+    },
+    {
+      "id": "danger"
+    }
+  ],
+  "links": [
+    {
+      "source": "one",
+      "target": "axe",
+      "label": "pick",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "axe",
+      "target": "are",
+      "label": "speak",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "axe",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "nay",
+      "target": "other",
+      "label": "reply",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "nay",
+      "target": "other",
+      "label": "reply",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "we",
+      "target": "axe",
+      "label": "find",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "owner",
+      "target": "nay",
+      "label": "pursue",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "axe",
+      "label": "pick",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "danger",
+      "label": "share",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "TWO MEN were journeying together. One of them picked up an axe that lay\n      upon the path, and said, \"I have found an axe.\" \"Nay, my friend,\" replied\n      the other, \"do not say \u2018I,' but \u2018We' have found an axe.\" They had not gone\n      far before they saw the owner of the axe pursuing them, and he who had\n      picked up the axe said, \"We are undone.\" \"Nay,\" replied the other, \"keep\n      to your first mode of speech, my friend; what you thought right then,\n      think right now. Say \u2018I,' not \u2018We' are undone.\" He who shares the danger ought to share the prize."
+}

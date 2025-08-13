@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "water"
+    },
+    {
+      "id": "us"
+    }
+  ],
+  "links": [
+    {
+      "source": "water",
+      "target": "us",
+      "label": "fail",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "TWO FROGS dwelt in the same pool. When the pool dried up under the\n      summer's heat, they left it and set out together for another home. As they\n      went along they chanced to pass a deep well, amply supplied with water,\n      and when they saw it, one of the Frogs said to the other, \"Let us descend\n      and make our abode in this well: it will furnish us with shelter and\n      food.\" The other replied with greater caution, \"But suppose the water\n      should fail us. How can we get out again from so great a depth?\" Do nothing without a regard to the consequences."
+}

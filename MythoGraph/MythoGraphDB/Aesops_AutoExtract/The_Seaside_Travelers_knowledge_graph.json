@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "travelers"
+    },
+    {
+      "id": "harbor"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "beach"
+    },
+    {
+      "id": "anticipations"
+    },
+    {
+      "id": "realities"
+    }
+  ],
+  "links": [
+    {
+      "source": "travelers",
+      "target": "harbor",
+      "label": "waited",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "harbor",
+      "label": "enter",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "beach",
+      "label": "reach",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "anticipations",
+      "target": "realities",
+      "label": "outrun",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "SOME TRAVELERS, journeying along the seashore, climbed to the summit of a\n      tall cliff, and looking over the sea, saw in the distance what they\n      thought was a large ship. They waited in the hope of seeing it enter the\n      harbor, but as the object on which they looked was driven nearer to shore\n      by the wind, they found that it could at the most be a small boat, and not\n      a ship. When however it reached the beach, they discovered that it was\n      only a large faggot of sticks, and one of them said to his companions, \"We\n      have waited for no purpose, for after all there is nothing to see but a\n      load of wood.\" Our mere anticipations of life outrun its realities."
+}

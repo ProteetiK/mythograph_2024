@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "##ag"
+    },
+    {
+      "id": "feet"
+    }
+  ],
+  "links": [
+    {
+      "source": "##ag",
+      "target": "feet",
+      "label": "contemplating",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A STAG overpowered by heat came to a spring to drink. Seeing his own\n      shadow reflected in the water, he greatly admired the size and variety of\n      his horns, but felt angry with himself for having such slender and weak\n      feet. While he was thus contemplating himself, a Lion appeared at the pool\n      and crouched to spring upon him. The Stag immediately took to flight, and\n      exerting his utmost speed, as long as the plain was smooth and open kept\n      himself easily at a safe distance from the Lion. But entering a wood he\n      became entangled by his horns, and the Lion quickly came up to him and\n      caught him. When too late, he thus reproached himself: \"Woe is me! How I\n      have deceived myself! These feet which would have saved me I despised, and\n      I gloried in these antlers which have proved my destruction.\" What is most truly valuable is often underrated."
+}

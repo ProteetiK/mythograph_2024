@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "faults"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "faults",
+      "label": "blind",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "EVERY MAN, according to an ancient legend, is born into the world with two\n      bags suspended from his neck all bag in front full of his neighbors'\n      faults, and a large bag behind filled with his own faults. Hence it is\n      that men are quick to see the faults of others, and yet are often blind to\n      their own failings."
+}

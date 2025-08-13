@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "ox"
+    },
+    {
+      "id": "frogs"
+    },
+    {
+      "id": "mother"
+    },
+    {
+      "id": "brothers"
+    },
+    {
+      "id": "frog"
+    },
+    {
+      "id": "beast size"
+    }
+  ],
+  "links": [
+    {
+      "source": "ox",
+      "target": "frogs",
+      "label": "crushed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "mother",
+      "target": "brothers",
+      "label": "inquired",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "frog",
+      "target": "beast size",
+      "label": "inquire",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN OX drinking at a pool trod on a brood of young frogs and crushed one of\n      them to death. The Mother coming up, and missing one of her sons, inquired\n      of his brothers what had become of him. \"He is dead, dear Mother; for just\n      now a very huge beast with four great feet came to the pool and crushed\n      him to death with his cloven heel.\" The Frog, puffing herself out,\n      inquired, \"if the beast was as big as that in size.\" \"Cease, Mother, to\n      puff yourself out,\" said her son, \"and do not be angry; for you would, I\n      assure you, sooner burst than successfully imitate the hugeness of that\n      monster.\""
+}

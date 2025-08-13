@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "ass"
+    },
+    {
+      "id": "til"
+    },
+    {
+      "id": "owner"
+    },
+    {
+      "id": "monkey"
+    },
+    {
+      "id": "thing"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "amusement"
+    }
+  ],
+  "links": [
+    {
+      "source": "ass",
+      "target": "til",
+      "label": "broke",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "owner",
+      "target": "monkey",
+      "label": "beating",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "thing",
+      "label": "do",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "amusement",
+      "label": "afford",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN ASS climbed up to the roof of a building, and frisking about there,\n      broke in the tiling. The owner went up after him and quickly drove him\n      down, beating him severely with a thick wooden cudgel. The Ass said, \"Why,\n      I saw the Monkey do this very thing yesterday, and you all laughed\n      heartily, as if it afforded you very great amusement.\""
+}

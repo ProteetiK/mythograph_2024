@@ -1,0 +1,126 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "thief"
+    },
+    {
+      "id": "room"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "inn"
+    },
+    {
+      "id": "days"
+    },
+    {
+      "id": "conversation"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "fit"
+    },
+    {
+      "id": "what"
+    },
+    {
+      "id": "tale"
+    },
+    {
+      "id": "alarmed"
+    },
+    {
+      "id": "hold"
+    },
+    {
+      "id": "time"
+    }
+  ],
+  "links": [
+    {
+      "source": "thief",
+      "target": "room",
+      "label": "hire",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "thief",
+      "target": "hold",
+      "label": "lay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "inn",
+      "label": "enable",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "inn",
+      "target": "days",
+      "label": "wait",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "inn",
+      "target": "fit",
+      "label": "commence",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "inn",
+      "target": "what",
+      "label": "speak",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "inn",
+      "target": "time",
+      "label": "yawn",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "conversation",
+      "target": "thief",
+      "label": "begin",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "inn",
+      "label": "tear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "inn",
+      "label": "tear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "tale",
+      "target": "alarmed",
+      "label": "become",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A THIEF hired a room in a tavern and stayed a while in the hope of\n      stealing something which should enable him to pay his reckoning. When he\n      had waited some days in vain, he saw the Innkeeper dressed in a new and\n      handsome coat and sitting before his door. The Thief sat down beside him\n      and talked with him. As the conversation began to flag, the Thief yawned\n      terribly and at the same time howled like a wolf. The Innkeeper said, \"Why\n      do you howl so fearfully?\" \"I will tell you,\" said the Thief, \"but first\n      let me ask you to hold my clothes, or I shall tear them to pieces. I know\n      not, sir, when I got this habit of yawning, nor whether these attacks of\n      howling were inflicted on me as a judgment for my crimes, or for any other\n      cause; but this I do know, that when I yawn for the third time, I actually\n      turn into a wolf and attack men.\" With this speech he commenced a second\n      fit of yawning and again howled like a wolf, as he had at first. The\n      Innkeeper, hearing his tale and believing what he said, became greatly\n      alarmed and, rising from his seat, attempted to run away. The Thief laid\n      hold of his coat and entreated him to stop, saying, \"Pray wait, sir, and\n      hold my clothes, or I shall tear them to pieces in my fury, when I turn\n      into a wolf.\" At the same moment he yawned the third time and set up a\n      terrible howl. The Innkeeper, frightened lest he should be attacked, left\n      his new coat in the Thief's hand and ran as fast as he could into the inn\n      for safety. The Thief made off with the coat and did not return again to\n      the inn. Every tale is not to be believed."
+}

@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "thief"
+    },
+    {
+      "id": "pieces"
+    },
+    {
+      "id": "dog"
+    },
+    {
+      "id": "mouth"
+    },
+    {
+      "id": "kindness"
+    },
+    {
+      "id": "watchful"
+    }
+  ],
+  "links": [
+    {
+      "source": "thief",
+      "target": "pieces",
+      "label": "throw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "dog",
+      "target": "mouth",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "kindness",
+      "target": "watchful",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A THIEF came in the night to break into a house. He brought with him\n      several slices of meat in order to pacify the Housedog, so that he would\n      not alarm his master by barking. As the Thief threw him the pieces of\n      meat, the Dog said, \"If you think to stop my mouth, you will be greatly\n      mistaken. This sudden kindness at your hands will only make me more\n      watchful, lest under these unexpected favors to myself, you have some\n      private ends to accomplish for your own benefit, and for my master's\n      injury.\""
+}

@@ -1,0 +1,82 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "shepherd"
+    },
+    {
+      "id": "food"
+    },
+    {
+      "id": "some"
+    },
+    {
+      "id": "sticks"
+    },
+    {
+      "id": "panther"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "reply"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "fears"
+    },
+    {
+      "id": "who"
+    }
+  ],
+  "links": [
+    {
+      "source": "shepherd",
+      "target": "food",
+      "label": "discovered",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "some",
+      "target": "sticks",
+      "label": "throw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "panther",
+      "target": "himself",
+      "label": "free",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "panther",
+      "target": "reply",
+      "label": "make",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "fears",
+      "label": "remember",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "food",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A PANTHER, by some mischance, fell into a pit. The Shepherds discovered\n      him, and some threw sticks at him and pelted him with stones, while\n      others, moved with compassion towards one about to die even though no one\n      should hurt him, threw in some food to prolong his life. At night they\n      returned home, not dreaming of any danger, but supposing that on the\n      morrow they would find him dead. The Panther, however, when he had\n      recruited his feeble strength, freed himself with a sudden bound from the\n      pit, and hastened to his den with rapid steps. After a few days he came\n      forth and slaughtered the cattle, and, killing the Shepherds who had\n      attacked him, raged with angry fury. Then they who had spared his life,\n      fearing for their safety, surrendered to him their flocks and begged only\n      for their lives. To them the Panther made this reply: \"I remember alike\n      those who sought my life with stones, and those who gave me food aside,\n      therefore, your fears. I return as an enemy only to those who injured me.\""
+}

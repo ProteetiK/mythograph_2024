@@ -1,0 +1,62 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "philosopher"
+    },
+    {
+      "id": "vessel"
+    },
+    {
+      "id": "mercury"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "thyself"
+    },
+    {
+      "id": "judge dealings providence manner"
+    },
+    {
+      "id": "ants"
+    }
+  ],
+  "links": [
+    {
+      "source": "philosopher",
+      "target": "vessel",
+      "label": "ind",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "mercury",
+      "target": "himself",
+      "label": "present",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "thyself",
+      "label": "hast",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "judge dealings providence manner",
+      "target": "ants",
+      "label": "treat",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A PHILOSOPHER witnessed from the shore the shipwreck of a vessel, of which\n      the crew and passengers were all drowned. He inveighed against the\n      injustice of Providence, which would for the sake of one criminal\n      perchance sailing in the ship allow so many innocent persons to perish. As\n      he was indulging in these reflections, he found himself surrounded by a\n      whole army of Ants, near whose nest he was standing. One of them climbed\n      up and stung him, and he immediately trampled them all to death with his\n      foot. Mercury presented himself, and striking the Philosopher with his\n      wand, said, \"And are you indeed to make yourself a judge of the dealings\n      of Providence, who hast thyself in a similar manner treated these poor\n      Ants?\""
+}

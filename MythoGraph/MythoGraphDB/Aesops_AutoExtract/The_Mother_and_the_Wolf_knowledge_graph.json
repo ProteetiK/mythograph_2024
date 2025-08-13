@@ -1,0 +1,119 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "cottage"
+    },
+    {
+      "id": "mother"
+    },
+    {
+      "id": "child"
+    },
+    {
+      "id": "forsooth"
+    },
+    {
+      "id": "door"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "we"
+    },
+    {
+      "id": "den mistress wolf"
+    },
+    {
+      "id": "wo"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "credence"
+    }
+  ],
+  "links": [
+    {
+      "source": "wolf",
+      "target": "cottage",
+      "label": "##wl",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "you",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "mother",
+      "target": "child",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "forsooth",
+      "target": "door",
+      "label": "pass",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "forsooth",
+      "target": "den mistress wolf",
+      "label": "reach",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "forsooth",
+      "target": "wo",
+      "label": "return",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "forsooth",
+      "target": "forsooth",
+      "label": "reply",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "child",
+      "label": "fondle",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "we",
+      "target": "forsooth",
+      "label": "kill",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "credence",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FAMISHED WOLF was prowling about in the morning in search of food. As he\n      passed the door of a cottage built in the forest, he heard a Mother say to\n      her child, \"Be quiet, or I will throw you out of the window, and the Wolf\n      shall eat you.\" The Wolf sat all day waiting at the door. In the evening\n      he heard the same woman fondling her child and saying: \"You are quiet now,\n      and if the Wolf should come, we will kill him.\" The Wolf, hearing these\n      words, went home, gasping with cold and hunger. When he reached his den,\n      Mistress Wolf inquired of him why he returned wearied and supperless, so\n      contrary to his wont. He replied: \"Why, forsooth! use I gave credence to\n      the words of a woman!\""
+}

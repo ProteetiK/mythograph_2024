@@ -1,0 +1,72 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "robber"
+    },
+    {
+      "id": "sword"
+    },
+    {
+      "id": "other"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "companion"
+    },
+    {
+      "id": "cloak"
+    },
+    {
+      "id": "'ll"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "care"
+    }
+  ],
+  "links": [
+    {
+      "source": "robber",
+      "target": "sword",
+      "label": "slain",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "other",
+      "target": "ground",
+      "label": "stand",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "companion",
+      "target": "robber",
+      "label": "run",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "cloak",
+      "target": "'ll",
+      "label": "speak",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "care",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "TWO SOLDIERS traveling together were set upon by a Robber. The one fled\n      away; the other stood his ground and defended himself with his stout right\n      hand. The Robber being slain, the timid companion ran up and drew his\n      sword, and then, throwing back his traveling cloak said, \"I'll at him, and\n      I'll take care he shall learn whom he has attacked.\" On this, he who had\n      fought with the Robber made answer, \"I only wish that you had helped me\n      just now, even if it had been only with those words, for I should have\n      been the more encouraged, believing them to be true; but now put up your\n      sword in its sheath and hold your equally useless tongue, till you can\n      deceive others who do not know you. I, indeed, who have experienced with\n      what speed you run away, know right well that no dependence can be placed\n      on your valor.\""
+}

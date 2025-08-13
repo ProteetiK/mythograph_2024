@@ -1,0 +1,30 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "name"
+    }
+  ],
+  "links": [
+    {
+      "source": "wolf",
+      "target": "wolf",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "name",
+      "label": "give",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AT ONE TIME a very large and strong Wolf was born among the wolves, who\n      exceeded all his fellow-wolves in strength, size, and swiftness, so that\n      they unanimously decided to call him \"Lion.\" The Wolf, with a lack of\n      sense proportioned to his enormous size, thought that they gave him this\n      name in earnest, and, leaving his own race, consorted exclusively with the\n      lions. An old sly Fox, seeing this, said, \"May I never make myself so\n      ridiculous as you do in your pride and self-conceit; for even though you\n      have the size of a lion among wolves, in a herd of lions you are\n      definitely a wolf.\""
+}

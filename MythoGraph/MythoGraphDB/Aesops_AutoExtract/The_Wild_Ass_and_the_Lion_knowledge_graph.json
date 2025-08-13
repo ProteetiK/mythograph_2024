@@ -1,0 +1,53 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "ass"
+    },
+    {
+      "id": "lion"
+    },
+    {
+      "id": "benefit"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "share"
+    }
+  ],
+  "links": [
+    {
+      "source": "ass",
+      "target": "lion",
+      "label": "assist",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "lion",
+      "label": "give",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "benefit",
+      "label": "give",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "share",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WILD ASS and a Lion entered into an alliance so that they might capture\n      the beasts of the forest with greater ease. The Lion agreed to assist the\n      Wild Ass with his strength, while the Wild Ass gave the Lion the benefit\n      of his greater speed. When they had taken as many beasts as their\n      necessities required, the Lion undertook to distribute the prey, and for\n      this purpose divided it into three shares. \"I will take the first share,\"\n       he said, \"because I am King: and the second share, as a partner with you\n      in the chase: and the third share (believe me) will be a source of great\n      evil to you, unless you willingly resign it to me, and set off as fast as\n      you can.\" Might makes right."
+}

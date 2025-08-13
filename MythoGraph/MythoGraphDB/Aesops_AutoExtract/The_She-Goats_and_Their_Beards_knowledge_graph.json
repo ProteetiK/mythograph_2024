@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "she goats"
+    },
+    {
+      "id": "beard"
+    },
+    {
+      "id": "females"
+    },
+    {
+      "id": "jupiter"
+    },
+    {
+      "id": "camel"
+    },
+    {
+      "id": "which"
+    }
+  ],
+  "links": [
+    {
+      "source": "she goats",
+      "target": "beard",
+      "label": "obtain",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "females",
+      "target": "jupiter",
+      "label": "equal",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "which",
+      "label": "like",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "camel",
+      "target": "jupiter",
+      "label": "ask",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE SHE-GOATS having obtained a beard by request to Jupiter, the He-Goats\n      were sorely displeased and made complaint that the females equaled them in\n      dignity. \"Allow them,\" said Jupiter, \"to enjoy an empty honor and to\n      assume the badge of your nobler sex, so long as they are not your equals\n      in strength or courage.\" It matters little if those who are inferior to us in merit should be like\n      us in outside appearances. The Camel and the Arab AN ARAB CAMEL-DRIVER, after completing the loading of his Camel, asked him\n      which he would like best, to go up hill or down. The poor beast replied,\n      not without a touch of reason: \"Why do you ask me? Is it that the level\n      way through the desert is closed?\""
+}

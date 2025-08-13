@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bull"
+    },
+    {
+      "id": "mouse"
+    },
+    {
+      "id": "hole"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "times"
+    }
+  ],
+  "links": [
+    {
+      "source": "bull",
+      "target": "mouse",
+      "label": "sleep",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "mouse",
+      "target": "hole",
+      "label": "reach",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "mouse",
+      "target": "which",
+      "label": "speak",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "times",
+      "label": "be",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BULL was bitten by a Mouse and, angered by the wound, tried to capture\n      him. But the Mouse reached his hole in safety. Though the Bull dug into\n      the walls with his horns, he tired before he could rout out the Mouse, and\n      crouching down, went to sleep outside the hole. The Mouse peeped out,\n      crept furtively up his flank, and again biting him, retreated to his hole.\n      The Bull rising up, and not knowing what to do, was sadly perplexed. At\n      which the Mouse said, \"The great do not always prevail. There are times\n      when the small and lowly are the strongest to do mischief.\""
+}

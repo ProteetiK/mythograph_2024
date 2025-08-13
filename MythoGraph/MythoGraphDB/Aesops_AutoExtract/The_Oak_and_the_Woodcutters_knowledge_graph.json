@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "woodcutter"
+    },
+    {
+      "id": "mountain oak"
+    }
+  ],
+  "links": [
+    {
+      "source": "woodcutter",
+      "target": "mountain oak",
+      "label": "cut",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE WOODCUTTER cut down a Mountain Oak and split it in pieces, making\n      wedges of its own branches for dividing the trunk. The Oak said with a\n      sigh, \"I do not care about the blows of the axe aimed at my roots, but I\n      do grieve at being torn in pieces by these wedges made from my own\n      branches.\" Misfortunes springing from ourselves are the hardest to bear."
+}

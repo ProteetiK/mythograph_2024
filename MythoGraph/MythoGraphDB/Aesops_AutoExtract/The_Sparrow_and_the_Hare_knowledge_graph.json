@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "eagle"
+    },
+    {
+      "id": "child"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "safe"
+    },
+    {
+      "id": "calamity"
+    },
+    {
+      "id": "reason"
+    }
+  ],
+  "links": [
+    {
+      "source": "eagle",
+      "target": "child",
+      "label": "cries",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "safe",
+      "label": "suppose",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "calamity",
+      "target": "reason",
+      "label": "have",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A HARE pounced upon by an eagle sobbed very much and uttered cries like a\n      child. A Sparrow upbraided her and said, \"Where now is thy remarkable\n      swiftness of foot? Why were your feet so slow?\" While the Sparrow was thus\n      speaking, a hawk suddenly seized him and killed him. The Hare was\n      comforted in her death, and expiring said, \"Ah! you who so lately, when\n      you supposed yourself safe, exulted over my calamity, have now reason to\n      deplore a similar misfortune.\""
+}

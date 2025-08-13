@@ -1,0 +1,43 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wizard"
+    },
+    {
+      "id": "goods"
+    },
+    {
+      "id": "fortunes"
+    },
+    {
+      "id": "you"
+    }
+  ],
+  "links": [
+    {
+      "source": "wizard",
+      "target": "goods",
+      "label": "sighed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "wizard",
+      "target": "fortunes",
+      "label": "tell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "fortunes",
+      "label": "foretell",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WIZARD, sitting in the marketplace, was telling the fortunes of the\n      passers-by when a person ran up in great haste, and announced to him that\n      the doors of his house had been broken open and that all his goods were\n      being stolen. He sighed heavily and hastened away as fast as he could run.\n      A neighbor saw him running and said, \"Oh! you fellow there! you say you\n      can foretell the fortunes of others; how is it you did not foresee your\n      own?\""
+}

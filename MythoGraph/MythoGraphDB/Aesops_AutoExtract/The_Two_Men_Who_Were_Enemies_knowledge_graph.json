@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "death enemy"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "death enemy",
+      "label": "speak",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "TWO MEN, deadly enemies to each other, were sailing in the same vessel.\n      Determined to keep as far apart as possible, the one seated himself in the\n      stem, and the other in the prow of the ship. A violent storm arose, and\n      with the vessel in great danger of sinking, the one in the stern inquired\n      of the pilot which of the two ends of the ship would go down first. On his\n      replying that he supposed it would be the prow, the Man said, \"Death would\n      not be grievous to me, if I could only see my Enemy die before me.\""
+}

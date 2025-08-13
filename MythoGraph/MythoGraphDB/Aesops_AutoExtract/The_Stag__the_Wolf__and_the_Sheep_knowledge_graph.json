@@ -1,0 +1,69 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "##ag"
+    },
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "stag"
+    },
+    {
+      "id": "sheep"
+    },
+    {
+      "id": "herself"
+    },
+    {
+      "id": "what"
+    },
+    {
+      "id": "blacks"
+    },
+    {
+      "id": "white"
+    }
+  ],
+  "links": [
+    {
+      "source": "##ag",
+      "target": "wolf",
+      "label": "asked",
+      "motif": "Communication",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "what",
+      "label": "want",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "stag",
+      "target": "sheep",
+      "label": "ask",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "sheep",
+      "target": "herself",
+      "label": "excuse",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "blacks",
+      "target": "white",
+      "label": "make",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A STAG asked a Sheep to lend him a measure of wheat, and said that the\n      Wolf would be his surety. The Sheep, fearing some fraud was intended,\n      excused herself, saying, \"The Wolf is accustomed to seize what he wants\n      and to run off; and you, too, can quickly outstrip me in your rapid\n      flight. How then shall I be able to find you, when the day of payment\n      comes?\" Two blacks do not make one white."
+}

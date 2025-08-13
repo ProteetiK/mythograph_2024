@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "traveler"
+    },
+    {
+      "id": "fortune"
+    },
+    {
+      "id": "pray"
+    }
+  ],
+  "links": [
+    {
+      "source": "traveler",
+      "target": "fortune",
+      "label": "addressed",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "pray",
+      "target": "pray",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A TRAVELER wearied from a long journey lay down, overcome with fatigue, on\n      the very brink of a deep well. Just as he was about to fall into the\n      water, Dame Fortune, it is said, appeared to him and waking him from his\n      slumber thus addressed him: \"Good Sir, pray wake up: for if you fall into\n      the well, the blame will be thrown on me, and I shall get an ill name\n      among mortals; for I find that men are sure to impute their calamities to\n      me, however much by their own folly they have really brought them on\n      themselves.\" Everyone is more or less master of his own fate."
+}

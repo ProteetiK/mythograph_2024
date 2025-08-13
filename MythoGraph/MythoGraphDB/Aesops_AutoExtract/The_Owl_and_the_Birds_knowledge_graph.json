@@ -1,0 +1,112 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "owl"
+    },
+    {
+      "id": "##orn"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "acorns"
+    },
+    {
+      "id": "mistletoe"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "good"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "darts"
+    },
+    {
+      "id": "credence"
+    },
+    {
+      "id": "warning words"
+    }
+  ],
+  "links": [
+    {
+      "source": "owl",
+      "target": "##orn",
+      "label": "##ed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "owl",
+      "target": "birds",
+      "label": "counsel",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "owl",
+      "target": "ground",
+      "label": "counsel",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "credence",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "warning words",
+      "label": "give",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "acorns",
+      "target": "mistletoe",
+      "label": "produce",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "which",
+      "label": "sow",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "good",
+      "label": "bode",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "darts",
+      "label": "contrive",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN OWL, in her wisdom, counseled the Birds that when the acorn first began\n      to sprout, to pull it all up out of the ground and not allow it to grow.\n      She said acorns would produce mistletoe, from which an irremediable\n      poison, the bird-lime, would be extracted and by which they would be\n      captured. The Owl next advised them to pluck up the seed of the flax,\n      which men had sown, as it was a plant which boded no good to them. And,\n      lastly, the Owl, seeing an archer approach, predicted that this man, being\n      on foot, would contrive darts armed with feathers which would fly faster\n      than the wings of the Birds themselves. The Birds gave no credence to\n      these warning words, but considered the Owl to be beside herself and said\n      that she was mad. But afterwards, finding her words were true, they\n      wondered at her knowledge and deemed her to be the wisest of birds. Hence\n      it is that when she appears they look to her as knowing all things, while\n      she no longer gives them advice, but in solitude laments their past folly."
+}

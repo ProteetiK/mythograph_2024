@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "one"
+    },
+    {
+      "id": "pond"
+    },
+    {
+      "id": "frog"
+    },
+    {
+      "id": "friend"
+    },
+    {
+      "id": "other"
+    }
+  ],
+  "links": [
+    {
+      "source": "one",
+      "target": "pond",
+      "label": "inhabit",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "frog",
+      "target": "friend",
+      "label": "warn",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "other",
+      "target": "frog",
+      "label": "refuse",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "TWO FROGS were neighbors. One inhabited a deep pond, far removed from\n      public view; the other lived in a gully containing little water, and\n      traversed by a country road. The Frog that lived in the pond warned his\n      friend to change his residence and entreated him to come and live with\n      him, saying that he would enjoy greater safety from danger and more\n      abundant food. The other refused, saying that he felt it so very hard to\n      leave a place to which he had become accustomed. A few days afterwards a\n      heavy wagon passed through the gully and crushed him to death under its\n      wheels. A willful man will have his way to his own hurt."
+}

@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "serpent"
+    },
+    {
+      "id": "bird"
+    },
+    {
+      "id": "advantage"
+    },
+    {
+      "id": "eagle"
+    },
+    {
+      "id": "free"
+    },
+    {
+      "id": "poison"
+    },
+    {
+      "id": "hand"
+    }
+  ],
+  "links": [
+    {
+      "source": "serpent",
+      "target": "bird",
+      "label": "irritated",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "serpent",
+      "target": "advantage",
+      "label": "have",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "serpent",
+      "target": "poison",
+      "label": "inject",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "free",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "hand",
+      "label": "strike",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A SERPENT and an Eagle were struggling with each other in deadly conflict.\n      The Serpent had the advantage, and was about to strangle the bird. A\n      countryman saw them, and running up, loosed the coil of the Serpent and\n      let the Eagle go free. The Serpent, irritated at the escape of his prey,\n      injected his poison into the drinking horn of the countryman. The rustic,\n      ignorant of his danger, was about to drink, when the Eagle struck his hand\n      with his wing, and, seizing the drinking horn in his talons, carried it\n      aloft."
+}

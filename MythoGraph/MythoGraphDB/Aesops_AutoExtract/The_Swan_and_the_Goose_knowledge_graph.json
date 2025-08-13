@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "swan"
+    },
+    {
+      "id": "goose"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "swan",
+      "label": "fed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "goose",
+      "label": "buy",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CERTAIN rich man bought in the market a Goose and a Swan. He fed the one\n      for his table and kept the other for the sake of its song. When the time\n      came for killing the Goose, the cook went to get him at night, when it was\n      dark, and he was not able to distinguish one bird from the other. By\n      mistake he caught the Swan instead of the Goose. The Swan, threatened with\n      death, burst forth into song and thus made himself known by his voice, and\n      preserved his life by his melody."
+}

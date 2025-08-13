@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "mule"
+    },
+    {
+      "id": "racer"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "mistake"
+    }
+  ],
+  "links": [
+    {
+      "source": "mule",
+      "target": "racer",
+      "label": "gallo",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "mistake",
+      "label": "make",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MULE, frolicsome from lack of work and from too much corn, galloped\n      about in a very extravagant manner, and said to himself: \"My father surely\n      was a high-mettled racer, and I am his own child in speed and spirit.\" On\n      the next day, being driven a long journey, and feeling very wearied, he\n      exclaimed in a disconsolate tone: \"I must have made a mistake; my father,\n      after all, could have been only an ass.\""
+}

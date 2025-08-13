@@ -1,0 +1,30 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "log"
+    }
+  ],
+  "links": [
+    {
+      "source": "wolf",
+      "target": "log",
+      "label": "drag",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "log",
+      "label": "ask",
+      "motif": "Guidance",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WOLF, meeting a big well-fed Mastiff with a wooden collar about his neck\n      asked him who it was that fed him so well and yet compelled him to drag\n      that heavy log about wherever he went. \"The master,\" he replied. Then said\n      the Wolf: \"May no friend of mine ever be in such a plight; for the weight\n      of this chain is enough to spoil the appetite.\""
+}

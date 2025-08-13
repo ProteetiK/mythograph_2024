@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "monkey"
+    },
+    {
+      "id": "river"
+    },
+    {
+      "id": "fishermen"
+    },
+    {
+      "id": "nets"
+    },
+    {
+      "id": "fishing"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "net"
+    }
+  ],
+  "links": [
+    {
+      "source": "monkey",
+      "target": "river",
+      "label": "descended",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "fishermen",
+      "target": "nets",
+      "label": "cast",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fishermen",
+      "target": "fishing",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "net",
+      "label": "handle",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MONKEY perched upon a lofty tree saw some Fishermen casting their nets\n      into a river, and narrowly watched their proceedings. The Fishermen after\n      a while gave up fishing, and on going home to dinner left their nets upon\n      the bank. The Monkey, who is the most imitative of animals, descended from\n      the treetop and endeavored to do as they had done. Having handled the net,\n      he threw it into the river, but became tangled in the meshes and drowned.\n      With his last breath he said to himself, \"I am rightly served; for what\n      business had I who had never handled a net to try and catch fish?\""
+}

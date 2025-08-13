@@ -1,0 +1,83 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "sheep"
+    },
+    {
+      "id": "shepherd"
+    },
+    {
+      "id": "enemy"
+    },
+    {
+      "id": "flock"
+    },
+    {
+      "id": "occasion"
+    },
+    {
+      "id": "opportunity"
+    },
+    {
+      "id": "i"
+    }
+  ],
+  "links": [
+    {
+      "source": "wolf",
+      "target": "sheep",
+      "label": "followed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "sheep",
+      "label": "leave",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "flock",
+      "label": "follow",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "opportunity",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "shepherd",
+      "target": "enemy",
+      "label": "watch",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "occasion",
+      "target": "wolf",
+      "label": "call",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "sheep",
+      "label": "trust",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WOLF followed a flock of sheep for a long time and did not attempt to\n      injure one of them. The Shepherd at first stood on his guard against him,\n      as against an enemy, and kept a strict watch over his movements. But when\n      the Wolf, day after day, kept in the company of the sheep and did not make\n      the slightest effort to seize them, the Shepherd began to look upon him as\n      a guardian of his flock rather than as a plotter of evil against it; and\n      when occasion called him one day into the city, he left the sheep entirely\n      in his charge. The Wolf, now that he had the opportunity, fell upon the\n      sheep, and destroyed the greater part of the flock. When the Shepherd\n      returned to find his flock destroyed, he exclaimed: \"I have been rightly\n      served; why did I trust my sheep to a Wolf?\""
+}

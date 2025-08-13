@@ -1,0 +1,75 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "stag"
+    },
+    {
+      "id": "shelter"
+    },
+    {
+      "id": "ox"
+    },
+    {
+      "id": "warning"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "destruction"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "straw"
+    },
+    {
+      "id": "fellows"
+    },
+    {
+      "id": "cobwebs"
+    }
+  ],
+  "links": [
+    {
+      "source": "stag",
+      "target": "shelter",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "ox",
+      "target": "warning",
+      "label": "give",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "destruction",
+      "label": "incur",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "straw",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "fellows",
+      "target": "cobwebs",
+      "label": "sweep",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A STAG, roundly chased by the hounds and blinded by fear to the danger he\n      was running into, took shelter in a farmyard and hid himself in a shed\n      among the oxen. An Ox gave him this kindly warning: \"O unhappy creature!\n      why should you thus, of your own accord, incur destruction and trust\n      yourself in the house of your enemy?\" The Stag replied: \"Only allow me,\n      friend, to stay where I am, and I will undertake to find some favorable\n      opportunity of effecting my escape.\" At the approach of the evening the\n      herdsman came to feed his cattle, but did not see the Stag; and even the\n      farm-bailiff with several laborers passed through the shed and failed to\n      notice him. The Stag, congratulating himself on his safety, began to\n      express his sincere thanks to the Oxen who had kindly helped him in the\n      hour of need. One of them again answered him: \"We indeed wish you well,\n      but the danger is not over. There is one other yet to pass through the\n      shed, who has as it were a hundred eyes, and until he has come and gone,\n      your life is still in peril.\" At that moment the master himself entered,\n      and having had to complain that his oxen had not been properly fed, he\n      went up to their racks and cried out: \"Why is there such a scarcity of\n      fodder? There is not half enough straw for them to lie on. Those lazy\n      fellows have not even swept the cobwebs away.\" While he thus examined\n      everything in turn, he spied the tips of the antlers of the Stag peeping\n      out of the straw. Then summoning his laborers, he ordered that the Stag\n      should be seized and killed."
+}

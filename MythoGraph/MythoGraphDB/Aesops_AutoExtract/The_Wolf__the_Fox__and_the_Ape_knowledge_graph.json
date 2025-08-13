@@ -1,0 +1,60 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "theft"
+    },
+    {
+      "id": "fox"
+    },
+    {
+      "id": "charge"
+    },
+    {
+      "id": "i"
+    }
+  ],
+  "links": [
+    {
+      "source": "wolf",
+      "target": "theft",
+      "label": "denied",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "fox",
+      "label": "accuse",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "charge",
+      "label": "deny",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "wolf",
+      "label": "think",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "fox",
+      "label": "believe",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WOLF accused a Fox of theft, but the Fox entirely denied the charge. An\n      Ape undertook to adjudge the matter between them. When each had fully\n      stated his case the Ape announced this sentence: \"I do not think you,\n      Wolf, ever lost what you claim; and I do believe you, Fox, to have stolen\n      what you so stoutly deny.\" The dishonest, if they act honestly, get no credit."
+}

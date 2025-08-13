@@ -1,0 +1,89 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "sun"
+    },
+    {
+      "id": "traveler"
+    },
+    {
+      "id": "north"
+    },
+    {
+      "id": "victor"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "cloak"
+    },
+    {
+      "id": "what"
+    },
+    {
+      "id": "rays"
+    },
+    {
+      "id": "garment"
+    }
+  ],
+  "links": [
+    {
+      "source": "sun",
+      "target": "traveler",
+      "label": "blew",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "traveler",
+      "target": "cloak",
+      "label": "wrap",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "traveler",
+      "target": "rays",
+      "label": "feel",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "north",
+      "target": "victor",
+      "label": "declare",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "north",
+      "target": "what",
+      "label": "do",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "north",
+      "target": "garment",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "man",
+      "label": "strip",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE NORTH WIND and the Sun disputed as to which was the most powerful, and\n      agreed that he should be declared the victor who could first strip a\n      wayfaring man of his clothes. The North Wind first tried his power and\n      blew with all his might, but the keener his blasts, the closer the\n      Traveler wrapped his cloak around him, until at last, resigning all hope\n      of victory, the Wind called upon the Sun to see what he could do. The Sun\n      suddenly shone out with all his warmth. The Traveler no sooner felt his\n      genial rays than he took off one garment after another, and at last,\n      fairly overcome with heat, undressed and bathed in a stream that lay in\n      his path. Persuasion is better than Force."
+}

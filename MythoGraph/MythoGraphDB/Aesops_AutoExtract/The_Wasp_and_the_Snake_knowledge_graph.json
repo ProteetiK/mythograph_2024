@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wasp"
+    },
+    {
+      "id": "wood"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "snake"
+    },
+    {
+      "id": "wagon wood"
+    }
+  ],
+  "links": [
+    {
+      "source": "wasp",
+      "target": "wood",
+      "label": "wounded",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "wasp",
+      "target": "himself",
+      "label": "seat",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "snake",
+      "target": "wagon wood",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WASP seated himself upon the head of a Snake and, striking him\n      unceasingly with his stings, wounded him to death. The Snake, being in\n      great torment and not knowing how to rid himself of his enemy, saw a wagon\n      heavily laden with wood, and went and purposely placed his head under the\n      wheels, saying, \"At least my enemy and I shall perish together.\""
+}

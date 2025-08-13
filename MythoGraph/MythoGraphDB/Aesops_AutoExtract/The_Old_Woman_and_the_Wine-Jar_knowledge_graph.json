@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "woman"
+    },
+    {
+      "id": "jar"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "smell"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "perfume"
+    }
+  ],
+  "links": [
+    {
+      "source": "woman",
+      "target": "jar",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "smell",
+      "label": "retain",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "perfume",
+      "label": "leave",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN OLD WOMAN found an empty jar which had lately been full of prime old\n      wine and which still retained the fragrant smell of its former contents.\n      She greedily placed it several times to her nose, and drawing it backwards\n      and forwards said, \"O most delicious! How nice must the Wine itself have\n      been, when it leaves behind in the very vessel which contained it so sweet\n      a perfume!\" The memory of a good deed lives."
+}

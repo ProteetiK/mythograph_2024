@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "truth"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "thou"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "city"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "truth",
+      "label": "inquired",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "woman",
+      "label": "meet",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "thou",
+      "label": "art",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "city",
+      "label": "leave",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WAYFARING MAN, traveling in the desert, met a woman standing alone and\n      terribly dejected. He inquired of her, \"Who art thou?\" \"My name is Truth,\"\n       she replied. \"And for what cause,\" he asked, \"have you left the city to\n      dwell alone here in the wilderness?\" She made answer, \"Because in former\n      times, falsehood was with few, but is now with all men.\""
+}

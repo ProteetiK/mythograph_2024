@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "boar"
+    },
+    {
+      "id": "trunk"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "danger"
+    }
+  ],
+  "links": [
+    {
+      "source": "boar",
+      "target": "trunk",
+      "label": "rubbed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "danger",
+      "label": "be",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WILD BOAR stood under a tree and rubbed his tusks against the trunk. A\n      Fox passing by asked him why he thus sharpened his teeth when there was no\n      danger threatening from either huntsman or hound. He replied, \"I do it\n      advisedly; for it would never do to have to sharpen my weapons just at the\n      time I ought to be using them.\""
+}

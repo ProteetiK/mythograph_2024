@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "weasel"
+    },
+    {
+      "id": "flour"
+    },
+    {
+      "id": "mouse"
+    },
+    {
+      "id": "food"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "trap"
+    },
+    {
+      "id": "trick"
+    }
+  ],
+  "links": [
+    {
+      "source": "weasel",
+      "target": "flour",
+      "label": "lay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "mouse",
+      "target": "food",
+      "label": "perished",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "trap",
+      "label": "escape",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "trick",
+      "label": "escape",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WEASEL, inactive from age and infirmities, was not able to catch mice as\n      he once did. He therefore rolled himself in flour and lay down in a dark\n      corner. A Mouse, supposing him to be food, leaped upon him, and was\n      instantly caught and squeezed to death. Another perished in a similar\n      manner, and then a third, and still others after them. A very old Mouse,\n      who had escaped many a trap and snare, observed from a safe distance the\n      trick of his crafty foe and said, \"Ah! you that lie there, may you prosper\n      just in the same proportion as you are what you pretend to be!\""
+}

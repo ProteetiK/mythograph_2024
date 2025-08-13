@@ -1,0 +1,89 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "peacock"
+    },
+    {
+      "id": "nightingale"
+    },
+    {
+      "id": "complaint"
+    },
+    {
+      "id": "ear"
+    },
+    {
+      "id": "juno"
+    },
+    {
+      "id": "mouth"
+    },
+    {
+      "id": "laughingstock"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "tail"
+    }
+  ],
+  "links": [
+    {
+      "source": "peacock",
+      "target": "nightingale",
+      "label": "pleased",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "peacock",
+      "target": "complaint",
+      "label": "make",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "nightingale",
+      "target": "ear",
+      "label": "please",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "juno",
+      "target": "mouth",
+      "label": "open",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "juno",
+      "target": "laughingstock",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "juno",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "tail",
+      "label": "unfold",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE PEACOCK made complaint to Juno that, while the nightingale pleased\n      every ear with his song, he himself no sooner opened his mouth than he\n      became a laughingstock to all who heard him. The Goddess, to console him,\n      said, \"But you far excel in beauty and in size. The splendor of the\n      emerald shines in your neck and you unfold a tail gorgeous with painted\n      plumage.\" \"But for what purpose have I,\" said the bird, \"this dumb beauty\n      so long as I am surpassed in song?\" \"The lot of each,\" replied Juno, \"has\n      been assigned by the will of the Fates\u2014to thee, beauty; to the\n      eagle, strength; to the nightingale, song; to the raven, favorable, and to\n      the crow, unfavorable auguries. These are all contented with the\n      endowments allotted to them.\""
+}

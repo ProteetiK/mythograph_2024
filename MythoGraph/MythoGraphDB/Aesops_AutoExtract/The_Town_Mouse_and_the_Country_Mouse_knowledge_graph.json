@@ -1,0 +1,72 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "country mouse"
+    },
+    {
+      "id": "satisfaction"
+    },
+    {
+      "id": "someone"
+    },
+    {
+      "id": "door"
+    },
+    {
+      "id": "mouse"
+    },
+    {
+      "id": "squeaking"
+    },
+    {
+      "id": "repast"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "plowlands"
+    }
+  ],
+  "links": [
+    {
+      "source": "country mouse",
+      "target": "satisfaction",
+      "label": "express",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "someone",
+      "target": "door",
+      "label": "open",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "mouse",
+      "target": "squeaking",
+      "label": "run",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "mouse",
+      "target": "repast",
+      "label": "begin",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "plowlands",
+      "label": "prefer",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A COUNTRY MOUSE invited a Town Mouse, an intimate friend, to pay him a\n      visit and partake of his country fare. As they were on the bare plowlands,\n      eating there wheat-stocks and roots pulled up from the hedgerow, the Town\n      Mouse said to his friend, \"You live here the life of the ants, while in my\n      house is the horn of plenty. I am surrounded by every luxury, and if you\n      will come with me, as I wish you would, you shall have an ample share of\n      my dainties.\" The Country Mouse was easily persuaded, and returned to town\n      with his friend. On his arrival, the Town Mouse placed before him bread,\n      barley, beans, dried figs, honey, raisins, and, last of all, brought a\n      dainty piece of cheese from a basket. The Country Mouse, being much\n      delighted at the sight of such good cheer, expressed his satisfaction in\n      warm terms and lamented his own hard fate. Just as they were beginning to\n      eat, someone opened the door, and they both ran off squeaking, as fast as\n      they could, to a hole so narrow that two could only find room in it by\n      squeezing. They had scarcely begun their repast again when someone else\n      entered to take something out of a cupboard, whereupon the two Mice, more\n      frightened than before, ran away and hid themselves. At last the Country\n      Mouse, almost famished, said to his friend: \"Although you have prepared\n      for me so dainty a feast, I must leave you to enjoy it by yourself. It is\n      surrounded by too many dangers to please me. I prefer my bare plowlands\n      and roots from the hedgerow, where I can live in safety, and without\n      fear.\""
+}

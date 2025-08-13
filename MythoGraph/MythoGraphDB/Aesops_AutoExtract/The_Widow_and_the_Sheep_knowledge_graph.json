@@ -1,0 +1,70 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "widow"
+    },
+    {
+      "id": "flesh"
+    },
+    {
+      "id": "sheep"
+    },
+    {
+      "id": "shearing"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "wool"
+    }
+  ],
+  "links": [
+    {
+      "source": "widow",
+      "target": "flesh",
+      "label": "shear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "widow",
+      "target": "sheep",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "shearing",
+      "target": "shearing",
+      "label": "shear",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "shearing",
+      "target": "flesh",
+      "label": "shear",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "flesh",
+      "label": "want",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "wool",
+      "label": "want",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CERTAIN poor widow had one solitary Sheep. At shearing time, wishing to\n      take his fleece and to avoid expense, she sheared him herself, but used\n      the shears so unskillfully that with the fleece she sheared the flesh. The\n      Sheep, writhing with pain, said, \"Why do you hurt me so, Mistress? What\n      weight can my blood add to the wool? If you want my flesh, there is the\n      butcher, who will kill me in an instant; but if you want my fleece and\n      wool, there is the shearer, who will shear and not hurt me.\" The least outlay is not always the greatest gain."
+}
