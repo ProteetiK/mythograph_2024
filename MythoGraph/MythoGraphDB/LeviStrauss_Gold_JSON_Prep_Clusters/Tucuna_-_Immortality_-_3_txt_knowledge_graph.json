@@ -1,0 +1,120 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "uncle"
+    },
+    {
+      "id": "ceremony"
+    },
+    {
+      "id": "god"
+    },
+    {
+      "id": "form"
+    },
+    {
+      "id": "girl"
+    },
+    {
+      "id": "mother"
+    },
+    {
+      "id": "baby"
+    },
+    {
+      "id": "immortal"
+    },
+    {
+      "id": "drink immortals"
+    },
+    {
+      "id": "humans"
+    },
+    {
+      "id": "couple"
+    }
+  ],
+  "links": [
+    {
+      "source": "uncle",
+      "target": "ceremony",
+      "label": "perform",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "god",
+      "target": "form",
+      "label": "appear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "god",
+      "target": "humans",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "god",
+      "target": "couple",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "girl",
+      "target": "mother",
+      "label": "reappear",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "girl",
+      "target": "baby",
+      "label": "reappear",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "girl",
+      "target": "ceremony",
+      "label": "attend",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "girl",
+      "target": "immortal",
+      "label": "attend",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "immortal",
+      "target": "god",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "immortal",
+      "target": "drink immortals",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "immortal",
+      "target": "immortal",
+      "label": "bring",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A puberty festival was drawing to a close, but the young Girl's Uncle was so drunk that Uncle could no longer perform the ceremony properly. An Immortal God appeared in the form of a Tapir, carried off the young Girl, and married Girl. Much later Girl reappeared to Girl's Mother with her baby and asked Girl's Mother to prepare an especially strong beer for her younger Brother's hair-plucking ceremony. Girl attended the ceremony with her Immortal. The Immortal brought with him a little of the drink of the Immortals and Immortal offered a sip to each Human. When Humans were all drunk, they went off with the young couple to take up abode in the dwelling of the Gods."
+}

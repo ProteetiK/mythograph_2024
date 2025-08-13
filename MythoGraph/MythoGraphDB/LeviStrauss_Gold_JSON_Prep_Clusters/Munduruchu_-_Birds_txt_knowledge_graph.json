@@ -1,0 +1,413 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "eagle mother"
+    },
+    {
+      "id": "nest"
+    },
+    {
+      "id": "tawato"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "terrapin"
+    },
+    {
+      "id": "bird"
+    },
+    {
+      "id": "eagle"
+    },
+    {
+      "id": "cries"
+    },
+    {
+      "id": "attention"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "care"
+    },
+    {
+      "id": "rapina eagle"
+    },
+    {
+      "id": "place"
+    },
+    {
+      "id": "surface"
+    },
+    {
+      "id": "terrapins"
+    },
+    {
+      "id": "fellow terrapin"
+    },
+    {
+      "id": "prey"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "toucan"
+    },
+    {
+      "id": "try"
+    },
+    {
+      "id": "woodpecker"
+    },
+    {
+      "id": "shape"
+    },
+    {
+      "id": "fluid gallbladder fat"
+    },
+    {
+      "id": "blood"
+    },
+    {
+      "id": "blue"
+    },
+    {
+      "id": "eyes"
+    },
+    {
+      "id": "daub"
+    },
+    {
+      "id": "tail"
+    },
+    {
+      "id": "head"
+    },
+    {
+      "id": "red"
+    },
+    {
+      "id": "pipira"
+    },
+    {
+      "id": "itself"
+    },
+    {
+      "id": "mutum"
+    },
+    {
+      "id": "legs"
+    },
+    {
+      "id": "beak"
+    },
+    {
+      "id": "clay"
+    },
+    {
+      "id": "galsa"
+    },
+    {
+      "id": "tip"
+    },
+    {
+      "id": "royal eagle"
+    },
+    {
+      "id": "token"
+    },
+    {
+      "id": "trumpet"
+    },
+    {
+      "id": "noise"
+    },
+    {
+      "id": "spite"
+    },
+    {
+      "id": "cry"
+    },
+    {
+      "id": "exchange"
+    },
+    {
+      "id": "tawato eagle"
+    },
+    {
+      "id": "voice"
+    }
+  ],
+  "links": [
+    {
+      "source": "eagle mother",
+      "target": "nest",
+      "label": "live",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tawato",
+      "target": "water",
+      "label": "fly",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "terrapin",
+      "label": "drag",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "terrapin",
+      "label": "lie",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "bird",
+      "label": "drag",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "daub",
+      "label": "put",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "tail",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "clay",
+      "label": "use",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "trumpet",
+      "label": "make",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "spite",
+      "label": "have",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "cry",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "exchange",
+      "label": "insist",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "terrapin",
+      "target": "surface",
+      "label": "come",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "nest",
+      "label": "fly",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "prey",
+      "label": "fly",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "cries",
+      "label": "attract",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "attention",
+      "label": "attract",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "birds",
+      "label": "invite_eat",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "care",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "noise",
+      "label": "produce",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "rapina eagle",
+      "target": "place",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "terrapins",
+      "target": "fellow terrapin",
+      "label": "push",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "fluid gallbladder fat",
+      "label": "paint",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "blood",
+      "label": "paint",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "toucan",
+      "target": "try",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "toucan",
+      "target": "blue",
+      "label": "smear",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "toucan",
+      "target": "eyes",
+      "label": "smear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woodpecker",
+      "target": "shape",
+      "label": "succeed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woodpecker",
+      "target": "head",
+      "label": "paint",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woodpecker",
+      "target": "red",
+      "label": "paint",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "pipira",
+      "target": "itself",
+      "label": "daub",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "pipira",
+      "target": "blue",
+      "label": "daub",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "mutum",
+      "target": "legs",
+      "label": "stain",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "mutum",
+      "target": "beak",
+      "label": "stain",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "galsa",
+      "target": "tip",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "royal eagle",
+      "target": "token",
+      "label": "offer",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "tawato eagle",
+      "target": "voice",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A royal eagle mother lived with her child in a nest at the top of a tree. One day, she flew down to the water to seize a terrapin which was surfacing; but the terrapin was too heavy; it dragged the bird down to the bottom, and the eagle was drowned. By its cries the motherless eagle attracted the attention of a black eagle which at first took care of it, but soon wearied of the task and flew away. A \"rapina\" eagle took its place, and when the eaglet grew up, its two protectors trained it to lift heavier and heavier tree trunks so that it would be able to get even with the terrapin and avenge its mother's death. When it was ready, it lay in wait for the terrapin. The terrapin came up to the surface, its whole body decked out in the dead eagle's feathers, and provoked the young one. The bird dived and seized the terrapin which tried to pull it into the water, but the other terrapins pushed their fellow terrapin back to the surface. The bird flew off to the nest with its prey. The eagle invited all the birds to eat the terrapin, whose shell had first to be broken. The toucan had a try, and its beak became flattened, whence its present shape; the woodpecker succeeded. Then the birds painted themselves with the red blood, the blue fluid from the gallbladder, and the yellow fat. The toucan smeared blue all around its eyes, and yellow on the end of its tail, and a band of yellow across its breast. It also put a daub of blood on its tail. The woodpecker painted its head red; the pipira (a tanager) daubed itself all over with blue. The mutum stained its legs and its beak with blood, and in order to deprive the galsa of the animal dyes, it suggested that it should use white clay. The galsa did as the mutum suggested, but when the mutum's turn came, it flew away. The galsa could only catch the tip of its tail, which has remained white to this day. As a token of thanks for its services, the royal eagle offered the \"rapina\" eagle the terrapin's head, with which it made a trumpet, which produced the noise: \"Toe, toe, poat, poat.\" The tawato eagle was jealous, because in a spite of its size, it had a shrill cry. It therefore insisted on an exchange. Ever since, the tawato eagle has had a deep voice, and the \"rapina\" eagle cheeps, \"Eee, eee, eee.\""
+}

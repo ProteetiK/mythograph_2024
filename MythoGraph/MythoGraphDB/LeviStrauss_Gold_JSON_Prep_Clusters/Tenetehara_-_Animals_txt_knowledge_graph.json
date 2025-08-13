@@ -1,0 +1,63 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "tortoise"
+    },
+    {
+      "id": "opossum"
+    },
+    {
+      "id": "competition"
+    },
+    {
+      "id": "months"
+    },
+    {
+      "id": "voice"
+    },
+    {
+      "id": "friends"
+    }
+  ],
+  "links": [
+    {
+      "source": "tortoise",
+      "target": "opossum",
+      "label": "challenge",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "competition",
+      "label": "challenge",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "voice",
+      "label": "answer",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "friends",
+      "label": "invite_eat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "opossum",
+      "target": "months",
+      "label": "come",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "The tortoise challenged the opossum to a fasting competition. He dug his hole first, and for two months the opossum came every day to inquire how the tortoise was. Each time the tortoise answered with a strong voice that it intended to carry on with the ordeal. Actually he had discovered another entrance to the hole and came out every day to eat. When the opossum's turn came, he could last no more than ten days, and died. The tortoise invited his friends to eat the opossum's remains."
+}

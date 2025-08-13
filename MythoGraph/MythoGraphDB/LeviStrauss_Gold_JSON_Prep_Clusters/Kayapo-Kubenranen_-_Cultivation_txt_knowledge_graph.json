@@ -1,0 +1,190 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "rat"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "granddaughter"
+    },
+    {
+      "id": "maize"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "youth"
+    },
+    {
+      "id": "axe"
+    },
+    {
+      "id": "animal"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "heads"
+    },
+    {
+      "id": "river"
+    },
+    {
+      "id": "companion"
+    },
+    {
+      "id": "ngina"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "themselves"
+    },
+    {
+      "id": "communities"
+    },
+    {
+      "id": "this"
+    }
+  ],
+  "links": [
+    {
+      "source": "rat",
+      "target": "jaguar",
+      "label": "bathing",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "granddaughter",
+      "label": "bathing",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "maize",
+      "label": "drawing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "maize",
+      "label": "drawing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "maize",
+      "label": "divided",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "tree",
+      "label": "drawing",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "tree",
+      "label": "cutting",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "youth",
+      "label": "fell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "axe",
+      "label": "fell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "animal",
+      "label": "warned",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "fire",
+      "label": "obtain",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "jaguar",
+      "label": "obtain",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "heads",
+      "target": "river",
+      "label": "fall",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "companion",
+      "target": "ngina",
+      "label": "warn",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "ngina",
+      "target": "it",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "ngina",
+      "target": "maize",
+      "label": "divide",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "ngina",
+      "target": "themselves",
+      "label": "divide",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "communities",
+      "target": "this",
+      "label": "scatter",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "After men had obtained fire from the jaguar, an old woman was pestered by a rat (amyure) while bathing with her granddaughter. The rat finally succeeded in drawing her attention to the maize tree; so many heads of maize had fallen into the river that it was difficult to bathe there. The villagers enjoyed the old woman's cooking and started to fell the maize tree. But every morning they found that the gash made the previous evening had closed up again. So the men tried to set fire to the tree and sent a youth to the village to get an additional axe. On the way hack the youth killed and roasted a long-tailed opossum (ngina): his companion warned him about eating \"such an ugly animal.\" He ate it nevertheless and changed into an old man, \"so old and so thin and weak that his cotton knee bands hung right down to his ankles.\" The men succeeded in cutting down the tree which fell with a crash: they divided the maize among themselves. After this the various communities scattered."
+}

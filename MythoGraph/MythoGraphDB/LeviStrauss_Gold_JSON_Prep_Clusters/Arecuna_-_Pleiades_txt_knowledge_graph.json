@@ -1,0 +1,102 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "mureru"
+    },
+    {
+      "id": "trick"
+    },
+    {
+      "id": "jilijoaibu"
+    },
+    {
+      "id": "crystals"
+    },
+    {
+      "id": "stones"
+    },
+    {
+      "id": "arms"
+    },
+    {
+      "id": "legs"
+    },
+    {
+      "id": "whole"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "reason"
+    },
+    {
+      "id": "woman liver"
+    }
+  ],
+  "links": [
+    {
+      "source": "mureru",
+      "target": "trick",
+      "label": "discover",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jilijoaibu",
+      "target": "crystals",
+      "label": "break",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "stones",
+      "target": "arms",
+      "label": "cut",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "stones",
+      "target": "legs",
+      "label": "cut",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "stones",
+      "target": "whole",
+      "label": "cut",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "stones",
+      "target": "water",
+      "label": "leap",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "reason",
+      "label": "remain",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "woman liver",
+      "target": "water",
+      "label": "fall",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Jilijoaibu's mother-in-law used to feed her son-in-law on fish taken from her uterus. When he discovered her trick, Jilijoaibu broke crystals and threw the fragments onto the bank where his mother-in-law was in the habit of going, but took care to conceal them under banana-tree leaves. The mother-in-law tripped and fell; the stones cut her arms and legs and the whole of her body. She died. The stones leaped into the water and turned into \"piranhas,\" which for this reason have remained cannibalistic. The old woman's liver also fell nto the water and floated on the surface. It can still be seen in the form of mureru brava, an aquatic plant with red leaves, the seed of which is the old woman's heart."
+}

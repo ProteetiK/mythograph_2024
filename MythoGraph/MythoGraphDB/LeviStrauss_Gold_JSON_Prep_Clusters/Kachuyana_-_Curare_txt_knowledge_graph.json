@@ -1,0 +1,466 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bachelor"
+    },
+    {
+      "id": "hunt"
+    },
+    {
+      "id": "game"
+    },
+    {
+      "id": "howl"
+    },
+    {
+      "id": "monkey"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "hut"
+    },
+    {
+      "id": "eagle"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "bed"
+    },
+    {
+      "id": "body"
+    },
+    {
+      "id": "hair"
+    },
+    {
+      "id": "feeling"
+    },
+    {
+      "id": "- monkey"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "evening"
+    },
+    {
+      "id": "day"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "-"
+    },
+    {
+      "id": "wife"
+    },
+    {
+      "id": "me"
+    },
+    {
+      "id": "hunting"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "indian woman hammock"
+    },
+    {
+      "id": "started"
+    },
+    {
+      "id": "she monkey wife"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "honeymoon"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "order"
+    },
+    {
+      "id": "monkeys"
+    },
+    {
+      "id": "top tree"
+    },
+    {
+      "id": "story"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "vulture"
+    },
+    {
+      "id": "harpy eagle"
+    },
+    {
+      "id": "threads"
+    },
+    {
+      "id": "creeper"
+    },
+    {
+      "id": "liana"
+    }
+  ],
+  "links": [
+    {
+      "source": "bachelor",
+      "target": "hunt",
+      "label": "returning",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bachelor",
+      "target": "game",
+      "label": "cooked",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bachelor",
+      "target": "game",
+      "label": "ate",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bachelor",
+      "target": "howl",
+      "label": "ate",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bachelor",
+      "target": "monkey",
+      "label": "ate",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "bachelor",
+      "target": "monkey",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "bachelor",
+      "target": "monkey",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "bachelor",
+      "target": "monkey",
+      "label": "glance",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "hut",
+      "label": "live",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "eagle",
+      "label": "tell",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "story",
+      "label": "tell",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "game",
+      "label": "cook",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "game",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "which",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "bed",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "body",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "hair",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "feeling",
+      "label": "experience",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "- monkey",
+      "label": "experience",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "it",
+      "label": "leave",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "evening",
+      "label": "eat",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "day",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "wife",
+      "label": "change",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "wife",
+      "label": "wish",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "me",
+      "label": "change",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "hunting",
+      "label": "return",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "woman",
+      "label": "discover",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "indian woman hammock",
+      "label": "tell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "started",
+      "label": "tell",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "eagle",
+      "label": "tell",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "she monkey wife",
+      "label": "tell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "monkeys",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "man",
+      "label": "question",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "himself",
+      "label": "force_produce",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "liana",
+      "label": "cut",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "ground",
+      "label": "stretch",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "eagle",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "-",
+      "label": "eat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "monkey",
+      "label": "eat",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "honeymoon",
+      "label": "bring",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "woman",
+      "label": "bring",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "village",
+      "label": "bring",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "order",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "it",
+      "label": "climb",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "top tree",
+      "label": "remain",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "vulture",
+      "target": "harpy eagle",
+      "label": "call",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "harpy eagle",
+      "target": "eagle",
+      "label": "tell_take",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "threads",
+      "target": "creeper",
+      "label": "form",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "There was once a young bachelor who lived a long way from his tribe's people in a lonely hut. On returning from a particularly successful hunt, he cooked all the game and ate it, except for a female howler monkey, which he put on to smoke overnight. Then he went to bed. On waking up next morning, he resolved to eat the monkey before setting off to hunt, but when he saw the body with the hair all burned off, he experienced a feeling of revulsion, then of anger: \"What is this she-monkey to me? I am hungry and cannot eat it!\" But he left it to smoke, and went off to hunt. In the evening he ate the game he had killed during the day and said, \"Tomorrow I will eat the she-monkey. . . .\" But when the next day came, the same scene occurred; he had only to glance at the she-monkey, and any desire to eat her vanished, so plump and pretty did she seem. After a final glance at the monkey he sighed, \"If only she could change into a wife for me!\" When he returned from hunting, the meal was ready\u2014meat, soup, pancakes . . . and the same was true the next day, when he got back from fishing. The Indian was puzzled and started looking everywhere, until finally he discovered a charming woman lying in his hammock; she told him that she was the she-monkey he had wished for as a wife. After the honeymoon the man brought the woman to the village in order to introduce her to his relatives. Then it was the woman's turn to present her husband to her people\u2014a family of monkeys whose hut was at the top of a tree. The woman helped the man to climb up into it; the next morning she went off with the other monkeys. Neither she nor they ever came back, and the man, who could not climb down unaided, remained marooned at the top of the tree. One morning, the king vulture happened to be passing by. He questioned the man, who told him his story and explained the difficult situation he was in. \"Wait a moment,\" said the vulture as he forced himself to produce a sneeze. From his nose there spurted (nasal) mucus which stretched to the ground and changed into a creeper. However, the creeper was so slender that the man said it might snap under his weight. The vulture thereupon called upon the harpy eagle which also sneezed and whose threads of mucus formed a stronger creeper, down which the hero was able to slide. Before leaving, the harpy eagle told him how to take his revenge. He should cut the liana known as \"the harpy eagle's arrow\" and make it ready in accordance with its instructions and, having duly invoked his protector, go off and hunt the howler monkeys. The man did as he was told. All the howler monkeys were killed, except one little one, from which present-day monkeys are descended."
+}

@@ -1,0 +1,339 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "visitor"
+    },
+    {
+      "id": "venus"
+    },
+    {
+      "id": "wai"
+    },
+    {
+      "id": "indians"
+    },
+    {
+      "id": "shape"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "body"
+    },
+    {
+      "id": "ulcers"
+    },
+    {
+      "id": "people"
+    },
+    {
+      "id": "noses"
+    },
+    {
+      "id": "wainkaura"
+    },
+    {
+      "id": "permission"
+    },
+    {
+      "id": "indian"
+    },
+    {
+      "id": "wretch welcome"
+    },
+    {
+      "id": "guest"
+    },
+    {
+      "id": "way"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "venus ulcers"
+    },
+    {
+      "id": "this"
+    },
+    {
+      "id": "place"
+    },
+    {
+      "id": "hut"
+    },
+    {
+      "id": "daughter"
+    },
+    {
+      "id": "thighs"
+    },
+    {
+      "id": "nightfall"
+    },
+    {
+      "id": "children"
+    },
+    {
+      "id": "arrows"
+    },
+    {
+      "id": "dove"
+    },
+    {
+      "id": "means"
+    },
+    {
+      "id": "boat"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "leave"
+    },
+    {
+      "id": "whirlwind"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "noise"
+    },
+    {
+      "id": "audible"
+    }
+  ],
+  "links": [
+    {
+      "source": "visitor",
+      "target": "venus",
+      "label": "washed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "visitor",
+      "target": "wai",
+      "label": "said",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "visitor",
+      "target": "indians",
+      "label": "said",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "visitor",
+      "target": "nightfall",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "visitor",
+      "target": "wainkaura",
+      "label": "speak",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "venus",
+      "target": "shape",
+      "label": "live",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "venus",
+      "target": "men",
+      "label": "live",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "venus",
+      "target": "thighs",
+      "label": "sit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "venus",
+      "target": "means",
+      "label": "make",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "venus",
+      "target": "boat",
+      "label": "make",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "venus",
+      "target": "leave",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "body",
+      "target": "ulcers",
+      "label": "cover",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "people",
+      "target": "noses",
+      "label": "turn",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "permission",
+      "label": "ask",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "guest",
+      "label": "ask",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "way",
+      "label": "lose",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "water",
+      "label": "order_bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "venus ulcers",
+      "label": "wash",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "daughter",
+      "label": "order_let",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "daughter",
+      "label": "deflower",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "children",
+      "label": "pierce",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "arrows",
+      "label": "pierce",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "wainkaura",
+      "label": "order_kill",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "dove",
+      "label": "return",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "which",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wainkaura",
+      "target": "place",
+      "label": "take",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "wretch welcome",
+      "label": "make",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "this",
+      "target": "place",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "this",
+      "target": "hut",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "whirlwind",
+      "target": "wainkaura",
+      "label": "lift",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "whirlwind",
+      "target": "sky",
+      "label": "lift",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "noise",
+      "target": "audible",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Venus (a masculine personage) was living in human shape among men. His body was covered with malodorous ulcers, and behind him was buzzing a swarm of bees. All the people turned up their noses when he passed, and refused him when he asked permission to rest in their houses. Only the Indian, Wainkaura, made the poor wretch welcome and gave him a new mat on which to sit. He asked his guest whence he came and whither he was bound. Venus explained that he had lost his way. Wainkaura ordered hot water to be brought to him so that he could wash Venus' ulcers and, ignoring his guest's protests, insisted that this should take place inside the hut, and not outdoors. He even ordered his virgin daughter to let Venus sit on her bare thighs, and washed him in this position. Thus the visitor recovered. After nightfall the visitor said to Wainkaura, \"What would you like to have?\" and as Wainkaura did not understand, he explained, \"Do you want to live or to die? Waptokwa is angry over the mutual massacring of the Indians. They have even pierced little children with arrows. So it would be better to destroy all of them at once. But tell no one and quickly pack up your belongings.\" He ordered Wainkaura to kill the juruty dove (Leptoptila rufaxilla). When Wainkaura returned with the dove, Venus said that he had deflowered his daughter, and offered to pay compensation. However, Wainkaura refused to accept anything. By means of the dove's carcass, Venus made a large boat in which Wainkaura took his place along with his family. Venus took leave and departed, a whirlwind lifted him up to the sky. At once a distant noise became audible. Then the flood came and carried them all away. Before long, all drowned or died from hunger. Only Wainkaura and his family escaped."
+}

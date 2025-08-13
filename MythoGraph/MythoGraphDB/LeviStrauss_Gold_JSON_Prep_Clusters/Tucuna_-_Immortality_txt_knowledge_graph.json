@@ -1,0 +1,98 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "race"
+    },
+    {
+      "id": "death"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "seclusion"
+    },
+    {
+      "id": "girl"
+    },
+    {
+      "id": "error"
+    },
+    {
+      "id": "spirit"
+    },
+    {
+      "id": "girl cell"
+    },
+    {
+      "id": "youth"
+    },
+    {
+      "id": "victim"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "humans"
+    },
+    {
+      "id": "old"
+    }
+  ],
+  "links": [
+    {
+      "source": "race",
+      "target": "death",
+      "label": "know",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "seclusion",
+      "label": "keep",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "girl",
+      "target": "error",
+      "label": "commit",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "spirit",
+      "target": "girl cell",
+      "label": "burst",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "spirit",
+      "target": "youth",
+      "label": "transform",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "victim",
+      "target": "woman",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "humans",
+      "target": "old",
+      "label": "grow",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "This first race of Men knew nothing of death. It so happened that a young Girl, who was being kept in seclusion for her puberty festival, failed to reply to the call of the Immortals (the gods) inviting the Men to follow them. Girl then committed the additional error of replying to the call of the Spirit of old age. The Spirit of old age burst into Girl's cell and exchanged Spirit's skin for Girl's. The Spirit at once was transformed into a youth again, and his victim became a decrepit old Woman. . . . Since then Humans grow old and die."
+}

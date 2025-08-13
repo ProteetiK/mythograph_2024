@@ -1,0 +1,160 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bachelor"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "star"
+    },
+    {
+      "id": "brothers"
+    },
+    {
+      "id": "lover"
+    },
+    {
+      "id": "soul"
+    },
+    {
+      "id": "jupiter"
+    },
+    {
+      "id": "night star"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "love"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "gourd"
+    },
+    {
+      "id": "shapes"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "adventure"
+    }
+  ],
+  "links": [
+    {
+      "source": "bachelor",
+      "target": "sky",
+      "label": "hid",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bachelor",
+      "target": "star",
+      "label": "hid",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bachelor",
+      "target": "brothers",
+      "label": "hid",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bachelor",
+      "target": "lover",
+      "label": "hid",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bachelor",
+      "target": "soul",
+      "label": "related",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bachelor",
+      "target": "jupiter",
+      "label": "related",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "star",
+      "target": "lover",
+      "label": "tell",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "shapes",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "which",
+      "label": "climb",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "adventure",
+      "label": "relate",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "night star",
+      "target": "sky",
+      "label": "come",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "love",
+      "label": "fall",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "jupiter",
+      "label": "fall",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "star",
+      "label": "hide",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "gourd",
+      "label": "hide",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "One night Star (Jupiter) came down from the sky to a young bachelor who had fallen in love with her. The young man hid the star in a gourd, where she was discovered by his brothers. Star told her lover and invited him to accompany her to the sky. Everything was different from its equivalent on earth. Everywhere he saw smoked or roasted human flesh, and when bathing he saw horribly mutilated shapes with open body cavities. He escaped by sliding down the bacaba palm up which he had climbed; and when he got back to earth, he related his adventure. But soon after he died, and his soul went back to Jupiter, and now he is a star beside her in the heavens."
+}

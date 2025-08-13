@@ -1,0 +1,140 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "rat"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "maize"
+    },
+    {
+      "id": "plantation"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "child"
+    },
+    {
+      "id": "village pool"
+    },
+    {
+      "id": "wood"
+    },
+    {
+      "id": "indians"
+    },
+    {
+      "id": "maize flatcake"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "villagers"
+    },
+    {
+      "id": "himself"
+    }
+  ],
+  "links": [
+    {
+      "source": "rat",
+      "target": "fish",
+      "label": "eat",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "maize",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "maize",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "plantation",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "plantation",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "rat",
+      "target": "wood",
+      "label": "come",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "child",
+      "label": "sit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "village pool",
+      "label": "sit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "maize flatcake",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "it",
+      "label": "obtain",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "himself",
+      "label": "transform",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "rat",
+      "label": "transform",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "villagers",
+      "target": "woman",
+      "label": "extract",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A woman was sitting with her child by the village pool and plaiting a trap to catch fish. A rat in human guise came and invited her to come to his house and eat maize, instead of the rotten wood that was the Indians' food in those days. He even allowed her to take away a maize flatcake but had warned her not to disclose where she had obtained it. The child, however, was caught eating his portion. The villagers extracted the truth from the woman and set off for the plantation. When the owner of the maize heard the people coming, he transformed himself into a rat and fled, leaving his plantation for the Sherente."
+}

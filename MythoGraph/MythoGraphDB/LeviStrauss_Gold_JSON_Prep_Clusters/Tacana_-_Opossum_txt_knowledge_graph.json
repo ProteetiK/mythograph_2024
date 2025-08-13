@@ -1,0 +1,307 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "woman"
+    },
+    {
+      "id": "tick"
+    },
+    {
+      "id": "bird"
+    },
+    {
+      "id": "vulture"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "root"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "ticks"
+    },
+    {
+      "id": "tapir"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "schie"
+    },
+    {
+      "id": "leaf"
+    },
+    {
+      "id": "schie bird"
+    },
+    {
+      "id": "rivalry"
+    },
+    {
+      "id": "revenge"
+    },
+    {
+      "id": "difficulty"
+    },
+    {
+      "id": "feces"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "body"
+    },
+    {
+      "id": "snake tail"
+    },
+    {
+      "id": "size"
+    },
+    {
+      "id": "woman face"
+    },
+    {
+      "id": "opossum snout"
+    },
+    {
+      "id": "birth"
+    },
+    {
+      "id": "opossums"
+    },
+    {
+      "id": "opossum"
+    },
+    {
+      "id": "brains"
+    },
+    {
+      "id": "eggs"
+    }
+  ],
+  "links": [
+    {
+      "source": "woman",
+      "target": "tick",
+      "label": "caught",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "bird",
+      "label": "ate",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "size",
+      "label": "shrink",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "vulture",
+      "target": "ground",
+      "label": "tore",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "vulture",
+      "target": "ground",
+      "label": "throw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "vulture",
+      "target": "root",
+      "label": "chewed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "vulture",
+      "target": "root",
+      "label": "pick",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "vulture",
+      "target": "tick",
+      "label": "spat",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "vulture",
+      "target": "woman",
+      "label": "fly",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "vulture",
+      "target": "woman",
+      "label": "tell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "vulture",
+      "target": "schie",
+      "label": "throw",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "woman",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "difficulty",
+      "label": "be",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "ticks",
+      "label": "catch",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "revenge",
+      "label": "promise",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tapir",
+      "target": "which",
+      "label": "infest",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "schie",
+      "target": "schie",
+      "label": "wrap",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "schie",
+      "target": "leaf",
+      "label": "wrap",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "schie",
+      "target": "snake tail",
+      "label": "affix",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "schie",
+      "target": "woman face",
+      "label": "make",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "schie",
+      "target": "opossum snout",
+      "label": "make",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "schie",
+      "target": "birth",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "schie",
+      "target": "ticks",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "schie bird",
+      "target": "rivalry",
+      "label": "complain",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "schie bird",
+      "target": "vulture",
+      "label": "complain",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "schie bird",
+      "target": "opossums",
+      "label": "change",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "feces",
+      "target": "it",
+      "label": "stick",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "feces",
+      "target": "body",
+      "label": "stick",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "opossum",
+      "target": "brains",
+      "label": "eat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "opossum",
+      "target": "eggs",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "There was once an Indian woman who caught the ticks with which the tapir was infested, while it was asleep. She wrapped them up in a leaf, cooked them in a pot, and ate them. The \"schie\" bird (Crotophaga ani), which normally fed on the tapir's vermin, complained about this unfair rivalry to the vulture, who promised revenge by changing the woman into an opossum. The vulture flew over the woman and spattered her with its droppings: there was so much that she was bent double and could only walk with difficulty. The vulture then threw her to the ground, tore out her hair, and with his feces stuck it all over her body. Again using his excrement as glue, he affixed a young snake's tail to the unfortunate woman's rear: the woman shrank to the size of an opossum. The vulture picked up a root, chewed it, and spat it onto the opossum's fur in order to dye it yellow. He made the woman's face into an opossum's snout by sticking on a palm bud. The vulture told the woman that she would give birth only to ticks, and that those not eaten by the \"schie\" bird would later be changed into opossums. The opossum eats only the brains and eggs of birds. It sleeps during the day and hunts at night."
+}

@@ -1,0 +1,299 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "woman"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "nests"
+    },
+    {
+      "id": "fledgling"
+    },
+    {
+      "id": "bird"
+    },
+    {
+      "id": "head"
+    },
+    {
+      "id": "pool"
+    },
+    {
+      "id": "children"
+    },
+    {
+      "id": "hold"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "advantage"
+    },
+    {
+      "id": "situation"
+    },
+    {
+      "id": "man head"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "father"
+    },
+    {
+      "id": "everybody"
+    },
+    {
+      "id": "fright"
+    },
+    {
+      "id": "be"
+    },
+    {
+      "id": "rumor"
+    },
+    {
+      "id": "jaguar woman"
+    },
+    {
+      "id": "pit"
+    },
+    {
+      "id": "corpse"
+    },
+    {
+      "id": "woodpile"
+    },
+    {
+      "id": "plant"
+    },
+    {
+      "id": "ashes"
+    },
+    {
+      "id": "claws"
+    },
+    {
+      "id": "one doubt death jaguar woman"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "villages"
+    }
+  ],
+  "links": [
+    {
+      "source": "woman",
+      "target": "man",
+      "label": "climbed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "tree",
+      "label": "climbed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "nests",
+      "label": "climbed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "fledgling",
+      "label": "threw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "fledgling",
+      "label": "called",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "bird",
+      "label": "hold",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "bird",
+      "label": "run",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "head",
+      "label": "cut",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "pool",
+      "label": "returned",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "children",
+      "label": "forbade",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "children",
+      "label": "fright",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "children",
+      "label": "forbid",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "man head",
+      "label": "cut",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "village",
+      "label": "return",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "be",
+      "label": "reply",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "tree",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "hold",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "it",
+      "label": "throw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "advantage",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "situation",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "children",
+      "target": "pit",
+      "label": "dig",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "father",
+      "label": "recognize",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "everybody",
+      "target": "fright",
+      "label": "take",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "rumor",
+      "target": "jaguar woman",
+      "label": "spread",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "corpse",
+      "target": "woodpile",
+      "label": "burn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "plant",
+      "target": "ashes",
+      "label": "spring",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "claws",
+      "target": "one doubt death jaguar woman",
+      "label": "use_make",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "villages",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "One day a Woman and her Man went to catch parakeets. The Man climbed a tree containing several nests and threw down thirty or so fledglings to his Woman. He noticed that Woman gobbled them up. Seized with fear, Man caught hold of a larger bird and, as Man threw it down, called out, \"Here comes a fledgling, but look out, it can fly.\" The Woman ran after the bird, and the Man took advantage of the situation to climb down and run away: Man was afraid Woman might eat him, too. But his Woman went after him, caught up with Man, and killed him. Then Woman cut off Man's head, which she put in a bag, and feasted on the rest of the body until her stomach was full. Woman had scarcely returned to the village when she felt thirsty. Before going to the drinking pool, which was some distance away, Woman forbade her five children to touch the bag. But the youngest immediately looked inside and called the others, who recognized their father. The whole village was now informed, and everybody took fright and ran away, except the children. When the Woman, on her return, was surprised to find the village empty, they explained that the villagers had left after insulting them, having fled through shame at their own spitefulness. The Woman was indignant and, wishing to avenge her children, went after the villagers. Woman caught up with them, killed a number of them, and devoured the bodies there and then. The same process was repeated several times. Terrified by these bloody comings and goings, the children wanted to escape. \"Do not try to run away,\" said the Woman, \"lest I eat you, too.\" The children implored her. \"No, don't be afraid,\" Woman replied. No one was able to kill Woman, and the rumor soon spread that she was a jaguar-woman. The children secretly dug a pit, which they covered with branches. They took flight when their mother announced to them that their turn had now come to be eaten. Woman rushed after them and fell into the trap. The children went to ask for help from Carancho (the culture hero, a species of falcon, simultaneously a bird of prey and a carrion-eater), who advised them to hollow out a tree trunk and hide inside with him. The jaguar-woman tried to tear the tree with her claws, but they remained caught in the wood, so that Carancho was able to come out and kill her. Her corpse was burned on a woodpile. Four or five days later a plant sprang up from the ashes. This was the first appearance of tobacco. The claws were used to make collars for dogs, which were sent to all the villages, so that no one would be in doubt about the death of the jaguar-woman."
+}

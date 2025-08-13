@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "tortoise"
+    },
+    {
+      "id": "voice"
+    },
+    {
+      "id": "air"
+    },
+    {
+      "id": "days"
+    },
+    {
+      "id": "ordeal"
+    },
+    {
+      "id": "weaker"
+    },
+    {
+      "id": "hole"
+    }
+  ],
+  "links": [
+    {
+      "source": "jaguar",
+      "target": "tortoise",
+      "label": "despise",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "voice",
+      "label": "despise",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "voice",
+      "label": "despise",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "ordeal",
+      "label": "submit",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "jaguar",
+      "label": "challenge",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "air",
+      "label": "hold",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "days",
+      "label": "hold",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "hole",
+      "label": "unblock",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "voice",
+      "target": "weaker",
+      "label": "grow",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "voice",
+      "target": "weaker",
+      "label": "grow",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "The jaguar despised the tortoise because it was slow and had a feeble voice. The tortoise challenged the jaguar: let each of them in turn be shut up in a hole, to see which would hold out the longer. Without air, water, or food, the tortoise held out for several days. Then the jaguar submitted to the ordeal, but as the days passed, its voice grew weaker and weaker. When the tortoise unblocked the hole, the jaguar was dead: there was only a swarm of flies hovering over its remains."
+}

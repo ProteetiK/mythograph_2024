@@ -1,0 +1,116 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "sun"
+    },
+    {
+      "id": "were"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "jars"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "angry"
+    },
+    {
+      "id": "hut"
+    },
+    {
+      "id": "refuge"
+    },
+    {
+      "id": "hot"
+    },
+    {
+      "id": "straw fans"
+    },
+    {
+      "id": "sky"
+    }
+  ],
+  "links": [
+    {
+      "source": "sun",
+      "target": "were",
+      "label": "go",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "refuge",
+      "label": "take",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "hot",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "sky",
+      "label": "carry",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "water",
+      "label": "keep",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "jars",
+      "label": "keep",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "angry",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "sun",
+      "label": "follow",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "hut",
+      "label": "follow",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "straw fans",
+      "label": "flap",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Formerly Sun and Moon used to live on the earth. One day when they were thirsty, they went to see the aquatic birds who kept water in huge heavy jars. Disobeying the birds, Sun tried to lift one jar to his lips, but it slipped out of his hands and broke, and the water spilled. The birds became angry. Sun and Moon ran away, and the birds followed them to the hut where they had taken refuge. By now Sun had become too hot. Feeling discomfort through being so near to him, the birds flapped their woven straw fans and caused such a powerful wind that Sun and Moon were carried up into the sky, where they have remained."
+}

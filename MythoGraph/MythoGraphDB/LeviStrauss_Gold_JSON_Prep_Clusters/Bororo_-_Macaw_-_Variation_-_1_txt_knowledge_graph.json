@@ -1,0 +1,246 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "baitogogo wife"
+    },
+    {
+      "id": "forest"
+    },
+    {
+      "id": "baitogogo"
+    },
+    {
+      "id": "revenge"
+    },
+    {
+      "id": "ki clan brother"
+    },
+    {
+      "id": "trench"
+    },
+    {
+      "id": "baitogogo wife bed"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "exhausted"
+    },
+    {
+      "id": "path"
+    },
+    {
+      "id": "bird"
+    },
+    {
+      "id": "droppings"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "appearance"
+    },
+    {
+      "id": "chieftainship"
+    },
+    {
+      "id": "father"
+    },
+    {
+      "id": "halves"
+    },
+    {
+      "id": "cera moiety"
+    },
+    {
+      "id": "chiefs"
+    },
+    {
+      "id": "gifts"
+    },
+    {
+      "id": "ornaments"
+    },
+    {
+      "id": "akaruio"
+    },
+    {
+      "id": "those"
+    },
+    {
+      "id": "who"
+    }
+  ],
+  "links": [
+    {
+      "source": "baitogogo wife",
+      "target": "forest",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "baitogogo",
+      "target": "revenge",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "baitogogo",
+      "target": "ki clan brother",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "baitogogo",
+      "target": "baitogogo wife",
+      "label": "strangle",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "baitogogo",
+      "target": "baitogogo wife",
+      "label": "bury",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "baitogogo",
+      "target": "trench",
+      "label": "dig",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "baitogogo",
+      "target": "baitogogo wife bed",
+      "label": "dig",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "baitogogo",
+      "target": "village",
+      "label": "leave",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "baitogogo",
+      "target": "chieftainship",
+      "label": "leave",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "baitogogo",
+      "target": "father",
+      "label": "leave",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "exhausted",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "path",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "bird",
+      "label": "disguise",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "droppings",
+      "label": "drop",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "baitogogo",
+      "label": "drop",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "droppings",
+      "target": "tree",
+      "label": "grow",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "tree",
+      "target": "appearance",
+      "label": "shrink",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "ornaments",
+      "label": "ask",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "halves",
+      "target": "cera moiety",
+      "label": "fall",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "chiefs",
+      "target": "gifts",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "akaruio",
+      "target": "those",
+      "label": "kill",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "akaruio",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "akaruio",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Baitogogo was a principal chief. Baitogogo-Wife went to forest. Son follwed Baitogogo-Wife. Baitogogo-Wife raped by Ki-clan-Brother. Baitogogo took revenge on Ki-clan-Brother. Baitogogo strangled Baitogogo-Wife. Four Armadillos helped Baitogogo dig a trench under Baitogogo-Wife's bed. Baitogogo buried his Baitogogo-Wife. Son went looking for Baitogogo-Wife. Son became exhausted following false path. Son disguised as Bird. Son dropped droppings on Baitogogo. Droppings grew into huge Tree. Baitogogo left village. Baitogogo caused lakes and rivers to appears when he stopped to rest. At each appearance of lakes and river the tree shrank and disappeared. Baitogogo enchanted by his created landscape. Baitogogo left chieftainship to Father. Other chief also left. Both halves of chieftainship fell to Cera moiety. Chiefs brought gifts. When Baitogogo and Akaruio returned, their Father asked for all ornaments. He did not kill those who brought him many, but killed those who had brought him few."
+}

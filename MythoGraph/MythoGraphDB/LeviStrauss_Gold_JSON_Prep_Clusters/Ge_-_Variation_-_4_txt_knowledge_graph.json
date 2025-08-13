@@ -1,0 +1,343 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "stone"
+    },
+    {
+      "id": "fledgling"
+    },
+    {
+      "id": "ladder"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "wife"
+    },
+    {
+      "id": "hero"
+    },
+    {
+      "id": "meat"
+    },
+    {
+      "id": "days"
+    },
+    {
+      "id": "brother"
+    },
+    {
+      "id": "expedition"
+    },
+    {
+      "id": "fledglings"
+    },
+    {
+      "id": "outcry"
+    },
+    {
+      "id": "angry"
+    },
+    {
+      "id": "fear"
+    },
+    {
+      "id": "apinaye"
+    },
+    {
+      "id": "jaguar wife noise"
+    },
+    {
+      "id": "noise"
+    },
+    {
+      "id": "rage"
+    },
+    {
+      "id": "weapons"
+    },
+    {
+      "id": "paw"
+    },
+    {
+      "id": "adventure"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "companions"
+    },
+    {
+      "id": "runners"
+    },
+    {
+      "id": "intervals"
+    },
+    {
+      "id": "jaguar house"
+    },
+    {
+      "id": "log"
+    },
+    {
+      "id": "hand"
+    },
+    {
+      "id": "jaguar wife"
+    },
+    {
+      "id": "vain"
+    },
+    {
+      "id": "toad"
+    },
+    {
+      "id": "those"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "stone",
+      "label": "dried",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "fledgling",
+      "label": "rob",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "ladder",
+      "label": "rob",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "birds",
+      "label": "rob",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "jaguar",
+      "label": "fear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "wife",
+      "label": "fear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "hero",
+      "label": "flew",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "meat",
+      "label": "chewed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "days",
+      "label": "take",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "brother",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "expedition",
+      "label": "take",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "angry",
+      "label": "grow",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "fear",
+      "label": "lose",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "noise",
+      "label": "make",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "adventure",
+      "label": "recount",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "meat",
+      "target": "apinaye",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fledglings",
+      "target": "outcry",
+      "label": "make",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "apinaye",
+      "target": "jaguar wife noise",
+      "label": "fly",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "apinaye",
+      "target": "noise",
+      "label": "fly",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "apinaye",
+      "target": "rage",
+      "label": "fly",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "apinaye",
+      "target": "meat",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "apinaye",
+      "target": "weapons",
+      "label": "wound",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "apinaye",
+      "target": "wife",
+      "label": "wound",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "apinaye",
+      "target": "paw",
+      "label": "wound",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "apinaye",
+      "target": "runners",
+      "label": "place",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "apinaye",
+      "target": "intervals",
+      "label": "place",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "apinaye",
+      "target": "jaguar house",
+      "label": "place",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "companions",
+      "label": "summon",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "log",
+      "target": "hand",
+      "label": "pass",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "log",
+      "target": "hand",
+      "label": "pass",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar wife",
+      "target": "apinaye",
+      "label": "beg_leave",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar wife",
+      "target": "vain",
+      "label": "beg_leave",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "toad",
+      "target": "those",
+      "label": "spit",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Formerly men were unacquainted with fire and dried their meat by laying it out in the sun on a flat stone, so that it was not completely raw. In those days a man once took his young brother-in-law on an expedition to rob macaws' nests in a cleft of a vertical cliff. But the fledglings made such an outcry that the boy did not dare take hold of them. The man grew angry, knocked down the ladder, and went off. The hero remained sitting by the nest, suffering from thirst, his head covered with birds' droppings, \"so that maggots grew there; and the young birds soon lost all fear of him.\" What follows is identical with the Apinaye version. It is explained, however, that the jaguar's wife was pregnant and could not bear the slightest noise; she therefore flew into a rage whenever the hero made a noise as he chewed the grilled meat his adopted father had given him. But try as he might, he could not eat silently, since the meat was too crisp. With the weapons given him by the jaguar, he wounded the wife in the paw and fled. The wife, hampered by her pregnancy, was unable to follow him. The hero recounted his adventure to his father, who summoned all his companions. They placed runners at intervals all the way to the jaguar's house and organized a relay system: the burning log was passed from hand to hand and finally reached the village. The jaguar's wife begged them in vain to leave her a burning ember; the toad spat on all those that remained, and put them out."
+}

@@ -1,0 +1,348 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "bones"
+    },
+    {
+      "id": "flute"
+    },
+    {
+      "id": "hole"
+    },
+    {
+      "id": "alligator"
+    },
+    {
+      "id": "beans"
+    },
+    {
+      "id": "fungi"
+    },
+    {
+      "id": "monkeys"
+    },
+    {
+      "id": "tortoise"
+    },
+    {
+      "id": "weh"
+    },
+    {
+      "id": "meal"
+    },
+    {
+      "id": "weary"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "shell"
+    },
+    {
+      "id": "jaguar skull"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "song"
+    },
+    {
+      "id": "music"
+    },
+    {
+      "id": "refuge"
+    },
+    {
+      "id": "discussion"
+    },
+    {
+      "id": "fava beans"
+    },
+    {
+      "id": "vines"
+    },
+    {
+      "id": "lot"
+    },
+    {
+      "id": "forest"
+    },
+    {
+      "id": "reply"
+    },
+    {
+      "id": "order"
+    },
+    {
+      "id": "was"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "voice"
+    },
+    {
+      "id": "inaudible"
+    }
+  ],
+  "links": [
+    {
+      "source": "jaguar",
+      "target": "tree",
+      "label": "advised",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "jaguar",
+      "label": "advised",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "jaguar",
+      "label": "ate",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "jaguar",
+      "label": "ate",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "bones",
+      "label": "ate",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "flute",
+      "label": "ate",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "hole",
+      "label": "attacked",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "music",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "alligator",
+      "target": "beans",
+      "label": "discussion",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "alligator",
+      "target": "fungi",
+      "label": "claimed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "alligator",
+      "target": "discussion",
+      "label": "embark",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "alligator",
+      "target": "hole",
+      "label": "stop",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "alligator",
+      "target": "hole",
+      "label": "open",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "alligator",
+      "target": "reply",
+      "label": "open",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "alligator",
+      "target": "order",
+      "label": "open",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monkeys",
+      "target": "tortoise",
+      "label": "invite_eat",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "weh",
+      "label": "refuse",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "weh",
+      "label": "laugh",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "weh",
+      "target": "tortoise",
+      "label": "advise_come",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "weh",
+      "target": "tortoise",
+      "label": "laugh",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "weh",
+      "target": "meal",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "weh",
+      "target": "weary",
+      "label": "grow",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "weh",
+      "target": "jaguar",
+      "label": "eat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "weh",
+      "target": "which",
+      "label": "play",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "weh",
+      "target": "song",
+      "label": "play",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "weh",
+      "target": "shell",
+      "label": "discard",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "weh",
+      "target": "was",
+      "label": "think",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "himself",
+      "target": "tree",
+      "label": "fall",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "shell",
+      "target": "jaguar skull",
+      "label": "break",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "refuge",
+      "label": "take",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "hole",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fava beans",
+      "target": "vines",
+      "label": "grow",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "lot",
+      "target": "forest",
+      "label": "grow",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "lot",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "voice",
+      "target": "inaudible",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Some monkeys invited the tortoise to eat fruit with them at the top of a tree. They helped him to climb up and then went off, leaving him stranded at the top. A jaguar happened to pass by. He advised the tortoise to come down in the hope that he might make a meal of him. The tortoise refused, and the jaguar decided to stay where he was and to keep his eyes fixed on his prey. Eventually he grew weary and lowered his head. The tortoise then let himself fall from the tree, and his hard shell broke the jaguar's skull. \"Weh, weh, weh,\" laughed the tortoise, clapping his hands. He ate the jaguar and out of one of the jaguar's bones made himself a flute, on which he played a song of victory. Another jaguar heard the music and, anxious to avenge his companion, attacked the tortoise, which however took refuge in a hole. An alligator embarked on a discussion with the tortoise about whether fava beans grow on vines or trees. Annoyed at being contradicted, the alligator stopped up the hole and came back every day to provoke the tortoise: he claimed that a lot of wood fungi (on which tortoises feed) were growing in the forest. But the tortoise was not deceived. He discarded his old shell, secreted another one, and escaped. Unable to obtain a reply, the alligator opened the hole in order to eat up the tortoise which he thought was dead. The latter, however, suddenly appeared from behind and shut the alligator in the hole, laughing \"Weh, weh, weh,\" and clapping his hands. He came back the next day, and it was now his turn to provoke his enemy: did the alligator not know that there were a lot of fish just spoiling in the river? Soon the alligator began to dry out and grow weak. His voice became inaudible, then gave out altogether: he was dead. The tortoise laughed \"Weh, weh, weh,\" and clapped his hands."
+}

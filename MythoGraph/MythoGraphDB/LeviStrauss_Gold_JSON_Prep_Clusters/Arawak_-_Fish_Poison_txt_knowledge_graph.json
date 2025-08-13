@@ -1,0 +1,275 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "father"
+    },
+    {
+      "id": "log"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "blood"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "plants"
+    },
+    {
+      "id": "roots"
+    },
+    {
+      "id": "bathe"
+    },
+    {
+      "id": "river"
+    },
+    {
+      "id": "lad"
+    },
+    {
+      "id": "bathe day"
+    },
+    {
+      "id": "minds"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "boy"
+    },
+    {
+      "id": "swimming"
+    },
+    {
+      "id": "sun"
+    },
+    {
+      "id": "stingray"
+    },
+    {
+      "id": "forest"
+    },
+    {
+      "id": "youth"
+    },
+    {
+      "id": "blood drop"
+    },
+    {
+      "id": "root"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "fish",
+      "label": "eat",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "son",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "bathe",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "river",
+      "label": "take",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "fish",
+      "target": "bathe",
+      "label": "attack",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "log",
+      "label": "attack",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "son",
+      "label": "carried",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "son",
+      "label": "carry",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "blood",
+      "label": "carried",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "ground",
+      "label": "carried",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "father",
+      "label": "carried",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "plants",
+      "label": "carried",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "roots",
+      "label": "forecast",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "lad",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "bathe",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "bathe day",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "forest",
+      "label": "carry",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "blood",
+      "target": "root",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bathe",
+      "target": "bathe",
+      "label": "eat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bathe",
+      "target": "bathe",
+      "label": "attack",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bathe",
+      "target": "minds",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bathe",
+      "target": "water",
+      "label": "attack",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bathe",
+      "target": "log",
+      "label": "choose",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bathe",
+      "target": "father",
+      "label": "tell",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "swimming",
+      "label": "bask",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "sun",
+      "label": "bask",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "stingray",
+      "target": "bathe",
+      "label": "wound",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "youth",
+      "target": "blood drop",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "An old man who was fond of fishing one day took his son with him to the river. Wherever the lad swam, the fish died. And yet he could safely eat them. The father took the lad with him to bathe day by day till the fish knew of his plans and resolved to defeat him. They made up their minds to slay the boy. They dared not attack him in the water, so they chose an old log as the scene of the slaughter where the boy, after swimming, would bask in the sun. There the fish attacked him, and the stingray fatally wounded him. The father carried his son into the forest. When the dying youth saw his blood drop on the ground, he told his father of the curious plants that would grow wherever his blood took root, and he forecast that the roots of these plants would avenge his death."
+}

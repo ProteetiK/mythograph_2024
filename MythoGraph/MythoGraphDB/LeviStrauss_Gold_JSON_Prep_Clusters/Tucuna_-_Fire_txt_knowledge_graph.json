@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "woman"
+    },
+    {
+      "id": "cakes"
+    },
+    {
+      "id": "flames"
+    },
+    {
+      "id": "swallows"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "time"
+    },
+    {
+      "id": "manioc"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "ants"
+    },
+    {
+      "id": "secret"
+    },
+    {
+      "id": "friend"
+    },
+    {
+      "id": "indians"
+    },
+    {
+      "id": "woman cakes"
+    },
+    {
+      "id": "heat"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "open"
+    },
+    {
+      "id": "beaks"
+    }
+  ],
+  "links": [
+    {
+      "source": "woman",
+      "target": "woman",
+      "label": "cook",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "cakes",
+      "label": "cook",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "flames",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "swallows",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "manioc",
+      "label": "cook",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "indians",
+      "label": "prepare",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "indians",
+      "label": "bake",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "heat",
+      "label": "bake",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "swallows",
+      "target": "beaks",
+      "label": "have",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "time",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "manioc",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "fire",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "ants",
+      "target": "secret",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "friend",
+      "target": "fire",
+      "label": "obtain",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "friend",
+      "target": "woman",
+      "label": "obtain",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "woman cakes",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "flames",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "it",
+      "label": "force",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "open",
+      "label": "force",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Once upon a time Men had neither sweet manioc nor fire. An old Woman was given the secret of the fire by the Ants; and her friend, the Nocturnal Swallow, would obtain fire for Woman (keeping it hidden in his beak), so that Woman could cook the manioc, instead of heating it by exposure to the sun or by putting it under Woman armpits. The Indians found the old Woman's manoic cakes excellent and asked how Woman prepared them. Woman replied that Woman simply baked them in the heat of the sun. The Swallow, amused by this falsehood, burst out laughing, and the Indians saw flames coming from Swallow's mouth. Indians forced it open and took possession of the fire. Since then nocturnal Swallows have had gaping beaks."
+}

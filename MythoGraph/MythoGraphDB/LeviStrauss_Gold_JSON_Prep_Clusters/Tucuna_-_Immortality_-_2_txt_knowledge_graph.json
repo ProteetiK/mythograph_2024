@@ -1,0 +1,370 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "virgin"
+    },
+    {
+      "id": "immortals"
+    },
+    {
+      "id": "immortality"
+    },
+    {
+      "id": "celebration"
+    },
+    {
+      "id": "falcon"
+    },
+    {
+      "id": "hut"
+    },
+    {
+      "id": "hide"
+    },
+    {
+      "id": "brothers"
+    },
+    {
+      "id": "lia"
+    },
+    {
+      "id": "bird"
+    },
+    {
+      "id": "beer"
+    },
+    {
+      "id": "call"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "place"
+    },
+    {
+      "id": "time"
+    },
+    {
+      "id": "tortoise"
+    },
+    {
+      "id": "tree fungi"
+    },
+    {
+      "id": "attentions"
+    },
+    {
+      "id": "feast"
+    },
+    {
+      "id": "lover"
+    },
+    {
+      "id": "exit"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "air"
+    },
+    {
+      "id": "lovers"
+    },
+    {
+      "id": "hide occupants sky"
+    },
+    {
+      "id": "girl brothers"
+    },
+    {
+      "id": "liana"
+    },
+    {
+      "id": "herself"
+    },
+    {
+      "id": "account"
+    },
+    {
+      "id": "eyes"
+    },
+    {
+      "id": "fact"
+    },
+    {
+      "id": "girl"
+    },
+    {
+      "id": "jars"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "old"
+    },
+    {
+      "id": "form"
+    }
+  ],
+  "links": [
+    {
+      "source": "virgin",
+      "target": "immortals",
+      "label": "call",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "virgin",
+      "target": "immortality",
+      "label": "call",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "virgin",
+      "target": "celebration",
+      "label": "call",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "virgin",
+      "target": "falcon",
+      "label": "disliked",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "virgin",
+      "target": "hut",
+      "label": "disliked",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "virgin",
+      "target": "hide",
+      "label": "curse",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "virgin",
+      "target": "hide",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "virgin",
+      "target": "call",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "virgin",
+      "target": "which",
+      "label": "seat",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "hide",
+      "target": "air",
+      "label": "rise",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "hide",
+      "target": "form",
+      "label": "see",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "brothers",
+      "target": "lia",
+      "label": "break",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "brothers",
+      "target": "bird",
+      "label": "fell",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "brothers",
+      "target": "beer",
+      "label": "broke",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "beer",
+      "target": "ground",
+      "label": "spill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "place",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "time",
+      "label": "take",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "tortoise",
+      "label": "dislike",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "tree fungi",
+      "label": "eat",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "falcon",
+      "label": "pursue",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "attentions",
+      "label": "pursue",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "feast",
+      "label": "stay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "hut",
+      "label": "stay",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "lover",
+      "label": "stay",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "exit",
+      "label": "notice",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "time",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "herself",
+      "label": "pull",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "account",
+      "label": "open",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "eyes",
+      "label": "open",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "jars",
+      "label": "break",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "old",
+      "label": "grow",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "bird",
+      "label": "change",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "lovers",
+      "target": "hide occupants sky",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "girl brothers",
+      "target": "liana",
+      "label": "throw",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "liana",
+      "target": "fact",
+      "label": "snap",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "girl",
+      "target": "bird",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A virgin, who was being secluded in her puberty cell, heard the call of the immortals. She at once replied and asked to be granted immortality. Among the guests (at a celebration that was taking place at that time) was a young girl engaged to Tortoise: but she disliked him, because he would eat only tree fungi, and she pursued Falcon with her attentions. All through the feast she stayed outside the hut with her lover, except for one brief moment, when she went inside to drink manioc beer. Tortoise noticed her hurried exit and uttered a curse: suddenly the tapir hide, on which the virgin and the guests were seated, rose into the air without Tortoise's having time to take his place on it. The two lovers saw that the hide and its occupants was already high in the sky. The young girl's brothers threw down a thin liana, so that she could pull herself up to join them. But she must on no account open her eyes! She disobeyed and called out: \"The liana is going to break!\" The liana did in fact snap. As she fell, the young girl turned into a bird. Tortoise broke the jars full of beer. The beer, which was full of worms, spilled onto the ground and was licked up by ants and other creatures that shed their skin: and that explains why they never grow old. Tortoise changed into a bird and joined his companions in the upper world. The tapir hide and its occupants can still be seen there in the form of the moon's halo\u2014according to another version, the Pleiades."
+}

@@ -1,0 +1,83 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "demiurge nedamik"
+    },
+    {
+      "id": "humans"
+    },
+    {
+      "id": "ordeal"
+    },
+    {
+      "id": "tickling"
+    },
+    {
+      "id": "land water animals"
+    },
+    {
+      "id": "jaguars"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "who"
+    }
+  ],
+  "links": [
+    {
+      "source": "demiurge nedamik",
+      "target": "humans",
+      "label": "subject",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "demiurge nedamik",
+      "target": "ordeal",
+      "label": "subject",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "demiurge nedamik",
+      "target": "tickling",
+      "label": "subject",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "humans",
+      "target": "land water animals",
+      "label": "change",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "humans",
+      "target": "jaguars",
+      "label": "become",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "humans",
+      "target": "men",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "jaguars",
+      "label": "hunt",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "The demiurge Nedamik subjected the first humans to an ordeal by tickling. Humans who laughed were changed into land or water animals: the Humans that didn't laugh were preyed upon by the jaguar; the Humans that didn't laugh were able to escape from Nedamik by taking refuge in the water. Those humans who maintained self-control became jaguars or men who hunted jaguars and got the better of Humans who laughed."
+}

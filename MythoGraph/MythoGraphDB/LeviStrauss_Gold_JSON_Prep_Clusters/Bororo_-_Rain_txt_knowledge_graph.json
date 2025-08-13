@@ -1,0 +1,72 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "men"
+    },
+    {
+      "id": "xinadatau birds"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "brother"
+    },
+    {
+      "id": "were"
+    },
+    {
+      "id": "ka"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "rain"
+    }
+  ],
+  "links": [
+    {
+      "source": "men",
+      "target": "xinadatau birds",
+      "label": "change",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "brother",
+      "label": "tell",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "were",
+      "label": "tell",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "ka",
+      "target": "water",
+      "label": "need",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "rain",
+      "label": "bring",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Because they were illtreated by their mothers and sisters, men of the Bokodori Cera clan changed into xinadatau birds (galinha do bugre) and disappeared into the air. The women only just managed to keep back one child. The birds told their little brother that if ever he were thirsty or too hot, he had only to imitate their call: \"toka, toka, toka, ka, ka,\" and they would know that he needed water, and would cause a cloud to appear, which would bring a calm and gentle rain. This kind of rain is associated with the Butaudogue spirits, whereas violent rainstorms accompanied by wind and thunder are associated with the Badogebague spirits."
+}

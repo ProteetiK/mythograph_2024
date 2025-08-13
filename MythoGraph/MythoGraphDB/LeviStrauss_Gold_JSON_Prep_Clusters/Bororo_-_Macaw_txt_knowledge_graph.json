@@ -1,0 +1,611 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bird"
+    },
+    {
+      "id": "souls"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "wand"
+    },
+    {
+      "id": "pole"
+    },
+    {
+      "id": "food"
+    },
+    {
+      "id": "mother"
+    },
+    {
+      "id": "father"
+    },
+    {
+      "id": "feathers"
+    },
+    {
+      "id": "dance"
+    },
+    {
+      "id": "nest souls"
+    },
+    {
+      "id": "grandmother"
+    },
+    {
+      "id": "danger"
+    },
+    {
+      "id": "hummingbird"
+    },
+    {
+      "id": "shore"
+    },
+    {
+      "id": "arrows"
+    },
+    {
+      "id": "juriti bird"
+    },
+    {
+      "id": "grasshopper"
+    },
+    {
+      "id": "son wand"
+    },
+    {
+      "id": "magic wand"
+    },
+    {
+      "id": "crevice"
+    },
+    {
+      "id": "creeper"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "bow"
+    },
+    {
+      "id": "vultures"
+    },
+    {
+      "id": "lizards"
+    },
+    {
+      "id": "son backside"
+    },
+    {
+      "id": "air"
+    },
+    {
+      "id": "backside"
+    },
+    {
+      "id": "tubers"
+    },
+    {
+      "id": "lizard"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "butterfly"
+    },
+    {
+      "id": "all"
+    },
+    {
+      "id": "father wife"
+    },
+    {
+      "id": "api tree branch"
+    },
+    {
+      "id": "hunt"
+    },
+    {
+      "id": "mea"
+    },
+    {
+      "id": "-"
+    },
+    {
+      "id": "rodent"
+    },
+    {
+      "id": "deer"
+    },
+    {
+      "id": "lake"
+    },
+    {
+      "id": "revenge"
+    },
+    {
+      "id": "father wives"
+    }
+  ],
+  "links": [
+    {
+      "source": "bird",
+      "target": "bird",
+      "label": "revealed",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "souls",
+      "label": "dropped",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "son",
+      "label": "flew",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "son",
+      "label": "stole",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "son",
+      "label": "invited",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "son",
+      "label": "invited",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "son",
+      "label": "ordered",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "wand",
+      "label": "invited",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "pole",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "food",
+      "label": "thrust",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "souls",
+      "target": "arrows",
+      "label": "fire",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "souls",
+      "target": "arrows",
+      "label": "fire",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "mother",
+      "label": "rape",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "grandmother",
+      "label": "consult",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "grandmother",
+      "label": "consult",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "shore",
+      "label": "wait",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "shore",
+      "label": "wait",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "magic wand",
+      "label": "thrust",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "crevice",
+      "label": "thrust",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "creeper",
+      "label": "find",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "himself",
+      "label": "drag",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "himself",
+      "label": "disguise",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "bow",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "arrows",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "vultures",
+      "label": "drive",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "backside",
+      "label": "make",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "tubers",
+      "label": "make",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "lizard",
+      "label": "disguise",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "birds",
+      "label": "disguise",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "butterfly",
+      "label": "disguise",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "api tree branch",
+      "label": "break",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "mea",
+      "label": "disguise",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "-",
+      "label": "disguise",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "rodent",
+      "label": "disguise",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "deer",
+      "label": "disguise",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "father",
+      "label": "drop",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "lake",
+      "label": "drop",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "revenge",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "father wives",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "feathers",
+      "label": "notice",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "mother",
+      "label": "notice",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "son",
+      "label": "discover",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "son",
+      "label": "discover",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "son",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "son",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "son",
+      "label": "invite",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "son",
+      "label": "order_climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "son",
+      "label": "welcome",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "dance",
+      "label": "order",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "nest souls",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "pole",
+      "label": "knock",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "hunt",
+      "label": "organize",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "grandmother",
+      "target": "danger",
+      "label": "reveal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "grandmother",
+      "target": "danger",
+      "label": "reveal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "grandmother",
+      "target": "son",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "grandmother",
+      "target": "son",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "grandmother",
+      "target": "hummingbird",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "grandmother",
+      "target": "juriti bird",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "grandmother",
+      "target": "son wand",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "grasshopper",
+      "target": "son",
+      "label": "help",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "vultures",
+      "target": "lizards",
+      "label": "devour",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "vultures",
+      "target": "son",
+      "label": "attack",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "vultures",
+      "target": "son",
+      "label": "lift",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "vultures",
+      "target": "son backside",
+      "label": "eat",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "vultures",
+      "target": "air",
+      "label": "lift",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "all",
+      "target": "grandmother",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father wife",
+      "target": "son",
+      "label": "recognize",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Son raped Mother. Father noticed feathers on Mother. Father suspected Mother. Father organized Dance. Father discovered Son. Father ordered second Dance. Father again discovered Son. Father sent Son to Nest of Souls to bring Bapo. Son consulted Grandmother. Grandmother revealed mortal Danger. Grandmother sent Son to Hummingbird. Son waited on Shore. Hummingbird dropped Bapo. Souls fired arrows. Hummingbird flew fast and got away. Son returned home. Father sent son to bring Samll Rattle. Son consulted Grandmother. Grandmother revealed mortal Danger. Grandmother sent Son to Juriti-bird. Son waited on Shore. Juriti-bird dropped Bapo. Souls fired arrows. Juriti-bird flew fast and got away. Son returned home. Son stole Buttore. Grasshopper helped Son. Grasshopper flew slowly. Grasshopper was shot but survived. Father invited Son to capture Macaws. Grandmother did not know how to help. Grandmother gave Son Magic-Wand. Father ordered Son to climb Pole. Father knocked down Pole. Son thrust Magic-Wand in Crevice. Son remained hanging. Father went away. Son found creeper. Son dragged himself up. Son set out to look for food. Son made bow and arrows out of branches. Son hunted Lizards. Lizards smelled so bad Son fainted. Vultures devoured Lizards. Vultures attacked Son. Vultures ate Son's backside. Son drove off Vultures. Vultures lifted Son into air and deposited him at the foot of the mountain. Son made new backside with pounded tubers. Son disguised himself as a Lizard. Grandmother was amused by Son's antics. Son disguised as four birds. Son disguised as four butterfly. All firest went out except Grandmother's. Father's second Wife recognized Son. Father welcomed Son. Son broke off a api-tree branch. Brother made Father organize a hunt. Son disguised as Mea-rodent. Son disguised as Deer. Son impaled Father. Son dropped Father into Lake. Buiogoe-fish devoured Father. Son took revenge on Father's Wives."
+}

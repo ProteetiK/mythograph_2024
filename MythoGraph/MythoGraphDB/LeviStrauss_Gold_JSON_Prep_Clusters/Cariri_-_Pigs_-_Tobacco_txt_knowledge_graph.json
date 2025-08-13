@@ -1,0 +1,298 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "grandfather"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "ants"
+    },
+    {
+      "id": "toad"
+    },
+    {
+      "id": "belts"
+    },
+    {
+      "id": "rope"
+    },
+    {
+      "id": "parents"
+    },
+    {
+      "id": "demiurge"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "latter"
+    },
+    {
+      "id": "indians"
+    },
+    {
+      "id": "pigs"
+    },
+    {
+      "id": "advantage"
+    },
+    {
+      "id": "fact"
+    },
+    {
+      "id": "way tree"
+    },
+    {
+      "id": "piglets"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "was"
+    },
+    {
+      "id": "flesh"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "whither"
+    },
+    {
+      "id": "children"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "badze"
+    },
+    {
+      "id": "times"
+    },
+    {
+      "id": "offerings"
+    }
+  ],
+  "links": [
+    {
+      "source": "grandfather",
+      "target": "tree",
+      "label": "seeing",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "grandfather",
+      "target": "advantage",
+      "label": "take",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "grandfather",
+      "target": "fact",
+      "label": "take",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "ants",
+      "target": "tree",
+      "label": "fell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "ants",
+      "target": "tree",
+      "label": "bringing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "ants",
+      "target": "toad",
+      "label": "fell",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "ants",
+      "target": "belts",
+      "label": "bringing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "ants",
+      "target": "rope",
+      "label": "bringing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "ants",
+      "target": "parents",
+      "label": "fell",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "demiurge",
+      "target": "men",
+      "label": "live",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "demiurge",
+      "target": "ants",
+      "label": "order_fall",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "piglets",
+      "label": "follow",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "sky",
+      "label": "follow",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "latter",
+      "target": "indians",
+      "label": "ask_let",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "pigs",
+      "label": "taste",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "indians",
+      "label": "advise_go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "belts",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "was",
+      "label": "fall",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "flesh",
+      "label": "feast",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "grandfather",
+      "label": "beg_come",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "whither",
+      "label": "beg_come",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "children",
+      "label": "follow",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "it",
+      "label": "hear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "it",
+      "label": "call",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "badze",
+      "label": "call",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "times",
+      "label": "make",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "offerings",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "way tree",
+      "target": "piglets",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "way tree",
+      "target": "sky",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "piglets",
+      "label": "change",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "In the days when the demiurge lived with men, the latter asked him to let them taste wild pigs, which as yet did not exist. The Grandfather took advantage of the fact that all the Indians were away and had left only children under ten behind in the village, to change the latter into wild piglets. When the Indians returned, he advised them to go hunting, but at the same time sent all the piglets up into the sky by way of a big tree. The men, seeing this, followed the piglets into the sky and began killing them there. The demiurge thereupon ordered the ants to fell the tree, which the toads defended with their bodies. This is why today toads have swollen backs as a result of the stings. The ants succeeded in bringing down the tree. The Indians, being unable to get back to earth, put their belts end to end to make a rope. But as it was too short, they fell down one after another and broke their bones: \"This is why our fingers and toes are broken in so many places and why our bodies bend according to the breaks inflicted on our parents by their fall.\" On returning to the village, the Indians feasted on the flesh of their children, who had been changed into piglets. They begged the Grandfather to come down from the sky (whither he had followed the children) and to return to the village: \"but he would not hear of it and gave them tobacco in his stead; they call it Badze and this is why, at certain times, they make offerings of tobacco.\""
+}

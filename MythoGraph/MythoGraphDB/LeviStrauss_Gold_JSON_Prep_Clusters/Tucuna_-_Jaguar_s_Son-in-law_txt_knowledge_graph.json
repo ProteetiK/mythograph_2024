@@ -1,0 +1,278 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "hunter"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "flesh"
+    },
+    {
+      "id": "meat"
+    },
+    {
+      "id": "food"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "marriage"
+    },
+    {
+      "id": "way"
+    },
+    {
+      "id": "jaguar daughters"
+    },
+    {
+      "id": "vain"
+    },
+    {
+      "id": "flesh jaguar's wife"
+    },
+    {
+      "id": "loft"
+    },
+    {
+      "id": "caititu"
+    },
+    {
+      "id": "dinner"
+    },
+    {
+      "id": "skin"
+    },
+    {
+      "id": "jaguar's wife"
+    },
+    {
+      "id": "sign"
+    },
+    {
+      "id": "difficulty"
+    },
+    {
+      "id": "consent"
+    },
+    {
+      "id": "wild"
+    },
+    {
+      "id": "hunter mother"
+    },
+    {
+      "id": "charcoal"
+    },
+    {
+      "id": "forest"
+    },
+    {
+      "id": "wives"
+    }
+  ],
+  "links": [
+    {
+      "source": "hunter",
+      "target": "jaguar",
+      "label": "lost",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "hunter",
+      "target": "way",
+      "label": "lose",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "hunter",
+      "target": "food",
+      "label": "succeed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hunter",
+      "target": "difficulty",
+      "label": "succeed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hunter",
+      "target": "forest",
+      "label": "run",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "jaguar",
+      "label": "smelled",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "flesh",
+      "label": "smelled",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "hunter",
+      "label": "hid",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "hunter",
+      "label": "show",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "meat",
+      "label": "warned",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "food",
+      "label": "warned",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "village",
+      "label": "returned",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "marriage",
+      "label": "suggested",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "caititu",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "dinner",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "skin",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "consent",
+      "label": "give",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar daughters",
+      "target": "vain",
+      "label": "invite",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "vain",
+      "target": "dinner",
+      "label": "wait",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "vain",
+      "target": "sign",
+      "label": "show",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "vain",
+      "target": "wild",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "flesh jaguar's wife",
+      "target": "hunter",
+      "label": "hide",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "flesh jaguar's wife",
+      "target": "loft",
+      "label": "hide",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar's wife",
+      "target": "hunter",
+      "label": "warn",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "hunter mother",
+      "target": "hunter",
+      "label": "paint",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hunter mother",
+      "target": "charcoal",
+      "label": "paint",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wives",
+      "target": "hunter",
+      "label": "look",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "wives",
+      "target": "vain",
+      "label": "look",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A Hunter lost his way and found himself at the Jaguar's house. The Jaguar's Daughters invited him in after explaining that the Monkey he had been pursuing was their pet. When the Jaguar came home and smelled human flesh, Jaguar's-wife hid the Hunter in the loft. The Jaguar had brought back a caititu for dinner. After the terror-stricken Hunter had been introduced to Jaguar and licked from head to foot, the Jaguar took off his skin, assumed human form, and chatted familiarly with the Hunter while they waited for dinner. Meanwhile the Jaguar's-wife secretly warned the Hunter that the meat would be highly seasoned, and that when he came to eat it, he should show no sign of being put out by this. Although the food was very peppery, the Hunter succeeded in hiding his discomfort, although not without difficulty. The Jaguar was delighted, congratulated Hunter, and set Hunter on the road leading back to his village. But the Hunter went astray, returned to the Jaguar's house, and the Jaguar showed Hunter another road; he again got lost and came back. The Jaguar's Daughters suggested marriage; the Hunter accepted, and the Jaguar gave his consent. One day, a long time afterward, he went back to visit his family. Hunter's Mother noticed that he had become wild and that Hunter's body was beginning to be covered with spots like the Jaguar's hide. Hunter's Mother painted Hunter all over with powdered charcoal. Hunter ran off into the forest where his human Wives looked for Hunter in vain. Hunter was never seen again."
+}

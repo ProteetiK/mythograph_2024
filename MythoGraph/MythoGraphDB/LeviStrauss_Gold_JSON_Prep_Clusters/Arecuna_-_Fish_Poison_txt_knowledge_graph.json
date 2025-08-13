@@ -1,0 +1,1237 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "woman"
+    },
+    {
+      "id": "child"
+    },
+    {
+      "id": "fox"
+    },
+    {
+      "id": "tick"
+    },
+    {
+      "id": "beads"
+    },
+    {
+      "id": "oven"
+    },
+    {
+      "id": "plantation"
+    },
+    {
+      "id": "relatives"
+    },
+    {
+      "id": "boy"
+    },
+    {
+      "id": "tracks"
+    },
+    {
+      "id": "jubata"
+    },
+    {
+      "id": "latter"
+    },
+    {
+      "id": "tapir"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "husband"
+    },
+    {
+      "id": "meanings"
+    },
+    {
+      "id": "beings"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "tapirs"
+    },
+    {
+      "id": "people"
+    },
+    {
+      "id": "surprise"
+    },
+    {
+      "id": "ticks"
+    },
+    {
+      "id": "account way forest"
+    },
+    {
+      "id": "way"
+    },
+    {
+      "id": "wife"
+    },
+    {
+      "id": "was"
+    },
+    {
+      "id": "legs"
+    },
+    {
+      "id": "mother"
+    },
+    {
+      "id": "order"
+    },
+    {
+      "id": "river"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "shortage"
+    },
+    {
+      "id": "woman secret"
+    },
+    {
+      "id": "tuyuyu bird"
+    },
+    {
+      "id": "father"
+    },
+    {
+      "id": "operation"
+    },
+    {
+      "id": "place"
+    },
+    {
+      "id": "stream"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "family"
+    },
+    {
+      "id": "sake"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "pool"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "furious"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "lot"
+    },
+    {
+      "id": "swimmer"
+    },
+    {
+      "id": "rock"
+    },
+    {
+      "id": "anger"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "themselves"
+    },
+    {
+      "id": "rainbow"
+    },
+    {
+      "id": "dives keyemen"
+    },
+    {
+      "id": "arrow"
+    },
+    {
+      "id": "fishing expedition"
+    },
+    {
+      "id": "turns"
+    },
+    {
+      "id": "background"
+    },
+    {
+      "id": "request"
+    },
+    {
+      "id": "bottom"
+    },
+    {
+      "id": "means"
+    },
+    {
+      "id": "body"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "animals"
+    },
+    {
+      "id": "cries"
+    },
+    {
+      "id": "peculiarities"
+    },
+    {
+      "id": "coats"
+    },
+    {
+      "id": "plumage"
+    },
+    {
+      "id": "kulewente"
+    },
+    {
+      "id": "son body"
+    },
+    {
+      "id": "basket"
+    },
+    {
+      "id": "grandmother"
+    },
+    {
+      "id": "blood"
+    },
+    {
+      "id": "bones"
+    },
+    {
+      "id": "variety"
+    },
+    {
+      "id": "ibis"
+    },
+    {
+      "id": "bait"
+    },
+    {
+      "id": "fishing"
+    },
+    {
+      "id": "white egret"
+    },
+    {
+      "id": "piece"
+    },
+    {
+      "id": "maguari"
+    },
+    {
+      "id": "a(o)-a(o"
+    },
+    {
+      "id": "soco"
+    },
+    {
+      "id": "kingfisher"
+    },
+    {
+      "id": "head"
+    },
+    {
+      "id": "feathers"
+    },
+    {
+      "id": "red"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "breast"
+    },
+    {
+      "id": "belly"
+    },
+    {
+      "id": "beak"
+    },
+    {
+      "id": "yellow"
+    },
+    {
+      "id": "throat"
+    },
+    {
+      "id": "strip"
+    },
+    {
+      "id": "nostrils"
+    },
+    {
+      "id": "wings"
+    },
+    {
+      "id": "white"
+    },
+    {
+      "id": "krr"
+    },
+    {
+      "id": "oazabaka bird"
+    },
+    {
+      "id": "song"
+    },
+    {
+      "id": "one"
+    },
+    {
+      "id": "deer"
+    },
+    {
+      "id": "share antlers"
+    },
+    {
+      "id": "antlers"
+    },
+    {
+      "id": "matter"
+    },
+    {
+      "id": "savannah species"
+    },
+    {
+      "id": "agouti"
+    },
+    {
+      "id": "fur"
+    },
+    {
+      "id": "warning cry"
+    },
+    {
+      "id": "caititu"
+    },
+    {
+      "id": "skin"
+    },
+    {
+      "id": "shoulders"
+    },
+    {
+      "id": "hair"
+    },
+    {
+      "id": "hx"
+    },
+    {
+      "id": "peccary"
+    },
+    {
+      "id": "rr"
+    },
+    {
+      "id": "anteater"
+    },
+    {
+      "id": "arms"
+    },
+    {
+      "id": "species"
+    },
+    {
+      "id": "cry"
+    },
+    {
+      "id": "flutes"
+    }
+  ],
+  "links": [
+    {
+      "source": "woman",
+      "target": "child",
+      "label": "exasperated",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "fox",
+      "label": "exasperated",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "fox",
+      "label": "leave",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "tick",
+      "label": "stole",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "tick",
+      "label": "urged",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "beads",
+      "label": "stole",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "oven",
+      "label": "taught",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "plantation",
+      "label": "taught",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "plantation",
+      "label": "urged",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "relatives",
+      "label": "urged",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "boy",
+      "label": "urged",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "tracks",
+      "label": "urged",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "jubata",
+      "label": "leave",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "child",
+      "target": "river",
+      "label": "wash",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "furious",
+      "label": "plunge",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "water",
+      "label": "plunge",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "man",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "jubata",
+      "label": "teach",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "jubata",
+      "label": "urge_visit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "jubata",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "meanings",
+      "label": "teach",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "ticks",
+      "label": "cover",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "account way forest",
+      "label": "maintain",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "way",
+      "label": "lose",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "way",
+      "label": "discover",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "legs",
+      "label": "kill",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "mother",
+      "label": "ask_follow",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "order",
+      "label": "ask_follow",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "child",
+      "label": "bathe",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "child",
+      "label": "wash",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "river",
+      "label": "bathe",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "woman secret",
+      "label": "discover",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "birds",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "water",
+      "label": "dive",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "anger",
+      "label": "burn",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "request",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "bottom",
+      "label": "dive",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "that",
+      "label": "fasten",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "body",
+      "label": "skin",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "which",
+      "label": "share",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jubata",
+      "target": "themselves",
+      "label": "share",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "latter",
+      "target": "jubata",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tapir",
+      "target": "jubata",
+      "label": "steal",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "tapir",
+      "target": "jubata",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tapir",
+      "target": "husband",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tapir",
+      "target": "plantation",
+      "label": "waste",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "tapir",
+      "target": "warning cry",
+      "label": "give",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "wife",
+      "label": "confess",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "was",
+      "label": "confess",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "beings",
+      "target": "that",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "beings",
+      "target": "tapirs",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "people",
+      "target": "surprise",
+      "label": "express",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "shortage",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "lot",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "tuyuyu bird",
+      "target": "father",
+      "label": "ask_bathe",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "son",
+      "label": "order_dive",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "son",
+      "label": "speak",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "jubata",
+      "label": "speak",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "operation",
+      "target": "place",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "operation",
+      "target": "stream",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "child",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "family",
+      "target": "sake",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "turns",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "background",
+      "label": "stay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "pool",
+      "target": "fish",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "swimmer",
+      "target": "rock",
+      "label": "reach",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "themselves",
+      "label": "busy_gather",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "means",
+      "label": "succeed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "bait",
+      "label": "use",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "fishing",
+      "label": "use",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rainbow",
+      "target": "dives keyemen",
+      "label": "shoot",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rainbow",
+      "target": "jubata",
+      "label": "shoot",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rainbow",
+      "target": "arrow",
+      "label": "shoot",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fishing expedition",
+      "target": "place",
+      "label": "take",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "yellow",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "hair",
+      "label": "account",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "cries",
+      "label": "acquire",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "peculiarities",
+      "label": "acquire",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "coats",
+      "label": "acquire",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "coats",
+      "label": "obtain",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "plumage",
+      "label": "acquire",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "way",
+      "label": "obtain",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "flutes",
+      "label": "obtain",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "kulewente",
+      "target": "son body",
+      "label": "put",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "kulewente",
+      "target": "basket",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "grandmother",
+      "target": "basket",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "grandmother",
+      "target": "ibis",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "blood",
+      "target": "basket",
+      "label": "ooze",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bones",
+      "target": "variety",
+      "label": "produce",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "white egret",
+      "target": "piece",
+      "label": "take",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "piece",
+      "target": "beak",
+      "label": "remain",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "piece",
+      "target": "head",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "piece",
+      "target": "breast",
+      "label": "turn",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "piece",
+      "target": "wings",
+      "label": "turn",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "piece",
+      "target": "white",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "maguari",
+      "target": "a(o)-a(o",
+      "label": "do",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "soco",
+      "target": "piece",
+      "label": "place",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "kingfisher",
+      "target": "piece",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "kingfisher",
+      "target": "head",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "feathers",
+      "target": "red",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "breast",
+      "label": "cover",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "belly",
+      "label": "cover",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "piece",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "piece",
+      "label": "seize",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "throat",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "krr",
+      "label": "sing",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "hx",
+      "label": "receive",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "strip",
+      "target": "nostrils",
+      "label": "turn",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "strip",
+      "target": "yellow",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "oazabaka bird",
+      "target": "song",
+      "label": "acquire",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "one",
+      "target": "piece",
+      "label": "choose",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "share antlers",
+      "label": "receive",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "antlers",
+      "target": "matter",
+      "label": "belong",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "antlers",
+      "target": "savannah species",
+      "label": "belong",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "agouti",
+      "target": "fur",
+      "label": "acquire",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "agouti",
+      "target": "breast",
+      "label": "acquire",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "fur",
+      "target": "yellow",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "caititu",
+      "target": "skin",
+      "label": "place",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "caititu",
+      "target": "shoulders",
+      "label": "place",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "peccary",
+      "target": "rr",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "anteater",
+      "target": "skin",
+      "label": "stretch",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "anteater",
+      "target": "arms",
+      "label": "stretch",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "species",
+      "target": "cry",
+      "label": "give",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Exasperated by her child's crying, a woman left him to the fox. The latter took him home, fed him, and brought him up, but a female tapir stole him. The child grew up completely covered in ticks, which are the tapir's beads. When he became a grown man, the female tapir took him as her husband. She taught him the different meanings that beings and things had for tapirs: the poisonous snake was an oven, but the dog was a poisonous snake. . . . It so happened that the female tapir, who had become pregnant, laid waste the plantation belonging to her husband's parents. Thereupon she urged him to visit his relatives but advised him to keep their marriage secret. The boy was warmly welcomed, but people expressed surprise at the fact that he was covered with ticks. He maintained that this was on account of his losing his way in the forest. The following morning it was discovered that the plantation had been ruined, and the tapir's tracks were noticed. It was decided to kill the tapir. The young man thereupon confessed that she was his wife, and that she was pregnant. They could kill her, provided they were careful not to wound her in the belly, but only under the arm, in the head, or the legs. And he asked his mother to follow the hunters, in order to remove the child from the animal's body as soon as it was dead. As the hero had also foretold, the mother discovered that every time she bathed the child in the river (in secret, following her son's injunctions), quantities of fish died. She therefore washed the child each time there was a shortage of food. But the hero's relatives (sisters' husbands) were curious about the mysterious glut of fish and sent children to spy on their mother-in-law. In this way they discovered the old woman's secret. From then on, the bathing and the collecting of the fish were to take place in public with everyone helping. In this way the fish-eating birds came to know that when the child was washed in the river, there would be a miraculous glut of fish. The tuyuyu bird (Mycteria mycteria, a wood ibis) asked the father to bathe the child for their benefit, and suggested that the operation should take place, not in a stream but in the pool below a waterfall where the fish were more plentiful. The father was frightened and protested, \"You will kill my child!\" But the bird was so insistent that, for the sake of peace, the father, the child, and the whole family went to inspect the pool. There they found the birds, who had arranged to assemble at the spot. The pool was found to be full of fish. The father ordered his son to dive in, but the latter was afraid of the deep and threatening water. The father insisted. Furious, the boy plunged into the water and dived over and over again. Then the father said to him, \"That is enough, my son! There are a lot of dead fish. Come back now!\" But the child was annoyed and refused to listen. The dead fish began to pile up. Finally, the swimmer reached a rock in the middle of the pool and lay there, face downward, without uttering a word. Now he was cold, for when he had dived into the water, he was burning with anger and covered in sweat. And while the men and the birds busied themselves gathering up the fish, he died without speaking. What had happened was that during one of his dives Keyemen\u2014the rainbow in the shape of a huge watersnake\u2014had shot him with an arrow and wounded him. Keyemen was the grandfather of aquatic birds, and the entrance to his subterranean abode was at the bottom of the pool where the fatal fishing expedition was taking place. Full of bitterness, Kulewente (this was the father's name) blamed the birds for his son's death and asked them to avenge it. The birds took turns in trying to dive down to the bottom of the pool, but without success. Then the terrestrial birds and quadrupeds tried, and they too failed. Two remaining birds (two diving birds, Colymbus species) stayed in the background, for they had made no request to the father and bore no responsibility for the boy's death. Nevertheless they agreed to intervene. They dived to the bottom of the pool and killed Keyemen. By means of a liana that they fastened round his neck, the men and the animals succeeded in hauling the monster onto dry land. They skinned the body and cut it into pieces, which they shared out among themselves. According to the nature and color of the portion allotted to each one, the animals acquired the cries, the anatomical peculiarities, the coats, or the plumage that were henceforth to be characteristic of each species. Kulewente put his son's body in a basket and then went off. The grandmother took the basket and walked away with it, singing. Blood oozed from the basket, then pieces of decomposed flesh fell out, creating timbo, from which fish poison is extracted. The bones and sexual organs produced the weak variety, and the rest of the body the strong variety. The grandmother finally turned into an ibis which eats the earthworms men use as bait in fishing. he white egret took its piece and sang, \"a-a,\" a call that it still has to this day. The maguari {Ciconia maguari, a stork) did likewise and uttered its ugly cry: \"a(o)-a(o).\" The soco (Ardea brasiliensis, a heron) placed its piece on its head and wings (where the colored feathers are) and sang, \"koro-koro-koro.\" The kingfisher (Alcedo species) put its piece on its head and breast, where the feathers turned red, and sang, \"se-txe-txe-txe.\" Then it was the toucan's turn. It covered its breast and belly (where the feathers are white and red). And it said: \"kion-he, he kion-he-he.\" A small piece of skin remained stuck to its beak which became yellow. Then came the mutum; it put its piece on its throat and sang, \"hm-hm-hm-hm\" and a tiny remaining strip of skin turned its nostrils yellow. Next came the cujubim (a piping guan), whose piece turned its head, breast, and wings white: it sang, \"krr\" as it has done every morning since. Each bird \"thought its own flute made a pretty sound and kept it.\" The richly colored plumage of the macaw is explained by the fact that it seized a large piece of skin and covered its whole body in it; it was imitated in this by the parrots and the yellow parakeets. The oazabaka bird acquired a charming song: \"oazabaka-oazabaka-ku-lu-lu-lu-lu.\" And all the birds, including the jacu and the nightingale, received in this way their plumage and their \"flute.\" Then came the turn of ground game\u2014the tapir, the capybara, and the deer. Each one chose a piece of skin. The part the deer received as its share sprouted antlers. As a matter of fact, the antlers of the forest species formerly belonged to the savannah species, and vice versa: since the first were bothered by the size of their antlers because they became entangled in creepers and branches, the two species decided to swap. The agouti (Dasyprocta aguti) acquired reddish and white fur on its breast and belly, and its little \"flute\": \"king-king\"; the paca {Coelogenys paca) likewise. The tapir was given its warning cry, which was like a whistle. The caititu {Dicotyles torquatus) placed the skin on its shoulders, which accounts for its black hair; and it also received its call \"hx-hx\"; while the peccary ( = quiexada : Dicotyles labiatus) said \"rr-rr.\" Finally, the great anteater (Myrmecophaga jubata) stretched the skin over its arms and spine where the fur became yellow, and was allotted the cry \"rr-rr\" (clearer than the gutteral and muted \"rr-rr\" of the peccary). Each species of monkey was also given a cry, and in this way all the wild animals obtained their colored coats and their \"flutes.\""
+}

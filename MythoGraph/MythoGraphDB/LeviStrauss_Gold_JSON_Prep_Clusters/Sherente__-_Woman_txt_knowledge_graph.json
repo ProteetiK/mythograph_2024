@@ -1,0 +1,251 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "messenger"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "pieces"
+    },
+    {
+      "id": "women"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "homosexuality"
+    },
+    {
+      "id": "one"
+    },
+    {
+      "id": "pregnant"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "reflection"
+    },
+    {
+      "id": "puma"
+    },
+    {
+      "id": "days"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "piece"
+    },
+    {
+      "id": "leaf"
+    },
+    {
+      "id": "way"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "slice"
+    },
+    {
+      "id": "semema"
+    }
+  ],
+  "links": [
+    {
+      "source": "messenger",
+      "target": "tree",
+      "label": "sent",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "messenger",
+      "target": "pieces",
+      "label": "discovered",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "messenger",
+      "target": "women",
+      "label": "discovered",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "pieces",
+      "target": "women",
+      "label": "change",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "women",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "homosexuality",
+      "label": "practice",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "it",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "reflection",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "one",
+      "target": "pregnant",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "puma",
+      "target": "days",
+      "label": "try_catch",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "puma",
+      "target": "woman",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "puma",
+      "target": "woman",
+      "label": "cut",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "puma",
+      "target": "woman",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "puma",
+      "target": "pieces",
+      "label": "cut",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "puma",
+      "target": "way",
+      "label": "send",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "puma",
+      "target": "messenger",
+      "label": "send",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "puma",
+      "target": "himself",
+      "label": "find",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "puma",
+      "target": "women",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "piece",
+      "label": "wrap",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "leaf",
+      "label": "wrap",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "woman",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "piece",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "slice",
+      "label": "twist",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "semema",
+      "target": "himself",
+      "label": "find",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "semema",
+      "target": "woman",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "In the beginning there were no Women, and Men practiced homosexuality. One of them became pregnant but was unable to give birth, and died. Once several Men, reaching a spring, saw in it the reflection of a Woman who was sitting high up in the branches of a tree. For two days they tried to catch the reflection. At last one of them looked up and spied the Woman; they brought Woman down, but since each wanted to have Woman, they cut Woman into little pieces which were shared out. Each Man wrapped his piece in a leaf and put the bundle in the grass wall of his hut. Then all Men went hunting. On their way back they sent ahead a Messenger who discovered that the pieces had all changed into Women. The puma, who had been given a piece from the chest, found himself with a very pretty Woman; the semema, who had twisted his slice too tight, found himself with a very lean Woman. But each Man now had a Woman; and when Men went hunting, they took their Women along."
+}

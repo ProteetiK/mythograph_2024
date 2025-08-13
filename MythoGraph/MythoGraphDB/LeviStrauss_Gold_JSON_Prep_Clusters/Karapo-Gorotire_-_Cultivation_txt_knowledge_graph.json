@@ -1,0 +1,220 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "woman"
+    },
+    {
+      "id": "wood"
+    },
+    {
+      "id": "maize"
+    },
+    {
+      "id": "rat"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "parrot"
+    },
+    {
+      "id": "monkeys"
+    },
+    {
+      "id": "trunk"
+    },
+    {
+      "id": "axe"
+    },
+    {
+      "id": "savannah"
+    },
+    {
+      "id": "youth"
+    },
+    {
+      "id": "flesh"
+    },
+    {
+      "id": "indians"
+    },
+    {
+      "id": "tree fungi"
+    },
+    {
+      "id": "existence"
+    },
+    {
+      "id": "parrots"
+    },
+    {
+      "id": "possession"
+    },
+    {
+      "id": "sorcerers"
+    },
+    {
+      "id": "success"
+    },
+    {
+      "id": "plenty"
+    },
+    {
+      "id": "tribes"
+    }
+  ],
+  "links": [
+    {
+      "source": "woman",
+      "target": "wood",
+      "label": "told",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "maize",
+      "label": "told",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "maize",
+      "label": "told",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "maize",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "rat",
+      "label": "told",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "tree",
+      "label": "told",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "parrot",
+      "label": "told",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "monkeys",
+      "label": "told",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "trunk",
+      "label": "fighting",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "axe",
+      "label": "fighting",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "savannah",
+      "label": "fighting",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "youth",
+      "label": "fighting",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "flesh",
+      "label": "eat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "existence",
+      "label": "tell",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "maize",
+      "target": "tree",
+      "label": "grow",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "tree fungi",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "wood",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "plenty",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "parrots",
+      "target": "possession",
+      "label": "fight",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "sorcerers",
+      "target": "success",
+      "label": "try_restore",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tribes",
+      "target": "existence",
+      "label": "come",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "In the days when Indians ate only tree fungi and powdered rotten wood, a woman was told about the existence of maize by a small rat, while she was bathing. The maize grew on an enormous tree where parrots and monkeys were fighting each other for its possession. The trunk was so thick that the Indians had to go to the village to fetch another axe. On the way the young men killed and ate a savannah opossum and were turned into old men. Sorcerers tried to restore their youth, but without success. Since then it has been strictly forbidden to eat the flesh of the opossum. Thanks to maize, the Indians had plenty to eat. As their numbers increased, tribes with different languages and customs came into existence."
+}

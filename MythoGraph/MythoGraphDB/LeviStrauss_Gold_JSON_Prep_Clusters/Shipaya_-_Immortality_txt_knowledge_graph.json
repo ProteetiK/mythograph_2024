@@ -1,0 +1,137 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "demiurge"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "third"
+    },
+    {
+      "id": "order"
+    },
+    {
+      "id": "canoe"
+    },
+    {
+      "id": "basket"
+    },
+    {
+      "id": "death"
+    },
+    {
+      "id": "result"
+    },
+    {
+      "id": "embraces"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "arrival"
+    },
+    {
+      "id": "skins"
+    }
+  ],
+  "links": [
+    {
+      "source": "demiurge",
+      "target": "men",
+      "label": "tell_take",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "demiurge",
+      "target": "canoe",
+      "label": "arrive",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "third",
+      "label": "stop",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "order",
+      "label": "stop",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "canoe",
+      "label": "run",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "result",
+      "label": "greet",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "death",
+      "label": "greet",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "death",
+      "label": "choose",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "embraces",
+      "label": "greet",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "skins",
+      "label": "slough",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "canoe",
+      "target": "basket",
+      "label": "contain",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "canoe",
+      "target": "death",
+      "label": "carry",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "arrival",
+      "label": "await",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "The Demiurge wished to make Men immortal. Demiurge told Men to take up their position at the water's edge and to allow two canoes to go by; Men should, however, stop the third in order to greet and embrace the Spirit in it. The First Canoe contained a basket full of rotten meat, which was extremely foul smelling. The Men ran toward First Canoe but were repelled by the Stench. They thought that this canoe was carrying death, whereas Death was in the Second Canoe and had taken human form. As a result, the Men greeted Death warmly, with embraces. When the Demiurge arrived in the Third Canoe, he had to accept the fact that the Men had chosen Death \u2014 unlike the Snakes, the Trees, and the Stones, who had all awaited the arrival of the Spirit of Immortality. Had the Men done likewise, Men would have sloughed off their skins when they grew old, and would have become young again like Snakes."
+}

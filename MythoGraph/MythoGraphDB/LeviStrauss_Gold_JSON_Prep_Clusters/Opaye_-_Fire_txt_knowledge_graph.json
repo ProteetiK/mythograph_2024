@@ -1,0 +1,488 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "animals"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "hut"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "monkey"
+    },
+    {
+      "id": "howl"
+    },
+    {
+      "id": "animal"
+    },
+    {
+      "id": "pre"
+    },
+    {
+      "id": "grandmother"
+    },
+    {
+      "id": "brand"
+    },
+    {
+      "id": "prea"
+    },
+    {
+      "id": "armadillo"
+    },
+    {
+      "id": "woman hut"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "cold"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "arms"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "method"
+    },
+    {
+      "id": "jaguar hut"
+    },
+    {
+      "id": "words"
+    },
+    {
+      "id": "pursuit"
+    },
+    {
+      "id": "days lead"
+    },
+    {
+      "id": "bank"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "possession"
+    },
+    {
+      "id": "follows"
+    },
+    {
+      "id": "log"
+    },
+    {
+      "id": "firebrand"
+    },
+    {
+      "id": "burning"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "food"
+    },
+    {
+      "id": "right"
+    },
+    {
+      "id": "paw"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "lesson"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "explanations"
+    },
+    {
+      "id": "place"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "father"
+    },
+    {
+      "id": "welcome"
+    }
+  ],
+  "links": [
+    {
+      "source": "animals",
+      "target": "fire",
+      "label": "mistress",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "fire",
+      "label": "steal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "hut",
+      "label": "went",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "son",
+      "label": "signal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "jaguar",
+      "label": "signal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "monkey",
+      "label": "then",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "monkey",
+      "label": "then",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "howl",
+      "label": "then",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "animal",
+      "label": "unfortunate",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fire",
+      "target": "village",
+      "label": "spread",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "pursuit",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "prea",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "prea",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "prea",
+      "label": "teach_make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "bank",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "right",
+      "label": "speak",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "that",
+      "label": "represent",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "man",
+      "label": "represent",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "lesson",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "pre",
+      "target": "jaguar",
+      "label": "arrived",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "pre",
+      "target": "hut",
+      "label": "arrived",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "pre",
+      "target": "grandmother",
+      "label": "arrived",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "pre",
+      "target": "fire",
+      "label": "arrived",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "pre",
+      "target": "brand",
+      "label": "seized",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "armadillo",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "woman hut",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "himself",
+      "label": "warm",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "cold",
+      "label": "feel",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "woman",
+      "label": "tickle",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "arms",
+      "label": "tickle",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "brand",
+      "label": "seize",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "brand",
+      "label": "seize",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "method",
+      "label": "adopt",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "jaguar hut",
+      "label": "arrive",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "words",
+      "label": "mince",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "days lead",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "jaguar",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "paw",
+      "label": "hit",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "explanations",
+      "label": "give",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "prea",
+      "target": "place",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "armadillo",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "animal",
+      "label": "leave_succeed",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "possession",
+      "label": "lose",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "follows",
+      "target": "log",
+      "label": "suggest",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "firebrand",
+      "target": "burning",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "food",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "ground",
+      "label": "hollow",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "prea",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "welcome",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Formerly the Jaguar's mother was the mistress of fire. The animals plotted together to steal a firebrand from her. The armadillo was the first to try: he went to the old woman's hut, asked if he could warm himself because he was feeling cold, and was given permission to do so. He tickled the old woman under the arms to send her to sleep, and when he felt her muscles relax, he seized a burning brand and ran off. But the woman woke up and whistled a signal to her son, the Jaguar, who caught up with the armadillo and took back the firebrand. The agouti, then the tapir, the capuchin monkey, and the howler monkey \u2014in short, all the animals\u2014were equally unfortunate. It was left to that insignificant animal, the prea, to succeed where the others had failed. The prea adopted a different method. When he arrived at the Jaguar's hut, he did not mince his words: \"Good day, grandmother, how are you? I havecome to fetch fire.\" Whereupon he seized a burning brand, hung it around his neck, and went off. Having been alerted by his mother's whistle, the Jaguar tried to intercept the prea, but the latter managed to avoid him. The Jaguar went in pursuit, but the prea had several days' lead. The Jaguar eventually caught up with him on the far bank of the Parana. \"Let us talk,\" said the prea to the Jaguar. \"Now that you have lost possession of the fire, you will have to find some other means of subsistence.\" Meanwhile the firebrand (what follows suggests that it was more like a log) went on burning, \"thus becoming so much the lighter to carry.\" The prea is a trickster. He was so even at that time, and tricked the Jaguar by telling him that there was no healthier food than raw, bloody flesh. \"All right,\" said the Jaguar. \"Let me try it,\" and he hit out with his paw at the prea's muzzle, shortening it to the length at which it has remained. Finally, having been persuaded by the prea that there were other kinds of prey (which means that the prea is responsible for the danger that the Jaguar represents for man), the Jaguar gave him a lesson in cooking: \"If you are in a hurry, light a fire, put the meat on a spit, and grill it; if you have time, cook it in an oven that has been hollowed out in the ground and previously heated; put foliage around the meat to protect it, and earth and hot ashes on top.\" While he was giving these explanations, the firebrand finally burned out. The Jaguar then taught the prea how to make fire by rotating sticks, and the prea went all over the place, lighting fires everywhere. The fire spread even to his own village, where his father and the other inhabitants gave him a triumphal welcome."
+}

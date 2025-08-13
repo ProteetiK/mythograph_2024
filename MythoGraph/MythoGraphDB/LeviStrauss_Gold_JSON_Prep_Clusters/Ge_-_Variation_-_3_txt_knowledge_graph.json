@@ -1,0 +1,780 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "mac"
+    },
+    {
+      "id": "nest"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "cliff"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "boy"
+    },
+    {
+      "id": "swallows"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "shadow"
+    },
+    {
+      "id": "hero"
+    },
+    {
+      "id": "macaw nest"
+    },
+    {
+      "id": "jacu"
+    },
+    {
+      "id": "brother"
+    },
+    {
+      "id": "parent birds"
+    },
+    {
+      "id": "screams"
+    },
+    {
+      "id": "angry"
+    },
+    {
+      "id": "days"
+    },
+    {
+      "id": "thirst"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "head"
+    },
+    {
+      "id": "conversation"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "back"
+    },
+    {
+      "id": "fill"
+    },
+    {
+      "id": "last"
+    },
+    {
+      "id": "arm"
+    },
+    {
+      "id": "dirt"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "jatoba trunk"
+    },
+    {
+      "id": "floor"
+    },
+    {
+      "id": "smoking"
+    },
+    {
+      "id": "roast meat"
+    },
+    {
+      "id": "asleep"
+    },
+    {
+      "id": "midnight"
+    },
+    {
+      "id": "noon"
+    },
+    {
+      "id": "hungry"
+    },
+    {
+      "id": "fear"
+    },
+    {
+      "id": "wife"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "arrow"
+    },
+    {
+      "id": "advice"
+    },
+    {
+      "id": "rock"
+    },
+    {
+      "id": "guard"
+    },
+    {
+      "id": "call"
+    },
+    {
+      "id": "brook"
+    },
+    {
+      "id": "two"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "life"
+    },
+    {
+      "id": "while"
+    },
+    {
+      "id": "ogre identity"
+    },
+    {
+      "id": "latter"
+    },
+    {
+      "id": "carrying basket"
+    },
+    {
+      "id": "ogre"
+    },
+    {
+      "id": "way"
+    },
+    {
+      "id": "hunt coatis"
+    },
+    {
+      "id": "load"
+    },
+    {
+      "id": "this"
+    },
+    {
+      "id": "children"
+    },
+    {
+      "id": "choice morsel"
+    },
+    {
+      "id": "bottom"
+    },
+    {
+      "id": "adventures"
+    },
+    {
+      "id": "animals"
+    },
+    {
+      "id": "help"
+    },
+    {
+      "id": "animals help jao embers"
+    },
+    {
+      "id": "tapir"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "boy father"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "mac",
+      "label": "found",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "nest",
+      "label": "found",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "birds",
+      "label": "found",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "cliff",
+      "label": "found",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "tree",
+      "label": "chopped",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "boy",
+      "label": "bad",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "swallows",
+      "label": "descend",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "macaw nest",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "angry",
+      "label": "get",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "nest",
+      "label": "sit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "days",
+      "label": "sit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "fill",
+      "label": "drink",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "tree",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "advice",
+      "label": "kill",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "wife",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "two",
+      "label": "answer",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "while",
+      "label": "hear",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "call",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "way",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "shadow",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "hero",
+      "label": "demanded",
+      "motif": "Communication",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "head",
+      "label": "raise",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "tree",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "jacu",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "jacu",
+      "label": "give",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "back",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "last",
+      "label": "pinch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "arm",
+      "label": "pinch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "wife",
+      "label": "scold",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "fire",
+      "label": "give",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "which",
+      "label": "fling",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "jacu",
+      "label": "fling",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "jacu",
+      "label": "call",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "fear",
+      "label": "cry",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "brook",
+      "label": "move",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "ogre identity",
+      "label": "discover",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "brother",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "thirst",
+      "label": "die",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "conversation",
+      "label": "enter",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "which",
+      "label": "devour",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "jacu",
+      "label": "eat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "jacu",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "jacu",
+      "label": "wash",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "jacu",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "water",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "dirt",
+      "label": "wash",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "son",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "roast meat",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "boy",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "boy",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "asleep",
+      "label": "fall",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "midnight",
+      "label": "wake",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "noon",
+      "label": "get",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "hungry",
+      "label": "get",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "guard",
+      "label": "answer",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "call",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "men",
+      "label": "enjoy",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "life",
+      "label": "enjoy",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "carrying basket",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "load",
+      "label": "carry",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "children",
+      "label": "promise",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "choice morsel",
+      "label": "promise",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "bottom",
+      "label": "find",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "adventures",
+      "label": "relate",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "animals help jao embers",
+      "label": "spurn",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "boy father",
+      "label": "speak",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "parent birds",
+      "target": "jacu",
+      "label": "rush",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "parent birds",
+      "target": "screams",
+      "label": "rush",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "jacu",
+      "label": "fly",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jatoba trunk",
+      "target": "floor",
+      "label": "lie",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "smoking",
+      "target": "boy",
+      "label": "ask",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "arrow",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rock",
+      "target": "jacu",
+      "label": "call",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "latter",
+      "target": "jacu",
+      "label": "wrestle",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "ogre",
+      "target": "way",
+      "label": "stop",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "ogre",
+      "target": "hunt coatis",
+      "label": "stop",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "ogre",
+      "target": "this",
+      "label": "do",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "help",
+      "label": "offer",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tapir",
+      "target": "tree",
+      "label": "consider",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "son",
+      "label": "adopt",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A man found a macaw's nest with two young birds in a high and vertical cliff. He took his little brother-in-law along, chopped down a tree, leaned it against the wall of rock, and bade the boy climb. The boy went up, but the parent birds rushed at him with fierce screams; so he got frightened. Then the man got angry, knocked the tree aside, and left. The boy, unable to descend, remained sitting by the nest for five days. He nearly died of thirst and hunger. He was completely covered by the droppings of the macaws and swallows that flew above him. Then a jaguar came past, saw the boy's shadow, and tried in vain to catch it. Then the boy spat down, and now the jaguar raised his head and saw him. They entered into conversation. The jaguar demanded to have the two young macaws, which the hero flung down to him one after the other, and which he immediately devoured. Then the jaguar brought up the tree and asked the boy to step down, promising him that he would not eat him, and that he would give him water to quench his thirst. Somewhat hesitantly, the hero complied. The jaguar took him on his back and carried him to a creek. The boy drank his fill and fell asleep. At last the jaguar pinched his arm and awakened him. He washed the dirt off him and said that, having no children, he would take him home as his son. In the jaguar's home a huge jatoba trunk was lying on the floor and burning at one end. In those days the Indians were unacquainted with fire and ate only flesh dried in the sun. \"What is smoking there?\" asked the boy. \"That is fire,\" answered the jaguar. \"You will find out at night when it warms you.\" Then he gave the roast meat to the boy, who ate till he fell asleep. At midnight he woke up, ate again, and then again fell asleep. Before daybreak the jaguar went hunting. The boy climbed a tree to await his return. But toward noon he got hungry, returned to the jaguar's house, and begged his wife for food. \"What!\" she shouted, baring her teeth. \"Look here!\" The hero cried out from fear and ran to meet the jaguar and told him of the occurrence. The jaguar scolded his wife, who excused herself, saying that she was merely jesting. But the same scene occurred again the next day. Following the advice of the jaguar (who had made him a bow and arrow and told him to shoot at a termite's nest), the boy killed the aggressive wife. His adopted father said, \"That does not matter,\" gave him a lot of roast meat, and explained to him how to return to his village by following along the creek. But he was to be on guard: if a rock or the aroeira tree called him, he should answer; but was to keep still if he heard \"the gentle call of a rotten tree.\" The hero moved along the brook, replied to the first two calls and, forgetting the jaguar's warnings, to the third as well. That is why men are short-lived: if the boy had answered only the first two, they would enjoy as long life as the rock and the aroeira tree. After a while the boy again heard a call and replied to it. It was Magalon kamdure, an ogre, who tried unsuccessfully to pass himself off as the hero's father by means of various disguises (long hair, ear ornaments). When the hero finally discovered the ogre's identity, the latter wrestled with him until he was quite worn out, whereupon he put the boy in his big carrying basket. On his way home the ogre stopped to hunt coatis. Speaking from inside the basket, the hero called to him to make a trail through the woods first, so he could carry the load better. While the ogre was doing this, the hero escaped, after weighting the basket with a heavy stone. When the ogre reached home, he promised his children a choice morsel, even better than the coatis. But all he found in the bottom of the basket was a stone. Meanwhile the boy had found his way back to his village, where he related his adventures. All the Indians set off to look for the fire. Various animals offered their help: the jao was to extinguish the fallen embers; the jacu was spurned, but the tapir was considered strong enough to carry the tree. The jaguar gave them the fire. \"I have adopted your son,\" he said to the boy's father."
+}

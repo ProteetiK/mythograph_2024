@@ -1,0 +1,118 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "caraja"
+    },
+    {
+      "id": "days"
+    },
+    {
+      "id": "elder"
+    },
+    {
+      "id": "evening star"
+    },
+    {
+      "id": "star"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "hut"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "legs"
+    },
+    {
+      "id": "husband"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "daughter"
+    },
+    {
+      "id": "sister"
+    },
+    {
+      "id": "bird"
+    },
+    {
+      "id": "song"
+    }
+  ],
+  "links": [
+    {
+      "source": "caraja",
+      "target": "days",
+      "label": "know_clear",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "elder",
+      "target": "evening star",
+      "label": "gaze",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "star",
+      "target": "sky",
+      "label": "come",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "star",
+      "target": "hut",
+      "label": "come",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "water",
+      "target": "legs",
+      "label": "flow",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "husband",
+      "target": "man",
+      "label": "change",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "daughter",
+      "target": "husband",
+      "label": "claim",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "sister",
+      "target": "bird",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "sister",
+      "target": "song",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "In olden days the Caraja did not know how to clear land for cultivation. They fed on wild berries, fish, and game. One night the elder of two sisters was gazing at the evening star. She told her father that she would like to have it to play with, and he laughed at her. But the following day the star came down from the sky, into the hut, and asked to marry the daughter. He was a bowed, wrinkled old man with completely white hair, and she would have nothing to do with him. Moved by his tears, the younger sister married him. The following day the man went to talk to the great river and walked in the water. As the water flowed between his legs, he picked up heads of maize, manioc cuttings, and the seeds of all the plants that are grown by the Caraja today. Then he went off into the forest to make a garden, and forbade his wife to follow him. She disobeyed him and saw her husband change into an extremely beautiful young man, richly clad, and with decorative paintings all over his body. The elder daughter claimed him as her husband, but he remained faithful to the younger. The elder sister turned into a nocturnal bird with a mournful song."
+}

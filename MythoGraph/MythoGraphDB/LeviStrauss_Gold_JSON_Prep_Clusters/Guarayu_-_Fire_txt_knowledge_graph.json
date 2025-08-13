@@ -1,0 +1,147 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "vulture"
+    },
+    {
+      "id": "toad"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "were"
+    },
+    {
+      "id": "vultures"
+    },
+    {
+      "id": "order"
+    },
+    {
+      "id": "opportunity"
+    },
+    {
+      "id": "attempt"
+    },
+    {
+      "id": "men"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "fire",
+      "label": "lay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "fire",
+      "label": "lay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "ground",
+      "label": "lay",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "ground",
+      "label": "lie",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "vulture",
+      "label": "lay",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "toad",
+      "label": "scattered",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "water",
+      "label": "bathe",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "were",
+      "label": "lie",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "attempt",
+      "label": "repeat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "fire",
+      "label": "possess",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "opportunity",
+      "label": "wait",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "vultures",
+      "target": "man",
+      "label": "settle",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "vultures",
+      "target": "order",
+      "label": "settle",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "fire",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A Man who did not possess fire bathed in putrid water, then Man lay down on the ground as if he were dead. The black Vultures, the masters of fire, settled on him in order to cook and eat him, but the Man got up suddenly and scattered the embers. Man's ally, the Toad, who was waiting for the opportunity, swallowed some. Toad was caught by the birds and forced to cough it up again. The Man and the Toad then repeated their attempt, and this time they were successful. Since then Men have had fire."
+}

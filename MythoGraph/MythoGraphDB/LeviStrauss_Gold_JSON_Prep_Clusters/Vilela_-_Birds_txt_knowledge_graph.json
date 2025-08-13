@@ -1,0 +1,258 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "widow"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "humming"
+    },
+    {
+      "id": "occupation"
+    },
+    {
+      "id": "stones"
+    },
+    {
+      "id": "necklace"
+    },
+    {
+      "id": "snake"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "villages"
+    },
+    {
+      "id": "indian"
+    },
+    {
+      "id": "dove"
+    },
+    {
+      "id": "by"
+    },
+    {
+      "id": "night"
+    },
+    {
+      "id": "obsession"
+    },
+    {
+      "id": "mother"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "disaster"
+    },
+    {
+      "id": "aid"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "background"
+    },
+    {
+      "id": "dwarf owls"
+    },
+    {
+      "id": "fray"
+    },
+    {
+      "id": "were"
+    },
+    {
+      "id": "family"
+    },
+    {
+      "id": "direction"
+    },
+    {
+      "id": "monster corpse"
+    },
+    {
+      "id": "shape"
+    },
+    {
+      "id": "time"
+    }
+  ],
+  "links": [
+    {
+      "source": "widow",
+      "target": "son",
+      "label": "catching",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "widow",
+      "target": "son",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "widow",
+      "target": "birds",
+      "label": "catching",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "widow",
+      "target": "humming",
+      "label": "catching",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "widow",
+      "target": "occupation",
+      "label": "catching",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "widow",
+      "target": "stones",
+      "label": "obsession",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "widow",
+      "target": "necklace",
+      "label": "pierce",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "widow",
+      "target": "snake",
+      "label": "changed",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "widow",
+      "target": "tree",
+      "label": "changed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "widow",
+      "target": "villages",
+      "label": "changed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "aid",
+      "label": "come",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "it",
+      "label": "finish",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "were",
+      "label": "finish",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "dove",
+      "label": "fight",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "birds",
+      "label": "sang",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "by",
+      "target": "night",
+      "label": "absorb",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "obsession",
+      "target": "mother",
+      "label": "worry",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "disaster",
+      "label": "lead",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "background",
+      "label": "remain",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "time",
+      "label": "exist",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "dwarf owls",
+      "target": "fray",
+      "label": "join",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "family",
+      "target": "direction",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monster corpse",
+      "target": "shape",
+      "label": "appear",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A widow had an only son who was fond of catching birds, especially hummingbirds. This was his only occupation, and he was so absorbed by it that it was always late at night before he came home. This obsession worried his mother, who had a presentiment that it might lead to disaster, but he paid no heed to her. One day he found some small stones of different colors at the water's edge. He carefully collected them in order to pierce them and make himself a necklace. Hardly was the necklace around his neck when he changed into a snake, and in this form took refuge at the top of a tree. He grew bigger and fatter and turned into a cannibal monster which began exterminating the villages one after the other. An Indian resolved to kill him, and a fight started between them. In spite of the help given him by the dove, the man was on the point of succumbing, when all the birds together came to his aid. \"They arranged themselves in groups, according to their families, and sang, for at that time, so it is said, song was the language of birds, and all birds could speak.\" The attack launched by the birds was unsuccessful until a powerful family, the dwarf owls, which had so far remained in the background, joined in the fray. They attacked the monster, uttering their cry of \"not, not, not, pi,\" and blinded it. The other birds finished it off, disemboweled it, and set free its victims, many of whom were still alive. Whereupon the birds withdrew, each family going in a specific direction. Shortly afterward it rained, and the monster's corpse appeared in the air in the shape of the rainbow, which ever since that time has always existed and always will exist."
+}

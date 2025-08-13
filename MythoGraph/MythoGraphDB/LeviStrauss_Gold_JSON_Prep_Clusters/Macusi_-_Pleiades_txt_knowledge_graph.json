@@ -1,0 +1,93 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "sons"
+    },
+    {
+      "id": "food"
+    },
+    {
+      "id": "mother"
+    },
+    {
+      "id": "jaw"
+    },
+    {
+      "id": "stars"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "children"
+    },
+    {
+      "id": "was"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "sons",
+      "label": "wept",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "sons",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "food",
+      "label": "asked",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "mother",
+      "target": "jaw",
+      "label": "protested",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "mother",
+      "target": "stars",
+      "label": "protested",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "mother",
+      "target": "food",
+      "label": "exclaimed",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "food",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "children",
+      "target": "was",
+      "label": "protest",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A man had seven sons, who continually wept and asked for food. The mother scolded them saying, \"Children, I am always giving you food and you are never satisfied. What gluttons you are!\" For the sake of peace and quiet, she took a tapir's jaw 15 from the grid and threw it to them. The hungry children protested that it was not enough and, having shared out the meat between the youngest, they all decided to turn into stars. Holding each other's hands and singing and dancing, they started to climb skyward. When she saw what they were doing, the mother exclaimed, \"Where are you going? Here is food for you!\" The children explained that they bore no resentment, but that they had made up their minds. And they gradually vanished from sight."
+}

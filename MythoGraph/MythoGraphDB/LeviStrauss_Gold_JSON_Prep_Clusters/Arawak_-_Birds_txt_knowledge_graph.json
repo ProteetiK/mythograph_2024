@@ -1,0 +1,190 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "attackers"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "diver"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "snake"
+    },
+    {
+      "id": "skin"
+    },
+    {
+      "id": "indian"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "forces"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "creatures"
+    },
+    {
+      "id": "indians"
+    },
+    {
+      "id": "land"
+    },
+    {
+      "id": "duckler k.g . diver water"
+    },
+    {
+      "id": "wound"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "duckler"
+    },
+    {
+      "id": "price"
+    }
+  ],
+  "links": [
+    {
+      "source": "attackers",
+      "target": "birds",
+      "label": "cried",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "attackers",
+      "target": "diver",
+      "label": "cried",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "attackers",
+      "target": "tree",
+      "label": "inflicted",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "attackers",
+      "target": "snake",
+      "label": "inflicted",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "attackers",
+      "target": "skin",
+      "label": "removed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "attackers",
+      "target": "skin",
+      "label": "claimed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "birds",
+      "label": "signaled",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "birds",
+      "label": "annoyed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "skin",
+      "label": "flew",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "forces",
+      "label": "join",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "creatures",
+      "label": "drag",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "land",
+      "label": "fight",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "duckler k.g . diver water",
+      "label": "inflict",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "wound",
+      "label": "inflict",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "it",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "birds",
+      "label": "signal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "duckler",
+      "target": "skin",
+      "label": "claim",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "duckler",
+      "target": "price",
+      "label": "claim",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Men and birds joined forces to destroy the huge watersnake, which dragged all living creatures down to his lair. But the attackers took fright and cried off, one after the other, offering as their excuse that they could only fight on dry land. Finally, the duckler (K.G.: a diver) was brave enough to dive into the water; he inflicted a fatal wound on the monster which was at the bottom, coiled round the roots of an enormous tree. Uttering terrible cries, the men succeeded in bringing the snake out of the water, where they killed it and removed its skin. The duckler claimed the skin as the price of its victory. The Indian chiefs said ironically, \"By all means! Just take it away!\" \"With pleasure,\" replied the duckler as it signaled to the other birds. Together they swooped down and, each one taking a piece of the skin in its beak, flew off with it. The Indians were annoyed and angry and, from then on, became the enemies of birds."
+}

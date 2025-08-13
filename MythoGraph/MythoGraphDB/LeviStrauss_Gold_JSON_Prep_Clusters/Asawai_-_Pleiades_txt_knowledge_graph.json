@@ -1,0 +1,243 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "brother"
+    },
+    {
+      "id": "arm"
+    },
+    {
+      "id": "criminal"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "animals"
+    },
+    {
+      "id": "ghost"
+    },
+    {
+      "id": "burial"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "murderer"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "adourie"
+    },
+    {
+      "id": "truth"
+    },
+    {
+      "id": "latter"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "brother ghost"
+    },
+    {
+      "id": "resentment"
+    },
+    {
+      "id": "wife"
+    },
+    {
+      "id": "hand"
+    },
+    {
+      "id": "corpse"
+    },
+    {
+      "id": "body"
+    },
+    {
+      "id": "pleiades"
+    },
+    {
+      "id": "rivers"
+    },
+    {
+      "id": "time"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "brother",
+      "label": "coveted",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "brother",
+      "label": "kill",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "arm",
+      "label": "killed",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "criminal",
+      "label": "rejected",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "son",
+      "label": "imprisoned",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "animals",
+      "label": "imprisoned",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brother",
+      "target": "burial",
+      "label": "give",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "brother",
+      "target": "corpse",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "ghost",
+      "target": "brother",
+      "label": "demanded",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "ghost",
+      "target": "burial",
+      "label": "demanded",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "ghost",
+      "target": "fish",
+      "label": "promised",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "ghost",
+      "target": "hand",
+      "label": "demand",
+      "motif": "Communication",
+      "weight": 0.9
+    },
+    {
+      "source": "murderer",
+      "target": "sky",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "murderer",
+      "target": "fish",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "adourie",
+      "target": "truth",
+      "label": "realize",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "adourie",
+      "target": "resentment",
+      "label": "bear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "adourie",
+      "target": "body",
+      "label": "bury",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "adourie",
+      "target": "pleiades",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "latter",
+      "target": "woman",
+      "label": "imprison",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "brother ghost",
+      "target": "man",
+      "label": "appear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "wife",
+      "target": "animals",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "rivers",
+      "target": "time",
+      "label": "teem",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "rivers",
+      "target": "fish",
+      "label": "teem",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A man who coveted his brother's wife killed his brother and presented his sister-in-law with her husband's severed arm, as proof of his death. She agreed to marry him but, having been warned by the ghost's groans, she soon realized the truth and rejected the criminal. The latter thereupon imprisoned the unhappy woman and her little child in a hollow tree and left them there to die. That night the brother's ghost appeared to the man and explained that he bore no resentment for the crimes, because his wife and son had turned into animals (acouri and adourie respectively) and were henceforth safe. On the other hand, the ghost demanded that his brother give a proper burial to his maimed corpse and promised him an abundance of fish, on condition that he buried only the body and scattered the entrails. The murderer did as he had been requested, and he saw the entrails floating through the air and rising into the sky, where they became the Pleiades. Since that time, every year, when the Pleiades appear, the rivers teem with fish."
+}

@@ -1,0 +1,101 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "penis"
+    },
+    {
+      "id": "children"
+    },
+    {
+      "id": "child"
+    },
+    {
+      "id": "innocence"
+    },
+    {
+      "id": "penis state erection"
+    },
+    {
+      "id": "demiurge"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "penis",
+      "label": "lived",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "penis",
+      "label": "soft",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "penis",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "children",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "children",
+      "label": "make",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "child",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "child",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "innocence",
+      "label": "live",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "penis state erection",
+      "label": "live",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "demiurge",
+      "target": "penis",
+      "label": "see",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "The first Man, created by the Demiurge, lived in innocence, although his penis was always in a state of erection. He tried in vain to induce detumescence by sprinkling it with a manioc beverage. The first Woman, having been instructed by the water Spirit (who had subsequently been castrated and killed by her husband), taught the Man how to soften his penis through copulation. When the Demiurge saw the limp penis, he became angry and said: \"Henceforth Man's penis will be soft, Man will make Children, and then you will die: later when your Child grows, he will make another Child, and in turn he will die.\""
+}

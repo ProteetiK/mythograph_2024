@@ -1,0 +1,316 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "woman"
+    },
+    {
+      "id": "pottery"
+    },
+    {
+      "id": "clay"
+    },
+    {
+      "id": "pot"
+    },
+    {
+      "id": "pots"
+    },
+    {
+      "id": "snake"
+    },
+    {
+      "id": "heroine"
+    },
+    {
+      "id": "protege"
+    },
+    {
+      "id": "yellow"
+    },
+    {
+      "id": "patterns"
+    },
+    {
+      "id": "painting"
+    },
+    {
+      "id": "flower"
+    },
+    {
+      "id": "lizard"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "skill"
+    },
+    {
+      "id": "rainbow"
+    },
+    {
+      "id": "misfortunes"
+    },
+    {
+      "id": "sprite"
+    },
+    {
+      "id": "form"
+    },
+    {
+      "id": "kinds"
+    },
+    {
+      "id": "we"
+    },
+    {
+      "id": "varnish"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "variety"
+    }
+  ],
+  "links": [
+    {
+      "source": "woman",
+      "target": "pottery",
+      "label": "molded",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "clay",
+      "label": "molded",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "pot",
+      "label": "taught",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "pots",
+      "label": "taught",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "snake",
+      "label": "taught",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "rainbow",
+      "label": "tell",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "misfortunes",
+      "label": "tell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "snake",
+      "target": "sprite",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "snake",
+      "label": "turned",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "protege",
+      "label": "showed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "pots",
+      "label": "paint",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "pots",
+      "label": "smoothed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "clay",
+      "label": "paint",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "clay",
+      "label": "smoothed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "yellow",
+      "label": "smoothed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "patterns",
+      "label": "drew",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "painting",
+      "label": "drew",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "painting",
+      "label": "drew",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "flower",
+      "label": "drew",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "lizard",
+      "label": "draws",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "woman",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "kinds",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "skill",
+      "label": "have",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "woman",
+      "label": "teach_make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rainbow",
+      "target": "form",
+      "label": "appear",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "rainbow",
+      "target": "clay",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rainbow",
+      "target": "clay",
+      "label": "draw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rainbow",
+      "target": "patterns",
+      "label": "draw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rainbow",
+      "target": "which",
+      "label": "draw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rainbow",
+      "target": "variety",
+      "label": "draw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sprite",
+      "target": "rainbow",
+      "label": "tell",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "sprite",
+      "target": "varnish",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "we",
+      "target": "painting",
+      "label": "call",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "There was once a young woman who had no manual skill whatever, and the pottery she made was shapeless. To mock her, her sisters-in-law molded clay around her head and told her to bake this clay to make a pot. One day an old woman appeared and the young woman told her of her misfortunes. The old woman was a tender-hearted sprite who taught the young woman how to make magnificent pots. On taking leave of the young woman, the sprite told her that she would henceforth appear in the form of a snake, and that the young woman should not be afraid to embrace it. The heroine did as she was told, and the snake at once turned into a sprite, who showed her protegee how to paint earthenware pots: \"She took some white clay and smoothed it evenly around the pots. Then, with yellow clay, brown clay, and rucu she drew beautiful variegated patterns and said to the young woman: 'There are two kinds of painting: Indian painting and flower painting. The kind of painting that draws the lizard's head, the Great Snake's tracks, the branch of the pepper tree, the breast of Boyusu the rainbow serpent, etc., is what we call Indian painting, and the other is the kind that consists in painting flowers.' \"Then the sprite took black varnish and used it to decorate and give luster to numerous gourds, on the insides of which she drew a variety of patterns: the shell of the land tortoise, shafts of rain, a meandering river, a fishhook, and a great many pretty designs."
+}

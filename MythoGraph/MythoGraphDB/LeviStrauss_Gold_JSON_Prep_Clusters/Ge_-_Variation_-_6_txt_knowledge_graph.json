@@ -1,0 +1,518 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "pole"
+    },
+    {
+      "id": "eggs"
+    },
+    {
+      "id": "stone"
+    },
+    {
+      "id": "egg"
+    },
+    {
+      "id": "ladder"
+    },
+    {
+      "id": "hero"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "boy"
+    },
+    {
+      "id": "creek"
+    },
+    {
+      "id": "vulture"
+    },
+    {
+      "id": "woods"
+    },
+    {
+      "id": "brother"
+    },
+    {
+      "id": "order"
+    },
+    {
+      "id": "brother law climb pole"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "young"
+    },
+    {
+      "id": "nest"
+    },
+    {
+      "id": "mouth"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "jacu"
+    },
+    {
+      "id": "what"
+    },
+    {
+      "id": "macaws"
+    },
+    {
+      "id": "growling"
+    },
+    {
+      "id": "paws"
+    },
+    {
+      "id": "nothing"
+    },
+    {
+      "id": "shoulders"
+    },
+    {
+      "id": "thirst"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "camon vulture"
+    },
+    {
+      "id": "thing"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "husband"
+    },
+    {
+      "id": "growls"
+    },
+    {
+      "id": "ornaments"
+    },
+    {
+      "id": "whom"
+    },
+    {
+      "id": "identity"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "roast meat"
+    },
+    {
+      "id": "sunshine"
+    },
+    {
+      "id": "truth"
+    },
+    {
+      "id": "uncle"
+    },
+    {
+      "id": "mutum"
+    },
+    {
+      "id": "trunk"
+    },
+    {
+      "id": "embers"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "tree",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "pole",
+      "label": "climb",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "eggs",
+      "label": "declared",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "stone",
+      "label": "declared",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "egg",
+      "label": "declared",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "ladder",
+      "label": "declared",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "hero",
+      "label": "declared",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "woods",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "brother",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "order",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "brother law climb pole",
+      "label": "make",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "stone",
+      "target": "egg",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "stone",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "mouth",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "creek",
+      "label": "drink",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "boy",
+      "label": "caught",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "hero",
+      "label": "afraid",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "hero",
+      "label": "carry",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "creek",
+      "label": "afraid",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "vulture",
+      "label": "afraid",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "shoulders",
+      "label": "carry",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "thirst",
+      "label": "suffer",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "himself",
+      "label": "conceal",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "sunshine",
+      "label": "keep_repeat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "eggs",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "young",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "nest",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "ground",
+      "label": "smash",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "what",
+      "label": "do",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "macaws",
+      "label": "throw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "creek",
+      "label": "come",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "boy",
+      "label": "call_delouse",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "jacu",
+      "label": "have",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "jacu",
+      "label": "frighten",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "paws",
+      "label": "have",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "growls",
+      "label": "frighten",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "jaguar",
+      "label": "complain",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "whom",
+      "label": "reveal",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "identity",
+      "label": "reveal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "roast meat",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "truth",
+      "label": "reveal",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "uncle",
+      "label": "reveal",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "jacu",
+      "target": "embers",
+      "label": "pick",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "growling",
+      "target": "boy",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "growling",
+      "target": "paws",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "nothing",
+      "target": "jacu",
+      "label": "happen",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "water",
+      "target": "camon vulture",
+      "label": "belong",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "water",
+      "target": "birds",
+      "label": "belong",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "thing",
+      "target": "creek",
+      "label": "happen",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "husband",
+      "label": "reproach",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "ornaments",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "mutum",
+      "target": "trunk",
+      "label": "seize",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "One day a man went into the woods with his little brother-in-law in order to take young macaws out of a nest in the hollow of a tree. The man made his brother-in-law climb a pole; but when he got up there, the young man declared that there were only eggs there. When the man said he knew there were young in the nest, the hero took a white stone in his mouth and threw it down. The stone turned into an egg that was smashed against the ground. The man was angry, pulled away the ladder, and went home, leaving the hero in the tree where he was forced to remain for five days. Then a jaguar passed by and asked what he was doing up there, made him first throw down the two young macaws (which were in fact in the nest), told him to jump after them, and, growling, caught the boy between his front paws. Then the boy was very much afraid, but nothing happened to him. The jaguar carried the hero on his shoulders until they came to a creek. Although the boy was suffering greatly from thirst, he was not allowed to drink, because, as the jaguar explained, the water belonged to the camon vulture (urubu). The same thing happened at the second creek, because the water there belonged to \"the little birds.\" Finally, at the third creek, the hero drank so much as to drain the whole creek, in spite of the entreaties of the alligator, 15 the owner of the creek. The hero was given a chilly welcome by the jaguar's wife, who reproached her husband for having brought back \"a lean and ugly boy.\" She called the boy to delouse her, but when she had him between her paws, she frightened him with her growls. He complained to the jaguar, who made him a bow and arrows and ornaments, gave him two basketfuls of roast meat, and helped him back to his village, after advising him to aim for the wife's carotid, should she try to pursue him. Everything happened as had been foreseen, and the wife was killed. Shortly afterward the young man heard people coming. It was his two brothers, to whom he revealed his identity, and who ran home to tell their mother. \"You lie,\" said their mother. \"He's been dead long since.\" But the boy concealed himself again. He came out of hiding on the occasion of the Aikman funeral festival. Everybody was amazed when they saw the roast meat he had brought back. \"Why, how is it roasted?\" \"In the sunshine,\" the boy kept repeating, although he finally revealed the truth to his uncle. An expedition was organized to capture fire from the jaguar. The mutum and the water fowl, both good runners, seized the trunk, but the jacu, following them, picked up the scattered embers."
+}

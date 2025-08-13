@@ -1,0 +1,308 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "demiurge"
+    },
+    {
+      "id": "banks"
+    },
+    {
+      "id": "bee"
+    },
+    {
+      "id": "was"
+    },
+    {
+      "id": "journey"
+    },
+    {
+      "id": "house"
+    },
+    {
+      "id": "tawkxwax"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "jars"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "granddaughter nursing"
+    },
+    {
+      "id": "words"
+    },
+    {
+      "id": "time"
+    },
+    {
+      "id": "river"
+    },
+    {
+      "id": "vain"
+    },
+    {
+      "id": "child"
+    },
+    {
+      "id": "fox"
+    },
+    {
+      "id": "mouth"
+    },
+    {
+      "id": "baby anus"
+    },
+    {
+      "id": "spell"
+    },
+    {
+      "id": "stone"
+    },
+    {
+      "id": "trickster"
+    },
+    {
+      "id": "sleep"
+    },
+    {
+      "id": "orifices"
+    },
+    {
+      "id": "wax"
+    },
+    {
+      "id": "spaces"
+    },
+    {
+      "id": "demiurge awoke"
+    },
+    {
+      "id": "manner"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "aid"
+    },
+    {
+      "id": "demiurge blood"
+    },
+    {
+      "id": "hole"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "anus"
+    }
+  ],
+  "links": [
+    {
+      "source": "demiurge",
+      "target": "banks",
+      "label": "walk",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "was",
+      "label": "resume",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "journey",
+      "label": "resume",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "house",
+      "label": "arrive",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "words",
+      "label": "murmur",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "time",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "river",
+      "label": "reach",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "spell",
+      "label": "lift",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "stone",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "trickster",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "sleep",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "orifices",
+      "label": "block",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "wax",
+      "label": "block",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "spaces",
+      "label": "smear",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "demiurge awoke",
+      "label": "realize",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bee",
+      "target": "manner",
+      "label": "swell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "tawkxwax",
+      "target": "bee",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tawkxwax",
+      "target": "bee",
+      "label": "advise_put",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "tawkxwax",
+      "target": "water",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tawkxwax",
+      "target": "granddaughter nursing",
+      "label": "advise_put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "tawkxwax",
+      "target": "child",
+      "label": "take",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "jars",
+      "label": "point",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "vain",
+      "label": "try_draw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "mouth",
+      "label": "put",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "baby anus",
+      "label": "put",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "aid",
+      "label": "come",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "demiurge blood",
+      "target": "hole",
+      "label": "spurt",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "anus",
+      "label": "blow",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "The demiurge and trickster, Tawkxwax, was walking along the banks of a river and spent the night there. When he awoke, he was very hungry; he resumed his journey, and about noon he arrived at a house that was surrounded by many pots full of water. An old woman lived there. Tawkxwax went up to her and asked for a drink. The old woman pointed to the jars and told him to drink as much as he wished. But Tawkxwax made the water very warm and asked the old woman to go and get fresh water from the river. Since she was anxious about her granddaughter, whom she was nursing, Tawkxwax advised her to put her into the hammock. He then murmured magic words, so that the old woman's jar would not fill up before he had had time to finish eating the child. When she reached the river, the old woman tried in vain to draw the water. Meanwhile, Tawkxwax took the child, grilled her, and ate her, then put a stone in her place (Toba version: Fox put his mouth to the baby's anus and sucked out all its substance; only the skin was left). He then lifted the spell, the jar filled with water, and the old woman returned. When she saw the stone, she wept and became angry. The old woman was a wild bee of the moro-moro species (in another version a mason bee). She put the trickster into a deep sleep, and while he slept, she blocked all the orifices of his body\u2014mouth, nostrils, eyes, armpits, penis, and anus\u2014with wax; and she also smeared over the spaces between his fingers and toes. When the demiurge awoke, he realized that he was swelling up in a dangerous manner. The birds (who at that time were men) came to his aid and tried to open the apertures with axes\u2014that is, with their beaks\u2014but the wax was too hard. Only a very small woodpecker succeeded in breaking through it. The demiurge's blood spurted through the hole and stained the birds with beautiful red colors\u2014all except the crow, which was soiled by the dirt that blew out from the anus."
+}

@@ -1,0 +1,238 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "there"
+    },
+    {
+      "id": "girl"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "vulva"
+    },
+    {
+      "id": "amao"
+    },
+    {
+      "id": "birth"
+    },
+    {
+      "id": "boy"
+    },
+    {
+      "id": "baby months"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "midday"
+    },
+    {
+      "id": "animals"
+    },
+    {
+      "id": "resin fire"
+    },
+    {
+      "id": "stones"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "midnight"
+    },
+    {
+      "id": "snake"
+    },
+    {
+      "id": "rock"
+    },
+    {
+      "id": "stone"
+    },
+    {
+      "id": "means"
+    },
+    {
+      "id": "stingray"
+    }
+  ],
+  "links": [
+    {
+      "source": "there",
+      "target": "girl",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "vulva",
+      "label": "get",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "birth",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "boy",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "baby months",
+      "label": "happen_lay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "fish",
+      "label": "catch",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "midday",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "amao",
+      "label": "smoke",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "amao",
+      "label": "turn",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "resin fire",
+      "label": "smoke",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "stones",
+      "label": "change",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "stones",
+      "label": "turn",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "son",
+      "label": "bury",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "which",
+      "label": "lay",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "which",
+      "label": "disappear",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "rock",
+      "label": "lay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "stone",
+      "label": "turn",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "means",
+      "label": "capture",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "snake",
+      "label": "capture",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "amao",
+      "target": "stingray",
+      "label": "capture",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "amao",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "midnight",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "stones",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "snake",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "There was once a young virgin girl called Amao. Having been accidentally fertilized by a fish which got inside her vulva, she gave birth to a boy. When the baby was two months old, she happened to lay him down on a stone while she was catching small fish. Toward midday she went to pick him up again, but the child was dead. She wept all night. In the morning the child started to talk and explained that the animals had killed him by frightening him. If his mother wanted to be safe from their attacks, she should smoke them with a resin fire until they changed into stones. When evening came, Amao buried her son. At midnight all the animals had turned into stones, except the great snake, the stingray, the wild pig, and the tapir who had gone off in the direction of the spring where the child had died. Amao went there, killed the wild pig and the tapir, cut them up, and threw all the flesh into the stream, apart from a thigh belonging to each animal, which she laid on the rock where they turned into stone. Next, by means of a lasso, she captured the great snake and the stingray which were feeding on the bed of the stream. She turned them into stones with the help of resin. Then she went back to her own people to teach them cooking and the arts of civilization. After which she disappeared, and no one knows where she went."
+}

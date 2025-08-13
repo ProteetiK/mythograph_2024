@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "gods"
+    },
+    {
+      "id": "vulture"
+    },
+    {
+      "id": "toad"
+    },
+    {
+      "id": "corpse"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "hero"
+    },
+    {
+      "id": "another"
+    },
+    {
+      "id": "nianderu"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "death"
+    },
+    {
+      "id": "embers"
+    },
+    {
+      "id": "sorcerers"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "plump"
+    },
+    {
+      "id": "possession"
+    },
+    {
+      "id": "punishment"
+    }
+  ],
+  "links": [
+    {
+      "source": "gods",
+      "target": "vulture",
+      "label": "explained",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "gods",
+      "target": "toad",
+      "label": "explained",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "gods",
+      "target": "corpse",
+      "label": "approached",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "gods",
+      "target": "fire",
+      "label": "lit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "gods",
+      "target": "another",
+      "label": "create",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "toad",
+      "target": "embers",
+      "label": "seize",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "fire",
+      "label": "doomed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "vulture",
+      "label": "doomed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "corpse",
+      "label": "doomed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "possession",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "nianderu",
+      "target": "men",
+      "label": "create",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "nianderu",
+      "target": "son",
+      "label": "explain",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "nianderu",
+      "target": "death",
+      "label": "simulate",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "nianderu",
+      "target": "which",
+      "label": "find",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "nianderu",
+      "target": "plump",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "nianderu",
+      "target": "fire",
+      "label": "light",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sorcerers",
+      "target": "corpse",
+      "label": "approach",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "sorcerers",
+      "target": "embers",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sorcerers",
+      "target": "punishment",
+      "label": "doom_remain",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "After the first earth had been destroyed by a flood, which had been sent as a punishment for an incestuous union, the Gods created another and placed on it their son, Nianderu Pa-pa Miri. He created new men and set about obtaining fire for them; at the time it was in the sole possession of vulture-sorcerers. Nianderu explained to his son, the toad, that he would simulate death, and that the toad must seize the burning embers as soon as Nianderu, having recovered consciousness, scattered them. The sorcerers approached the corpse, which they found suitably plump. Pretending that they wished to revive it, they lit a fire. The hero moved about and shammed death alternately, until the sorcerers had brought together enough embers; the hero and his son then took possession of the latter and put them inside the two pieces of wood that would henceforth be used by men to produce fire by a process of rotation. As a punishment for their attempted cannibalism, the sorcerers were doomed to remain carrion-eating vultures \"with no respect for the big thing\" (the corpse) and never to achieve the perfect life."
+}

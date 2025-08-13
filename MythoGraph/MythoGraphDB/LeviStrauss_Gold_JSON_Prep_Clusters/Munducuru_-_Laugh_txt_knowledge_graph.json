@@ -1,0 +1,171 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "woman"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "snake"
+    },
+    {
+      "id": "fruit"
+    },
+    {
+      "id": "brother"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "forest"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "trees"
+    },
+    {
+      "id": "love"
+    },
+    {
+      "id": "evening"
+    },
+    {
+      "id": "woman lover snake"
+    },
+    {
+      "id": "end"
+    },
+    {
+      "id": "father"
+    }
+  ],
+  "links": [
+    {
+      "source": "woman",
+      "target": "tree",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "snake",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "snake",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "snake",
+      "label": "bear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "fruit",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "forest",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "love",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "evening",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "snake",
+      "target": "fruit",
+      "label": "shake",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "brother",
+      "target": "snake",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brother",
+      "target": "snake",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brother",
+      "target": "son",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brother",
+      "target": "woman lover snake",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brother",
+      "target": "woman",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brother",
+      "target": "end",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "father",
+      "label": "avenge",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "trees",
+      "label": "live",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A Woman had a snake as her lover. Pretending to be going to gather the fruit of the sorveira tree, Woman went into the forest every day to see the Snake, who lived in one of these trees. Woman and Snake would make love until the evening, and when the time came to part, the Snake would shake down enough fruit to fill the Woman's basket. Becoming suspicious, Woman's Brother kept watch on the pregnant Woman. Although Brother could not see Woman's lover-Snake, Brother could hear Woman exclaiming in Snake's embrace: \"Don't make me laugh so much, Tupasherebo ! You are making me laugh so hard, I am urinating!\" In the end the Brother saw the snake and killed it. . . . Later the Son that the Woman bore the Snake avenged his Father."
+}

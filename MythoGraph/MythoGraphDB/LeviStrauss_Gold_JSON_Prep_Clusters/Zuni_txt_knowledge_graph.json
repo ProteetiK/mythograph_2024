@@ -1,0 +1,145 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "siblings"
+    },
+    {
+      "id": "ladder"
+    },
+    {
+      "id": "origin"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "ladders"
+    },
+    {
+      "id": "world"
+    },
+    {
+      "id": "gods"
+    },
+    {
+      "id": "children"
+    },
+    {
+      "id": "drowning"
+    },
+    {
+      "id": "newekwes"
+    },
+    {
+      "id": "plants"
+    },
+    {
+      "id": "migration"
+    },
+    {
+      "id": "contest"
+    },
+    {
+      "id": "victory"
+    },
+    {
+      "id": "corn"
+    },
+    {
+      "id": "war"
+    },
+    {
+      "id": "kyanakwe"
+    }
+  ],
+  "links": [
+    {
+      "source": "siblings",
+      "target": "ladder",
+      "label": "siblings",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "siblings",
+      "target": "origin",
+      "label": "siblings",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "siblings",
+      "target": "water",
+      "label": "siblings",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "siblings",
+      "target": "victory",
+      "label": "sacrifice",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "siblings",
+      "target": "corn",
+      "label": "adopt",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "ladders",
+      "target": "world",
+      "label": "emerge",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "gods",
+      "target": "children",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "gods",
+      "target": "drowning",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "newekwes",
+      "target": "plants",
+      "label": "use",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "newekwes",
+      "target": "migration",
+      "label": "use",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "newekwes",
+      "target": "contest",
+      "label": "compete",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "war",
+      "target": "kyanakwe",
+      "label": "happen",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Siblings use plants as ladders to emerge from lower world. Siblings incest results in origin of water. The gods kill children of men by drowning. Two Newekwes use wild plants for the migration. Two Newekwes compete in magical contest with Dew-People. Siblings are sacrificed for victory. Siblings are adopted for corn. Periodical character of agricultural work is showed. War happens against the Kyanakwe. Two War-Gods fight showing inevitability of warfare which results in salvation of the tribe. Siblings are sacrificed to avoid the Flood."
+}

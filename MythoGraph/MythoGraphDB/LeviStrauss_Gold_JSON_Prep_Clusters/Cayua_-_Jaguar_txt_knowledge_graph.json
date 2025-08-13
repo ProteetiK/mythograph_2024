@@ -1,0 +1,266 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bird"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "eyes"
+    },
+    {
+      "id": "meat"
+    },
+    {
+      "id": "\u2014"
+    },
+    {
+      "id": "grasshopper"
+    },
+    {
+      "id": "toad"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "hunting"
+    },
+    {
+      "id": "inhambu"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "river"
+    },
+    {
+      "id": "this"
+    },
+    {
+      "id": "competition"
+    },
+    {
+      "id": "anteater"
+    },
+    {
+      "id": "excrement"
+    },
+    {
+      "id": "excretions"
+    },
+    {
+      "id": "ants"
+    },
+    {
+      "id": "order"
+    },
+    {
+      "id": "juggling contest"
+    },
+    {
+      "id": "request"
+    },
+    {
+      "id": "jaguar eyes"
+    },
+    {
+      "id": "dark"
+    },
+    {
+      "id": "time"
+    },
+    {
+      "id": "night"
+    },
+    {
+      "id": "raw"
+    },
+    {
+      "id": "macuco"
+    }
+  ],
+  "links": [
+    {
+      "source": "bird",
+      "target": "jaguar",
+      "label": "appropriated",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "jaguar",
+      "label": "appropriated",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "eyes",
+      "label": "appropriated",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "meat",
+      "label": "appropriated",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "\u2014",
+      "label": "attacks",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "request",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "jaguar eyes",
+      "label": "make",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "grasshopper",
+      "label": "learn",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "this",
+      "label": "weep",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "order",
+      "label": "invite",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "anteater",
+      "label": "invite",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "juggling contest",
+      "label": "invite",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "time",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "night",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "toad",
+      "target": "fire",
+      "label": "steal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "toad",
+      "target": "hunting",
+      "label": "steal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "inhambu",
+      "target": "it",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "inhambu",
+      "target": "river",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "inhambu",
+      "target": "competition",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "dark",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "meat",
+      "label": "eat",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "raw",
+      "label": "eat",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "macuco",
+      "label": "attack",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "anteater",
+      "target": "excrement",
+      "label": "appropriate",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "excretions",
+      "target": "ants",
+      "label": "consist",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "The jaguar learned from the grasshopper that the toad and the rabbit had stolen its fire while it was out hunting, and that they had taken it across the river. While the jaguar was weeping at this, an anteater came along, and the jaguar suggested that they should have an excretory competition. The anteater, however, appropriated the excrement containing raw meat and made the jaguar believe that its own excretions consisted entirely of ants. In order to even things out, the jaguar invited the anteater to a juggling contest, using their eyes removed from the sockets: the anteater's eyes fell back into place, but the jaguar's remained hanging at the top of a tree, and so it became blind. At the request of the anteater, the macuco bird made the jaguar new eyes out of water, and these allowed it to see in the dark. Since that time the jaguar only goes out at night. Having lost fire, it eats its meat raw. It never attacks the macuco\u2014in the Apapocuva version, the inhambu bird, also one of the Tinamidae."
+}

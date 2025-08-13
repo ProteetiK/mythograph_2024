@@ -1,0 +1,89 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "men"
+    },
+    {
+      "id": "tapir"
+    },
+    {
+      "id": "king relatives"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "vultures"
+    },
+    {
+      "id": "tunics"
+    },
+    {
+      "id": "worms"
+    },
+    {
+      "id": "leaves"
+    },
+    {
+      "id": "hiding"
+    },
+    {
+      "id": "attempt"
+    }
+  ],
+  "links": [
+    {
+      "source": "men",
+      "target": "tapir",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "hiding",
+      "label": "go",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "attempt",
+      "label": "manage_obtain",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "king relatives",
+      "target": "sky",
+      "label": "come",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "vultures",
+      "target": "tunics",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "vultures",
+      "target": "worms",
+      "label": "wrap",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "vultures",
+      "target": "leaves",
+      "label": "wrap",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "In the old days the king Vulture was the master of Fire, and Men had to dry their meat in the Sun. One day Men decided to get possession of Fire. Men killed a Tapir; and when the body was full of worms, the king Vulture and his relatives came down from the Sky. Vultures took off their feather tunics and appeared in Human form. After lighting a big Fire, Vultures wrapped the worms in leaves and put them to roast. The Men had gone into hiding not far from the dead body, and after a first unsuccessful attempt, Men managed to obtain possession of Fire."
+}

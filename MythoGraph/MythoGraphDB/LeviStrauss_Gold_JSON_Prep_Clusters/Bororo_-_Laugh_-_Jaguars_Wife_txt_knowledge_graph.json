@@ -1,0 +1,207 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "indian"
+    },
+    {
+      "id": "daughter"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "birth"
+    },
+    {
+      "id": "mother"
+    },
+    {
+      "id": "caesar"
+    },
+    {
+      "id": "operation"
+    },
+    {
+      "id": "exchange"
+    },
+    {
+      "id": "pregnant"
+    },
+    {
+      "id": "bakororo"
+    },
+    {
+      "id": "account"
+    },
+    {
+      "id": "voice"
+    },
+    {
+      "id": "versions"
+    },
+    {
+      "id": "spite"
+    },
+    {
+      "id": "pains"
+    },
+    {
+      "id": "time"
+    },
+    {
+      "id": "twins"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "itubore"
+    }
+  ],
+  "links": [
+    {
+      "source": "indian",
+      "target": "daughter",
+      "label": "agree",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "daughter",
+      "label": "agree",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "jaguar",
+      "label": "agree",
+      "motif": "Communication",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "birth",
+      "label": "agree",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "exchange",
+      "label": "have_agree",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "daughter",
+      "target": "pregnant",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "daughter",
+      "target": "voice",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "daughter",
+      "target": "versions",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "daughter",
+      "target": "pains",
+      "label": "seize",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "mother",
+      "label": "heard",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "daughter",
+      "label": "heard",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "caesar",
+      "label": "carry",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "operation",
+      "label": "carry",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "bakororo",
+      "label": "warn_laugh",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "account",
+      "label": "warn_laugh",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "time",
+      "label": "return",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "twins",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bakororo",
+      "target": "spite",
+      "label": "smile",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "bakororo",
+      "label": "become",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "itubore",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "In exchange for being allowed to escape with his life, an Indian had to agree to give his Daughter to the Jaguar. When Daughter became pregnant and was almost ready to give birth, the Jaguar warned her on no account to laugh, and then left to go hunting. Shortly afterward the Daughter heard the unpleasant, ridiculous voice of a fat Grub (the jaguar's mother, in some versions), which was trying to provoke Daughter into merriment. The Daughter managed not to laugh, but in spite of herself she smiled. Daughter was immediately seized with terrible pains and died. The Jaguar returned in time to carry out a Caesarian operation with his claws. Jaguar thus brought forth Twins, who later became the culture heroes, Bakororo and Itubore."
+}

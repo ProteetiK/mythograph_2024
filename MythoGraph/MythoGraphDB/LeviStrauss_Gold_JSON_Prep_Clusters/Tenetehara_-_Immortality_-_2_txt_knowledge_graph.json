@@ -1,0 +1,385 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "indian"
+    },
+    {
+      "id": "snake"
+    },
+    {
+      "id": "lover"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "arrows"
+    },
+    {
+      "id": "womb"
+    },
+    {
+      "id": "grandfather"
+    },
+    {
+      "id": "ray"
+    },
+    {
+      "id": "lightning"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "bow"
+    },
+    {
+      "id": "arrow"
+    },
+    {
+      "id": "weapons"
+    },
+    {
+      "id": "stars"
+    },
+    {
+      "id": "spider"
+    },
+    {
+      "id": "spiders"
+    },
+    {
+      "id": "shells"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "forest"
+    },
+    {
+      "id": "woman lover"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "desire"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "pieces"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "this"
+    },
+    {
+      "id": "place"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "reason"
+    },
+    {
+      "id": "old"
+    },
+    {
+      "id": "skin"
+    },
+    {
+      "id": "were"
+    },
+    {
+      "id": "day"
+    },
+    {
+      "id": "are"
+    }
+  ],
+  "links": [
+    {
+      "source": "indian",
+      "target": "snake",
+      "label": "met",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "snake",
+      "label": "met",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "lover",
+      "label": "met",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "son",
+      "label": "bore",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "son",
+      "label": "bore",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "son",
+      "label": "bore",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "arrows",
+      "label": "bore",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "womb",
+      "label": "returned",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "grandfather",
+      "label": "consulted",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "ray",
+      "label": "hunt",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "lightning",
+      "label": "hunt",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "sky",
+      "label": "climbed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "bow",
+      "label": "climbed",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "arrow",
+      "label": "climbed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "weapons",
+      "label": "broke",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "stars",
+      "label": "broke",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "spider",
+      "label": "asleep",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "spiders",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "shells",
+      "label": "die",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "snake",
+      "target": "woman lover",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "forest",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "desire",
+      "label": "have",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "himself",
+      "label": "transform",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "ray",
+      "label": "transform",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "weapons",
+      "label": "break",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "pieces",
+      "label": "break",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "old",
+      "label": "grow",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "day",
+      "label": "die",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "are",
+      "label": "die",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "snake",
+      "label": "meet",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "forest",
+      "label": "meet",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "son",
+      "label": "bear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "son",
+      "label": "bear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "son",
+      "label": "advise_hunt",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "stars",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "this",
+      "target": "place",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "reason",
+      "label": "die",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "skin",
+      "label": "change",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "were",
+      "label": "change",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A young Indian Woman met a Snake in the forest. The Snake became Woman's lover, and Woman bore him a Son who was already a youth at birth. Every day the Son went into the forest to make arrows for Woman, and every evening Son returned to Woman's womb. The Woman's Brother discovered her secret and persuaded her to hide as soon as the Son went off. When the Son returned that evening to enter the mother's womb, the Woman had disappeared. The Snake Son consulted his Snake Grandfather, who advised him to hunt for his Snake Father. But the Son had no desire to do so, so that evening he transformed himself into a ray of lightning and climbed into the sky, taking his bow and arrow with him. When Son got there, he broke his weapons in pieces, which became the stars. Everybody was asleep, and no one except the spider saw this take place. For this reason spiders (unlike men) do not die when they grow old, but change their shells. Formerly Men and Animals also changed skin when they were old, but from this day until now they die when they are old."
+}

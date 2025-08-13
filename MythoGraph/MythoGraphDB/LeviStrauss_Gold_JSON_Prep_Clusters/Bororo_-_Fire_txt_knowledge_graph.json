@@ -1,0 +1,569 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "monkey"
+    },
+    {
+      "id": "maize"
+    },
+    {
+      "id": "swimmer"
+    },
+    {
+      "id": "gills"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "bank"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "dinner"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "sun"
+    },
+    {
+      "id": "landscape"
+    },
+    {
+      "id": "clung"
+    },
+    {
+      "id": "monkey man"
+    },
+    {
+      "id": "hair"
+    },
+    {
+      "id": "prea"
+    },
+    {
+      "id": "plantation"
+    },
+    {
+      "id": "animal"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "loose"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "hole"
+    },
+    {
+      "id": "we"
+    },
+    {
+      "id": "leak"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "sight"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "horizon"
+    },
+    {
+      "id": "yonder"
+    },
+    {
+      "id": "method"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "people"
+    },
+    {
+      "id": "jatoba"
+    },
+    {
+      "id": "exhausted"
+    },
+    {
+      "id": "trick"
+    },
+    {
+      "id": "death"
+    },
+    {
+      "id": "jaguar spite assurances contrary"
+    },
+    {
+      "id": "spite"
+    },
+    {
+      "id": "wind"
+    },
+    {
+      "id": "hand"
+    },
+    {
+      "id": "mouth"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "forest"
+    },
+    {
+      "id": "end"
+    },
+    {
+      "id": "knife"
+    },
+    {
+      "id": "jaguar skin"
+    },
+    {
+      "id": "head"
+    },
+    {
+      "id": "intentions"
+    },
+    {
+      "id": "nature"
+    },
+    {
+      "id": "jaeuar"
+    },
+    {
+      "id": "jaguar killer"
+    }
+  ],
+  "links": [
+    {
+      "source": "monkey",
+      "target": "maize",
+      "label": "forecast",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "swimmer",
+      "label": "forecast",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "gills",
+      "label": "forecast",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "fish",
+      "label": "forecast",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "fish",
+      "label": "marvel",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "bank",
+      "label": "forecast",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "jaguar",
+      "label": "waving",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "dinner",
+      "label": "marvel",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "fire",
+      "label": "marvel",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "sun",
+      "label": "pointed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "sun",
+      "label": "point",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "landscape",
+      "label": "pointed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "prea",
+      "label": "sail",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "plantation",
+      "label": "sail",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "method",
+      "label": "invent",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "jaguar spite assurances contrary",
+      "label": "refuse",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "it",
+      "label": "drop",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "end",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "knife",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "exhausted",
+      "label": "come",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "sight",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "spite",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "clung",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "wind",
+      "label": "stir",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "mouth",
+      "label": "open",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "forest",
+      "label": "run",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "monkey man",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "hair",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "swimmer",
+      "label": "manage_slip",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "bank",
+      "label": "reach",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "jaguar",
+      "label": "meet",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "jaguar",
+      "label": "cry",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "jaguar",
+      "label": "fall",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "fire",
+      "label": "ask",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "fire",
+      "label": "kindle",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "yonder",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "which",
+      "label": "climb",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "which",
+      "label": "adorn",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "tree",
+      "label": "climb",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "hand",
+      "label": "hang",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "monkey",
+      "label": "beg_keep",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "jaguar skin",
+      "label": "remove",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "head",
+      "label": "adorn",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "nature",
+      "label": "point",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "jaeuar",
+      "label": "point",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "clung",
+      "target": "jaguar killer",
+      "label": "deal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "animal",
+      "target": "maize",
+      "label": "gnaw",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "loose",
+      "label": "pile",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "monkey",
+      "label": "curse",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "death",
+      "label": "curse",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "hole",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "we",
+      "target": "leak",
+      "label": "spring",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "sight",
+      "label": "marvel",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "intentions",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "himself",
+      "target": "dinner",
+      "label": "invite",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "horizon",
+      "label": "sink",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "people",
+      "target": "jatoba",
+      "label": "speak",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "trick",
+      "target": "clung",
+      "label": "play",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Formerly the monkey was like a man; he had no hair on his body, sailed a canoe, ate maize, and slept in a hammock. One day when the monkey was sailing back with the prea from their plantation, he was alarmed to see the animal hungrily gnawing at the maize that was piled loose in the bottom of the canoe: \"Stop,\" he said, \"or you'll make a hole in the side, we'll spring a leak, we shall be drowned, and you won't escape because the piranha fish will eat you.\" But the prea went on gnawing, and the monkey's forecast came true. As he was a very good swimmer, he managed to slip his hand inside the gills of a piranha fish, and he reached the bank alone, waving his catch. Shortly afterward he met the Jaguar who marveled at the sight of the fish and managed to get himself invited to dinner. \"But,\" he asked, \"where is the fire?\" The monkey pointed to the sun which was sinking toward the horizon and bathing the distant landscape in a ruddy glow. \"Yonder,\" he said. \"Can't you see it? Go and fetch it.\" The Jaguar went a long way, then came back to say he had not been successful. \"But there it is,\" went on the monkey, \"all flaming red! Run after it, and this time catch up with the fire so that we can cook our fish!\" So off went the Jaguar again. Whereupon the Monkey invented the method of producing fire by rubbing two sticks together, which men were to copy from him later. He kindled a good fire, grilled his fish, and ate it all up, leaving only the bones. After which, he climbed up a tree\u2014some people say it was a jatoba\u2014and settled himself at the top. When the Jaguar came back exhausted, he realized that a trick had been played upon him, and he was indignant: \"I'll bite that cursed Monkey to death, but where is he?\" The Jaguar ate what was left of the fish and tried in vain to trace the Monkey's whereabouts. The Monkey whistled, once, twice. Eventually the Jaguar caught sight of him and asked him to come down, but the Monkey refused, being afraid that the Jaguar, in spite of his assurances to the contrary, would kill him. The Jaguar then stirred up a strong wind, which caused the tree top to sway; the Monkey clung to the tree as best he could, but soon his strength was exhausted, and he was hanging on by only one hand. \"I'm going to let go,\" he cried to the Jaguar. \"Open your mouth.\" The Jaguar opened his mouth wide, and the Monkey dropped into it and disappeared into the Jaguar's belly. The Jaguar, growling and licking his chops, ran off into the forest. But he was soon in a bad way, because the Monkey jumped about so much inside him. He begged the Monkey to keep still, but to no purpose. In the end the Monkey took his knife, cut open the Jaguar's belly, and came out. He removed the dying Jaguar's skin and cut it into strips, with which he adorned his head. He fell in with another Jaguar, who had hostile intentions. He pointed out the nature of his headgear to this jaeuar, who realized he was dealing with a Jaguar-killer, and fled in terror."
+}

@@ -1,0 +1,215 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "men"
+    },
+    {
+      "id": "flood"
+    },
+    {
+      "id": "extent"
+    },
+    {
+      "id": "evidoxeba"
+    },
+    {
+      "id": "population"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "was"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "load"
+    },
+    {
+      "id": "people"
+    },
+    {
+      "id": "exception"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "whirlpools"
+    },
+    {
+      "id": "hair"
+    },
+    {
+      "id": "wavy"
+    },
+    {
+      "id": "curly"
+    },
+    {
+      "id": "waters"
+    },
+    {
+      "id": "this"
+    },
+    {
+      "id": "clear"
+    },
+    {
+      "id": "akaruio bokodori"
+    },
+    {
+      "id": "buremoddodogue"
+    },
+    {
+      "id": "gifts"
+    },
+    {
+      "id": "others"
+    },
+    {
+      "id": "arrows"
+    }
+  ],
+  "links": [
+    {
+      "source": "men",
+      "target": "flood",
+      "label": "increase",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "extent",
+      "label": "increase",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "evidoxeba",
+      "target": "population",
+      "label": "order_cross",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "evidoxeba",
+      "target": "which",
+      "label": "choose",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "evidoxeba",
+      "target": "was",
+      "label": "choose",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "evidoxeba",
+      "target": "buremoddodogue",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "evidoxeba",
+      "target": "people",
+      "label": "welcome",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "evidoxeba",
+      "target": "gifts",
+      "label": "welcome",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "evidoxeba",
+      "target": "gifts",
+      "label": "approve",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "evidoxeba",
+      "target": "others",
+      "label": "shoot",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "evidoxeba",
+      "target": "arrows",
+      "label": "shoot",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "load",
+      "label": "snap",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "people",
+      "target": "exception",
+      "label": "perish",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "whirlpools",
+      "label": "suck",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "waters",
+      "label": "drown",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "hair",
+      "target": "wavy",
+      "label": "turn",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "hair",
+      "target": "curly",
+      "label": "turn",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "this",
+      "target": "clear",
+      "label": "become",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "akaruio bokodori",
+      "target": "evidoxeba",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "After a flood the earth became reinhabited; but previously men had been increasing to such an extent that Meri, the sun, was afraid and looked round for a way to reduce their numbers. He therefore ordered the entire population of a village to cross a wide river by means of a bridge made from a tree trunk, which he had specially chosen because it was not very strong. It did, in fact, snap under the load; and all the people perished, with the exception of one man called Akaruio Bokodori, who could only walk slowly because his legs were deformed. The hair of those who were sucked into the whirlpools turned wavy or curly; the hair of those who drowned in calm waters was fine and smooth. This became clear after Akaruio Bokodori had brought them all back to life by incantations with a drum accompaniment. He brought back first the Buremoddodogue, then the Rarudogue, the Bitodudogue, the Pugaguegeugue, the Rokuddudogue, the Codogue, and finally the Boiugue, who were his favorites. But of all these newly returned people, he welcomed only those whose gifts he approved of. He shot down all the others with his arrows and so was dubbed Mamuiauguexeba \"killer\" or Evidoxeba \"cause-death.\""
+}

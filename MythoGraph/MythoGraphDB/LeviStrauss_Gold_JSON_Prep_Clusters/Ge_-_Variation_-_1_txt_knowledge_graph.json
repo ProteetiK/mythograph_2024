@@ -1,0 +1,365 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "indian"
+    },
+    {
+      "id": "rock"
+    },
+    {
+      "id": "hero"
+    },
+    {
+      "id": "ladder"
+    },
+    {
+      "id": "eggs"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "shadow"
+    },
+    {
+      "id": "young brother"
+    },
+    {
+      "id": "nest"
+    },
+    {
+      "id": "days"
+    },
+    {
+      "id": "hero 's shadow"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "end"
+    },
+    {
+      "id": "mind"
+    },
+    {
+      "id": "back"
+    },
+    {
+      "id": "meaning"
+    },
+    {
+      "id": "days indians fire meat raw"
+    },
+    {
+      "id": "meat raw"
+    },
+    {
+      "id": "big jatoba trunk burning"
+    },
+    {
+      "id": "spite"
+    },
+    {
+      "id": "hunt"
+    },
+    {
+      "id": "wife"
+    },
+    {
+      "id": "vain"
+    },
+    {
+      "id": "day jaguar"
+    },
+    {
+      "id": "need arise"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "middle"
+    },
+    {
+      "id": "groped way mother 's bed"
+    },
+    {
+      "id": "was"
+    },
+    {
+      "id": "tale"
+    },
+    {
+      "id": "game"
+    }
+  ],
+  "links": [
+    {
+      "source": "indian",
+      "target": "rock",
+      "label": "noticing",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "hero",
+      "label": "noticing",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "hero",
+      "label": "capture",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "hero",
+      "label": "dismantled",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "ladder",
+      "label": "climb",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "ladder",
+      "label": "dismantled",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "eggs",
+      "label": "climb",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "birds",
+      "label": "dismantled",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "young brother",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "jaguar",
+      "label": "noticed",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "shadow",
+      "label": "noticed",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "ladder",
+      "label": "repaired",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "nest",
+      "label": "get",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "days",
+      "label": "remain",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "end",
+      "label": "make",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "mind",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "back",
+      "label": "sit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "meaning",
+      "label": "understand",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "days indians fire meat raw",
+      "label": "understand",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "meat raw",
+      "label": "understand",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "big jatoba trunk burning",
+      "label": "see",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "wife",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "village",
+      "label": "reach",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "middle",
+      "label": "reach",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "groped way mother 's bed",
+      "label": "reach",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "was",
+      "label": "reach",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "tale",
+      "label": "tell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "hero 's shadow",
+      "label": "see",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "ground",
+      "label": "see",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "spite",
+      "label": "decide_adopt",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "hunt",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "wife",
+      "label": "scold",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "vain",
+      "label": "scold",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "hero",
+      "label": "advise_use",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "need arise",
+      "label": "advise_use",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "day jaguar",
+      "target": "hero",
+      "label": "give",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "game",
+      "target": "wife",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Noticing that a pair of Macaws had built Macaws's nest on top of a steep rock, a Indian took his young brother-in-law, Hero, with him to help him to capture the nestlings. He made Hero climb up an improvised ladder; but when the Hero got up to the nest, he said that he could find only two eggs. (It is not clear whether he was lying or telling the truth.) His brother-in-law insisted that Hero should take them; but as the eggs fell down, they changed into stones which hurt the older man's hand. This made him furious, with the result that he dismantled the ladder and went away, not realizing that the birds were enchanted (oaianga) (?). Hero remained caught on top of the rock for several days. He grew thin: hunger and thirst obliged him to eat his own excrement. Eventually Hero noticed a spotted Jaguar carrying a bow and arrow and all kinds of game. Hero would have liked to call out to it for help, but fear kept Hero silent. The Jaguar saw the Hero's shadow on the ground and, after trying in vain to catch it, looked up, asked what had happened, repaired the ladder, and invited Hero to come down. The Hero was afraid and hesitated a long time; in the end Hero made up his mind, and the Jaguar, in friendly fashion, suggested that if Hero would sit astride its back, it would take him to its home to have a meal of grilled meat. But the Hero did not understand the meaning of the word \"grilled\" because in those days, the Indians were unacquainted with fire and ate their meat raw. At the Jaguar's home the Hero saw a big jatoba trunk burning; beside it was a pile of stones such as the Indians now use to build their earth ovens. He ate his first meal of cooked meat. But the Jaguar's Wife, who was a Indian, disliked the young man and referred to him as me-on\\ra-tum \"foreign, or abandoned, son\"; in spite of this, the Jaguar, being childless, decided to adopt him. Each day the Jaguar went off to hunt, leaving the adopted Hero with the Wife whose aversion for him steadily increased; she gave him only old wizened pieces of meat to eat, and leaves. When the Hero complained, she scratched his face, and the poor Hero had to take refuge in the forest. The Jaguar scolded the Wife, but in vain. One day Jaguar gave Hero a brand new bow and some arrows, taught Hero how to use them, and Jaguar advised Hero to use them against the Wife, should the need arise. Hero killed Wife by shooting an arrow into her breast. Hero fled in terror, taking with Hero the weapons and a piece of grilled meat. Hero reached his village in the middle of the night, groped his way to his mother's bed, and had some difficulty in making his identity known (because he was thought to be dead); Hero told his tale and shared the meat. The Indians decided to get possession of the fire. When they arrived at the Jaguar's home, there was no one there; and since the Wife was dead, the game caught the day before had not been cooked. The Indians roasted it and took away the fire. For the very first time it was possible to have light in the village at night, to eat cooked meat, and to warm oneself at a hearth. But the Jaguar, incensed by the ingratitude of his adopted son, who had stolen \"fire and the secret of the bow and arrow,\" was to remain full of hatred for all living creatures, especially human beings. Now only the reflection of fire could be seen in its eyes. It used its fangs for hunting and ate its meat raw, having solemnly renounced grilled meat."
+}

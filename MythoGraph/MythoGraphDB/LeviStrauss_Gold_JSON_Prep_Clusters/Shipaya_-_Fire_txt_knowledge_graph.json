@@ -1,0 +1,79 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "urubus"
+    },
+    {
+      "id": "body"
+    },
+    {
+      "id": "eagle"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "place"
+    },
+    {
+      "id": "kumaphari"
+    },
+    {
+      "id": "form"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "possession"
+    }
+  ],
+  "links": [
+    {
+      "source": "urubus",
+      "target": "body",
+      "label": "devour",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "fire",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "place",
+      "label": "put",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "which",
+      "label": "decide_put",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "kumaphari",
+      "target": "form",
+      "label": "take",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "kumaphari",
+      "target": "possession",
+      "label": "get",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "To get Fire from the Eagle who was master of it, the demiurge Kumaphari pretended to die and to decay. The urubus devoured his body, but the Eagle had put the Fire in a safe place. Kumaphari then pretended to die in the form of a roebuck, but the Eagle was not taken in. Finally Kumaphari took the form of two shrubs in which the Eagle decided to put his Fire. Kumaphari got possession of it, and the Eagle agreed to teach him the art of producing Fire by friction."
+}

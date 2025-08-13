@@ -1,0 +1,82 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "one"
+    },
+    {
+      "id": "house"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "any"
+    },
+    {
+      "id": "child"
+    },
+    {
+      "id": "bread"
+    },
+    {
+      "id": "children"
+    },
+    {
+      "id": "drum"
+    },
+    {
+      "id": "we"
+    },
+    {
+      "id": "sky"
+    }
+  ],
+  "links": [
+    {
+      "source": "one",
+      "target": "house",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "any",
+      "label": "give",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "bread",
+      "label": "refuse",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "child",
+      "target": "house",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "children",
+      "target": "drum",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "we",
+      "target": "sky",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Seven young boys were playing and dancing together in the shade of a tree. After a while they became hungry. One of them went to the house and asked for some bread, but the old woman would not give him any. They went on with their games, and then a little later another child went to the house and asked for some bread. Again the old woman refused. One of the children made a drum, and they began to dance around the tree. No sooner had they started the dance than they began to be lifted upward. They went on dancing, and still higher into the air they ascended. Looking around, the old woman saw them dancing high above the tree. She now came running with food, but it was too late. They refused to listen. Now she was willing to give them food, but they would not even notice her and continued their dancing while moving upward. Filled with despair, the old woman started to weep. The seven stars are the same boys dancing together. They were not given anything to eat: that is why they became the Hutinatsija, \"the cluster,\" which we now see in the sky."
+}

@@ -1,0 +1,307 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "women"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "erection"
+    },
+    {
+      "id": "sperm"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "chamacoco son hammock"
+    },
+    {
+      "id": "hammock"
+    },
+    {
+      "id": "glimpse"
+    },
+    {
+      "id": "indians"
+    },
+    {
+      "id": "roof"
+    },
+    {
+      "id": "mother"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "deer"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "women work"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "be"
+    },
+    {
+      "id": "fact erection"
+    },
+    {
+      "id": "ascent"
+    },
+    {
+      "id": "trunk"
+    },
+    {
+      "id": "scene"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "piece"
+    },
+    {
+      "id": "vultures"
+    },
+    {
+      "id": "pieces"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "wife"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "women",
+      "label": "depressed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "tree",
+      "label": "walked",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "tree",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "tree",
+      "label": "walk",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "erection",
+      "label": "hampered",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "sperm",
+      "label": "spilled",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "piece",
+      "label": "pick",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "himself",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "wife",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "chamacoco son hammock",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "hammock",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "glimpse",
+      "label": "catch",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "roof",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "women",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "women",
+      "label": "lack",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "deer",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "sperm",
+      "label": "spill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "trunk",
+      "label": "spill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "indians",
+      "label": "rape",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "ground",
+      "label": "fall",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "which",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "mother",
+      "target": "it",
+      "label": "tell",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "mother",
+      "target": "women",
+      "label": "tell",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "women work",
+      "label": "perform",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "scene",
+      "label": "come",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "which",
+      "label": "happen",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "be",
+      "label": "happen",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "fact erection",
+      "target": "ascent",
+      "label": "hamper",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "vultures",
+      "target": "pieces",
+      "label": "devour",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "pieces",
+      "target": "women",
+      "label": "provide",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Once when a young Chamacoco Son was ill and lying in his hammock, Son caught a glimpse of his Mother's vagina as she climbed over the roof of the hut to repair it. Inflamed with desire, Son waited until Mother came down again, and then made love to her. Then Son was indiscreet enough to reveal to her the secret of the masks, which women are not supposed to know about, and Mother told it to the other Women. When the Men realized what had happened, they killed all the Women but one, who changed into a deer and managed to escape. But though Men performed all the Women's work, Men were sad and depressed because they lacked Women. One day a Man walked under the tree in which the surviving woman happened to be. Woman spat to attract his attention. The Man tried to climb the tree but was hampered in the ascent by the fact that he had an erection; he gave up but not before he had spilled sperm all over the trunk. The other Men came on the scene and managed to reach the Woman from the neighboring trees. They raped her and then cut her into pieces which became soaked with sperm as they fell to the ground. Each Man picked up a piece and took it home. Then they all went fishing. Two shamans, who were sent ahead as scouts, both claimed that vultures had devoured the pieces of Woman flesh. The Indians then came back to the village which they found inhabited by Women and children. Each man found himself with a Wife corresponding to his piece of flesh. The pieces of thigh provided fat Women; the fingers, lean ones."
+}

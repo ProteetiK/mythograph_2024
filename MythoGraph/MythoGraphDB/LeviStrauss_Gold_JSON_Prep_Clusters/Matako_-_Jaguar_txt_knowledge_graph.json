@@ -1,0 +1,189 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "parrot"
+    },
+    {
+      "id": "children"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "jaguars"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "parrots"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "what"
+    },
+    {
+      "id": "father head"
+    },
+    {
+      "id": "night"
+    },
+    {
+      "id": "herself"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "tree",
+      "label": "climbed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "tree",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "tree",
+      "label": "come",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "parrot",
+      "label": "climbed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "parrot",
+      "label": "eating",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "parrot",
+      "label": "eating",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "children",
+      "label": "killed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "children",
+      "label": "killed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "jaguar",
+      "label": "killed",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "jaguars",
+      "label": "killed",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "woman",
+      "label": "fish",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "parrots",
+      "label": "devour",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "man",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "village",
+      "label": "return",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "what",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "father head",
+      "label": "show",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "night",
+      "label": "eat",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "children",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "herself",
+      "label": "change",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "jaguar",
+      "label": "change",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A man went fishing with Woman. Man climbed a tree to catch parrots, which he threw down to his Woman. But the Woman devoured the parrots. Man asked, \"Why are you eating the parrots?\" When man came down from the tree, Woman killed Man by breaking his neck with her teeth. When Woman returned to the village, her children ran toward her to see what the Woman was bringing. Woman showed them their father's head, saying that it was the head of an armadillo. During the night Woman ate her children and ran away. Woman changed herself into a jaguar. Jaguars are women."
+}

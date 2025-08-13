@@ -1,0 +1,269 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "spring"
+    },
+    {
+      "id": "branch"
+    },
+    {
+      "id": "bat"
+    },
+    {
+      "id": "nails"
+    },
+    {
+      "id": "bats"
+    },
+    {
+      "id": "objects"
+    },
+    {
+      "id": "dropping"
+    },
+    {
+      "id": "paintings"
+    },
+    {
+      "id": "forest"
+    },
+    {
+      "id": "murmuring sound"
+    },
+    {
+      "id": "creature"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "burst"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "utensils"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "area"
+    },
+    {
+      "id": "caresses"
+    },
+    {
+      "id": "exhausted"
+    },
+    {
+      "id": "consciousness"
+    },
+    {
+      "id": "indians"
+    },
+    {
+      "id": "treatment man"
+    },
+    {
+      "id": "expedition"
+    },
+    {
+      "id": "hole"
+    },
+    {
+      "id": "warrior"
+    },
+    {
+      "id": "laughter"
+    },
+    {
+      "id": "tickling"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "spring",
+      "label": "noticed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "spring",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "branch",
+      "label": "murmur",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "bat",
+      "label": "murmur",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "nails",
+      "label": "tenderness",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "bats",
+      "label": "led",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "bats",
+      "label": "noticed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "objects",
+      "label": "noticed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "dropping",
+      "label": "noticed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "paintings",
+      "label": "noticed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "forest",
+      "label": "know",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "man",
+      "label": "notice",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "murmuring sound",
+      "label": "notice",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "burst",
+      "label": "break",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "caresses",
+      "label": "welcome",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "exhausted",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "consciousness",
+      "label": "recover",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "bats",
+      "target": "hole",
+      "label": "escape",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "creature",
+      "target": "tree",
+      "label": "come",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "utensils",
+      "label": "be",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "area",
+      "label": "fill",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "treatment man",
+      "label": "hear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "expedition",
+      "label": "organize",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "warrior",
+      "target": "laughter",
+      "label": "despise",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "warrior",
+      "target": "tickling",
+      "label": "despise",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A Man stayed behind to tend his garden while his companions went hunting. Feeling thirsty, Man went to a spring that Man knew of in the forest nearby, and as Man was about to drink, Man noticed a strange murmuring sound coming from above. Man looked up and saw an unknown creature hanging from a branch by its feet. It was a Kuben-niepre, a creature with a human body and the wings and feet of a Bat. The creature came down from the tree. It was ignorant of human language and began to caress the Man to show its friendliness toward him. But its enthusiastic tenderness was expressed by means of cold hands and pointed nails, the tickling effect of which caused the Man to break into an initial burst of laughter. After being led to the cave where the Bats lived and which looked like a lofty stone house, the Man noticed that there were no objects or utensils on the floor, which was covered with the droppings of the Bats hanging from the vaulted ceiling. The walls were adorned with paintings and drawings which filled their whole area. The Man was welcomed with renewed caresses. Man was tickled so much and Man laughed so hard that Man became quite exhausted, and eventually fainted. Much later Man recovered consciousness, succeeded in escaping, and found his way back to his village. The Indians were indignant when they heard of the treatment Man had suffered. They organized a punitive expedition and tried to choke all the Bats with smoke while they were asleep by burning a heap of dead leaves in the cave, after the entrance had been sealed off. But the Bats escaped through a hole in the roof\u2014all except a young one which was caught. The villagers had great difficulty in rearing it. It learned to walk, but they had to make a perch for it to sleep on upside down. It was not long in dying. The Indian warrior despises laughter and tickling, which are barely suitable even for women and children."
+}

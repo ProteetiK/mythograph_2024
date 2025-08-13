@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "revenge o'oimbre"
+    },
+    {
+      "id": "charm"
+    },
+    {
+      "id": "takake"
+    },
+    {
+      "id": "one"
+    },
+    {
+      "id": "means"
+    },
+    {
+      "id": "o'oimbre"
+    },
+    {
+      "id": "confession"
+    }
+  ],
+  "links": [
+    {
+      "source": "revenge o'oimbre",
+      "target": "charm",
+      "label": "make",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "takake",
+      "target": "one",
+      "label": "draw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "takake",
+      "target": "means",
+      "label": "draw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "o'oimbre",
+      "target": "confession",
+      "label": "force",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "While camping on the outskirts of a village with his son, the culture hero O'oimbre sent the boy to ask for food from his mother's relatives. The boy was badly received, and as a revenge, O'oimbre made a charm with feathers and thorns and used it to change all the villagers into peccaries. They remained shut up in their huts as if they were pigsties; Takake, the brother-in-law and rival of O'oimbre, drew one of them out (by the means described in the preceding myth) and killed it. O'oimbre forced a confession from Takake's son, went to the pigsty and set the peccaries free."
+}

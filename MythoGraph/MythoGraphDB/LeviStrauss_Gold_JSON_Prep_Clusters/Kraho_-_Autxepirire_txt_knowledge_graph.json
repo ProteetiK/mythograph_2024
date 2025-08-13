@@ -1,0 +1,470 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "indian"
+    },
+    {
+      "id": "fiancee"
+    },
+    {
+      "id": "bracelet"
+    },
+    {
+      "id": "penis"
+    },
+    {
+      "id": "seriemas"
+    },
+    {
+      "id": "sons"
+    },
+    {
+      "id": "daughter"
+    },
+    {
+      "id": "forest"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "deer"
+    },
+    {
+      "id": "order"
+    },
+    {
+      "id": "ogre"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "timbo"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "love"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "this"
+    },
+    {
+      "id": "gourd"
+    },
+    {
+      "id": "version"
+    },
+    {
+      "id": "embers"
+    },
+    {
+      "id": "one"
+    },
+    {
+      "id": "turn"
+    },
+    {
+      "id": "girl"
+    },
+    {
+      "id": "spite"
+    },
+    {
+      "id": "heroine"
+    },
+    {
+      "id": "refuge"
+    },
+    {
+      "id": "rhea etna"
+    },
+    {
+      "id": "wasps"
+    },
+    {
+      "id": "nest"
+    },
+    {
+      "id": "family"
+    },
+    {
+      "id": "persecutors"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "latter"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "spring"
+    },
+    {
+      "id": "flock"
+    },
+    {
+      "id": "animals"
+    },
+    {
+      "id": "body"
+    },
+    {
+      "id": "piece"
+    },
+    {
+      "id": "hawk"
+    },
+    {
+      "id": "house"
+    },
+    {
+      "id": "urubu share"
+    },
+    {
+      "id": "dry"
+    }
+  ],
+  "links": [
+    {
+      "source": "indian",
+      "target": "fiancee",
+      "label": "roasted",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "bracelet",
+      "label": "noticed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indian",
+      "target": "penis",
+      "label": "stirred",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "seriemas",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "seriemas",
+      "label": "run",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "seriemas",
+      "label": "break",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "sons",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "daughter",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "forest",
+      "label": "enter",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "ogre",
+      "label": "meet",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "gourd",
+      "label": "leave",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "version",
+      "label": "leave",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "embers",
+      "label": "stir",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "one",
+      "label": "cross",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "turn",
+      "label": "cross",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "spite",
+      "label": "run",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "order",
+      "label": "run",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "family",
+      "label": "rejoin",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "refuge",
+      "label": "take",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "seriemas",
+      "target": "spring",
+      "label": "hide",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "deer",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "order",
+      "label": "turn",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "order",
+      "label": "turn",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "birds",
+      "label": "turn",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "seriemas",
+      "label": "tell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "ogre",
+      "target": "this",
+      "label": "agree",
+      "motif": "Communication",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "timbo",
+      "label": "fish",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "love",
+      "label": "fall",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "seriemas",
+      "label": "fall",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "seriemas",
+      "label": "hide",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "seriemas",
+      "label": "attack",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "nest",
+      "label": "hide",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "which",
+      "label": "come",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "flock",
+      "label": "form",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "himself",
+      "target": "fire",
+      "label": "roast",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "one",
+      "target": "piece",
+      "label": "choose",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "girl",
+      "target": "seriemas",
+      "label": "insult",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "girl",
+      "target": "village",
+      "label": "arrive",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "refuge",
+      "label": "take",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "rhea etna",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "heroine",
+      "target": "wasps",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "persecutors",
+      "target": "which",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "latter",
+      "target": "ground",
+      "label": "fall",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "body",
+      "label": "dismember",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "hawk",
+      "target": "house",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "urubu share",
+      "target": "dry",
+      "label": "remain",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "An Indian whose wife was unfaithful to him decided to leave her and go far away. He took with him his sons and his daughter who was the youngest of all his children. Hardly had they entered the forest when the men turned into deer in order to advance more rapidly, but the little girl was unable to imitate them. They met the ogre Autxepirire, who was fishing with timbo (a fish poison), and the men turned into diving birds in order to steal his fish from him. Once again the little girl did not succeed in imitating them and went imprudently up to the ogre, who, on seeing her, fell in love with her and asked for her hand in marriage. Since he wished to be as prettily painted as his fiancee, the men told him that he must allow himself to be roasted in the fire. The ogre agreed to this and was burned to death. The little girl noticed that she had left a gourd (a bracelet, in another version) behind near the fire, and she came back to get it. She stirred up the embers and took out a piece of the ogre's penis. The ogre, as it happened, was on the point of rising again from its ashes. The girl ran off, pursued by the monster. Two rivers barred her path. She crossed each one in turn on the back of an alligator, who agreed to play the part of ferryman on condition that the little girl would insult him immediately afterward (sic). In spite of his promises, he ran after her in order to eat her. The heroine took refuge first of all with a rhea (etna), then with wasps who hid her in their nest. She finally rejoined her family, and with some difficulty all eventually escaped from the Autxepirire cannibal spirits, who attacked them in the tree where they had taken refuge. They succeeded in cutting the rope up which their persecutors were climbing. The latter fell to the ground and changed into crabs. Again lost and abandoned, the little girl arrived at a village belonging to the seriemas, the urubus, and the vultures. She hid near a spring, and by spitting on the gourds with which the birds came to draw water, she broke them all- To take their revenge, the birds formed into a flock and forced her to undergo gang rape, sparing neither her eyes, her ears, her nostrils, or the spaces between her toes. . . . Having thus been made \"rotten\" with caresses, the young girl died, and the animals dismembered her body. Each one chose a piece of the vulva and hung it on a perch, to the accompaniment of magic words. At once each piece grew and covered the roof of the hut. The hawk, who had been the first to help himself, had a fine house, but the urubu's share remained small, dry, and shriveled."
+}

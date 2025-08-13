@@ -1,0 +1,355 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "shaman"
+    },
+    {
+      "id": "creator"
+    },
+    {
+      "id": "trees"
+    },
+    {
+      "id": "buds"
+    },
+    {
+      "id": "beyond"
+    },
+    {
+      "id": "nail"
+    },
+    {
+      "id": "urine"
+    },
+    {
+      "id": "pipe"
+    },
+    {
+      "id": "cigar"
+    },
+    {
+      "id": "\u2014"
+    },
+    {
+      "id": "daughter"
+    },
+    {
+      "id": "comb"
+    },
+    {
+      "id": "dead"
+    },
+    {
+      "id": "resin"
+    },
+    {
+      "id": "sap"
+    },
+    {
+      "id": "tobacco"
+    },
+    {
+      "id": "visit"
+    },
+    {
+      "id": "order"
+    },
+    {
+      "id": "inhabitants"
+    },
+    {
+      "id": "creator hair"
+    },
+    {
+      "id": "destination"
+    },
+    {
+      "id": "guardian spirit"
+    },
+    {
+      "id": "pretext"
+    },
+    {
+      "id": "creator pipe"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "wood"
+    },
+    {
+      "id": "shoots"
+    },
+    {
+      "id": "way"
+    },
+    {
+      "id": "creator daughter"
+    },
+    {
+      "id": "shaman return"
+    }
+  ],
+  "links": [
+    {
+      "source": "shaman",
+      "target": "creator",
+      "label": "visit",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "creator",
+      "label": "approached",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "creator",
+      "label": "snatch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "creator",
+      "label": "snatch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "trees",
+      "label": "visit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "buds",
+      "label": "visit",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "beyond",
+      "label": "approached",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "nail",
+      "label": "approached",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "urine",
+      "label": "approached",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "shaman",
+      "label": "approached",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "pipe",
+      "label": "smoke",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "cigar",
+      "label": "accept",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "\u2014",
+      "label": "snatch",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "daughter",
+      "label": "snatch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "comb",
+      "label": "ordeal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "comb",
+      "label": "give",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "dead",
+      "label": "ordeal",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "resin",
+      "label": "ordeal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "sap",
+      "label": "ordeal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "tobacco",
+      "label": "ordeal",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "visit",
+      "label": "pay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "order",
+      "label": "pay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "inhabitants",
+      "label": "approach",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "destination",
+      "label": "arrive",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "it",
+      "label": "snatch",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "way",
+      "label": "start",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "shaman",
+      "target": "shaman return",
+      "label": "die",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "trees",
+      "target": "buds",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sap",
+      "target": "pretext",
+      "label": "smoke",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "sap",
+      "target": "creator pipe",
+      "label": "smoke",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "inhabitants",
+      "target": "creator hair",
+      "label": "explain",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "guardian spirit",
+      "target": "shaman",
+      "label": "inform",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "dead",
+      "label": "bring",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "wood",
+      "target": "shoots",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "creator daughter",
+      "target": "shaman",
+      "label": "run",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "creator daughter",
+      "target": "sap",
+      "label": "shout_stop",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A famous Shaman paid a visit to the Creator, in order to discover a means of rejuvenating old Men and making dead trees put forth new buds. Shaman approached several inhabitants of the Beyond, thinking them to be the Creator, but inhabitants of the Beyond explained that they were only Creator's hair, Creator's nail parings, or Creator's urine. . . . Finally Shaman arrived at his destination and presented his request. His guardian Spirit had informed Shaman that he must not, on any pretext, smoke the Creator's pipe, or accept the cigar the Creator would offer\u2014on the contrary, Shaman should snatch it roughly from Creator\u2014or, lastly, look at Creator's Daughter. After surviving these three ordeals the Shaman was given a Comb that would bring the Dead back to life, and Resin (sap) that would make Wood put forth green shoots again. Shaman had already started on his way back, when the Creator's Daughter ran after Shaman to give him a piece of Tobacco he had forgotten. Creator's Daughter shouted loudly at him to stop. Involuntarily the Shaman looked back and saw one of the young Woman's toes: that one brief glance was enough to make the Woman pregnant. So the Creator arranged for Shaman to die on Shaman's return, and summoned Shaman back to the Beyond to look after his Woman and Son. From that time on Men were no longer able to escape death."
+}

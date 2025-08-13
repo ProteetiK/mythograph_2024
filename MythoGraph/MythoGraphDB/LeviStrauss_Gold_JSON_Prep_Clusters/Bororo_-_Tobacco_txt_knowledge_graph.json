@@ -1,0 +1,196 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fishermen"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "tobacco"
+    },
+    {
+      "id": "companions"
+    },
+    {
+      "id": "spirit"
+    },
+    {
+      "id": "vampire"
+    },
+    {
+      "id": "grandfather"
+    },
+    {
+      "id": "knife"
+    },
+    {
+      "id": "belly"
+    },
+    {
+      "id": "ariranhas"
+    },
+    {
+      "id": "latter"
+    },
+    {
+      "id": "aroma"
+    },
+    {
+      "id": "indians"
+    },
+    {
+      "id": "smoke"
+    },
+    {
+      "id": "way"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "guise"
+    },
+    {
+      "id": "me"
+    },
+    {
+      "id": "morning"
+    },
+    {
+      "id": "blind"
+    }
+  ],
+  "links": [
+    {
+      "source": "fishermen",
+      "target": "fish",
+      "label": "grill",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fishermen",
+      "target": "fish",
+      "label": "hid",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fishermen",
+      "target": "tobacco",
+      "label": "discovered",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "fishermen",
+      "target": "tobacco",
+      "label": "share",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fishermen",
+      "target": "tobacco",
+      "label": "punished",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fishermen",
+      "target": "companions",
+      "label": "smoked",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fishermen",
+      "target": "spirit",
+      "label": "blowing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fishermen",
+      "target": "vampire",
+      "label": "blowing",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fishermen",
+      "target": "grandfather",
+      "label": "puff",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "tobacco",
+      "target": "me",
+      "label": "belong",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "spirit",
+      "target": "way",
+      "label": "speak",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "knife",
+      "target": "belly",
+      "label": "slit",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "ariranhas",
+      "target": "fish",
+      "label": "hide",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "ariranhas",
+      "target": "morning",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "ariranhas",
+      "target": "blind",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "latter",
+      "target": "aroma",
+      "label": "smell",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "smoke",
+      "label": "swallow",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "guise",
+      "label": "appear",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Fishermen had settled themselves at the water's edge to grill their fish. One of them, with his knife, slit open the belly of a huddogo and discovered tobacco inside. He hid the fish and smoked only at night, without telling his companions. The latter smelled the aroma and caught him at it. He then decided to share the tobacco with them. But the Indians swallowed the smoke instead of blowing it out. \"That is not the way to smoke,\" said the supernatural spirit who appeared in the guise of a vampire. \"First, puff, saying, 'Grandfather, receive the smoke and keep evil away from me!' Otherwise, you will be punished, because this tobacco belongs to me.\" The Indians did not obey; therefore, by the following morning they had become almost blind and had been changed into ariranhas. This is why these animals have such small eyes."
+}

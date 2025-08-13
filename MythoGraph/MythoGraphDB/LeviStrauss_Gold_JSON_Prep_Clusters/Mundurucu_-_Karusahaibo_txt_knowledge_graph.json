@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "woman"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "child"
+    },
+    {
+      "id": "opossum"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "birth"
+    }
+  ],
+  "links": [
+    {
+      "source": "woman",
+      "target": "son",
+      "label": "tried",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "child",
+      "label": "abandoned",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "opossum",
+      "target": "it",
+      "label": "rescue",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "opossum",
+      "target": "birth",
+      "label": "give",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "An adulterous woman tried by every possible means to get rid of her bastard son: she abandoned him on the ground, or in a stream, and even went as far as to bury him alive. But the child survived every kind of illtreatment. Finally an opossum rescued it and acted as its wetnurse. This explains why the opossum gives birth painlessly."
+}

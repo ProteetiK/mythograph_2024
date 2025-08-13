@@ -1,0 +1,230 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "men"
+    },
+    {
+      "id": "women"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "quantities"
+    },
+    {
+      "id": "parrot"
+    },
+    {
+      "id": "guard"
+    },
+    {
+      "id": "bird"
+    },
+    {
+      "id": "perch"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "means"
+    },
+    {
+      "id": "seeds"
+    },
+    {
+      "id": "iguana"
+    },
+    {
+      "id": "sound"
+    },
+    {
+      "id": "dumb"
+    },
+    {
+      "id": "lizard"
+    },
+    {
+      "id": "discussion"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "color plumage trunk tree"
+    },
+    {
+      "id": "hawk"
+    },
+    {
+      "id": "alarm"
+    },
+    {
+      "id": "things"
+    }
+  ],
+  "links": [
+    {
+      "source": "men",
+      "target": "women",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "women",
+      "label": "provide",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "fish",
+      "label": "live",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "which",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "quantities",
+      "label": "catch",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "parrot",
+      "label": "leave",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "guard",
+      "label": "leave",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "discussion",
+      "label": "entrust",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "village",
+      "label": "entrust",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "sky",
+      "label": "come",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "means",
+      "label": "come",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "seeds",
+      "label": "bombard",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "iguana",
+      "label": "capture",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "iguana",
+      "label": "throw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "color plumage trunk tree",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "things",
+      "label": "throw",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "parrot",
+      "target": "dumb",
+      "label": "strike",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "perch",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "iguana",
+      "target": "sound",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "iguana",
+      "target": "dumb",
+      "label": "strike",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "lizard",
+      "target": "guard",
+      "label": "mount",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hawk",
+      "target": "alarm",
+      "label": "give",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Once upon a time, Men were animals who could speak. Men had no Women, and Men lived on fish which Men caught in great quantities. One day Men noticed that their supplies of food had been stolen, so Men left a parrot on guard. The bird, from its perch at the top of a tree, saw Women coming down from the sky by the means of a rope. Women ate as much as they could and went to sleep in the shade of the tree. Instead of giving the alarm as he had been instructed to do, the parrot began to throw pieces of wood at the Women, who woke up and discovered him. Women bombarded Parrot with seeds, one of which hit the bird's tongue, which has been black ever since. The iguana heard the sound of the fight and informed his companions; but believing him to be deaf, they refused to pay any attention. The parrot meanwhile had been struck dumb. The next day the lizard mounted guard, but the Women captured him and tore out his tongue, so that he, too, was struck dumb. The Men, after a discussion, entrusted the village to the care of the hawk, which could not be seen by the Women because the color of its plumage was indistinguishable from that of the trunk of the tree in which it was perched. The hawk gave the alarm; although the Women threw things at him, he nevertheless managed to cut the rope. Henceforth the Men were provided with Women."
+}

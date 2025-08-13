@@ -1,0 +1,253 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "boy"
+    },
+    {
+      "id": "indians"
+    },
+    {
+      "id": "runners"
+    },
+    {
+      "id": "heroes"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "brothers"
+    },
+    {
+      "id": "expedition"
+    },
+    {
+      "id": "cliff face"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "days"
+    },
+    {
+      "id": "used"
+    },
+    {
+      "id": "macaw"
+    },
+    {
+      "id": "droppings"
+    },
+    {
+      "id": "head"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "vermin"
+    },
+    {
+      "id": "secret"
+    },
+    {
+      "id": "advice"
+    },
+    {
+      "id": "wife"
+    },
+    {
+      "id": "paw"
+    },
+    {
+      "id": "system"
+    },
+    {
+      "id": "meat"
+    },
+    {
+      "id": "raw"
+    }
+  ],
+  "links": [
+    {
+      "source": "jaguar",
+      "target": "boy",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "boy",
+      "label": "showed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "boy",
+      "label": "show",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "secret",
+      "label": "show",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "advice",
+      "label": "wound",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "wife",
+      "label": "wound",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "paw",
+      "label": "wound",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "runners",
+      "label": "wounded",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "jaguar",
+      "label": "wounded",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "jaguar",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "fire",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "indians",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "birds",
+      "label": "weep",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "system",
+      "label": "organize",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "meat",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "raw",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "heroes",
+      "target": "men",
+      "label": "live",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "cliff face",
+      "label": "abandon",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "brothers",
+      "target": "expedition",
+      "label": "undertake",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "days",
+      "label": "become",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "used",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "macaw",
+      "target": "droppings",
+      "label": "deposit",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "macaw",
+      "target": "head",
+      "label": "deposit",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "vermin",
+      "label": "swarm",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "The two civilizing heroes, Pud and Pudlere, formerly lived with men and put fire at their disposal. But when the heroes went away, they took the fire with them, and men were reduced to eating their meat raw, sun-dried, and accompanied by pau puba. It was during this period that the brothers-in-law undertook their expedition. The younger of the two men was abandoned on the cliff face, where he wept among the angry birds: \"After two days the birds became used to him. The macaw deposited its droppings on his head, which swarmed with vermin. He was hungry.\" The end is similar to the other versions. The jaguar's wife was pregnant and liked to frighten the boy by threatening to eat him. The jaguar showed the boy the secret of the bow and arrows; and, following his advice, the boy wounded the wife in the paw and ran away. The Indians, after being informed of what had happened, organized a system of runners to get possession of the fire. \"But for the jaguar, they would still be eating their meat raw.\""
+}

@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "indians"
+    },
+    {
+      "id": "child"
+    },
+    {
+      "id": "spirits"
+    },
+    {
+      "id": "bugs"
+    },
+    {
+      "id": "dancers"
+    },
+    {
+      "id": "stench"
+    },
+    {
+      "id": "kokridho"
+    }
+  ],
+  "links": [
+    {
+      "source": "indians",
+      "target": "child",
+      "label": "captured",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "child",
+      "label": "invaded",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "child",
+      "label": "capture",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "spirits",
+      "label": "captured",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "spirits",
+      "label": "capture",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "bugs",
+      "label": "captured",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "dancers",
+      "label": "captured",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "stench",
+      "label": "emitted",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "kokridho",
+      "target": "stench",
+      "label": "emit",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "One day the Indians captured a Child belonging to the Kokridho, aquatic spirits (water bugs) who are impersonated in ceremonies by masked dancers. The following night the Kokridho came out of the water and invaded the Village in order to recover their Child. But Kokridho emitted such a stench that Everybody died from it."
+}

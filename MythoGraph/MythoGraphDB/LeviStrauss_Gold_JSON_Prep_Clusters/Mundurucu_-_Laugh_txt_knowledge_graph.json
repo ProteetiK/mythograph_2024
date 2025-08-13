@@ -1,0 +1,252 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "howl"
+    },
+    {
+      "id": "monkey"
+    },
+    {
+      "id": "parents"
+    },
+    {
+      "id": "monkeys"
+    },
+    {
+      "id": "leaves"
+    },
+    {
+      "id": "bees"
+    },
+    {
+      "id": "wasps"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "monkey woman"
+    },
+    {
+      "id": "cupiuba"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "account"
+    },
+    {
+      "id": "meal"
+    },
+    {
+      "id": "father monkey"
+    },
+    {
+      "id": "this"
+    },
+    {
+      "id": "man aid"
+    },
+    {
+      "id": "bow"
+    },
+    {
+      "id": "arrows"
+    },
+    {
+      "id": "relation"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "howl",
+      "label": "married",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "monkey",
+      "label": "married",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "monkey",
+      "label": "married",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "monkey",
+      "label": "warned",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "monkey",
+      "label": "pursued",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "parents",
+      "label": "married",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "monkeys",
+      "label": "laugh",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "monkeys",
+      "label": "pursued",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "monkeys",
+      "label": "laugh",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "leaves",
+      "label": "invited",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "bees",
+      "label": "abandoned",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "wasps",
+      "label": "abandoned",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "son",
+      "label": "pursued",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "monkey woman",
+      "label": "marry",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "account",
+      "label": "laugh",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "man",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "bow",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "arrows",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey",
+      "target": "father monkey",
+      "label": "begin_sing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monkeys",
+      "target": "man",
+      "label": "invite",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monkeys",
+      "target": "meal",
+      "label": "invite",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bees",
+      "target": "man aid",
+      "label": "come",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "monkey woman",
+      "target": "relation",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "cupiuba",
+      "target": "monkey woman",
+      "label": "decide_visit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "man",
+      "label": "warn",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "this",
+      "target": "monkey",
+      "label": "enrage",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A man married a howler Monkey-woman of human form. When Monkey-woman was pregnant, they decided to visit her parents. But the Woman warned her Man about Monkey's viciousness: on no account must Man laugh at Monkeys. The Monkeys invited the Man to a meal of cupiuba leaves {Goupia glabra), which have an intoxicating effect. When the father Monkey was completely drunk, Monkey began to sing, and his monkeylike expressions made the Man laugh. This enraged the Monkey who waited until Man was drunk and then abandoned him in a hammock at the top of a tree. When the Man woke up, Man found Man was alone and unable to climb down. The bees and the wasps came to Man's aid and advised Man to take revenge. The Man took his bow and arrows, pursued the Monkeys, and killed them all, apart from his pregnant Monkey-woman. Later the Monkey-woman had an incestuous relation with her son, from which sprang the howler monkeys."
+}

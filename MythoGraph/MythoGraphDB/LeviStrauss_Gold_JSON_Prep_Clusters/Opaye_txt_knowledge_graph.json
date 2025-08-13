@@ -1,0 +1,261 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "girl"
+    },
+    {
+      "id": "carcass"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "meat"
+    },
+    {
+      "id": "others"
+    },
+    {
+      "id": "vain"
+    },
+    {
+      "id": "father"
+    },
+    {
+      "id": "husband jaguar food indians"
+    },
+    {
+      "id": "nothing"
+    },
+    {
+      "id": "roof"
+    },
+    {
+      "id": "feast"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "hut"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "brother"
+    },
+    {
+      "id": "friendly"
+    },
+    {
+      "id": "couple"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "grandmother"
+    },
+    {
+      "id": "mistrust"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "beast"
+    },
+    {
+      "id": "spots"
+    },
+    {
+      "id": "body"
+    },
+    {
+      "id": "claws"
+    },
+    {
+      "id": "witchcraft"
+    },
+    {
+      "id": "revenge"
+    },
+    {
+      "id": "harm"
+    }
+  ],
+  "links": [
+    {
+      "source": "girl",
+      "target": "carcass",
+      "label": "spot",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "that",
+      "label": "leave",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "meat",
+      "label": "leave",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "hut",
+      "label": "set",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "meat",
+      "label": "get",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "harm",
+      "label": "wish",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "others",
+      "target": "girl",
+      "label": "look",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "others",
+      "target": "vain",
+      "label": "look",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "husband jaguar food indians",
+      "label": "explain",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "nothing",
+      "label": "want",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "feast",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "village",
+      "label": "settle",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "it",
+      "label": "build",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "claws",
+      "label": "grow",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "revenge",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "roof",
+      "target": "meat",
+      "label": "cover",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brother",
+      "target": "friendly",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brother",
+      "target": "couple",
+      "label": "become",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "father",
+      "label": "supply",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "grandmother",
+      "target": "mistrust",
+      "label": "feel",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "beast",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "witchcraft",
+      "label": "resort",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "spots",
+      "target": "body",
+      "label": "appear",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "The women were busy collecting wood in a part of the forest that had been burned. One of them, who was still a girl, spotted the carcass of a queixada that a jaguar had left there. \"How I should love to be the jaguar's daughter!\" she exclaimed. \"I should get all the meat I wanted.\" \"Nothing could be easier,\" replied the jaguar, appearing at that moment. \"Come with me. I will not hurt you.\" The others looked for the girl in vain, and it was supposed that she had been devoured by the jaguar. But one day she came back and revealed her identity to her younger sister and her parents. She explained that with her husband the jaguar she wanted for nothing, and that he would be delighted to supply food to the Indians. \"What kind of game do you prefer?\" \"Anything!\" \"But state a preference. The jaguar will want to know.\" \"All right. Tapir!\" \"Agreed,\" said the woman. \"But take care to see that the hut posts are strong. The jaguar will leave the meat on the roof.\" The next day the father discovered that the roof was covered with well-grilled meat. They made a feast of it. Two days later the supply was renewed. After a time the jaguar wearied of carrying the meat and, through his wife, proposed that he should settle in the village. The father agreed. (He was afraid of the jaguar, but he was fond of meat.) Besides, the woman explained that the jaguar would not set up his hut too close to that of his parents-in-law; he would build it some distance away, so as not to be seen. The woman went away; she was beginning to know how to hunt as well as the jaguar. The next day the hut roof was covered with all kinds of meat: caititu, queixada, armadillo, and paca. The jaguar came to live with the Indians. His brother-in-law became friendly with the new couple who supplied him with choice game: jao, mutum, inhambu, and macuco. But the grandmother felt mistrust. The young woman was gradually turning into a beast of prey; black spots appeared on her body, and she grew claws on her hands and feet. Only her face remained human, although fangs were beginning to show in her mouth. The old woman therefore resorted to witchcraft and killed her granddaughter. The father was not very upset, but the whole family was afraid of the jaguar. His brother-in-law went to tell him that his wife was dead, and to ask him if he would take revenge or would agree to accept one of the dead woman's sisters in her place. \"No,\" replied the jaguar. \"There is no need for that. I shall leave. I do not wish you any harm. Perhaps you will remember me in years to come. . . .\" And the jaguar went off, incensed by the murder and spreading fear by his roaring; but the sound came from farther and farther away."
+}

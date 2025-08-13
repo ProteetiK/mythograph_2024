@@ -1,0 +1,399 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "there"
+    },
+    {
+      "id": "time"
+    },
+    {
+      "id": "brothers"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "hand"
+    },
+    {
+      "id": "creek woman"
+    },
+    {
+      "id": "one"
+    },
+    {
+      "id": "this"
+    },
+    {
+      "id": "hunter"
+    },
+    {
+      "id": "night"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "story"
+    },
+    {
+      "id": "branch"
+    },
+    {
+      "id": "spot"
+    },
+    {
+      "id": "reflection"
+    },
+    {
+      "id": "side"
+    },
+    {
+      "id": "course"
+    },
+    {
+      "id": "furious"
+    },
+    {
+      "id": "attack"
+    },
+    {
+      "id": "basket"
+    },
+    {
+      "id": "daughters"
+    },
+    {
+      "id": "both"
+    },
+    {
+      "id": "love"
+    },
+    {
+      "id": "hammock"
+    },
+    {
+      "id": "misdeeds"
+    },
+    {
+      "id": "ogress"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "day man"
+    },
+    {
+      "id": "mother"
+    },
+    {
+      "id": "catch"
+    },
+    {
+      "id": "canoe"
+    },
+    {
+      "id": "shark"
+    },
+    {
+      "id": "daughter"
+    },
+    {
+      "id": "murder"
+    },
+    {
+      "id": "wife"
+    },
+    {
+      "id": "member"
+    },
+    {
+      "id": "life"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "leg"
+    }
+  ],
+  "links": [
+    {
+      "source": "there",
+      "target": "time",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "brothers",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "water",
+      "label": "wade",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "hand",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "hand",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "creek woman",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "one",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "this",
+      "label": "do",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "spot",
+      "label": "reach",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "man",
+      "label": "reach",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "man",
+      "label": "capture",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "reflection",
+      "label": "notice",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "side",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "course",
+      "label": "succeed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "furious",
+      "label": "launch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "attack",
+      "label": "launch",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "basket",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "one",
+      "target": "hammock",
+      "label": "hide",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hunter",
+      "target": "night",
+      "label": "spend",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "hunter",
+      "target": "tree",
+      "label": "spend",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "story",
+      "label": "tell",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "man",
+      "label": "tell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "tree",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "branch",
+      "label": "sit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "catch",
+      "label": "leave",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "canoe",
+      "label": "leave",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "canoe",
+      "label": "arrange",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "shark",
+      "label": "arrange",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "woman",
+      "label": "order_climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "wife",
+      "label": "order_climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "daughters",
+      "target": "time",
+      "label": "lose",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "daughters",
+      "target": "misdeeds",
+      "label": "confess",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "both",
+      "target": "love",
+      "label": "fall",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "ogress",
+      "target": "it",
+      "label": "devour",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "day man",
+      "target": "mother",
+      "label": "tell",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "daughter",
+      "target": "murder",
+      "label": "discover",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "member",
+      "target": "life",
+      "label": "spring",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "leg",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Once upon a time there were two brothers, the elder Man was a celebrated hunter. Each day he went a little farther afield in search of game, with the result that finally he came to a creek he had never seen before. He climbed into a tree standing at its edge so as to watch for the animals that came to drink. Suddenly he saw a Woman wading through the water toward him, and he thought her behavior very curious. Each time Woman put her hand into the creek Woman brought out two fish, and each time Woman ate one of them and put the other into her basket. Woman was a very big Woman, a supernatural being. On her head Woman was wearing a calabash, which Woman occasionally took off and threw into the water in such a way as to make it spin like a top. When Woman did this, Woman would stop to watch it, and afterward Woman would walk on again. The hunter spent the night up the tree and returned to the village the next day. Man told the story to his young Man, who begged to go with him in order to see \"such a Woman who can catch so many fish and can eat them as well.\" \"No,\" was the reply, \"because you are always laughing at everything, and you might laugh at her.\" But the young man promised to keep a straight face, and the elder Man allowed himself to be persuaded. When they reached the stream, the elder Man climbed into his tree, which stood a little way back from the edge; the younger one insisted on taking up his position in a better-placed tree, so as to miss nothing, and Man sat on a branch overhanging the water. The Woman soon arrived and began behaving as before. When Woman reached the spot directly beneath the young Man, Woman noticed the reflection of his shadow in the water. Woman tried to catch hold of it, and when Woman failed, kept on trying: \"Woman put her hand in quickly, first to this side and then that, but of course Woman did not succeed, and what with all her queer gesticulations and funny capers made so ridiculous an appearance that the Man up above could not resist laughing at her vain attempts to seize the substance for the shadow. Man laughed and laughed and could not stop laughing.\" Thereupon the Woman looked up and spied the two Mans. Furious at having been laughed at, Woman launched an attack with poisonous ants; they bit and stung the boy so badly that, to escape from them, Man had to throw himself into the water, where the Woman caught him and ate him. Afterward Woman captured the other Man and put him in her well-secured basket. On returning to her hut, Woman put the basket down and forbade her two daughters to touch it. But as soon as her back was turned, her daughters lost no time in opening it. They were delighted with the hero's physical appearance and his talents as a hunter. Both of them, indeed, fell in love with him, and the younger one hid him in her hammock. When the time came for the ogress to kill and eat her prisoner, the daughters confessed their misdeeds. Their mother agreed to spare her unexpected son-in-law, on condition that Man go fishing on her behalf. But however big the catch Man brought back, the ogress would devour it all, apart from two fish. Eventually the hero was so worn out that Man fell ill. The younger daughter, who was by now his wife, agreed to run away with him. One day Man told his mother-in-law that Man had left his catch in his canoe, and that Woman should go and fetch it (a fisherman was not supposed to carry the fish himself, since this would spoil his luck). However, Man had arranged for a shark, or an alligator, to be under the canoe, and the ogress was devoured. The elder daughter discovered the murder, sharpened her knife, and pursued the culprit. When Woman was about to catch up with him, Man ordered his wife to climb a tree, and followed after her. But Man was not quick enough to prevent his sister-in-law cutting off one of his legs. The detached member sprang to life and became the mother of birds. You can still see, in the night sky, the hero's wife (the Pleiades); lower down, the hero himself (the Hyades) and, lower still, his severed leg\u2014Orion's belt."
+}

@@ -1,0 +1,239 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "deer"
+    },
+    {
+      "id": "daughter"
+    },
+    {
+      "id": "jaguar"
+    },
+    {
+      "id": "animals"
+    },
+    {
+      "id": "parents"
+    },
+    {
+      "id": "jaguars"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "time animals form"
+    },
+    {
+      "id": "jaguar wife"
+    },
+    {
+      "id": "laughter"
+    },
+    {
+      "id": "ordeal"
+    },
+    {
+      "id": "der"
+    },
+    {
+      "id": "parents law jaguars deer hunting"
+    },
+    {
+      "id": "watch"
+    },
+    {
+      "id": "son law deer"
+    },
+    {
+      "id": "deer flight"
+    },
+    {
+      "id": "flight"
+    },
+    {
+      "id": "direction"
+    }
+  ],
+  "links": [
+    {
+      "source": "deer",
+      "target": "daughter",
+      "label": "married",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "daughter",
+      "label": "marry",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "jaguar",
+      "label": "married",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "jaguar",
+      "label": "announced",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "animals",
+      "label": "married",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "parents",
+      "label": "call",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "deer",
+      "label": "warned",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "deer",
+      "label": "jaguars",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "deer",
+      "label": "announced",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "deer",
+      "label": "sleep",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "jaguars",
+      "label": "warned",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "jaguars",
+      "label": "announced",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "son",
+      "label": "sleep",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "time animals form",
+      "label": "marry",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "laughter",
+      "label": "refrain",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "ordeal",
+      "label": "withstand",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "deer",
+      "target": "direction",
+      "label": "run",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar",
+      "target": "son law deer",
+      "label": "ask",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguars",
+      "target": "watch",
+      "label": "keep",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguars",
+      "target": "deer",
+      "label": "run",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguars",
+      "target": "deer flight",
+      "label": "think",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguars",
+      "target": "flight",
+      "label": "think",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar wife",
+      "target": "deer",
+      "label": "warn",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "jaguar wife",
+      "target": "deer",
+      "label": "warn",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "der",
+      "target": "parents law jaguars deer hunting",
+      "label": "realize",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A Deer married the daughter of a Jaguar, without realizing who she was, because at that time all animals were in human form. One day he decided to pay a call on his parents-in-law. His Jaguar-wife warned Deer that Jaguars were vicious and would want to tickle Deer. If the Deer could not refrain from laughter, Deer would be devoured. The Deer withstood the ordeal successfully, but Der realized that his parents-in-law were Jaguars when they brought back a Deer they had killed while out hunting, and sat down to eat Deer. The next day the Deer announced that Deer would go hunting, and he brought back a dead Jaguar. It was now the Jaguars' turn to be frightened: From then on the Deer and the Jaguars kept a mutual watch on each other. \"How do you sleep?\" the Jaguar asked his son-in-law Deer. \"With my eyes open,\" was the reply, \"and when I am awake I keep my eyes closed. What about you?\" \"I do just the opposite.\" Consequently the Jaguars dared not run away while the Deer was asleep, but as soon as Deer woke up, Jaguars thought Deer was asleep and took flight, while the Deer ran off in the opposite direction."
+}

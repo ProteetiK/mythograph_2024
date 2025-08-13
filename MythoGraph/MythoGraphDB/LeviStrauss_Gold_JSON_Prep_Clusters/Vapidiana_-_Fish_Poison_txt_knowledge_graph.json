@@ -1,0 +1,130 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "woman"
+    },
+    {
+      "id": "child"
+    },
+    {
+      "id": "boy"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "tim"
+    },
+    {
+      "id": "deal"
+    },
+    {
+      "id": "fox"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "tapir"
+    },
+    {
+      "id": "timbo"
+    },
+    {
+      "id": "pregnant"
+    },
+    {
+      "id": "river"
+    }
+  ],
+  "links": [
+    {
+      "source": "woman",
+      "target": "child",
+      "label": "cried",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "child",
+      "label": "remove",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "child",
+      "label": "washed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "boy",
+      "label": "cried",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "fish",
+      "label": "washed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "tim",
+      "label": "washed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "child",
+      "target": "deal",
+      "label": "cry",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "it",
+      "label": "rid",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "tapir",
+      "target": "timbo",
+      "label": "marry",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "timbo",
+      "target": "pregnant",
+      "label": "become",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "timbo",
+      "target": "child",
+      "label": "wash",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "timbo",
+      "target": "river",
+      "label": "wash",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A woman handed over her child to be brought up by a fox. But as the child cried a great deal, the fox got rid of it by passing it on to a female tapir. When the boy grew up, the tapir married him. She soon became pregnant and begged her husband to shoot her with his arrows and remove the child from her corpse. Having obeyed her instructions, the man discovered that every time he washed the child in the river, the fish died. And when the child died, it turned into timbo-aiyare, from which fish poison is extracted."
+}

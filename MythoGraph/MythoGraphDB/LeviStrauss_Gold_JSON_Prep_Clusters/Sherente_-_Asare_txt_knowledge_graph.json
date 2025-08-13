@@ -1,0 +1,513 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "indian"
+    },
+    {
+      "id": "father"
+    },
+    {
+      "id": "brothers"
+    },
+    {
+      "id": "mother"
+    },
+    {
+      "id": "falcons"
+    },
+    {
+      "id": "thirst"
+    },
+    {
+      "id": "well"
+    },
+    {
+      "id": "hollow"
+    },
+    {
+      "id": "sea"
+    },
+    {
+      "id": "arrow"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "wife"
+    },
+    {
+      "id": "sons"
+    },
+    {
+      "id": "sururu"
+    },
+    {
+      "id": "what"
+    },
+    {
+      "id": "revenge"
+    },
+    {
+      "id": "parents"
+    },
+    {
+      "id": "bank"
+    },
+    {
+      "id": "alligator"
+    },
+    {
+      "id": "asare"
+    },
+    {
+      "id": "latter"
+    },
+    {
+      "id": "names"
+    },
+    {
+      "id": "chase"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "land"
+    },
+    {
+      "id": "pursuer"
+    },
+    {
+      "id": "woods"
+    },
+    {
+      "id": "woodpeckers"
+    },
+    {
+      "id": "bark"
+    },
+    {
+      "id": "trees"
+    },
+    {
+      "id": "order"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "request"
+    },
+    {
+      "id": "strips"
+    },
+    {
+      "id": "danger"
+    },
+    {
+      "id": "way"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "straw"
+    },
+    {
+      "id": "incidents"
+    },
+    {
+      "id": "swam river"
+    },
+    {
+      "id": "rinds"
+    },
+    {
+      "id": "another"
+    },
+    {
+      "id": "lips"
+    },
+    {
+      "id": "silent"
+    },
+    {
+      "id": "uncle"
+    },
+    {
+      "id": "skunk"
+    },
+    {
+      "id": "fluid"
+    },
+    {
+      "id": "stench"
+    },
+    {
+      "id": "one"
+    },
+    {
+      "id": "west"
+    },
+    {
+      "id": "heavens"
+    }
+  ],
+  "links": [
+    {
+      "source": "indian",
+      "target": "father",
+      "label": "hunting",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "brothers",
+      "target": "mother",
+      "label": "revealed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brothers",
+      "target": "falcons",
+      "label": "revealed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brothers",
+      "target": "thirst",
+      "label": "suffered",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "brothers",
+      "target": "well",
+      "label": "digging",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "brothers",
+      "target": "hollow",
+      "label": "digging",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "brothers",
+      "target": "sea",
+      "label": "spread",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brothers",
+      "target": "arrow",
+      "label": "swam",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brothers",
+      "target": "sururu",
+      "label": "urge_drink",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "arrow",
+      "target": "bank",
+      "label": "leave",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "arrow",
+      "target": "water",
+      "label": "drift",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "wife",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "sons",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "sururu",
+      "label": "hide",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "straw",
+      "label": "hide",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sururu",
+      "target": "what",
+      "label": "do",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sururu",
+      "target": "revenge",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "sururu",
+      "target": "alligator",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sururu",
+      "target": "alligator",
+      "label": "meet",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sururu",
+      "target": "sururu",
+      "label": "sit",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sururu",
+      "target": "sururu",
+      "label": "appear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "sururu",
+      "target": "woods",
+      "label": "run",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "sururu",
+      "target": "it",
+      "label": "escape",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "sururu",
+      "target": "rinds",
+      "label": "hide",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sururu",
+      "target": "silent",
+      "label": "keep",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "sururu",
+      "target": "heavens",
+      "label": "appear",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "parents",
+      "target": "falcons",
+      "label": "change",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "alligator",
+      "target": "chase",
+      "label": "give",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "alligator",
+      "target": "stench",
+      "label": "die",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "asare",
+      "target": "alligator",
+      "label": "beg_let",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "asare",
+      "target": "sururu",
+      "label": "call",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "asare",
+      "target": "names",
+      "label": "call",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "asare",
+      "target": "land",
+      "label": "reach",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "asare",
+      "target": "pursuer",
+      "label": "reach",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "asare",
+      "target": "danger",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "asare",
+      "target": "way",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "asare",
+      "target": "uncle",
+      "label": "get",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "asare",
+      "target": "uncle",
+      "label": "stay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "latter",
+      "target": "sururu",
+      "label": "refuse",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "woodpeckers",
+      "target": "bark",
+      "label": "peck",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woodpeckers",
+      "target": "trees",
+      "label": "peck",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "woodpeckers",
+      "target": "order",
+      "label": "peck",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "request",
+      "label": "cover",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "sururu",
+      "label": "cover",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "strips",
+      "label": "cover",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "incidents",
+      "target": "swam river",
+      "label": "occur",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "another",
+      "target": "lips",
+      "label": "strike",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "skunk",
+      "target": "fluid",
+      "label": "squirt",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "skunk",
+      "target": "sururu",
+      "label": "squirt",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "one",
+      "target": "west",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Once there was an Indian who had a wife and many sons, all of them adult except the youngest, Asare. While the father was hunting one day, the brothers sent Asare to fetch their mother and bring her to the bachelors' house, bidding her to cut their hair and decorate them. But when she entered, her own sons seized and ravished her. Asare revealed what they had done, and the culprits were severely thrashed by their father. They took their revenge by setting fire to the hut where the couple were living. The parents changed into falcons of the kind that like to fly in the smoke, and thus escaped. Then the sons went far away. On the way Asare suffered from thirst, and the water from tucum nuts knocked down by his brothers was not enough to quench it. Then one of them began digging a well in a hollow, and so much water gushed forth that Asare, however much his brothers urged him to drink, could not exhaust it. The water spread more and more, finally forming the sea. Then Asare recollected that an arrow he particularly prized had been left on the opposite bank. He swam across, found his arrow, and was swimming back when in the middle of the water he found an alligator (jacare), whichhad developed out of a swarm of lizards which Asare had killed while traveling, and which the spreading waters had carried away. Asare begged the alligator to let him sit on him, and when the latter refused, Asare called him names, making fun of his ugly nose. The alligator gave chase. Meanwhile the brothers saw the arrow drifting on the water, concluded that their youngest brother had perished, and marched on. Asare reached land when his pursuer was already close behind. He ran into the woods where the woodpeckers were pecking the bark from the trees in order to eat the insects under it. At his request the birds covered him with strips of bark and sent the alligator off on a false scent. Once the danger was over, Asare went on his way and crossed another river where he met another alligator, with the same consequences. He escaped from it, thanks to partridges who happened to be digging out groundnuts (Arachis hypogaea) and who hid him under the straw. The same incidents occurred again when Asare swam across a third river, but this time he hid under the rinds of the jatoba fruits which monkeys were busy eating. One of the monkeys, from inborn talkativeness, came near divulging the secret, but another struck it on the lips, so he kept silent. Asare finally got to his uncle, the skunk, who was not afraid at all. When the alligator came, the skunk squirted his fluid at him, and the alligator died of the stench. The skunk called the little inhambus (Tinamus species) to drag the corpse into the river. Asare, however, stayed with his uncle. When the sea was formed, Asare's brothers had at once tried to bathe. Even today, toward the close of the rainy season, one hears in the west the sound of their splashing in the water. Then they appear in the heavens, new and clean, as Sururu, the Seven Stars (the Pleiades)."
+}

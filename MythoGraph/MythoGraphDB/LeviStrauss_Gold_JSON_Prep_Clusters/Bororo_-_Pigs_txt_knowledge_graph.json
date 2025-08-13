@@ -1,0 +1,239 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bird"
+    },
+    {
+      "id": "women"
+    },
+    {
+      "id": "otter"
+    },
+    {
+      "id": "fruits"
+    },
+    {
+      "id": "kernel"
+    },
+    {
+      "id": "spikes"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "day"
+    },
+    {
+      "id": "fishing"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "state"
+    },
+    {
+      "id": "women welcome"
+    },
+    {
+      "id": "welcome"
+    },
+    {
+      "id": "point"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "nothing"
+    },
+    {
+      "id": "sort"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "truth"
+    },
+    {
+      "id": "river"
+    },
+    {
+      "id": "drink"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "throats"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "cry"
+    }
+  ],
+  "links": [
+    {
+      "source": "bird",
+      "target": "women",
+      "label": "suspected",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "otter",
+      "label": "called",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "fruits",
+      "label": "offered",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "kernel",
+      "label": "offered",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "spikes",
+      "label": "offered",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "point",
+      "label": "get",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "fish",
+      "label": "return",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "men",
+      "label": "offer",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "drink",
+      "label": "offer",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "day",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "fishing",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "village",
+      "label": "return",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "state",
+      "label": "return",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "women welcome",
+      "label": "return",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "women",
+      "label": "return",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "welcome",
+      "label": "return",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "nothing",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "sort",
+      "label": "suspect",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "river",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "truth",
+      "label": "reveal",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "throats",
+      "label": "stick",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "cry",
+      "label": "give",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Day after day the Men would go fishing and catch nothing. Men would return to the village in a sad state of mind, not only because they were empty-handed, but also because their Women were sulking and gave them a poor welcome. The Women even got to the point of challenging the Men. Women declared that they would do the fishing. But in actual fact all Women did was to call on otters, who dived and fished in their stead. The Women returned laden with fish, and each time the Men tried to get their own back, Men caught nothing. After a time the Men suspected some sort of trick. They had the Women spied on by a Bird who revealed the truth. The next day, the Men went to the river, called the Otters, and strangled them one after another. Only one escaped. It was now the Men's turn to jeer at the Women, who caught nothing. The Women therefore determined to be avenged. Women offered Men a drink made with piqui fruits, whose kernels they had left covered with spikes. Choked by these spikes which stuck in their throats, the Men grunted, and were changed into wild pigs that give this cry."
+}

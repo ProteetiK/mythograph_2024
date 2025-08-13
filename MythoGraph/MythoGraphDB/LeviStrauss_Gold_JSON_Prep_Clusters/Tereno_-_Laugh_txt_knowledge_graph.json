@@ -1,0 +1,89 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "orekajuvakai"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "sorts"
+    },
+    {
+      "id": "tail"
+    },
+    {
+      "id": "toad"
+    },
+    {
+      "id": "gait"
+    },
+    {
+      "id": "everybody"
+    },
+    {
+      "id": "front"
+    },
+    {
+      "id": "time"
+    }
+  ],
+  "links": [
+    {
+      "source": "orekajuvakai",
+      "target": "men",
+      "label": "order_stand",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "orekajuvakai",
+      "target": "toad",
+      "label": "send",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "sorts",
+      "label": "perform",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "tail",
+      "label": "bite",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "toad",
+      "target": "front",
+      "label": "pass",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "toad",
+      "target": "time",
+      "label": "pass",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "gait",
+      "target": "everybody",
+      "label": "amuse",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "After bringing Men forth from the bowels of the earth, the demiurge Orekajuvakai wished to make them speak. He ordered Men to stand in single file one behind the other, and sent for the little Wolf to make them laugh. The Wolf performed all sorts of monkey tricks; Wolf bit his tail, but all in vain. Whereupon Orekajuvakai sent for the little red Toad, whose comic gait amused everybody. After the Toad had passed in front of the row for the third time, all the Men began to speak and laugh heartily."
+}

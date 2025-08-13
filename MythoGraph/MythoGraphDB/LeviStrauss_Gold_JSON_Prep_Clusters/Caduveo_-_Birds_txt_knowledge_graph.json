@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "father"
+    },
+    {
+      "id": "hut"
+    },
+    {
+      "id": "\u2014"
+    },
+    {
+      "id": "pot"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "flowers"
+    },
+    {
+      "id": "leg"
+    },
+    {
+      "id": "children"
+    },
+    {
+      "id": "blood"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "plumage"
+    },
+    {
+      "id": "feathers"
+    },
+    {
+      "id": "attention"
+    },
+    {
+      "id": "to"
+    },
+    {
+      "id": "arms"
+    },
+    {
+      "id": "side"
+    },
+    {
+      "id": "result"
+    },
+    {
+      "id": "today"
+    }
+  ],
+  "links": [
+    {
+      "source": "father",
+      "target": "hut",
+      "label": "play",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "\u2014",
+      "label": "playing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "pot",
+      "label": "playing",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "sky",
+      "label": "playing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "flowers",
+      "label": "playing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "flowers",
+      "label": "playing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "leg",
+      "label": "grab",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "children",
+      "label": "grab",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "blood",
+      "label": "grab",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "birds",
+      "label": "grab",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "plumage",
+      "label": "grab",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "plumage",
+      "label": "acquiring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "feathers",
+      "label": "dipped",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "attention",
+      "label": "pay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "to",
+      "label": "pay",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "arms",
+      "label": "put",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "today",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "flowers",
+      "target": "side",
+      "label": "retreat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "flowers",
+      "target": "result",
+      "label": "retreat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "children",
+      "target": "flowers",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Three children used to play in front of the hut until past midnight. The father and mother paid no attention to them. One night when they were playing\u2014it was very late\u2014an earthenware pot descended from the sky; it was lavishly decorated and full of flowers. The children saw the flowers and wanted to take them, but as soon as they put out their arms, the flowers retreated to the other side of the pot, with the result that the children had to climb into the pot in order to reach them. The pot started to rise into the air. When she saw what was happening, the mother just managed to grab the leg of one of her children. The leg broke, and from the wound flowed a lake of blood in which most of the birds (whose plumage was at that time uniformly white) dipped either all or some of their feathers, thus acquiring the different-colored plumage they have today."
+}

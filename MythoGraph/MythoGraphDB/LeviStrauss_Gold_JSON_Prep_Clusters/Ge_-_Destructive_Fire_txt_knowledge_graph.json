@@ -1,0 +1,262 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "moon"
+    },
+    {
+      "id": "sun"
+    },
+    {
+      "id": "earth"
+    },
+    {
+      "id": "brother"
+    },
+    {
+      "id": "savannah"
+    },
+    {
+      "id": "sound"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "head"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "bird"
+    },
+    {
+      "id": "headdress"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "top"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "ornament"
+    },
+    {
+      "id": "woodpeckers"
+    },
+    {
+      "id": "spite"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "accident"
+    },
+    {
+      "id": "hands"
+    }
+  ],
+  "links": [
+    {
+      "source": "moon",
+      "target": "sun",
+      "label": "caught",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "moon",
+      "target": "sun",
+      "label": "discovered",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "moon",
+      "target": "sun",
+      "label": "begged",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "moon",
+      "target": "moon",
+      "label": "led",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "moon",
+      "target": "ornament",
+      "label": "discover",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "moon",
+      "target": "spite",
+      "label": "insist",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "earth",
+      "label": "live",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "brother",
+      "label": "set",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "savannah",
+      "label": "set",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "sound",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "bird",
+      "label": "ask",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "headdress",
+      "label": "ask",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "it",
+      "label": "throw",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "it",
+      "label": "catch",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "it",
+      "label": "catch",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "it",
+      "label": "put",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "top",
+      "label": "throw",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "moon",
+      "label": "lead",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "woodpeckers",
+      "label": "lead",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "savannah",
+      "target": "fire",
+      "label": "catch",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "head",
+      "label": "make",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "fire",
+      "label": "gleam",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "ground",
+      "label": "touch",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "ground",
+      "label": "fall",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "fire",
+      "label": "look",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "ornament",
+      "target": "hands",
+      "label": "burn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "accident",
+      "label": "fear",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Long before men existed, Sun and Moon lived on the earth. One day, unknown to his brother, Sun set off into the savannah (or steppe) and arrived at the \"foot of the sky\" (Kraho). There he heard the characteristic sound of the woodpeckers piercing the bark of the trees with their beaks. One of the birds had just made a red head ornament of feathers, which gleamed like fire. Sun asked the bird for the headdress, and the latter agreed to give it to him but warned Sun that he would throw it down from the top of the tree; Sun must catch it as it fell and not allow it to touch the ground. The red feather crown came whirling down, nickering so brightly that it looked like real fire. Sun caught it and threw it from one of his hands to the other until it grew cold. Shortly after, Moon discovered the ornament in the hiding place where Sun had put it, and begged his brother to obtain a similar one for him. Somewhat reluctantly Sun led Moon to the woodpeckers, who agreed to supply another ornament. But as Sun was preparing to catch it, Moon insisted on doing so himself, in spite of the warnings uttered by his brother, who feared some disastrous accident. Moon was, as it happened, very clumsy. As Sun had predicted, the ornament burned his hands, and he let it fall to the ground; the entire savannah caught fire, and all the animals were burned."
+}

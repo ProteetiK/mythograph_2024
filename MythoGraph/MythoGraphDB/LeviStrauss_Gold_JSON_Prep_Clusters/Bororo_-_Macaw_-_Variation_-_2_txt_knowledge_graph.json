@@ -1,0 +1,215 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "sister"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "stomach"
+    },
+    {
+      "id": "diseases"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "mens house"
+    },
+    {
+      "id": "grandmother"
+    },
+    {
+      "id": "trick"
+    },
+    {
+      "id": "armadillos"
+    },
+    {
+      "id": "son dig grave"
+    },
+    {
+      "id": "indians"
+    },
+    {
+      "id": "expedition"
+    },
+    {
+      "id": "call"
+    },
+    {
+      "id": "birimoddo sister"
+    },
+    {
+      "id": "branch"
+    },
+    {
+      "id": "birimoddo sister daughter"
+    },
+    {
+      "id": "anthill"
+    },
+    {
+      "id": "birimoddo"
+    },
+    {
+      "id": "moans"
+    },
+    {
+      "id": "body"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "death"
+    },
+    {
+      "id": "men"
+    }
+  ],
+  "links": [
+    {
+      "source": "sister",
+      "target": "fish",
+      "label": "changed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "sister",
+      "target": "stomach",
+      "label": "ate",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "sister",
+      "target": "diseases",
+      "label": "moaned",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "diseases",
+      "target": "body",
+      "label": "release",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "diseases",
+      "target": "death",
+      "label": "sow",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "diseases",
+      "target": "men",
+      "label": "sow",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "mens house",
+      "label": "refuse",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "trick",
+      "label": "discorvere",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "grandmother",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "grandmother",
+      "target": "son",
+      "label": "poison",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "grandmother",
+      "target": "call",
+      "label": "answer",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "armadillos",
+      "target": "son dig grave",
+      "label": "help",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "expedition",
+      "label": "organize",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birimoddo sister",
+      "target": "branch",
+      "label": "set",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "birimoddo sister",
+      "target": "birimoddo",
+      "label": "eat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birimoddo sister",
+      "target": "moans",
+      "label": "utter",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "birimoddo sister daughter",
+      "target": "anthill",
+      "label": "change",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "birimoddo",
+      "target": "which",
+      "label": "infect",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "birimoddo",
+      "target": "village",
+      "label": "infect",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Son refused to frequent Mens' House. Son remained shut in family hut. Grandmother was irritated. Grandmother poisoned Son every night. Son discorvered the trick of his Grandmother. Son killed Grandmother. Armadillos helped Son dig grave where Grandmother used to sleep. Indians organized an expedition to poison fish and so obtained food for their dinner. The day after the murder the women returned to the fishing ground in order to gather the remaining dead fish. Before leaving, Birimoddo-Sister wanted to put her young son in Grandmother's care. Grandmother did not answer her call. Birimoddo-Sister set her child on the branch of a tree and told him to wait there until she came back. Birimoddo-Sister-Daughter changed into an anthill. The river was full of dead fish, but instead of making several trips back and forth in order to transport them as her companions did, Birimoddo-Sister ate them voraciously. Birimoddo-Sister's stomach started to swell, and she began to feel acute pains. So Birimoddo-Sister moaned, and as Birimoddo-Sister uttered her moans, diseases were released from her body: all the diseases, with which she infected the village, sowed death among men. This is how diseases originated. Birimoddo-Sister's two brothers decided to kill her with spikes."
+}

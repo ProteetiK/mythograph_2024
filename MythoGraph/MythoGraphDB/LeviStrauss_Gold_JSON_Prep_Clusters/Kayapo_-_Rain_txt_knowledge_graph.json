@@ -1,0 +1,233 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "hunters"
+    },
+    {
+      "id": "tapir"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "bepkororoti"
+    },
+    {
+      "id": "task"
+    },
+    {
+      "id": "others"
+    },
+    {
+      "id": "flesh"
+    },
+    {
+      "id": "wife"
+    },
+    {
+      "id": "cloud"
+    },
+    {
+      "id": "bow"
+    },
+    {
+      "id": "arrows"
+    },
+    {
+      "id": "club"
+    },
+    {
+      "id": "end"
+    },
+    {
+      "id": "blood"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "top"
+    },
+    {
+      "id": "summit"
+    },
+    {
+      "id": "noise"
+    },
+    {
+      "id": "lightning"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "moment"
+    },
+    {
+      "id": "rumble"
+    }
+  ],
+  "links": [
+    {
+      "source": "hunters",
+      "target": "tapir",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "bepkororoti",
+      "label": "call",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "task",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "wife",
+      "label": "ask_shave",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "bepkororoti",
+      "label": "tell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "bepkororoti",
+      "label": "tell_take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "bepkororoti",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "cloud",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "bow",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "arrows",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "club",
+      "label": "make",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "end",
+      "label": "make",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "blood",
+      "label": "smear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "son",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "top",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "summit",
+      "label": "reach",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "bepkororoti",
+      "target": "noise",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "others",
+      "target": "flesh",
+      "label": "divide",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "son",
+      "target": "sky",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "lightning",
+      "target": "sky",
+      "label": "flash",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "moment",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "rumble",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Some hunters once killed a tapir. One of them, who was called Bepkororoti, was given the task of gutting and cutting up the animal. While he was busy washing the intestines in the river, the others divided the flesh among themselves, leaving him only two paws (the intestines). Bepkororoti's protests were in vain. When he got back to the village, he asked his wife to shave his head and to paint him red and black with urucu paste and genipa juice. Then he told her what had happened and warned her that he intended to withdraw to a mountain top. Finally he told her to take shelter when she saw a black cloud. Bepkororoti made a bow and arrows and a large, heavy club the end of which he smeared with the blood of a tapir. He took his son with him to the top of the mountain. When he reached the summit, he started to shout like a herd of wild pigs (like men, when they are out hunting pigs). When they heard the noise, the Indians came running to hunt the pigs. At that moment, lightning flashed across the sky, there was a rumble of thunder, and Bepkororoti caused a thunderbolt to fall, which killed many people. He and his son went up into the sky."
+}

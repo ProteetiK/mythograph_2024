@@ -1,0 +1,236 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "who"
+    },
+    {
+      "id": "huts"
+    },
+    {
+      "id": "bokodori"
+    },
+    {
+      "id": "something"
+    },
+    {
+      "id": "brothers"
+    },
+    {
+      "id": "sister"
+    },
+    {
+      "id": "desire"
+    },
+    {
+      "id": "honey"
+    },
+    {
+      "id": "wife"
+    },
+    {
+      "id": "was"
+    },
+    {
+      "id": "stone"
+    },
+    {
+      "id": "laugh"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "cause cries"
+    },
+    {
+      "id": "way"
+    },
+    {
+      "id": "ornaments"
+    },
+    {
+      "id": "ornament"
+    },
+    {
+      "id": "attribute"
+    },
+    {
+      "id": "themselves"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "scene"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "relatives"
+    }
+  ],
+  "links": [
+    {
+      "source": "who",
+      "target": "huts",
+      "label": "live",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "something",
+      "label": "want",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "brothers",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "sister",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "desire",
+      "label": "express",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "wife",
+      "label": "copulate",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "was",
+      "label": "copulate",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "stone",
+      "label": "discover",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "laugh",
+      "label": "give",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "that",
+      "label": "hear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "way",
+      "label": "insult",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "ornaments",
+      "label": "share",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "themselves",
+      "label": "throw",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "fire",
+      "label": "throw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "birds",
+      "label": "change",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "which",
+      "label": "share",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "bokodori",
+      "target": "relatives",
+      "label": "share",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sister",
+      "target": "scene",
+      "label": "return",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "honey",
+      "target": "bokodori",
+      "label": "invite_eat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wife",
+      "target": "cause cries",
+      "label": "spy",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "wife",
+      "target": "brothers",
+      "label": "spy",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "ornament",
+      "target": "attribute",
+      "label": "become",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Once upon a time the men of the Bokodori clan were supernatural spirits who lived happily in huts made of down and feathers, which were called \"macaws' nests.\" When they wanted something, they would send one of their young brothers to their sister to ask her to obtain it for them from her husband. They expressed a desire for honey; the honey their brother-in-law invited them to eat in his hut was thick, sticky, and full of scum, because he had copulated with his wife while he was busy collecting it. The wife's brothers went away offended and decided to look on the river bed for the stone with which to pierce holes in palm-nut shells or the shells of shellfish\u2014that is, for the technical means for the production of ornaments such as pendants and necklaces. They eventually discovered the stone and, with it, successfully carried out the work of piercing the holes. Success caused them to give a triumphant laugh, different from the laugh that expresses profane gaiety. Being curious to know the cause of the cries that she could hear from afar, the wife spied on her brothers and thus broke the rule forbidding her to look inside the feather hut. Because they had been insulted in this way, the Bokodori decided to put an end to their lives. First they solemnly shared out the ornaments between the various lineages, each ornament becoming an attribute of a particular lineage. Then they threw themselves simultaneously into a blazing fire (with the exception of their already married relatives, who were left to carry on the race). No sooner were they consumed by the fire than they changed into birds: red and yellow macaws, falcons, hawks, egrets. . . . The other inhabitants of the village decided to leave so somber a place. Only the sister would return regularly to the scene of the sacrifice to collect the plants growing among the ashes: urucu, cotton, and calabashes, which she shared out among her relatives."
+}

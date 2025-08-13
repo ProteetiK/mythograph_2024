@@ -1,0 +1,252 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "women"
+    },
+    {
+      "id": "boy"
+    },
+    {
+      "id": "corncobs"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "maize"
+    },
+    {
+      "id": "men"
+    },
+    {
+      "id": "hunting"
+    },
+    {
+      "id": "quantities"
+    },
+    {
+      "id": "macaw"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "bamboo tubes"
+    },
+    {
+      "id": "comcake"
+    },
+    {
+      "id": "children"
+    },
+    {
+      "id": "feast"
+    },
+    {
+      "id": "tongues"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "grandmother"
+    },
+    {
+      "id": "sight"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "ear"
+    },
+    {
+      "id": "mothers"
+    },
+    {
+      "id": "creeper"
+    },
+    {
+      "id": "animals"
+    },
+    {
+      "id": "punishment"
+    },
+    {
+      "id": "plight"
+    }
+  ],
+  "links": [
+    {
+      "source": "women",
+      "target": "boy",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "corncobs",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "maize",
+      "label": "pound",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "grandmother",
+      "label": "question",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "sight",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "women",
+      "target": "animals",
+      "label": "change",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "quantities",
+      "label": "steal",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "creeper",
+      "label": "cut",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "corncobs",
+      "label": "find",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "men",
+      "target": "hunting",
+      "label": "return",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "macaw",
+      "target": "which",
+      "label": "hide",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "macaw",
+      "target": "bamboo tubes",
+      "label": "hide",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "macaw",
+      "target": "comcake",
+      "label": "make",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "macaw",
+      "target": "tongues",
+      "label": "cut",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "macaw",
+      "target": "sky",
+      "label": "reach",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "children",
+      "target": "feast",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "children",
+      "target": "sky",
+      "label": "flee",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "children",
+      "target": "it",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "children",
+      "target": "ear",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "children",
+      "target": "punishment",
+      "label": "look",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "children",
+      "target": "plight",
+      "label": "look",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "village",
+      "label": "raise",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "mothers",
+      "target": "macaw",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "The Women had gone to gather maize, but Women did not succeed in finding very much, so Women took a little Boy with them who found a great many corncobs. Women pounded the maize there and then to make different sorts of cakes for the men when Men returned from hunting. The little Boy stole enormous quantities of the corn which he hid in bamboo tubes and brought to Grandmother, with the request that she would make a comcake for himself and his friends. The Grandmother did as she was asked, and the children had a feast, after which, to keep the theft secret, they cut out the tongues of the Grandmother and of a tame macaw and set free all the macaws that were being raised in the village. Fearing their parents' anger, Children fled into the sky by climbing up a knotty creeper that the hummingbird had agreed to fasten in position. Meanwhile the Women came back to the village and looked for the children. Women questioned the tongueless Grandmother and macaw to no purpose. One of Women caught sight of the creeper with the Children climbing up it. When pressed to come down, the Children turned a deaf ear and even climbed still faster. The distraught mothers went up after them, but the little Boy (thief), who was the last child, cut the creeper as soon as he reached the sky; the Women fell and crashed onto the ground, where Women were changed into animals and wild beasts. As a punishment for their heartlessness, the Children, now transformed into stars, look down every night on the sad plight of their mothers. It is the Children's eyes that can be seen shining."
+}

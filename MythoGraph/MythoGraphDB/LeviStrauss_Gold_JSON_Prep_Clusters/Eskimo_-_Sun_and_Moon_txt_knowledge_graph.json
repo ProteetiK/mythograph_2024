@@ -1,0 +1,170 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "boy"
+    },
+    {
+      "id": "sister"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "moon"
+    },
+    {
+      "id": "eclipse"
+    },
+    {
+      "id": "father"
+    },
+    {
+      "id": "humanity"
+    },
+    {
+      "id": "disease"
+    },
+    {
+      "id": "death"
+    },
+    {
+      "id": "village"
+    },
+    {
+      "id": "love"
+    },
+    {
+      "id": "hatred"
+    },
+    {
+      "id": "humanity.9"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "victim"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "boy",
+      "label": "love",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "sister",
+      "label": "love",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "sky",
+      "label": "pursued",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "moon",
+      "label": "pursued",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "eclipse",
+      "label": "embrace",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "father",
+      "label": "embrace",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "humanity",
+      "label": "embrace",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "disease",
+      "label": "scattering",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "death",
+      "label": "scattering",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "village",
+      "label": "live",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "love",
+      "label": "fall",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "sister",
+      "label": "fall",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "hatred",
+      "label": "become",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "hatred",
+      "label": "become",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "humanity.9",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "victim",
+      "label": "fall",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Long ago a man and his wife lived in a village on the coast. They had two children, a girl and a boy. When the children grew up, the boy fell in love with his sister. He pursued her unceasingly with his attentions, so she finally took refuge in the sky, where she became the moon. Ever since then the boy has never stopped pursuing her, in the form of the sun. Sometimes he catches up with her and manages to embrace her, thus causing an eclipse of the moon. After the children left him, the father became gloomy and full of hatred toward humanity.9 He traveled across the world, scattering disease and death, and feeding off the people who fell victim to the diseases; but he became so evil that his desire could not be satisfied in this way. He then started to kill and eat healthy people, too."
+}

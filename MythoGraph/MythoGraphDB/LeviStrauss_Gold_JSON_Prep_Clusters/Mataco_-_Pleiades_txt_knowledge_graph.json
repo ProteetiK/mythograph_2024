@@ -1,0 +1,185 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "indians"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "honey"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "woman"
+    },
+    {
+      "id": "stars"
+    },
+    {
+      "id": "constellation"
+    },
+    {
+      "id": "abundance"
+    },
+    {
+      "id": "foot"
+    },
+    {
+      "id": "share"
+    },
+    {
+      "id": "order"
+    },
+    {
+      "id": "fire"
+    },
+    {
+      "id": "who"
+    }
+  ],
+  "links": [
+    {
+      "source": "indians",
+      "target": "sky",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "sky",
+      "label": "returned",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "sky",
+      "label": "return",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "tree",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "honey",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "fish",
+      "label": "climb",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "woman",
+      "label": "returned",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "woman",
+      "label": "meet",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "stars",
+      "label": "fire",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "stars",
+      "label": "turn",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "constellation",
+      "label": "fire",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "abundance",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "foot",
+      "label": "meet",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "foot",
+      "label": "refuse",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "share",
+      "label": "ask",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "order",
+      "label": "set",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "fire",
+      "label": "set",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "woman",
+      "target": "tree",
+      "label": "set",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "sky",
+      "label": "remain",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Formerly the Indians used to climb into the sky by means of a huge tree. There they found an abundance of honey and fish. One day, after they had returned from the sky, they met an old woman at the foot of the tree. She asked for a small share of their provisions, but they refused. In order to be avenged on them for their greed, the old woman set fire to the tree. The Indians who had remained in the sky turned into stars and formed the constellation of the Pleiades."
+}

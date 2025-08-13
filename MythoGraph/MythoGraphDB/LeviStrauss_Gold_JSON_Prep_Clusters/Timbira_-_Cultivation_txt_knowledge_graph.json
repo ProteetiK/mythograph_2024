@@ -1,0 +1,157 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "hero"
+    },
+    {
+      "id": "maize"
+    },
+    {
+      "id": "plantation"
+    },
+    {
+      "id": "hair"
+    },
+    {
+      "id": "steps"
+    },
+    {
+      "id": "sky"
+    },
+    {
+      "id": "star woman"
+    },
+    {
+      "id": "husband"
+    },
+    {
+      "id": "indians"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "face"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "white"
+    },
+    {
+      "id": "demands"
+    }
+  ],
+  "links": [
+    {
+      "source": "hero",
+      "target": "maize",
+      "label": "chewed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "plantation",
+      "label": "chewed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "hair",
+      "label": "eating",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "steps",
+      "label": "eating",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hero",
+      "target": "sky",
+      "label": "eating",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hair",
+      "target": "white",
+      "label": "grow",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "star woman",
+      "target": "husband",
+      "label": "tell",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "star woman",
+      "target": "husband",
+      "label": "reveal",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "star woman",
+      "target": "maize",
+      "label": "tell",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "which",
+      "label": "spit",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "face",
+      "label": "spit",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "indians",
+      "label": "teach_prepare",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "indians",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "man",
+      "label": "come",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "indians",
+      "target": "demands",
+      "label": "yield",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "The hero, enamored of a star-woman, was not a widower but a physically deformed man. After the young woman's hiding place was discovered by her husband's younger brother, Star-woman told her husband about maize (which in this case grew on stalks) and chewed the green seeds, which she spat in his face. Then she taught the Indians how to prepare maize. In clearing part of the forest in order to start a plantation, the men broke their axe and sent a boy to the village to get another one. He came upon an old man busy cooking an opossum. Ignoring the old man's protests, the boy insisted on eating it. Immediately his hair grew white, and he was forced to use a stick to support his faltering steps. Star-woman would have revealed many other secrets to her husband had he not insisted on her yielding to his amorous demands. She gave in to them but subsequently forced her husband to go with her up into the sky."
+}
