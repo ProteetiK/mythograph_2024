@@ -1,26 +1,34 @@
 import streamlit as st
 import networkx as nx
-import matplotlib.pyplot as plt
 import os
+from pathlib import Path
 import json
-from collections import defaultdict
-from MythGraph.MythGraphDraw import draw_graph
+
+from MythGraph.MythGraphDraw import draw_graph, export_graph_as_custom_json
+from MythExtraction.MythExtractIsomorphism import display_similarity
+from MythIsomorphism.MythIsomorphismUtil import extract_oppositions
 
 W1 = 0.7
+DATA_FOLDER = "MythoGraphDB"
+
 st.title("View Knowledge Graph from Database")
-folder_path = "MythoGraphDB"
-json_files = [
-    os.path.join(root, f)
-    for root, _, files in os.walk("MythoGraphDB")
-    for f in files if f.endswith(".json")
-]
+
+def get_all_json_files():
+    DATA_FOLDER = "MythoGraphDB"
+    return [
+        os.path.join(root, f)
+        for root, _, files in os.walk(DATA_FOLDER)
+        for f in files if f.endswith(".json")
+    ]
+
+json_files = get_all_json_files()
 
 if not json_files:
     st.warning("No JSON files found in the 'MythoGraphDB' folder.")
 else:
     selected_file = st.selectbox("Select a file to view its knowledge graph", json_files)
-    if selected_file:
 
+    if selected_file:
         def load_graph_from_file(path):
             with open(path, "r", encoding="utf-8") as f:
                 data = json.load(f)
@@ -46,7 +54,25 @@ else:
         st.subheader("Knowledge Graph")
         fig = draw_graph(G, title=selected_file)
         st.pyplot(fig)
+        save_dir = Path("saved_graphs")
+        save_dir.mkdir(exist_ok=True)
+        if st.button("Save Graph"):
+            plot_path = save_dir / f"{Path(selected_file).stem}_plot.png"
+            fig.savefig(plot_path, dpi=300, bbox_inches="tight")
+
         st.subheader("Extracted Triples")
-        st.write([(u, v, d['label'], d['motif']) for u, v, d in G.edges(data=True)])
+        st.write([(u, v, d['label'], d.get('motif')) for u, v, d in G.edges(data=True)])
+
+        st.subheader("Opposition Pairs in the Knowledge Graph")
+        graph_json = export_graph_as_custom_json(G, myth_text)
+        opposition_freq = extract_oppositions(graph_json["links"])
+        if opposition_freq:
+            for pair, freq in opposition_freq.items():
+                st.write(f"**{pair}** -> {freq} occurrence(s)")
+        else:
+            st.info("No opposition pairs found in this myth.")
+
+        display_similarity(graph_json)
+
         st.subheader("Myth Text")
         st.write(myth_text)
