@@ -1,0 +1,79 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "gods"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "viswamitra"
+    },
+    {
+      "id": "penance"
+    },
+    {
+      "id": "menaka"
+    },
+    {
+      "id": "sakuntala"
+    },
+    {
+      "id": "vultures"
+    },
+    {
+      "id": "court"
+    },
+    {
+      "id": "dushmanta"
+    }
+  ],
+  "links": [
+    {
+      "source": "gods",
+      "target": "son",
+      "label": "accepts",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "viswamitra",
+      "target": "penance",
+      "label": "perform",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "menaka",
+      "target": "viswamitra",
+      "label": "distract",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "sakuntala",
+      "target": "vultures",
+      "label": "protect",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sakuntala",
+      "target": "court",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "dushmanta",
+      "target": "son",
+      "label": "accept",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Viswamitra performs penance. Indra feels threatened. Indra sends Menaka. Menaka distracts Viswamitra. Menaka births her daughter Sakuntala. Menaka abandons her daughter Sakuntala near a river. Kanwa finds Sakuntala protected by vultures. Kanwa adopts Sakuntala. Kanwa leaves house. Dushmanta finds Sakuntala. Dushmanta and Sakuntala marry in secret. Dushmanta leaves Sakuntala. Sakuntala births her son Sarvadaman. Sakuntala goes to the court of Dushmanta. Dushmanta rejects his wife Sakuntala. Dushmanta rejects his son Sarvadaman. Dushmanta and Sakuntala debate. Gods order Dushmanta to accept his wife Sakuntala. Dushmanta accepts his son Sarvadaman. Dushmanta renames his son Sarvadaman."
+}

@@ -9,13 +9,23 @@ sys.path.insert(0, str(project_root))
 
 from MythIsomorphism.MythIsomorphismUtil import get_similarity_scores
 
-folder_path = Path("D:/MythoGraph/MythoGraph/MythoGraph/tests/panchatantra")
-file1 = folder_path / "Lion and Crane manual.json"
-file2 = folder_path / "The_Lion_and_the_Crane_knowledge_graph.json"
+# folder_path = Path("D:/MythoGraph/MythoGraph/MythoGraph/tests/panchatantra")
+# file1 = folder_path / "Lion and Crane manual.json"
+# file2 = folder_path / "The_Lion_and_the_Crane_knowledge_graph.json"
 
-# folder_path = Path("D:/MythoGraph/MythoGraph/MythoGraph/tests/Ge")
-# file1 = folder_path / "Ge_-_Variation_-_1_txt_knowledge_graph.json"
-# file2 = folder_path / "Ge_-_Variation_-_2_txt_knowledge_graph.json"
+folder_path = Path("D:/MythoGraph/MythoGraph/MythoGraph/tests/Ge")
+file1 = folder_path / "Ge_-_Variation_-_1_txt_knowledge_graph.json"
+file2 = folder_path / "Ge_-_Variation_-_2_txt_knowledge_graph.json"
+
+# folder_path = Path("D:/MythoGraph/MythoGraph/MythoGraph/tests/aesops")
+# file1 = folder_path / "aesops2 Bat Weasel.json"
+# file2 = folder_path / "The_Bat_And_The_Weasels_knowledge_graph.json"
+# file1 = folder_path / "aesops18 Hare Tortoise.json"
+# file2 = folder_path / "The_Hare_and_the_Tortoise_knowledge_graph.json"
+
+# folder_path = Path("D:/MythoGraph/MythoGraph/MythoGraph/tests/shakuntala")
+# file1 = folder_path / "Shakuntala_-_Kalidasa_knowledge_graph.json"
+# file2 = folder_path / "Shakuntala_-_Mahabharata_knowledge_graph.json"
 
 weight_anonymized = 0.6
 weight_surface = 0.05
@@ -31,7 +41,7 @@ with open(file2, encoding="utf-8") as f:
 
 anon_sim, surf_sim, opposition_sim, jaccard_sim = get_similarity_scores(graph1, graph2)
 
-text_sim = 1.0
+text_sim = 100.0
 
 final_score = round(
     weight_anonymized * anon_sim +

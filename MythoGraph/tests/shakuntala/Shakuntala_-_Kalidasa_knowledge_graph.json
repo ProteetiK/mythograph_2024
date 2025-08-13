@@ -1,0 +1,120 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fisherman"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "ring"
+    },
+    {
+      "id": "viswamitra"
+    },
+    {
+      "id": "penance"
+    },
+    {
+      "id": "menaka"
+    },
+    {
+      "id": "sakuntala"
+    },
+    {
+      "id": "vultures"
+    },
+    {
+      "id": "court"
+    },
+    {
+      "id": "river"
+    },
+    {
+      "id": "dushmanta"
+    }
+  ],
+  "links": [
+    {
+      "source": "fisherman",
+      "target": "son",
+      "label": "debate",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fisherman",
+      "target": "son",
+      "label": "accepts",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fisherman",
+      "target": "ring",
+      "label": "debate",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fisherman",
+      "target": "ring",
+      "label": "find",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "viswamitra",
+      "target": "penance",
+      "label": "perform",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "menaka",
+      "target": "viswamitra",
+      "label": "distract",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "sakuntala",
+      "target": "vultures",
+      "label": "protect",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sakuntala",
+      "target": "court",
+      "label": "go",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sakuntala",
+      "target": "ring",
+      "label": "lose",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "sakuntala",
+      "target": "river",
+      "label": "lose",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "dushmanta",
+      "target": "son",
+      "label": "accept",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "Viswamitra performs penance. Indra feels threatened. Indra sends Menaka. Menaka distracts Viswamitra. Menaka births her daughter Sakuntala. Menaka abandons Sakuntala near a river. Kanwa finds Sakuntala protected by vultures. Kanwa adopts Sakuntala. Kanwa leaves house. Dushmanta finds Sakuntala. Dushmanta gives Sakuntala his ring. Dushmanta and Sakuntala marry in secret. Dushmanta and Sakuntala ignore Durvasa. Durvasa curses Dushmanta. Dushmanta forgets his wife Sakuntala. Sakuntala births her son Sarvadaman. Sakuntala goes to the court of Dushmanta. Sakuntala loses the ring in the river. Dushmanta rejects his wife Sakuntala. Dushmanta rejects his son Sarvadaman. Dushmanta and Sakuntala debate with each other. Fisherman finds the ring inside a fish. Dushmanta remembers his wife Sakuntala. Dushmanta accepts his son Sarvadaman. Dushmanta renames his son Sarvadaman."
+}

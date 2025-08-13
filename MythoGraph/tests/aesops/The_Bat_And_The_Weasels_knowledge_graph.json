@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bat"
+    },
+    {
+      "id": "Free"
+    },
+    {
+      "id": "bird"
+    },
+    {
+      "id": "ground"
+    },
+    {
+      "id": "Weasel"
+    },
+    {
+      "id": "whom"
+    },
+    {
+      "id": "Escaped"
+    },
+    {
+      "id": "mouse"
+    }
+  ],
+  "links": [
+    {
+      "source": "bat",
+      "target": "Free",
+      "label": "assure",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "bat",
+      "target": "bird",
+      "label": "assure",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "bat",
+      "target": "ground",
+      "label": "fall",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "bat",
+      "target": "Escaped",
+      "label": "assure",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "bat",
+      "target": "mouse",
+      "label": "assure",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "Weasel",
+      "target": "whom",
+      "label": "entreat_eat",
+      "motif": "Appeal",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BAT who fell upon the ground and was caught by a Weasel pleaded to be\n      spared his life. The Weasel refused, saying that he was by nature the\n      enemy of all birds. The Bat assured him that he was not a bird, but a\n      mouse, and thus was set free. Shortly afterwards the Bat again fell to the\n      ground and was caught by another Weasel, whom he likewise entreated not to\n      eat him. The Weasel said that he had a special hostility to mice. The Bat\n      assured him that he was not a mouse, but a bat, and thus a second time\n      escaped. It is wise to turn circumstances to good account."
+}
