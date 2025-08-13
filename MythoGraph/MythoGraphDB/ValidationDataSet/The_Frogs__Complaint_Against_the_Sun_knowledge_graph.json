@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "sun"
+    },
+    {
+      "id": "intention"
+    },
+    {
+      "id": "frogs"
+    },
+    {
+      "id": "voices"
+    },
+    {
+      "id": "jupiter"
+    },
+    {
+      "id": "cause"
+    },
+    {
+      "id": "is"
+    },
+    {
+      "id": "marsh"
+    },
+    {
+      "id": "suns"
+    }
+  ],
+  "links": [
+    {
+      "source": "sun",
+      "target": "wife",
+      "label": "intention_announce",
+      "motif": "Communication",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "is",
+      "label": "parch",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "marsh",
+      "label": "parch",
+      "motif": "General",
+      "weight": 0.9
+    },
+	{
+      "source": "frogs",
+      "target": "jupiter",
+      "label": "disturb",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "frogs",
+      "target": "voices",
+      "label": "lift",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "cause",
+      "label": "inquire",
+      "motif": "Communication",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "suns",
+      "label": "beget",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "ONCE UPON A TIME, when the Sun announced his intention to take a wife, the\n      Frogs lifted up their voices in clamor to the sky. Jupiter, disturbed by\n      the noise of their croaking, inquired the cause of their complaint. One of\n      them said, \"The Sun, now while he is single, parches up the marsh, and\n      compels us to die miserably in our arid homes. What will be our future\n      condition if he should beget other suns?\""
+}

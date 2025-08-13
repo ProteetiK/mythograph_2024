@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "insect"
+    },
+    {
+      "id": "fly"
+    },
+    {
+      "id": "death prick insect"
+    }
+  ],
+  "links": [
+	{
+      "source": "fly",
+      "target": "man",
+      "label": "bit",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "fly",
+      "label": "revenge",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fly",
+      "target": "man",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+	{
+      "source": "man",
+      "target": "fly",
+      "label": "replied",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FLY bit the bare head of a Bald Man who, endeavoring to destroy it, gave\n      himself a heavy slap. Escaping, the Fly said mockingly, \"You who have\n      wished to revenge, even with death, the Prick of a tiny insect, see what\n      you have done to yourself to add insult to injury?\" The Bald Man replied,\n      \"I can easily make peace with myself, because I know there was no\n      intention to hurt. But you, an ill-favored and contemptible insect who\n      delights in sucking human blood, I wish that I could have killed you even\n      if I had incurred a heavier penalty.\""
+}

@@ -1,0 +1,83 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "lion"
+    },
+    {
+      "id": "shepherd"
+    },
+    {
+      "id": "trod"
+    },
+    {
+      "id": "suppliant aid"
+    },
+    {
+      "id": "beast"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "tale"
+    },
+    {
+      "id": "king"
+    }
+  ],
+  "links": [
+    {
+      "source": "lion",
+      "target": "shepherd",
+      "label": "came_up",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "shepherd",
+      "target": "lion",
+      "label": "pulled",
+      "motif": "Decision",
+      "weight": 0.9
+    },
+	{
+      "source": "king",
+      "target": "shepherd",
+      "label": "imprisoned",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "lion",
+      "target": "shepherd",
+      "label": "recognize",
+      "motif": "Decision",
+      "weight": 0.9
+    },
+    {
+      "source": "lion",
+      "target": "shepherd",
+      "label": "recognize",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "king",
+      "target": "lion",
+      "label": "set_free",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+	{
+      "source": "king",
+      "target": "shepherd",
+      "label": "pardoned",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A LION, roaming through a forest, trod upon a thorn. Soon afterward he\n      came up to a Shepherd and fawned upon him, wagging his tail as if to say,\n      \"I am a suppliant, and seek your aid.\" The Shepherd boldly examined the\n      beast, discovered the thorn, and placing his paw upon his lap, pulled it\n      out; thus relieved of his pain, the Lion returned into the forest. Some\n      time after, the Shepherd, being imprisoned on a false accusation, was\n      condemned \"to be cast to the Lions\" as the punishment for his imputed\n      crime. But when the Lion was released from his cage, he recognized the\n      Shepherd as the man who healed him, and instead of attacking him,\n      approached and placed his foot upon his lap. The King, as soon as he heard\n      the tale, ordered the Lion to be set free again in the forest, and the\n      Shepherd to be pardoned and restored to his friends."
+}

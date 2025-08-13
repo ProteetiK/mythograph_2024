@@ -1,0 +1,51 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "frogs"
+    },
+    {
+      "id": "noise"
+    }
+  ],
+  "links": [
+    {
+      "source": "hares",
+      "target": "timdity",
+      "label": "oppressed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+	{
+      "source": "hares",
+      "target": "lake",
+      "label": "jumping",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+	{
+      "source": "frogs",
+      "target": "noise",
+      "label": "hear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+	{
+      "source": "frogs",
+      "target": "deep water",
+      "label": "rushed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+	{
+      "source": "hares",
+      "target": "companions",
+      "label": "cried",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE HARES, oppressed by their own exceeding timidity and weary of the\n      perpetual alarm to which they were exposed, with one accord determined to\n      put an end to themselves and their troubles by jumping from a lofty\n      precipice into a deep lake below. As they scampered off in large numbers\n      to carry out their resolve, the Frogs lying on the banks of the lake heard\n      the noise of their feet and rushed helter-skelter to the deep water for\n      safety. On seeing the rapid disappearance of the Frogs, one of the Hares\n      cried out to his companions: \"Stay, my friends, do not do as you intended;\n      for you now see that there are creatures who are still more timid than\n      ourselves.\""
+}

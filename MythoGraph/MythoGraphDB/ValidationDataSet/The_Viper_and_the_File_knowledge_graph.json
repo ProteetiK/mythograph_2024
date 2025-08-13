@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "smith"
+    },
+    {
+      "id": "file"
+    },
+    {
+      "id": "fellow return"
+    }
+  ],
+  "links": [
+    {
+      "source": "lion",
+      "target": "file",
+      "label": "asked",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "file",
+      "target": "lion",
+      "label": "replied_take",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A LION, entering the workshop of a smith, sought from the tools the means\n      of satisfying his hunger. He more particularly addressed himself to a\n      File, and asked of him the favor of a meal. The File replied, \"You must\n      indeed be a simple-minded fellow if you expect to get anything from me,\n      who am accustomed to take from everyone, and never to give anything in\n      return.\""
+}

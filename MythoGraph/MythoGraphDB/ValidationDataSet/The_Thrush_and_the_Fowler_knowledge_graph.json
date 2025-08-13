@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "thrush"
+    },
+    {
+      "id": "berries"
+    },
+    {
+      "id": "fowler"
+    },
+    {
+      "id": "reed"
+    },
+    {
+      "id": "creature"
+    }
+  ],
+  "links": [
+    {
+      "source": "thrush",
+      "target": "berries",
+      "label": "not_move",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fowler",
+      "target": "thrush",
+      "label": "caught",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "thrush",
+      "target": "death",
+      "label": "exclaimed",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A THRUSH was feeding on a myrtle-tree and did not move from it because its\n      berries were so delicious. A Fowler observed her staying so long in one\n      spot, and having well bird-limed his reeds, caught her. The Thrush, being\n      at the point of death, exclaimed, \"O foolish creature that I am! For the\n      sake of a little pleasant food I have deprived myself of my life.\""
+}

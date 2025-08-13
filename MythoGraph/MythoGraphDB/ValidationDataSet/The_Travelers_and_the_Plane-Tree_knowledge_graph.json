@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "travelers"
+    },
+    {
+      "id": "plane"
+    },
+    {
+      "id": "themselves"
+    },
+    {
+      "id": "tree plane"
+    }
+  ],
+  "links": [
+    {
+      "source": "travelers",
+      "target": "plane",
+      "label": "said_useless",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "plane",
+      "target": "travelers",
+      "label": "interrupting",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "TWO TRAVELERS, worn out by the heat of the summer's sun, laid themselves\n      down at noon under the widespreading branches of a Plane-Tree. As they\n      rested under its shade, one of the Travelers said to the other, \"What a\n      singularly useless tree is the Plane! It bears no fruit, and is not of the\n      least service to man.\" The Plane-Tree, interrupting him, said, \"You\n      ungrateful fellows! Do you, while receiving benefits from me and resting\n      under my shade, dare to describe me as useless, and unprofitable?\" Some men underrate their best blessings."
+}

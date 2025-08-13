@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "sacrifice"
+    },
+    {
+      "id": "lamb"
+    },
+    {
+      "id": "priest"
+    },
+    {
+      "id": "you"
+    }
+  ],
+  "links": [
+    {
+      "source": "wolf",
+      "target": "lamb",
+      "label": "pursue",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "lamb",
+      "label": "called",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "lamb",
+      "target": "wolf",
+      "label": "replied",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WOLF pursued a Lamb, which fled for refuge to a certain Temple. The Wolf\n      called out to him and said, \"The Priest will slay you in sacrifice, if he\n      should catch you.\" On which the Lamb replied, \"It would be better for me\n      to be sacrificed in the Temple than to be eaten by you.\""
+}
