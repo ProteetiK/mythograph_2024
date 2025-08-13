@@ -1,0 +1,43 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "mother"
+    },
+    {
+      "id": "desire"
+    },
+    {
+      "id": "Asked"
+    },
+    {
+      "id": "grains"
+    }
+  ],
+  "links": [
+    {
+      "source": "mother",
+      "target": "desire",
+      "label": "place",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "mother",
+      "target": "Asked",
+      "label": "place",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "mother",
+      "target": "grains",
+      "label": "place",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MOLE, a creature blind from birth, once said to his Mother: I am sure\n      than I can see, Mother! In the desire to prove to him his mistake, his\n      Mother placed before him a few grains of frankincense, and asked, What is\n      it? The young Mole said, It is a pebble. His Mother exclaimed: My son,\n      I am afraid that you are not only blind, but that you have lost your sense\n      of smell."
+}

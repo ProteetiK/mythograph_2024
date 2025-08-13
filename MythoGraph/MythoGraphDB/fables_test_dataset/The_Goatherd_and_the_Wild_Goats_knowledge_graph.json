@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "Strangers"
+    },
+    {
+      "id": "goats"
+    },
+    {
+      "id": "goatherd"
+    },
+    {
+      "id": "Herd"
+    },
+    {
+      "id": "ingratitude"
+    }
+  ],
+  "links": [
+    {
+      "source": "Strangers",
+      "target": "goats",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "goatherd",
+      "target": "Herd",
+      "label": "scold",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "goatherd",
+      "target": "ingratitude",
+      "label": "scold",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A GOATHERD, driving his flock from their pasture at eventide, found some\n      Wild Goats mingled among them, and shut them up together with his own for\n      the night. The next day it snowed very hard, so that he could not take the\n      herd to their usual feeding places, but was obliged to keep them in the\n      fold. He gave his own goats just sufficient food to keep them alive, but\n      fed the strangers more abundantly in the hope of enticing them to stay\n      with him and of making them his own. When the thaw set in, he led them all\n      out to feed, and the Wild Goats scampered away as fast as they could to\n      the mountains. The Goatherd scolded them for their ingratitude in leaving\n      him, when during the storm he had taken more care of them than of his own\n      herd. One of them, turning about, said to him: That is the very reason\n      why we are so cautious; for if you yesterday treated us better than the\n      Goats you have had so long, it is plain also that if others came after us,\n      you would in the same manner prefer them to ourselves. Old friends cannot with impunity be sacrificed for new ones."
+}

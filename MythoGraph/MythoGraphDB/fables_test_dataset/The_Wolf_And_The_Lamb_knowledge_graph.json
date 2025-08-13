@@ -1,0 +1,69 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "wolf meeting"
+    },
+    {
+      "id": "Wolf"
+    },
+    {
+      "id": "Sirrah"
+    },
+    {
+      "id": "good sir"
+    },
+    {
+      "id": "lamb"
+    },
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "Saying"
+    }
+  ],
+  "links": [
+    {
+      "source": "wolf meeting",
+      "target": "Wolf",
+      "label": "resolve",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "Sirrah",
+      "target": "Sirrah",
+      "label": "address",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "good sir",
+      "target": "lamb",
+      "label": "reply",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "which",
+      "label": "seize",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "Saying",
+      "label": "seize",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "WOLF, meeting with a Lamb astray from the fold, resolved not to lay\n      violent hands on him, but to find some plea to justify to the Lamb the\n      Wolf's right to eat him. He thus addressed him: Sirrah, last year you\n      grossly insulted me. Indeed, bleated the Lamb in a mournful tone of\n      voice, I was not then born. Then said the Wolf, You feed in my\n      pasture. No, good sir, replied the Lamb, I have not yet tasted grass.\n       Again said the Wolf, You drink of my well. No, exclaimed the Lamb, I\n      never yet drank water, for as yet my mother's milk is both food and drink\n      to me. Upon which the Wolf seized him and ate him up, saying, Well! I\n      won't remain supperless, even though you refute every one of my\n      imputations. The tyrant will always find a pretext for his tyranny."
+}

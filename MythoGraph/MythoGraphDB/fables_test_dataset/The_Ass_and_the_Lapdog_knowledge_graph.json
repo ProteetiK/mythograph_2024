@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "ass"
+    },
+    {
+      "id": "stable"
+    },
+    {
+      "id": "lapdog"
+    },
+    {
+      "id": "tricks"
+    },
+    {
+      "id": "contrary"
+    },
+    {
+      "id": "work"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "ass",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "stable",
+      "label": "leave",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "contrary",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "work",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "lapdog",
+      "target": "tricks",
+      "label": "know",
+      "motif": "Guidance",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MAN had an Ass, and a Maltese Lapdog, a very great beauty. The Ass was\n      left in a stable and had plenty of oats and hay to eat, just as any other\n      Ass would. The Lapdog knew many tricks and was a great favorite with his\n      master, who often fondled him and seldom went out to dine without bringing\n      him home some tidbit to eat. The Ass, on the contrary, had much work to do\n      in grinding the corn-mill and in carrying wood from the forest or burdens\n      from the farm. He often lamented his own hard fate and contrasted it with\n      the luxury and idleness of the Lapdog, till at last one day he broke his\n      cords and halter, and galloped into his master's house, kicking up his\n      heels without measure, and frisking and fawning as well as he could. He\n      next tried to jump about his master as he had seen the Lapdog do, but he\n      broke the table and smashed all the dishes upon it to atoms. He then\n      attempted to lick his master, and jumped upon his back. The servants,\n      hearing the strange hubbub and perceiving the danger of their master,\n      quickly relieved him, and drove out the Ass to his stable with kicks and\n      clubs and cuffs. The Ass, as he returned to his stall beaten nearly to\n      death, thus lamented: I have brought it all on myself! Why could I not\n      have been contented to labor with my companions, and not wish to be idle\n      all the day like that useless little Lapdog!"
+}

@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "beasts"
+    },
+    {
+      "id": "fox"
+    },
+    {
+      "id": "lion"
+    },
+    {
+      "id": "sick"
+    },
+    {
+      "id": "capital opportunity"
+    },
+    {
+      "id": "opportunity"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "alive"
+    },
+    {
+      "id": "master"
+    }
+  ],
+  "links": [
+    {
+      "source": "beasts",
+      "target": "fox",
+      "label": "accused",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "capital opportunity",
+      "label": "have",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "opportunity",
+      "label": "seek",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "lion",
+      "target": "sick",
+      "label": "lie",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "lion",
+      "target": "fox",
+      "label": "command",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "wolf",
+      "label": "flay",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "alive",
+      "label": "flay",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "master",
+      "label": "move",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A LION, growing old, lay sick in his cave. All the beasts came to visit\n      their king, except the Fox. The Wolf therefore, thinking that he had a\n      capital opportunity, accused the Fox to the Lion of not paying any respect\n      to him who had the rule over them all and of not coming to visit him. At\n      that very moment the Fox came in and heard these last words of the Wolf.\n      The Lion roaring out in a rage against him, the Fox sought an opportunity\n      to defend himself and said, \"And who of all those who have come to you\n      have benefited you so much as I, who have traveled from place to place in\n      every direction, and have sought and learnt from the physicians the means\n      of healing you?\" The Lion commanded him immediately to tell him the cure,\n      when he replied, \"You must flay a wolf alive and wrap his skin yet warm\n      around you.\" The Wolf was at once taken and flayed; whereon the Fox,\n      turning to him, said with a smile, \"You should have moved your master not\n      to ill, but to good, will.\""
+}

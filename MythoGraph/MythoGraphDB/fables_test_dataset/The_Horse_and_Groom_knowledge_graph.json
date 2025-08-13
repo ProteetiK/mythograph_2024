@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "groom"
+    },
+    {
+      "id": "currycombing"
+    }
+  ],
+  "links": [
+    {
+      "source": "groom",
+      "target": "currycombing",
+      "label": "use_spend_rub",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A GROOM used to spend whole days in currycombing and rubbing down his\n      Horse, but at the same time stole his oats and sold them for his own\n      profit. Alas! said the Horse, if you really wish me to be in good\n      condition, you should groom me less, and feed me more."
+}

@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "Lion"
+    },
+    {
+      "id": "a lion"
+    },
+    {
+      "id": "fox"
+    },
+    {
+      "id": "lion"
+    },
+    {
+      "id": "word"
+    },
+    {
+      "id": "Pit"
+    },
+    {
+      "id": "pit"
+    }
+  ],
+  "links": [
+    {
+      "source": "Lion",
+      "target": "a lion",
+      "label": "meet",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "lion",
+      "label": "approach",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "Pit",
+      "label": "lead",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "pit",
+      "label": "lead",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "lion",
+      "target": "word",
+      "label": "pledge_harm",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE ASS and the Fox, having entered into partnership together for their\n      mutual protection, went out into the forest to hunt. They had not\n      proceeded far when they met a Lion. The Fox, seeing imminent danger,\n      approached the Lion and promised to contrive for him the capture of the\n      Ass if the Lion would pledge his word not to harm the Fox. Then, upon\n      assuring the Ass that he would not be injured, the Fox led him to a deep\n      pit and arranged that he should fall into it. The Lion, seeing that the\n      Ass was secured, immediately clutched the Fox, and attacked the Ass at his\n      leisure."
+}

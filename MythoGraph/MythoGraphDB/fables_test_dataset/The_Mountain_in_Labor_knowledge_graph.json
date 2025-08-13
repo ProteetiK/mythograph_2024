@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "Mouse"
+    },
+    {
+      "id": "expectation"
+    }
+  ],
+  "links": [
+    {
+      "source": "Mouse",
+      "target": "expectation",
+      "label": "assemble",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MOUNTAIN was once greatly agitated. Loud groans and noises were heard,\n      and crowds of people came from all parts to see what was the matter. While\n      they were assembled in anxious expectation of some terrible calamity, out\n      came a Mouse. Don't make much ado about nothing."
+}

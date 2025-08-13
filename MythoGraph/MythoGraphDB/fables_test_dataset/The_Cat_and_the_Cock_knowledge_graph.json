@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "cat"
+    },
+    {
+      "id": "cock"
+    },
+    {
+      "id": "himself"
+    }
+  ],
+  "links": [
+    {
+      "source": "cat",
+      "target": "cock",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "cock",
+      "target": "himself",
+      "label": "defend",
+      "motif": "Appeal",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CAT caught a Cock, and pondered how he might find a reasonable excuse\n      for eating him. He accused him of being a nuisance to men by crowing in\n      the nighttime and not permitting them to sleep. The Cock defended himself\n      by saying that he did this for the benefit of men, that they might rise in\n      time for their labors. The Cat replied, Although you abound in specious\n      apologies, I shall not remain supperless; and he made a meal of him."
+}

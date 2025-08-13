@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "snake"
+    },
+    {
+      "id": "Hole"
+    },
+    {
+      "id": "peace us"
+    }
+  ],
+  "links": [
+    {
+      "source": "snake",
+      "target": "Hole",
+      "label": "bite",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "snake",
+      "target": "peace us",
+      "label": "speak",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A SNAKE, having made his hole close to the porch of a cottage, inflicted a\n      mortal bite on the Cottager's infant son. Grieving over his loss, the\n      Father resolved to kill the Snake. The next day, when it came out of its\n      hole for food, he took up his axe, but by swinging too hastily, missed its\n      head and cut off only the end of its tail. After some time the Cottager,\n      afraid that the Snake would bite him also, endeavored to make peace, and\n      placed some bread and salt in the hole. The Snake, slightly hissing, said:\n      There can henceforth be no peace between us; for whenever I see you I\n      shall remember the loss of my tail, and whenever you see me you will be\n      thinking of the death of your son. No one truly forgets injuries in the presence of him who caused the\n      injury."
+}

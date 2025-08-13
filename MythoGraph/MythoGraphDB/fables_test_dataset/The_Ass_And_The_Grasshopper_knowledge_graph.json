@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "ass"
+    },
+    {
+      "id": "grasshoppers chirping"
+    }
+  ],
+  "links": [
+    {
+      "source": "ass",
+      "target": "grasshoppers chirping",
+      "label": "hear",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN ASS having heard some Grasshoppers chirping, was highly enchanted; and,\n      desiring to possess the same charms of melody, demanded what sort of food\n      they lived on to give them such beautiful voices. They replied, The dew.\n       The Ass resolved that he would live only upon dew, and in a short time\n      died of hunger."
+}

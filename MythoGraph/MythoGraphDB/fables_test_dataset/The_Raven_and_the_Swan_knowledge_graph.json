@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "raven"
+    },
+    {
+      "id": "swan"
+    },
+    {
+      "id": "altars"
+    },
+    {
+      "id": "neighborhood"
+    },
+    {
+      "id": "change"
+    },
+    {
+      "id": "nature"
+    }
+  ],
+  "links": [
+    {
+      "source": "raven",
+      "target": "swan",
+      "label": "see",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "raven",
+      "target": "altars",
+      "label": "leave",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "raven",
+      "target": "neighborhood",
+      "label": "leave",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "change",
+      "target": "nature",
+      "label": "alter",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A RAVEN saw a Swan and desired to secure for himself the same beautiful\n      plumage. Supposing that the Swan's splendid white color arose from his\n      washing in the water in which he swam, the Raven left the altars in the\n      neighborhood where he picked up his living, and took up residence in the\n      lakes and pools. But cleansing his feathers as often as he would, he could\n      not change their color, while through want of food he perished. Change of habit cannot alter Nature."
+}

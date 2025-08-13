@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "boys"
+    },
+    {
+      "id": "number"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "Sport"
+    },
+    {
+      "id": "frogs"
+    }
+  ],
+  "links": [
+    {
+      "source": "boys",
+      "target": "number",
+      "label": "see",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "boys",
+      "target": "water",
+      "label": "see",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "Sport",
+      "target": "frogs",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "SOME BOYS, playing near a pond, saw a number of Frogs in the water and\n      began to pelt them with stones. They killed several of them, when one of\n      the Frogs, lifting his head out of the water, cried out: Pray stop, my\n      boys: what is sport to you, is death to us."
+}

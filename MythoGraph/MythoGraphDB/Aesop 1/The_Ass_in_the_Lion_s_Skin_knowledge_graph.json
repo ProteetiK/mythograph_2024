@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "ass"
+    },
+    {
+      "id": "fox"
+    },
+    {
+      "id": "sound"
+    }
+  ],
+  "links": [
+    {
+      "source": "ass",
+      "target": "fox",
+      "label": "frightening",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "sound",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN ASS, having put on the Lion's skin, roamed about in the forest and\n      amused himself by frightening all the foolish animals he met in his\n      wanderings. At last coming upon a Fox, he tried to frighten him also, but\n      the Fox no sooner heard the sound of his voice than he exclaimed, \"I might\n      possibly have been frightened myself, if I had not heard your bray.\""
+}

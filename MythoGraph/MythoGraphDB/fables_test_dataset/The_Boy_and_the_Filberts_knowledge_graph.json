@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "boy"
+    },
+    {
+      "id": "hand"
+    },
+    {
+      "id": "pitcher full"
+    }
+  ],
+  "links": [
+    {
+      "source": "boy",
+      "target": "hand",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "boy",
+      "target": "pitcher full",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BOY put his hand into a pitcher full of filberts. He grasped as many as\n      he could possibly hold, but when he tried to pull out his hand, he was\n      prevented from doing so by the neck of the pitcher. Unwilling to lose his\n      filberts, and yet unable to withdraw his hand, he burst into tears and\n      bitterly lamented his disappointment. A bystander said to him, Be\n      satisfied with half the quantity, and you will readily draw out your\n      hand. Do not attempt too much at once."
+}

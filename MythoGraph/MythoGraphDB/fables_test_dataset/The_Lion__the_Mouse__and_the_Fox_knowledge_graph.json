@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "Mouse"
+    },
+    {
+      "id": "a mouse"
+    }
+  ],
+  "links": [
+    {
+      "source": "Mouse",
+      "target": "a mouse",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A LION, fatigued by the heat of a summer's day, fell fast asleep in his\n      den. A Mouse ran over his mane and ears and woke him from his slumbers. He\n      rose up and shook himself in great wrath, and searched every corner of his\n      den to find the Mouse. A Fox seeing him said: A fine Lion you are, to be\n      frightened of a Mouse. Tis not the Mouse I fear, said the Lion; I\n      resent his familiarity and ill-breeding. Little liberties are great offenses."
+}

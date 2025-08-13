@@ -1,0 +1,30 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "Farmer"
+    },
+    {
+      "id": "stork"
+    }
+  ],
+  "links": [
+    {
+      "source": "Farmer",
+      "target": "Farmer",
+      "label": "trap",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "Farmer",
+      "target": "stork",
+      "label": "trap",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FARMER placed nets on his newly-sown plowlands and caught a number of\n      Cranes, which came to pick up his seed. With them he trapped a Stork that\n      had fractured his leg in the net and was earnestly beseeching the Farmer\n      to spare his life. Pray save me, Master, he said, and let me go free\n      this once. My broken limb should excite your pity. Besides, I am no Crane,\n      I am a Stork, a bird of excellent character; and see how I love and slave\n      for my father and mother. Look too, at my feathers they are not the\n      least like those of a Crane. The Farmer laughed aloud and said, It may\n      be all as you say, I only know this: I have taken you with these robbers,\n      the Cranes, and you must die in their company. Birds of a feather flock together."
+}

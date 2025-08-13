@@ -1,0 +1,79 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "jackdaw"
+    },
+    {
+      "id": "feathers"
+    },
+    {
+      "id": "birds"
+    },
+    {
+      "id": "jupiter"
+    },
+    {
+      "id": "appearance"
+    },
+    {
+      "id": "feathered finery"
+    },
+    {
+      "id": "beauty"
+    },
+    {
+      "id": "each"
+    },
+    {
+      "id": "Jackdaw"
+    }
+  ],
+  "links": [
+    {
+      "source": "jackdaw",
+      "target": "feathers",
+      "label": "collect",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "jackdaw",
+      "target": "appearance",
+      "label": "make",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "jackdaw",
+      "target": "feathered finery",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "jupiter",
+      "label": "assemble",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "beauty",
+      "label": "propose_make",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "each",
+      "target": "Jackdaw",
+      "label": "pluck",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "JUPITER DETERMINED, it is said, to create a sovereign over the birds, and\n      made proclamation that on a certain day they should all present themselves\n      before him, when he would himself choose the most beautiful among them to\n      be king. The Jackdaw, knowing his own ugliness, searched through the woods\n      and fields, and collected the feathers which had fallen from the wings of\n      his companions, and stuck them in all parts of his body, hoping thereby to\n      make himself the most beautiful of all. When the appointed day arrived,\n      and the birds had assembled before Jupiter, the Jackdaw also made his\n      appearance in his many feathered finery. But when Jupiter proposed to make\n      him king because of the beauty of his plumage, the birds indignantly\n      protested, and each plucked from him his own feathers, leaving the Jackdaw\n      nothing but a Jackdaw."
+}

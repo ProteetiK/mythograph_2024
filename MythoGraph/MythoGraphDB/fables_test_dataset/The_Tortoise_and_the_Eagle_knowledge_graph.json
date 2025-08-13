@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "tortoise"
+    },
+    {
+      "id": "sea birds"
+    },
+    {
+      "id": "eagle"
+    },
+    {
+      "id": "lamentation"
+    },
+    {
+      "id": "moment"
+    }
+  ],
+  "links": [
+    {
+      "source": "tortoise",
+      "target": "sea birds",
+      "label": "complain",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "moment",
+      "label": "exclaim",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "lamentation",
+      "label": "hear",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A TORTOISE, lazily basking in the sun, complained to the sea-birds of her\n      hard fate, that no one would teach her to fly. An Eagle, hovering near,\n      heard her lamentation and demanded what reward she would give him if he\n      would take her aloft and float her in the air. I will give you, she\n      said, all the riches of the Red Sea. I will teach you to fly then,\n       said the Eagle; and taking her up in his talons he carried her almost to\n      the clouds suddenly he let her go, and she fell on a lofty mountain,\n      dashing her shell to pieces. The Tortoise exclaimed in the moment of\n      death: I have deserved my present fate; for what had I to do with wings\n      and clouds, who can with difficulty move about on the earth? If men had all they wished, they would be often ruined."
+}

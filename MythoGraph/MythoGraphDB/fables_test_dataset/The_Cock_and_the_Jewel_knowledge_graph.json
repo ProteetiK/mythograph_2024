@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "cock"
+    },
+    {
+      "id": "precious stone"
+    }
+  ],
+  "links": [
+    {
+      "source": "cock",
+      "target": "precious stone",
+      "label": "find",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A COCK, scratching for food for himself and his hens, found a precious\n      stone and exclaimed: If your owner had found thee, and not I, he would\n      have taken thee up, and have set thee in thy first estate; but I have\n      found thee for no purpose. I would rather have one barleycorn than all the\n      jewels in the world."
+}

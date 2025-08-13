@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "women"
+    },
+    {
+      "id": "time"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "women",
+      "label": "court",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "time",
+      "label": "court",
+      "motif": "Appeal",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MIDDLE-AGED MAN, whose hair had begun to turn gray, courted two women at\n      the same time. One of them was young, and the other well advanced in\n      years. The elder woman, ashamed to be courted by a man younger than\n      herself, made a point, whenever her admirer visited her, to pull out some\n      portion of his black hairs. The younger, on the contrary, not wishing to\n      become the wife of an old man, was equally zealous in removing every gray\n      hair she could find. Thus it came to pass that between them both he very\n      soon found that he had not a hair left on his head. Those who seek to please everybody please nobody."
+}

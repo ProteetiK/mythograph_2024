@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "forest"
+    },
+    {
+      "id": "Man"
+    },
+    {
+      "id": "statue"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "lion"
+    },
+    {
+      "id": "you"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "forest",
+      "label": "travel",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "Man",
+      "target": "statue",
+      "label": "pass",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "lion",
+      "label": "represent",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "man",
+      "label": "represent",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "man",
+      "label": "see",
+      "motif": "Guidance",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MAN and a Lion traveled together through the forest. They soon began to\n      boast of their respective superiority to each other in strength and\n      prowess. As they were disputing, they passed a statue carved in stone,\n      which represented a Lion strangled by a Man. The traveler pointed to it\n      and said: See there! How strong we are, and how we prevail over even the\n      king of beasts. The Lion replied: This statue was made by one of you\n      men. If we Lions knew how to erect statues, you would see the Man placed\n      under the paw of the Lion. One story is good, till another is told."
+}

@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "boy"
+    },
+    {
+      "id": "locusts"
+    }
+  ],
+  "links": [
+    {
+      "source": "boy",
+      "target": "locusts",
+      "label": "hunt",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BOY was hunting for locusts. He had caught a goodly number, when he saw\n      a Scorpion, and mistaking him for a locust, reached out his hand to take\n      him. The Scorpion, showing his sting, said: If you had but touched me, my\n      friend, you would have lost me, and all your locusts too!"
+}

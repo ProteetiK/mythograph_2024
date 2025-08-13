@@ -1,0 +1,83 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "frogs"
+    },
+    {
+      "id": "ambassadors"
+    },
+    {
+      "id": "jupiter"
+    },
+    {
+      "id": "entreating"
+    },
+    {
+      "id": "Eel"
+    },
+    {
+      "id": "eel"
+    },
+    {
+      "id": "easy good nature"
+    },
+    {
+      "id": "complaints"
+    }
+  ],
+  "links": [
+    {
+      "source": "frogs",
+      "target": "ambassadors",
+      "label": "send",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "frogs",
+      "target": "jupiter",
+      "label": "send",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "frogs",
+      "target": "entreating",
+      "label": "send",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "frogs",
+      "target": "easy good nature",
+      "label": "discover",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "complaints",
+      "label": "displease",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "Eel",
+      "target": "Eel",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "Eel",
+      "target": "eel",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE FROGS, grieved at having no established Ruler, sent ambassadors to\n      Jupiter entreating for a King. Perceiving their simplicity, he cast down a\n      huge log into the lake. The Frogs were terrified at the splash occasioned\n      by its fall and hid themselves in the depths of the pool. But as soon as\n      they realized that the huge log was motionless, they swam again to the top\n      of the water, dismissed their fears, climbed up, and began squatting on it\n      in contempt. After some time they began to think themselves ill-treated in\n      the appointment of so inert a Ruler, and sent a second deputation to\n      Jupiter to pray that he would set over them another sovereign. He then\n      gave them an Eel to govern them. When the Frogs discovered his easy good\n      nature, they sent yet a third time to Jupiter to beg him to choose for\n      them still another King. Jupiter, displeased with all their complaints,\n      sent a Heron, who preyed upon the Frogs day by day till there were none\n      left to croak upon the lake."
+}

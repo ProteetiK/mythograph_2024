@@ -1,0 +1,53 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "peddler"
+    },
+    {
+      "id": "ass"
+    },
+    {
+      "id": "seashore"
+    },
+    {
+      "id": "trick"
+    },
+    {
+      "id": "purpose"
+    }
+  ],
+  "links": [
+    {
+      "source": "peddler",
+      "target": "ass",
+      "label": "drive",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "peddler",
+      "target": "seashore",
+      "label": "drive",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "peddler",
+      "target": "trick",
+      "label": "see",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "purpose",
+      "label": "fall",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A PEDDLER drove his Ass to the seashore to buy salt. His road home lay\n      across a stream into which his Ass, making a false step, fell by accident\n      and rose up again with his load considerably lighter, as the water melted\n      the sack. The Peddler retraced his steps and refilled his panniers with a\n      larger quantity of salt than before. When he came again to the stream, the\n      Ass fell down on purpose in the same spot, and, regaining his feet with\n      the weight of his load much diminished, brayed triumphantly as if he had\n      obtained what he desired. The Peddler saw through his trick and drove him\n      for the third time to the coast, where he bought a cargo of sponges\n      instead of salt. The Ass, again playing the fool, fell down on purpose\n      when he reached the stream, but the sponges became swollen with water,\n      greatly increasing his load. And thus his trick recoiled on him, for he\n      now carried on his back a double burden."
+}

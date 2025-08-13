@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "lion"
+    },
+    {
+      "id": "Lion"
+    },
+    {
+      "id": "fox"
+    },
+    {
+      "id": "trick"
+    }
+  ],
+  "links": [
+    {
+      "source": "lion",
+      "target": "Lion",
+      "label": "devour",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "trick",
+      "label": "discover",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A LION, unable from old age and infirmities to provide himself with food\n      by force, resolved to do so by artifice. He returned to his den, and lying\n      down there, pretended to be sick, taking care that his sickness should be\n      publicly known. The beasts expressed their sorrow, and came one by one to\n      his den, where the Lion devoured them. After many of the beasts had thus\n      disappeared, the Fox discovered the trick and presenting himself to the\n      Lion, stood on the outside of the cave, at a respectful distance, and\n      asked him how he was. I am very middling, replied the Lion, but why do\n      you stand without? Pray enter within to talk with me. No, thank you,\n       said the Fox. I notice that there are many prints of feet entering your\n      cave, but I see no trace of any returning. He is wise who is warned by the misfortunes of others."
+}

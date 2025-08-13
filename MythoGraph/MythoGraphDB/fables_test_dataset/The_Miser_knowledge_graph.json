@@ -1,0 +1,43 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "miser"
+    },
+    {
+      "id": "all"
+    },
+    {
+      "id": "next visit"
+    },
+    {
+      "id": "hole empty"
+    }
+  ],
+  "links": [
+    {
+      "source": "miser",
+      "target": "all",
+      "label": "sell",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "miser",
+      "target": "next visit",
+      "label": "find",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "miser",
+      "target": "hole empty",
+      "label": "find",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MISER sold all that he had and bought a lump of gold, which he buried in\n      a hole in the ground by the side of an old wall and went to look at daily.\n      One of his workmen observed his frequent visits to the spot and decided to\n      watch his movements. He soon discovered the secret of the hidden treasure,\n      and digging down, came to the lump of gold, and stole it. The Miser, on\n      his next visit, found the hole empty and began to tear his hair and to\n      make loud lamentations. A neighbor, seeing him overcome with grief and\n      learning the cause, said, Pray do not grieve so; but go and take a stone,\n      and place it in the hole, and fancy that the gold is still lying there. It\n      will do you quite the same service; for when the gold was there, you had\n      it not, as you did not make the slightest use of it."
+}

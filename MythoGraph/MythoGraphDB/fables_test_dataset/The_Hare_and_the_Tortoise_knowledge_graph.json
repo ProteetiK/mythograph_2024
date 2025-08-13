@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "hare day"
+    },
+    {
+      "id": "tortoise"
+    },
+    {
+      "id": "fox"
+    },
+    {
+      "id": "course"
+    },
+    {
+      "id": "goal"
+    }
+  ],
+  "links": [
+    {
+      "source": "hare day",
+      "target": "tortoise",
+      "label": "ridicule",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "tortoise",
+      "target": "goal",
+      "label": "reach",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "course",
+      "label": "choose",
+      "motif": "Guidance",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A HARE one day ridiculed the short feet and slow pace of the Tortoise, who\n      replied, laughing: Though you be swift as the wind, I will beat you in a\n      race. The Hare, believing her assertion to be simply impossible, assented\n      to the proposal; and they agreed that the Fox should choose the course and\n      fix the goal. On the day appointed for the race the two started together.\n      The Tortoise never for a moment stopped, but went on with a slow but\n      steady pace straight to the end of the course. The Hare, lying down by the\n      wayside, fell fast asleep. At last waking up, and moving as fast as he\n      could, he saw the Tortoise had reached the goal, and was comfortably\n      dozing after her fatigue. Slow but steady wins the race."
+}

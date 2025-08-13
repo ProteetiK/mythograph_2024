@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "sheep"
+    },
+    {
+      "id": "distressing cries"
+    },
+    {
+      "id": "saying us"
+    },
+    {
+      "id": "us"
+    },
+    {
+      "id": "cry"
+    },
+    {
+      "id": "pig"
+    },
+    {
+      "id": "this"
+    }
+  ],
+  "links": [
+    {
+      "source": "sheep",
+      "target": "distressing cries",
+      "label": "complain",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "sheep",
+      "target": "saying us",
+      "label": "complain",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "sheep",
+      "target": "us",
+      "label": "complain",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "sheep",
+      "target": "cry",
+      "label": "complain",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "pig",
+      "target": "this",
+      "label": "reply",
+      "motif": "Appeal",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A YOUNG PIG was shut up in a fold-yard with a Goat and a Sheep. On one\n      occasion when the shepherd laid hold of him, he grunted and squeaked and\n      resisted violently. The Sheep and the Goat complained of his distressing\n      cries, saying, He often handles us, and we do not cry out. To this the\n      Pig replied, Your handling and mine are very different things. He catches\n      you only for your wool, or your milk, but he lays hold on me for my very\n      life."
+}

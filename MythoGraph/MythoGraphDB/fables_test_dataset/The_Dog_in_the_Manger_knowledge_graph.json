@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "Dog"
+    },
+    {
+      "id": "hay"
+    }
+  ],
+  "links": [
+    {
+      "source": "Dog",
+      "target": "hay",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A DOG lay in a manger, and by his growling and snapping prevented the oxen\n      from eating the hay which had been placed for them. What a selfish Dog!\n       said one of them to his companions; he cannot eat the hay himself, and\n      yet refuses to allow those to eat who can."
+}

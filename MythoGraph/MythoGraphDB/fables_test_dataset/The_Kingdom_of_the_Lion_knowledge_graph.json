@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "beasts"
+    },
+    {
+      "id": "lion"
+    },
+    {
+      "id": "king"
+    },
+    {
+      "id": "hare"
+    },
+    {
+      "id": "this"
+    },
+    {
+      "id": "Hare"
+    },
+    {
+      "id": "life"
+    }
+  ],
+  "links": [
+    {
+      "source": "beasts",
+      "target": "lion",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "beasts",
+      "target": "king",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "hare",
+      "target": "this",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "Hare",
+      "target": "life",
+      "label": "run",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE BEASTS of the field and forest had a Lion as their king. He was\n      neither wrathful, cruel, nor tyrannical, but just and gentle as a king\n      could be. During his reign he made a royal proclamation for a general\n      assembly of all the birds and beasts, and drew up conditions for a\n      universal league, in which the Wolf and the Lamb, the Panther and the Kid,\n      the Tiger and the Stag, the Dog and the Hare, should live together in\n      perfect peace and amity. The Hare said, Oh, how I have longed to see this\n      day, in which the weak shall take their place with impunity by the side of\n      the strong. And after the Hare said this, he ran for his life."
+}

@@ -1,0 +1,83 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "Rhodes"
+    },
+    {
+      "id": "things"
+    },
+    {
+      "id": "man day leap"
+    },
+    {
+      "id": "rhodes"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "whom"
+    },
+    {
+      "id": "witnesses"
+    }
+  ],
+  "links": [
+    {
+      "source": "Rhodes",
+      "target": "things",
+      "label": "speak",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "Rhodes",
+      "target": "man day leap",
+      "label": "speak",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "Rhodes",
+      "target": "rhodes",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "Rhodes",
+      "target": "it",
+      "label": "do",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "Rhodes",
+      "target": "whom",
+      "label": "call",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "Rhodes",
+      "target": "witnesses",
+      "label": "call",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "rhodes",
+      "label": "be",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MAN who had traveled in foreign lands boasted very much, on returning to\n      his own country, of the many wonderful and heroic feats he had performed\n      in the different places he had visited. Among other things, he said that\n      when he was at Rhodes he had leaped to such a distance that no man of his\n      day could leap anywhere near him as to that, there were in Rhodes many\n      persons who saw him do it and whom he could call as witnesses. One of the\n      bystanders interrupted him, saying: Now, my good man, if this be all true\n      there is no need of witnesses. Suppose this to be Rhodes, and leap for\n      us."
+}

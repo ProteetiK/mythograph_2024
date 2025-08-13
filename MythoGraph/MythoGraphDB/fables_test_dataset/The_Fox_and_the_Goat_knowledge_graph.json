@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "goat"
+    },
+    {
+      "id": "well"
+    },
+    {
+      "id": "fox"
+    },
+    {
+      "id": "praise"
+    },
+    {
+      "id": "drank"
+    },
+    {
+      "id": "Escape"
+    },
+    {
+      "id": "difficulty"
+    },
+    {
+      "id": "were"
+    },
+    {
+      "id": "back"
+    },
+    {
+      "id": "Fellow"
+    }
+  ],
+  "links": [
+    {
+      "source": "goat",
+      "target": "well",
+      "label": "come",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "goat",
+      "target": "Fellow",
+      "label": "upbraid",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "praise",
+      "label": "indulge",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "drank",
+      "label": "inform",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "Escape",
+      "label": "inform",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "difficulty",
+      "label": "inform",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "were",
+      "label": "inform",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "back",
+      "label": "leap",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FOX one day fell into a deep well and could find no means of escape. A\n      Goat, overcome with thirst, came to the same well, and seeing the Fox,\n      inquired if the water was good. Concealing his sad plight under a merry\n      guise, the Fox indulged in a lavish praise of the water, saying it was\n      excellent beyond measure, and encouraging him to descend. The Goat,\n      mindful only of his thirst, thoughtlessly jumped down, but just as he\n      drank, the Fox informed him of the difficulty they were both in and\n      suggested a scheme for their common escape. If, said he, you will place\n      your forefeet upon the wall and bend your head, I will run up your back\n      and escape, and will help you out afterwards. The Goat readily assented\n      and the Fox leaped upon his back. Steadying himself with the Goat's horns,\n      he safely reached the mouth of the well and made off as fast as he could.\n      When the Goat upbraided him for breaking his promise, he turned around and\n      cried out, You foolish old fellow! If you had as many brains in your head\n      as you have hairs in your beard, you would never have gone down before you\n      had inspected the way up, nor have exposed yourself to dangers from which\n      you had no means of escape. Look before you leap."
+}

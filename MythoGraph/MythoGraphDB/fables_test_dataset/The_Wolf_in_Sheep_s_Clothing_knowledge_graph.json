@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "shepherd"
+    },
+    {
+      "id": "wolf"
+    }
+  ],
+  "links": [
+    {
+      "source": "shepherd",
+      "target": "wolf",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "ONCE UPON A TIME a Wolf resolved to disguise his appearance in order to\n      secure food more easily. Encased in the skin of a sheep, he pastured with\n      the flock deceiving the shepherd by his costume. In the evening he was\n      shut up by the shepherd in the fold; the gate was closed, and the entrance\n      made thoroughly secure. But the shepherd, returning to the fold during the\n      night to obtain meat for the next day, mistakenly caught up the Wolf\n      instead of a sheep, and killed him instantly. Harm seek, harm find."
+}

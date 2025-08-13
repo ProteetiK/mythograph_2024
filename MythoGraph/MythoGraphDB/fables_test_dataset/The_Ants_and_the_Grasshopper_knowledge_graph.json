@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "ants"
+    },
+    {
+      "id": "winter day"
+    },
+    {
+      "id": "Summer"
+    }
+  ],
+  "links": [
+    {
+      "source": "ants",
+      "target": "winter day",
+      "label": "spend",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "ants",
+      "target": "Summer",
+      "label": "inquire",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE ANTS were spending a fine winter's day drying grain collected in the\n      summertime. A Grasshopper, perishing with famine, passed by and earnestly\n      begged for a little food. The Ants inquired of him, Why did you not\n      treasure up food during the summer? He replied, I had not leisure\n      enough. I passed the days in singing. They then said in derision: If you\n      were foolish enough to sing all the summer, you must dance supperless to\n      bed in the winter."
+}

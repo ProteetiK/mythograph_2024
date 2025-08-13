@@ -1,0 +1,63 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "carter"
+    },
+    {
+      "id": "wagon"
+    },
+    {
+      "id": "a country lane"
+    },
+    {
+      "id": "wheels sank"
+    },
+    {
+      "id": "deep"
+    },
+    {
+      "id": "rut"
+    }
+  ],
+  "links": [
+    {
+      "source": "carter",
+      "target": "wagon",
+      "label": "drive",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "carter",
+      "target": "a country lane",
+      "label": "drive",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "carter",
+      "target": "wheels sank",
+      "label": "drive",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "carter",
+      "target": "deep",
+      "label": "drive",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "carter",
+      "target": "rut",
+      "label": "drive",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CARTER was driving a wagon along a country lane, when the wheels sank\n      down deep into a rut. The rustic driver, stupefied and aghast, stood\n      looking at the wagon, and did nothing but utter loud cries to Hercules to\n      come and help him. Hercules, it is said, appeared and thus addressed him:\n      Put your shoulders to the wheels, my man. Goad on your bullocks, and\n      never more pray to me for help, until you have done your best to help\n      yourself, or depend upon it you will henceforth pray in vain. Self-help is the best help."
+}

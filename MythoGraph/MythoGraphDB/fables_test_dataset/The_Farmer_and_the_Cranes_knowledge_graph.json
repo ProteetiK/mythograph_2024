@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "cranes"
+    },
+    {
+      "id": "feeding grounds"
+    },
+    {
+      "id": "plowlands sown"
+    },
+    {
+      "id": "farmer"
+    },
+    {
+      "id": "sling"
+    },
+    {
+      "id": "stones"
+    }
+  ],
+  "links": [
+    {
+      "source": "cranes",
+      "target": "feeding grounds",
+      "label": "make",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "cranes",
+      "target": "plowlands sown",
+      "label": "make",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "farmer",
+      "target": "sling",
+      "label": "charge",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "farmer",
+      "target": "stones",
+      "label": "charge",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "SOME CRANES made their feeding grounds on some plowlands newly sown with\n      wheat. For a long time the Farmer, brandishing an empty sling, chased them\n      away by the terror he inspired; but when the birds found that the sling\n      was only swung in the air, they ceased to take any notice of it and would\n      not move. The Farmer, on seeing this, charged his sling with stones, and\n      killed a great number. The remaining birds at once forsook his fields,\n      crying to each other, It is time for us to be off to Liliput: for this\n      man is no longer content to scare us, but begins to show us in earnest\n      what he can do. If words suffice not, blows must follow."
+}

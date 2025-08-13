@@ -1,0 +1,79 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "who"
+    },
+    {
+      "id": "calf"
+    },
+    {
+      "id": "Calf"
+    },
+    {
+      "id": "small hillock"
+    },
+    {
+      "id": "foot a lion"
+    },
+    {
+      "id": "feeding"
+    },
+    {
+      "id": "Safety"
+    },
+    {
+      "id": "heaven"
+    },
+    {
+      "id": "i"
+    }
+  ],
+  "links": [
+    {
+      "source": "who",
+      "target": "calf",
+      "label": "steal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "Calf",
+      "target": "small hillock",
+      "label": "ascend",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "Calf",
+      "target": "foot a lion",
+      "label": "see",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "Calf",
+      "target": "feeding",
+      "label": "see",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "Safety",
+      "target": "heaven",
+      "label": "lift",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "calf",
+      "label": "add",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A HERDSMAN tending his flock in a forest lost a Bull-calf from the fold.\n      After a long and fruitless search, he made a vow that, if he could only\n      discover the thief who had stolen the Calf, he would offer a lamb in\n      sacrifice to Hermes, Pan, and the Guardian Deities of the forest. Not long\n      afterwards, as he ascended a small hillock, he saw at its foot a Lion\n      feeding on the Calf. Terrified at the sight, he lifted his eyes and his\n      hands to heaven, and said: Just now I vowed to offer a lamb to the\n      Guardian Deities of the forest if I could only find out who had robbed me;\n      but now that I have discovered the thief, I would willingly add a\n      full-grown Bull to the Calf I have lost, if I may only secure my own\n      escape from him in safety."
+}

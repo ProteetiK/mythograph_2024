@@ -1,0 +1,43 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "crow"
+    },
+    {
+      "id": "contention"
+    },
+    {
+      "id": "end"
+    },
+    {
+      "id": "dispute"
+    }
+  ],
+  "links": [
+    {
+      "source": "crow",
+      "target": "contention",
+      "label": "have",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "crow",
+      "target": "end",
+      "label": "put",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "crow",
+      "target": "dispute",
+      "label": "put",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE SWALLOW and the Crow had a contention about their plumage. The Crow\n      put an end to the dispute by saying, Your feathers are all very well in\n      the spring, but mine protect me against the winter. Fair weather friends are not worth much."
+}

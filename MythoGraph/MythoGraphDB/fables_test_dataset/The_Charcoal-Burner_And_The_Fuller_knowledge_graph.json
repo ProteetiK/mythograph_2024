@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fuller"
+    },
+    {
+      "id": "arrangement whiten blacken charcoal"
+    },
+    {
+      "id": "whiten blacken"
+    }
+  ],
+  "links": [
+    {
+      "source": "fuller",
+      "target": "arrangement whiten blacken charcoal",
+      "label": "reply",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "fuller",
+      "target": "whiten blacken",
+      "label": "reply",
+      "motif": "Guidance",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CHARCOAL-BURNER carried on his trade in his own house. One day he met a\n      friend, a Fuller, and entreated him to come and live with him, saying that\n      they should be far better neighbors and that their housekeeping expenses\n      would be lessened. The Fuller replied, The arrangement is impossible as\n      far as I am concerned, for whatever I should whiten, you would immediately\n      blacken again with your charcoal. Like will draw like."
+}
