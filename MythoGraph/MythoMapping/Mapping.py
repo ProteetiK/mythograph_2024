@@ -44,6 +44,8 @@ MOTIF_DICT = {
     "hire": "Quest",
     "demand": "Conflict",
     "extract": "Victory",
+    "accept": "Victory",
+    "rejects": "Defeat"
 }
 
 CLUSTER_LABELS = {
