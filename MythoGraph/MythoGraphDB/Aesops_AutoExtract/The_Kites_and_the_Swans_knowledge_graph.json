@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "tee kites"
+    },
+    {
+      "id": "privilege"
+    },
+    {
+      "id": "desire"
+    },
+    {
+      "id": "loss"
+    }
+  ],
+  "links": [
+    {
+      "source": "tee kites",
+      "target": "privilege",
+      "label": "have",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "desire",
+      "target": "loss",
+      "label": "involve",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "TEE KITES of olden times, as well as the Swans, had the privilege of song.\n      But having heard the neigh of the horse, they were so enchanted with the\n      sound, that they tried to imitate it; and, in trying to neigh, they forgot\n      how to sing. The desire for imaginary benefits often involves the loss of present\n      blessings."
+}

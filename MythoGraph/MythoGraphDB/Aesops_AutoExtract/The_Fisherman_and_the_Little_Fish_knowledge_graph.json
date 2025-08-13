@@ -1,0 +1,53 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fisherman"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "pray"
+    },
+    {
+      "id": "life"
+    },
+    {
+      "id": "fellow chance profit gain"
+    }
+  ],
+  "links": [
+    {
+      "source": "fisherman",
+      "target": "fish",
+      "label": "##ated",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fisherman",
+      "target": "fish",
+      "label": "catch",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "fisherman",
+      "target": "fellow chance profit gain",
+      "label": "reply",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "pray",
+      "target": "life",
+      "label": "spare",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FISHERMAN who lived on the produce of his nets, one day caught a single\n      small Fish as the result of his day's labor. The Fish, panting\n      convulsively, thus entreated for his life: \"O Sir, what good can I be to\n      you, and how little am I worth? I am not yet come to my full size. Pray\n      spare my life, and put me back into the sea. I shall soon become a large\n      fish fit for the tables of the rich, and then you can catch me again, and\n      make a handsome profit of me.\" The Fisherman replied, \"I should indeed be\n      a very simple fellow if, for the chance of a greater uncertain profit, I\n      were to forego my present certain gain.\""
+}

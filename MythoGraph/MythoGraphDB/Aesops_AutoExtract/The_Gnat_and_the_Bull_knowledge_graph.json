@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "##nat"
+    },
+    {
+      "id": "bull"
+    }
+  ],
+  "links": [
+    {
+      "source": "##nat",
+      "target": "bull",
+      "label": "inquired",
+      "motif": "Communication",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A GNAT settled on the horn of a Bull, and sat there a long time. Just as\n      he was about to fly off, he made a buzzing noise, and inquired of the Bull\n      if he would like him to go. The Bull replied, \"I did not know you had\n      come, and I shall not miss you when you go away.\" Some men are of more consequence in their own eyes than in the eyes of\n      their neighbors."
+}

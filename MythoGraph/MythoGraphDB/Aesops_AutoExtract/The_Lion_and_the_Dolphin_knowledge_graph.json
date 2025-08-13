@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "dolphin"
+    },
+    {
+      "id": "head"
+    },
+    {
+      "id": "lion"
+    },
+    {
+      "id": "combat"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "power"
+    }
+  ],
+  "links": [
+    {
+      "source": "dolphin",
+      "target": "head",
+      "label": "lift",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "lion",
+      "target": "combat",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "power",
+      "label": "deny",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A LION roaming by the seashore saw a Dolphin lift up its head out of the\n      waves, and suggested that they contract an alliance, saying that of all\n      the animals they ought to be the best friends, since the one was the king\n      of beasts on the earth, and the other was the sovereign ruler of all the\n      inhabitants of the ocean. The Dolphin gladly consented to this request.\n      Not long afterwards the Lion had a combat with a wild bull, and called on\n      the Dolphin to help him. The Dolphin, though quite willing to give him\n      assistance, was unable to do so, as he could not by any means reach the\n      land. The Lion abused him as a traitor. The Dolphin replied, \"Nay, my\n      friend, blame not me, but Nature, which, while giving me the sovereignty\n      of the sea, has quite denied me the power of living upon the land.\""
+}

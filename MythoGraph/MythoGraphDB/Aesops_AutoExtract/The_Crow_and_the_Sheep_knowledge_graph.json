@@ -1,0 +1,69 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "crow"
+    },
+    {
+      "id": "sheep"
+    },
+    {
+      "id": "herself"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "dog"
+    },
+    {
+      "id": "deserts"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "bully"
+    }
+  ],
+  "links": [
+    {
+      "source": "crow",
+      "target": "sheep",
+      "label": "seated",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "crow",
+      "target": "herself",
+      "label": "seat",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "dog",
+      "label": "treat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "deserts",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "bully",
+      "label": "know",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A TROUBLESOME CROW seated herself on the back of a Sheep. The Sheep, much\n      against his will, carried her backward and forward for a long time, and at\n      last said, \"If you had treated a dog in this way, you would have had your\n      deserts from his sharp teeth.\" To this the Crow replied, \"I despise the\n      weak and yield to the strong. I know whom I may bully and whom I must\n      flatter; and I thus prolong my life to a good old age.\""
+}

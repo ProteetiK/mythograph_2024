@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "i"
+    },
+    {
+      "id": "prey"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "tune"
+    },
+    {
+      "id": "kid"
+    },
+    {
+      "id": "piper"
+    }
+  ],
+  "links": [
+    {
+      "source": "i",
+      "target": "prey",
+      "label": "know",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "kid",
+      "label": "turn",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "piper",
+      "label": "turn",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "tune",
+      "label": "play",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A KID, returning without protection from the pasture, was pursued by a\n      Wolf. Seeing he could not escape, he turned round, and said: \"I know,\n      friend Wolf, that I must be your prey, but before I die I would ask of you\n      one favor you will play me a tune to which I may dance.\" The Wolf\n      complied, and while he was piping and the Kid was dancing, some hounds\n      hearing the sound ran up and began chasing the Wolf. Turning to the Kid,\n      he said, \"It is just what I deserve; for I, who am only a butcher, should\n      not have turned piper to please you.\""
+}

@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fisherman"
+    },
+    {
+      "id": "fish"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "owner"
+    },
+    {
+      "id": "longing"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "pleasure"
+    }
+  ],
+  "links": [
+    {
+      "source": "fisherman",
+      "target": "fish",
+      "label": "exchange",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "fish",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "owner",
+      "target": "longing",
+      "label": "experience",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "pleasure",
+      "label": "destroy",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A HUNTSMAN, returning with his dogs from the field, fell in by chance with\n      a Fisherman who was bringing home a basket well laden with fish. The\n      Huntsman wished to have the fish, and their owner experienced an equal\n      longing for the contents of the game-bag. They quickly agreed to exchange\n      the produce of their day's sport. Each was so well pleased with his\n      bargain that they made for some time the same exchange day after day.\n      Finally a neighbor said to them, \"If you go on in this way, you will soon\n      destroy by frequent use the pleasure of your exchange, and each will again\n      wish to retain the fruits of his own sport.\" Abstain and enjoy."
+}

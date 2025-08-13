@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "kid"
+    },
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "thee"
+    },
+    {
+      "id": "time"
+    },
+    {
+      "id": "advantage"
+    },
+    {
+      "id": "to"
+    }
+  ],
+  "links": [
+    {
+      "source": "kid",
+      "target": "wolf",
+      "label": "##ile",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "thee",
+      "label": "hear",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "time",
+      "target": "advantage",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "time",
+      "target": "to",
+      "label": "give",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A KID standing on the roof of a house, out of harm's way, saw a Wolf\n      passing by and immediately began to taunt and revile him. The Wolf,\n      looking up, said, \"Sirrah! I hear thee: yet it is not thou who mockest me,\n      but the roof on which thou art standing.\" Time and place often give the advantage to the weak over the strong."
+}

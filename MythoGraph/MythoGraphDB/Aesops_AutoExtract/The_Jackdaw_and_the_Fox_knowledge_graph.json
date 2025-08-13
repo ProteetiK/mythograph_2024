@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "jack"
+    },
+    {
+      "id": "fruit"
+    },
+    {
+      "id": "jackdaw"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "sir"
+    }
+  ],
+  "links": [
+    {
+      "source": "jack",
+      "target": "fruit",
+      "label": "waited",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jackdaw",
+      "target": "himself",
+      "label": "seat",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "fruit",
+      "label": "produce",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "sir",
+      "label": "indulge",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A HALF-FAMISHED JACKDAW seated himself on a fig-tree, which had produced\n      some fruit entirely out of season, and waited in the hope that the figs\n      would ripen. A Fox seeing him sitting so long and learning the reason of\n      his doing so, said to him, \"You are indeed, sir, sadly deceiving yourself;\n      you are indulging a hope strong enough to cheat you, but which will never\n      reward you with enjoyment.\""
+}

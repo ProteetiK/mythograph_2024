@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fly"
+    },
+    {
+      "id": "chariot"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "neck"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "pace"
+    }
+  ],
+  "links": [
+    {
+      "source": "fly",
+      "target": "chariot",
+      "label": "addressing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "neck",
+      "label": "prick",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "pace",
+      "label": "quicken",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FLY sat on the axle-tree of a chariot, and addressing the Draught-Mule\n      said, \"How slow you are! Why do you not go faster? See if I do not prick\n      your neck with my sting.\" The Draught-Mule replied, \"I do not heed your\n      threats; I only care for him who sits above you, and who quickens my pace\n      with his whip, or holds me back with the reins. Away, therefore, with your\n      insolence, for I know well when to go fast, and when to go slow.\""
+}

@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "doe"
+    },
+    {
+      "id": "refuge"
+    },
+    {
+      "id": "lion"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "care"
+    },
+    {
+      "id": "woe doe man mouth beast"
+    }
+  ],
+  "links": [
+    {
+      "source": "doe",
+      "target": "refuge",
+      "label": "seek",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "lion",
+      "target": "himself",
+      "label": "conceal",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "care",
+      "target": "woe doe man mouth beast",
+      "label": "take",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A DOE hard pressed by hunters sought refuge in a cave belonging to a Lion.\n      The Lion concealed himself on seeing her approach, but when she was safe\n      within the cave, sprang upon her and tore her to pieces. \"Woe is me,\"\n       exclaimed the Doe, \"who have escaped from man, only to throw myself into\n      the mouth of a wild beast?\" In avoiding one evil, care must be taken not to fall into another."
+}

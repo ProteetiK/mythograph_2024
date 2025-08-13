@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "hunter"
+    },
+    {
+      "id": "lion"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "will"
+    }
+  ],
+  "links": [
+    {
+      "source": "hunter",
+      "target": "lion",
+      "label": "asked",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "will",
+      "label": "speak",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A HUNTER, not very bold, was searching for the tracks of a Lion. He asked\n      a man felling oaks in the forest if he had seen any marks of his footsteps\n      or knew where his lair was. \"I will,\" said the man, \"at once show you the\n      Lion himself.\" The Hunter, turning very pale and chattering with his teeth\n      from fear, replied, \"No, thank you. I did not ask that; it is his track\n      only I am in search of, not the Lion himself.\" The hero is brave in deeds as well as words."
+}

@@ -1,0 +1,82 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "father"
+    },
+    {
+      "id": "vineyards"
+    },
+    {
+      "id": "sons attention farm"
+    },
+    {
+      "id": "sons"
+    },
+    {
+      "id": "attention"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "treasure"
+    },
+    {
+      "id": "spades"
+    },
+    {
+      "id": "vines"
+    },
+    {
+      "id": "labor"
+    }
+  ],
+  "links": [
+    {
+      "source": "father",
+      "target": "vineyards",
+      "label": "wished",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "sons attention farm",
+      "label": "wish",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sons",
+      "target": "attention",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sons",
+      "target": "spades",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "treasure",
+      "label": "be",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "vines",
+      "target": "labor",
+      "label": "repay",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FATHER, being on the point of death, wished to be sure that his sons\n      would give the same attention to his farm as he himself had given it. He\n      called them to his bedside and said, \"My sons, there is a great treasure\n      hid in one of my vineyards.\" The sons, after his death, took their spades\n      and mattocks and carefully dug over every portion of their land. They\n      found no treasure, but the vines repaid their labor by an extraordinary\n      and superabundant crop."
+}

@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fox"
+    },
+    {
+      "id": "##ble"
+    },
+    {
+      "id": "hedge"
+    }
+  ],
+  "links": [
+    {
+      "source": "fox",
+      "target": "##ble",
+      "label": "accused",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "hedge",
+      "label": "mount",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FOX was mounting a hedge when he lost his footing and caught hold of a\n      Bramble to save himself. Having pricked and grievously torn the soles of\n      his feet, he accused the Bramble because, when he had fled to her for\n      assistance, she had used him worse than the hedge itself. The Bramble,\n      interrupting him, said, \"But you really must have been out of your senses\n      to fasten yourself on me, who am myself always accustomed to fasten upon\n      others.\""
+}

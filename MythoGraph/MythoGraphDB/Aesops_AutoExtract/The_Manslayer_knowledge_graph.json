@@ -1,0 +1,116 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "serpent"
+    },
+    {
+      "id": "murder"
+    },
+    {
+      "id": "nile"
+    },
+    {
+      "id": "whom"
+    },
+    {
+      "id": "river nile"
+    },
+    {
+      "id": "lion"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "crocodile"
+    },
+    {
+      "id": "water"
+    },
+    {
+      "id": "shelter"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "serpent",
+      "label": "climbed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "murder",
+      "label": "commit",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "nile",
+      "target": "whom",
+      "label": "murder",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "nile",
+      "target": "river nile",
+      "label": "reach",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "nile",
+      "target": "lion",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "nile",
+      "target": "tree",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "nile",
+      "target": "serpent",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "nile",
+      "target": "himself",
+      "label": "throw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "crocodile",
+      "target": "nile",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "water",
+      "target": "shelter",
+      "label": "refuse",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MAN committed a murder, and was pursued by the relations of the man whom\n      he murdered. On his reaching the river Nile he saw a Lion on its bank and\n      being fearfully afraid, climbed up a tree. He found a serpent in the upper\n      branches of the tree, and again being greatly alarmed, he threw himself\n      into the river, where a crocodile caught him and ate him. Thus the earth,\n      the air, and the water alike refused shelter to a murderer."
+}

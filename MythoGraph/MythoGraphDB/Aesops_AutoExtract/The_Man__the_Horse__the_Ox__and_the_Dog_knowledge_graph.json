@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "horse"
+    },
+    {
+      "id": "hay"
+    },
+    {
+      "id": "shelter"
+    },
+    {
+      "id": "headstrong"
+    },
+    {
+      "id": "oats"
+    },
+    {
+      "id": "animals"
+    },
+    {
+      "id": "favors"
+    },
+    {
+      "id": "term"
+    },
+    {
+      "id": "years"
+    },
+    {
+      "id": "ox"
+    }
+  ],
+  "links": [
+    {
+      "source": "horse",
+      "target": "hay",
+      "label": "warmed",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "horse",
+      "target": "shelter",
+      "label": "seek",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "horse",
+      "target": "oats",
+      "label": "make",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "horse",
+      "target": "years",
+      "label": "choose",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "headstrong",
+      "target": "headstrong",
+      "label": "receive",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "headstrong",
+      "target": "term",
+      "label": "divide",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "animals",
+      "target": "favors",
+      "label": "determine",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "ox",
+      "target": "term",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A HORSE, Ox, and Dog, driven to great straits by the cold, sought shelter\n      and protection from Man. He received them kindly, lighted a fire, and\n      warmed them. He let the Horse make free with his oats, gave the Ox an\n      abundance of hay, and fed the Dog with meat from his own table. Grateful\n      for these favors, the animals determined to repay him to the best of their\n      ability. For this purpose, they divided the term of his life between them,\n      and each endowed one portion of it with the qualities which chiefly\n      characterized himself. The Horse chose his earliest years and gave them\n      his own attributes: hence every man is in his youth impetuous, headstrong,\n      and obstinate in maintaining his own opinion. The Ox took under his\n      patronage the next term of life, and therefore man in his middle age is\n      fond of work, devoted to labor, and resolute to amass wealth and to\n      husband his resources. The end of life was reserved for the Dog, wherefore\n      the old man is often snappish, irritable, hard to please, and selfish,\n      tolerant only of his own household, but averse to strangers and to all who\n      do not administer to his comfort or to his necessities."
+}

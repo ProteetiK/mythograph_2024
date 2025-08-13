@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "hunter"
+    },
+    {
+      "id": "hare"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "horseman"
+    },
+    {
+      "id": "was"
+    },
+    {
+      "id": "distance"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "present"
+    }
+  ],
+  "links": [
+    {
+      "source": "hunter",
+      "target": "hare",
+      "label": "begged",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "hunter",
+      "target": "it",
+      "label": "place",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "hunter",
+      "target": "was",
+      "label": "run",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "hare",
+      "label": "beg",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "horseman",
+      "target": "hare",
+      "label": "get",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "horseman",
+      "target": "distance",
+      "label": "increase",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "present",
+      "label": "make",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CERTAIN HUNTER, having snared a hare, placed it upon his shoulders and\n      set out homewards. On his way he met a man on horseback who begged the\n      hare of him, under the pretense of purchasing it. However, when the\n      Horseman got the hare, he rode off as fast as he could. The Hunter ran\n      after him, as if he was sure of overtaking him, but the Horseman increased\n      more and more the distance between them. The Hunter, sorely against his\n      will, called out to him and said, \"Get along with you! for I will now make\n      you a present of the hare.\""
+}

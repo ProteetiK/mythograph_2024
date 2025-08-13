@@ -1,0 +1,43 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "crow"
+    },
+    {
+      "id": "pitcher"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "water"
+    }
+  ],
+  "links": [
+    {
+      "source": "crow",
+      "target": "pitcher",
+      "label": "discovered",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "crow",
+      "target": "pitcher",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "water",
+      "label": "contain",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CROW perishing with thirst saw a pitcher, and hoping to find water, flew\n      to it with delight. When he reached it, he discovered to his grief that it\n      contained so little water that he could not possibly get at it. He tried\n      everything he could think of to reach the water, but all his efforts were\n      in vain. At last he collected as many stones as he could carry and dropped\n      them one by one with his beak into the pitcher, until he brought the water\n      within his reach and thus saved his life. Necessity is the mother of invention."
+}

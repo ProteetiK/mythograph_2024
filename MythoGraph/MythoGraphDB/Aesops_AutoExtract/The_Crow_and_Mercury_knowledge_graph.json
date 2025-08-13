@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "##nare"
+    },
+    {
+      "id": "apollo"
+    },
+    {
+      "id": "thee"
+    },
+    {
+      "id": "promise"
+    },
+    {
+      "id": "i"
+    }
+  ],
+  "links": [
+    {
+      "source": "##nare",
+      "target": "apollo",
+      "label": "forgot",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "thee",
+      "target": "promise",
+      "label": "forget",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "thee",
+      "label": "believe",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CROW caught in a snare prayed to Apollo to release him, making a vow to\n      offer some frankincense at his shrine. But when rescued from his danger,\n      he forgot his promise. Shortly afterwards, again caught in a snare, he\n      passed by Apollo and made the same promise to offer frankincense to\n      Mercury. Mercury soon appeared and said to him, \"O thou most base fellow?\n      how can I believe thee, who hast disowned and wronged thy former patron?\""
+}

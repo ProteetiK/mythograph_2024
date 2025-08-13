@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "crab"
+    },
+    {
+      "id": "son"
+    },
+    {
+      "id": "mother"
+    }
+  ],
+  "links": [
+    {
+      "source": "crab",
+      "target": "son",
+      "label": "said",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "crab",
+      "target": "mother",
+      "label": "reply",
+      "motif": "Appeal",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CRAB said to her son, \"Why do you walk so one-sided, my child? It is far\n      more becoming to go straight forward.\" The young Crab replied: \"Quite\n      true, dear Mother; and if you will show me the straight way, I will\n      promise to walk in it.\" The Mother tried in vain, and submitted without\n      remonstrance to the reproof of her child. Example is more powerful than precept."
+}

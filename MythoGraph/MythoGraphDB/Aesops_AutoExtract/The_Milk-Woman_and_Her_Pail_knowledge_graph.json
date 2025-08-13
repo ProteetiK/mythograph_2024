@@ -1,0 +1,112 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "farmer"
+    },
+    {
+      "id": "eggs"
+    },
+    {
+      "id": "farmer daughter"
+    },
+    {
+      "id": "pail"
+    },
+    {
+      "id": "christmas"
+    },
+    {
+      "id": "musing"
+    },
+    {
+      "id": "money"
+    },
+    {
+      "id": "chickens"
+    },
+    {
+      "id": "market"
+    },
+    {
+      "id": "poultry"
+    },
+    {
+      "id": "price"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "head"
+    }
+  ],
+  "links": [
+    {
+      "source": "farmer",
+      "target": "eggs",
+      "label": "##sing",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "eggs",
+      "target": "chickens",
+      "label": "produce",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "farmer daughter",
+      "target": "pail",
+      "label": "carry",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "christmas",
+      "target": "musing",
+      "label": "fall",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "christmas",
+      "target": "head",
+      "label": "toss",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "money",
+      "target": "eggs",
+      "label": "buy",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "chickens",
+      "target": "market",
+      "label": "become",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "poultry",
+      "target": "price",
+      "label": "fetch",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "head",
+      "label": "toss",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FARMER'S daughter was carrying her Pail of milk from the field to the\n      farmhouse, when she fell a-musing. \"The money for which this milk will be\n      sold, will buy at least three hundred eggs. The eggs, allowing for all\n      mishaps, will produce two hundred and fifty chickens. The chickens will\n      become ready for the market when poultry will fetch the highest price, so\n      that by the end of the year I shall have money enough from my share to buy\n      a new gown. In this dress I will go to the Christmas parties, where all\n      the young fellows will propose to me, but I will toss my head and refuse\n      them every one.\" At this moment she tossed her head in unison with her\n      thoughts, when down fell the milk pail to the ground, and all her\n      imaginary schemes perished in a moment."
+}

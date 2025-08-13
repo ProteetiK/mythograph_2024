@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fishermen"
+    },
+    {
+      "id": "nets"
+    }
+  ],
+  "links": [
+    {
+      "source": "fishermen",
+      "target": "nets",
+      "label": "dragged",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "SOME FISHERMEN were out trawling their nets. Perceiving them to be very\n      heavy, they danced about for joy and supposed that they had taken a large\n      catch. When they had dragged the nets to the shore they found but few\n      fish: the nets were full of sand and stones, and the men were beyond\n      measure cast down so much at the disappointment which had befallen them,\n      but because they had formed such very different expectations. One of their\n      company, an old man, said, \"Let us cease lamenting, my mates, for, as it\n      seems to me, sorrow is always the twin sister of joy; and it was only to\n      be looked for that we, who just now were over-rejoiced, should next have\n      something to make us sad.\""
+}

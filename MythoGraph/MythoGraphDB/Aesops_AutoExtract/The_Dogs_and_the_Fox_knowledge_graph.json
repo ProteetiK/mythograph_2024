@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "dogs"
+    },
+    {
+      "id": "lion"
+    },
+    {
+      "id": "you"
+    }
+  ],
+  "links": [
+    {
+      "source": "dogs",
+      "target": "lion",
+      "label": "tear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "lion",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "SOME DOGS, finding the skin of a lion, began to tear it in pieces with\n      their teeth. A Fox, seeing them, said, \"If this lion were alive, you would\n      soon find out that his claws were stronger than your teeth.\" It is easy to kick a man that is down."
+}

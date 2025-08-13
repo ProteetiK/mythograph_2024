@@ -1,0 +1,53 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "eagle"
+    },
+    {
+      "id": "lamb"
+    },
+    {
+      "id": "jackdaw wings"
+    },
+    {
+      "id": "knowledge daw"
+    },
+    {
+      "id": "you"
+    }
+  ],
+  "links": [
+    {
+      "source": "eagle",
+      "target": "lamb",
+      "label": "seized",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "lamb",
+      "target": "jackdaw wings",
+      "label": "clip",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "lamb",
+      "target": "knowledge daw",
+      "label": "reply",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "lamb",
+      "target": "you",
+      "label": "like",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN EAGLE, flying down from his perch on a lofty rock, seized upon a lamb\n      and carried him aloft in his talons. A Jackdaw, who witnessed the capture\n      of the lamb, was stirred with envy and determined to emulate the strength\n      and flight of the Eagle. He flew around with a great whir of his wings and\n      settled upon a large ram, with the intention of carrying him off, but his\n      claws became entangled in the ram's fleece and he was not able to release\n      himself, although he fluttered with his feathers as much as he could. The\n      shepherd, seeing what had happened, ran up and caught him. He at once\n      clipped the Jackdaw's wings, and taking him home at night, gave him to his\n      children. On their saying, \"Father, what kind of bird is it?\" he replied,\n      \"To my certain knowledge he is a Daw; but he would like you to think an\n      Eagle.\""
+}

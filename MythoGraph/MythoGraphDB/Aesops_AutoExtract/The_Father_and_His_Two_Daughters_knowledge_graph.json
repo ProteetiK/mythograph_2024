@@ -1,0 +1,69 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "gardener"
+    },
+    {
+      "id": "tile"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "wish"
+    },
+    {
+      "id": "tilemaker"
+    },
+    {
+      "id": "sun"
+    },
+    {
+      "id": "hot"
+    }
+  ],
+  "links": [
+    {
+      "source": "gardener",
+      "target": "tile",
+      "label": "inquired",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "gardener",
+      "label": "marry",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "tilemaker",
+      "label": "marry",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "wish",
+      "label": "have",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "sun",
+      "target": "hot",
+      "label": "shine",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MAN had two daughters, the one married to a gardener, and the other to a\n      tile-maker. After a time he went to the daughter who had married the\n      gardener, and inquired how she was and how all things went with her. She\n      said, \"All things are prospering with me, and I have only one wish, that\n      there may be a heavy fall of rain, in order that the plants may be well\n      watered.\" Not long after, he went to the daughter who had married the\n      tilemaker, and likewise inquired of her how she fared; she replied, \"I\n      want for nothing, and have only one wish, that the dry weather may\n      continue, and the sun shine hot and bright, so that the bricks might be\n      dried.\" He said to her, \"If your sister wishes for rain, and you for dry\n      weather, with which of the two am I to join my wishes?\""
+}

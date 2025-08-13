@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "cobb"
+    },
+    {
+      "id": "medicine"
+    },
+    {
+      "id": "clamors crowd"
+    },
+    {
+      "id": "famous"
+    },
+    {
+      "id": "governor"
+    },
+    {
+      "id": "assembly"
+    },
+    {
+      "id": "folly"
+    }
+  ],
+  "links": [
+    {
+      "source": "cobb",
+      "target": "medicine",
+      "label": "sold",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "clamors crowd",
+      "target": "famous",
+      "label": "make",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "governor",
+      "target": "assembly",
+      "label": "call",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "governor",
+      "target": "folly",
+      "label": "call",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A COBBLER unable to make a living by his trade and made desperate by\n      poverty, began to practice medicine in a town in which he was not known.\n      He sold a drug, pretending that it was an antidote to all poisons, and\n      obtained a great name for himself by long-winded puffs and advertisements.\n      When the Cobbler happened to fall sick himself of a serious illness, the\n      Governor of the town determined to test his skill. For this purpose he\n      called for a cup, and while filling it with water, pretended to mix poison\n      with the Cobbler's antidote, commanding him to drink it on the promise of\n      a reward. The Cobbler, under the fear of death, confessed that he had no\n      knowledge of medicine, and was only made famous by the stupid clamors of\n      the crowd. The Governor then called a public assembly and addressed the\n      citizens: \"Of what folly have you been guilty? You have not hesitated to\n      entrust your heads to a man, whom no one could employ to make even the\n      shoes for their feet.\""
+}

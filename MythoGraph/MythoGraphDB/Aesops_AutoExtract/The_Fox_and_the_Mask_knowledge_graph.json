@@ -1,0 +1,43 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fox"
+    },
+    {
+      "id": "brains"
+    },
+    {
+      "id": "house"
+    },
+    {
+      "id": "it"
+    }
+  ],
+  "links": [
+    {
+      "source": "fox",
+      "target": "brains",
+      "label": "##ma",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "house",
+      "label": "enter",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "brains",
+      "label": "lack",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FOX entered the house of an actor and, rummaging through all his\n      properties, came upon a Mask, an admirable imitation of a human head. He\n      placed his paws on it and said, \"What a beautiful head! Yet it is of no\n      value, as it entirely lacks brains.\""
+}

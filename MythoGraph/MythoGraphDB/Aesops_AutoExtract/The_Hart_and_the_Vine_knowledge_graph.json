@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "hart"
+    },
+    {
+      "id": "hunts"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "huntsmen"
+    },
+    {
+      "id": "place"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "vine"
+    }
+  ],
+  "links": [
+    {
+      "source": "hart",
+      "target": "hunts",
+      "label": "##bble",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "hart",
+      "target": "himself",
+      "label": "hide",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "huntsmen",
+      "target": "place",
+      "label": "overshot",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "vine",
+      "label": "maltreat",
+      "motif": "Appeal",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A HART, hard pressed in the chase, hid himself beneath the large leaves of\n      a Vine. The huntsmen, in their haste, overshot the place of his\n      concealment. Supposing all danger to have passed, the Hart began to nibble\n      the tendrils of the Vine. One of the huntsmen, attracted by the rustling\n      of the leaves, looked back, and seeing the Hart, shot an arrow from his\n      bow and struck it. The Hart, at the point of death, groaned: \"I am rightly\n      served, for I should not have maltreated the Vine that saved me.\""
+}

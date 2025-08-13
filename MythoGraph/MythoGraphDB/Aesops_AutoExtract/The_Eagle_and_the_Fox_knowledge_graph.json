@@ -1,0 +1,72 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "eagle"
+    },
+    {
+      "id": "friendship"
+    },
+    {
+      "id": "nest"
+    },
+    {
+      "id": "there"
+    },
+    {
+      "id": "young"
+    },
+    {
+      "id": "villagers"
+    },
+    {
+      "id": "goat"
+    },
+    {
+      "id": "breeze"
+    },
+    {
+      "id": "spark"
+    }
+  ],
+  "links": [
+    {
+      "source": "eagle",
+      "target": "friendship",
+      "label": "form",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "eagle",
+      "target": "nest",
+      "label": "build",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "there",
+      "target": "young",
+      "label": "produce",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "villagers",
+      "target": "goat",
+      "label": "sacrifice",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "breeze",
+      "target": "spark",
+      "label": "fan",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN EAGLE and a Fox formed an intimate friendship and decided to live near\n      each other. The Eagle built her nest in the branches of a tall tree, while\n      the Fox crept into the underwood and there produced her young. Not long\n      after they had agreed upon this plan, the Eagle, being in want of\n      provision for her young ones, swooped down while the Fox was out, seized\n      upon one of the little cubs, and feasted herself and her brood. The Fox on\n      her return, discovered what had happened, but was less grieved for the\n      death of her young than for her inability to avenge them. A just\n      retribution, however, quickly fell upon the Eagle. While hovering near an\n      altar, on which some villagers were sacrificing a goat, she suddenly\n      seized a piece of the flesh, and carried it, along with a burning cinder,\n      to her nest. A strong breeze soon fanned the spark into a flame, and the\n      eaglets, as yet unfledged and helpless, were roasted in their nest and\n      dropped down dead at the bottom of the tree. There, in the sight of the\n      Eagle, the Fox gobbled them up."
+}

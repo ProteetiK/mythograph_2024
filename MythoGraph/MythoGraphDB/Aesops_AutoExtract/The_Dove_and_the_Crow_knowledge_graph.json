@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "dove"
+    },
+    {
+      "id": "cage"
+    }
+  ],
+  "links": [
+    {
+      "source": "dove",
+      "target": "cage",
+      "label": "##ing",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A DOVE shut up in a cage was boasting of the large number of young ones\n      which she had hatched. A Crow hearing her, said: \"My good friend, cease\n      from this unseasonable boasting. The larger the number of your family, the\n      greater your cause of sorrow, in seeing them shut up in this\n      prison-house.\""
+}

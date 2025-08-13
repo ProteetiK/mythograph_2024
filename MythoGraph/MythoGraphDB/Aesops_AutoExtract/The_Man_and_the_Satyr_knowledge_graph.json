@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "alliance"
+    },
+    {
+      "id": "fingers"
+    },
+    {
+      "id": "satyr"
+    },
+    {
+      "id": "reason"
+    },
+    {
+      "id": "dishes"
+    },
+    {
+      "id": "breath"
+    },
+    {
+      "id": "hot"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "alliance",
+      "label": "blew",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "fingers",
+      "label": "put",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "dishes",
+      "label": "raise",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "satyr",
+      "target": "reason",
+      "label": "ask",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "satyr",
+      "target": "reason",
+      "label": "inquire",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "breath",
+      "target": "hot",
+      "label": "blow",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MAN and a Satyr once drank together in token of a bond of alliance being\n      formed between them. One very cold wintry day, as they talked, the Man put\n      his fingers to his mouth and blew on them. When the Satyr asked the reason\n      for this, he told him that he did it to warm his hands because they were\n      so cold. Later on in the day they sat down to eat, and the food prepared\n      was quite scalding. The Man raised one of the dishes a little towards his\n      mouth and blew in it. When the Satyr again inquired the reason, he said\n      that he did it to cool the meat, which was too hot. \"I can no longer\n      consider you as a friend,\" said the Satyr, \"a fellow who with the same\n      breath blows hot and cold.\""
+}

@@ -1,0 +1,30 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "hound"
+    },
+    {
+      "id": "hare"
+    }
+  ],
+  "links": [
+    {
+      "source": "hound",
+      "target": "hare",
+      "label": "gave",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "hound",
+      "target": "hare",
+      "label": "start",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A HOUND started a Hare from his lair, but after a long run, gave up the\n      chase. A goat-herd seeing him stop, mocked him, saying \"The little one is\n      the best runner of the two.\" The Hound replied, \"You do not see the\n      difference between us: I was only running for a dinner, but he for his\n      life.\""
+}

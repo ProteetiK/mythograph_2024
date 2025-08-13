@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "who"
+    },
+    {
+      "id": "lion"
+    },
+    {
+      "id": "acquaintance"
+    },
+    {
+      "id": "prejudices"
+    }
+  ],
+  "links": [
+    {
+      "source": "who",
+      "target": "lion",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "acquaintance",
+      "target": "prejudices",
+      "label": "soften",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "WHEN A FOX who had never yet seen a Lion, fell in with him by chance for\n      the first time in the forest, he was so frightened that he nearly died\n      with fear. On meeting him for the second time, he was still much alarmed,\n      but not to the same extent as at first. On seeing him the third time, he\n      so increased in boldness that he went up to him and commenced a familiar\n      conversation with him. Acquaintance softens prejudices."
+}

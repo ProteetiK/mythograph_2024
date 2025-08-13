@@ -1,0 +1,60 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "horse"
+    },
+    {
+      "id": "highway"
+    },
+    {
+      "id": "ass"
+    },
+    {
+      "id": "peace"
+    },
+    {
+      "id": "dungcart"
+    }
+  ],
+  "links": [
+    {
+      "source": "horse",
+      "target": "highway",
+      "label": "appeal",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "horse",
+      "target": "ass",
+      "label": "meet",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "peace",
+      "label": "hold",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "dungcart",
+      "label": "draw",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "ass",
+      "label": "deride",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A HORSE, proud of his fine trappings, met an Ass on the highway. The Ass,\n      being heavily laden, moved slowly out of the way. \"Hardly,\" said the\n      Horse, \"can I resist kicking you with my heels.\" The Ass held his peace,\n      and made only a silent appeal to the justice of the gods. Not long\n      afterwards the Horse, having become broken-winded, was sent by his owner\n      to the farm. The Ass, seeing him drawing a dungcart, thus derided him:\n      \"Where, O boaster, are now all thy gay trappings, thou who are thyself\n      reduced to the condition you so lately treated with contempt?\""
+}

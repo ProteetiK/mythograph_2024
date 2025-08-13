@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "food"
+    },
+    {
+      "id": "goat"
+    },
+    {
+      "id": "master"
+    },
+    {
+      "id": "advice"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "food",
+      "label": "advised",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "goat",
+      "label": "keep",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "master",
+      "target": "advice",
+      "label": "ask",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MAN once kept a Goat and an Ass. The Goat, envying the Ass on account of\n      his greater abundance of food, said, \"How shamefully you are treated: at\n      one time grinding in the mill, and at another carrying heavy burdens;\" and\n      he further advised him to pretend to be epileptic and fall into a ditch\n      and so obtain rest. The Ass listened to his words, and falling into a\n      ditch, was very much bruised. His master, sending for a leech, asked his\n      advice. He bade him pour upon the wounds the lungs of a Goat. They at once\n      killed the Goat, and so healed the Ass."
+}

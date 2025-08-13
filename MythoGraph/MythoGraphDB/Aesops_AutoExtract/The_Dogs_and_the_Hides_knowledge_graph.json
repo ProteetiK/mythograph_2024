@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "dogs"
+    },
+    {
+      "id": "number"
+    }
+  ],
+  "links": [
+    {
+      "source": "dogs",
+      "target": "number",
+      "label": "see",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "SOME DOGS famished with hunger saw a number of cowhides steeping in a\n      river. Not being able to reach them, they agreed to drink up the river,\n      but it happened that they burst themselves with drinking long before they\n      reached the hides. Attempt not impossibilities."
+}

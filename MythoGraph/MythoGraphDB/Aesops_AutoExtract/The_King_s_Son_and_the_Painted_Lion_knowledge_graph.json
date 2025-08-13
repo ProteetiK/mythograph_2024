@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "king"
+    },
+    {
+      "id": "animals"
+    },
+    {
+      "id": "dream"
+    },
+    {
+      "id": "true"
+    },
+    {
+      "id": "prince"
+    },
+    {
+      "id": "this"
+    }
+  ],
+  "links": [
+    {
+      "source": "king",
+      "target": "animals",
+      "label": "adorned",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "king",
+      "target": "dream",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "dream",
+      "target": "true",
+      "label": "prove",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "prince",
+      "target": "this",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A KING, whose only son was fond of martial exercises, had a dream in which\n      he was warned that his son would be killed by a lion. Afraid the dream\n      should prove true, he built for his son a pleasant palace and adorned its\n      walls for his amusement with all kinds of life-sized animals, among which\n      was the picture of a lion. When the young Prince saw this, his grief at\n      being thus confined burst out afresh, and, standing near the lion, he\n      said: \"O you most detestable of animals! through a lying dream of my\n      father's, which he saw in his sleep, I am shut up on your account in this\n      palace as if I had been a girl: what shall I now do to you?\" With these\n      words he stretched out his hands toward a thorn-tree, meaning to cut a\n      stick from its branches so that he might beat the lion. But one of the\n      tree's prickles pierced his finger and caused great pain and inflammation,\n      so that the young Prince fell down in a fainting fit. A violent fever\n      suddenly set in, from which he died not many days later. We had better bear our troubles bravely than try to escape them."
+}

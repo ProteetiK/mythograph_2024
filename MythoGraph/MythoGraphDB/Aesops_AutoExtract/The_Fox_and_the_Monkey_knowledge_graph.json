@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fox"
+    },
+    {
+      "id": "monuments"
+    },
+    {
+      "id": "tale"
+    },
+    {
+      "id": "itself"
+    }
+  ],
+  "links": [
+    {
+      "source": "fox",
+      "target": "monuments",
+      "label": "traveling",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "tale",
+      "target": "itself",
+      "label": "betray",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FOX and a Monkey were traveling together on the same road. As they\n      journeyed, they passed through a cemetery full of monuments. \"All these\n      monuments which you see,\" said the Monkey, \"are erected in honor of my\n      ancestors, who were in their day freedmen and citizens of great renown.\"\n       The Fox replied, \"You have chosen a most appropriate subject for your\n      falsehoods, as I am sure none of your ancestors will be able to contradict\n      you.\" A false tale often betrays itself."
+}

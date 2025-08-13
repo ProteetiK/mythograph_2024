@@ -1,0 +1,89 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "lion"
+    },
+    {
+      "id": "sheep"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "this"
+    },
+    {
+      "id": "bull"
+    },
+    {
+      "id": "spits"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "cause"
+    },
+    {
+      "id": "having"
+    },
+    {
+      "id": "preparation"
+    }
+  ],
+  "links": [
+    {
+      "source": "lion",
+      "target": "sheep",
+      "label": "slain",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "lion",
+      "target": "this",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "sheep",
+      "label": "slay",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "preparation",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "bull",
+      "target": "spits",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "cause",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "having",
+      "target": "sheep",
+      "label": "slaughter",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A LION, greatly desiring to capture a Bull, and yet afraid to attack him\n      on account of his great size, resorted to a trick to ensure his\n      destruction. He approached the Bull and said, \"I have slain a fine sheep,\n      my friend; and if you will come home and partake of him with me, I shall\n      be delighted to have your company.\" The Lion said this in the hope that,\n      as the Bull was in the act of reclining to eat, he might attack him to\n      advantage, and make his meal on him. The Bull, on approaching the Lion's\n      den, saw the huge spits and giant caldrons, and no sign whatever of the\n      sheep, and, without saying a word, quietly took his departure. The Lion\n      inquired why he went off so abruptly without a word of salutation to his\n      host, who had not given him any cause for offense. \"I have reasons\n      enough,\" said the Bull. \"I see no indication whatever of your having\n      slaughtered a sheep, while I do see very plainly every preparation for\n      your dining on a bull.\""
+}

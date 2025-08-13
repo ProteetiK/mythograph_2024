@@ -1,0 +1,73 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "crow"
+    },
+    {
+      "id": "serpent"
+    },
+    {
+      "id": "bird"
+    },
+    {
+      "id": "o"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "windfall"
+    },
+    {
+      "id": "source"
+    }
+  ],
+  "links": [
+    {
+      "source": "crow",
+      "target": "crow",
+      "label": "exclaimed",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "crow",
+      "target": "serpent",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "serpent",
+      "target": "crow",
+      "label": "bite",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "bird",
+      "target": "o",
+      "label": "exclaim",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "windfall",
+      "label": "deem",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "source",
+      "label": "deem",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CROW in great want of food saw a Serpent asleep in a sunny nook, and\n      flying down, greedily seized him. The Serpent, turning about, bit the Crow\n      with a mortal wound. In the agony of death, the bird exclaimed: \"O unhappy\n      me! who have found in that which I deemed a happy windfall the source of\n      my destruction.\""
+}

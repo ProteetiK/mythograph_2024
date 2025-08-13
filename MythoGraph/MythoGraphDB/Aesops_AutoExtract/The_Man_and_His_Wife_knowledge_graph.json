@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "wife"
+    },
+    {
+      "id": "herdsmen"
+    },
+    {
+      "id": "looks"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "day"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "wife",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "herdsmen",
+      "target": "looks",
+      "label": "cast",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "day",
+      "label": "pass",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MAN had a Wife who made herself hated by all the members of his\n      household. Wishing to find out if she had the same effect on the persons\n      in her father's house, he made some excuse to send her home on a visit to\n      her father. After a short time she returned, and when he inquired how she\n      had got on and how the servants had treated her, she replied, \"The\n      herdsmen and shepherds cast on me looks of aversion.\" He said, \"O Wife, if\n      you were disliked by those who go out early in the morning with their\n      flocks and return late in the evening, what must have been felt towards\n      you by those with whom you passed the whole day!\" Straws show how the wind blows."
+}

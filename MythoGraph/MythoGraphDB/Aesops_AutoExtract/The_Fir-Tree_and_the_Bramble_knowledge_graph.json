@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "tree"
+    },
+    {
+      "id": "saw"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "reason"
+    }
+  ],
+  "links": [
+    {
+      "source": "tree",
+      "target": "saw",
+      "label": "##ast",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "reason",
+      "label": "have",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FIR-TREE said boastingly to the Bramble, \"You are useful for nothing at\n      all; while I am everywhere used for roofs and houses.\" The Bramble\n      answered: \"You poor creature, if you would only call to mind the axes and\n      saws which are about to hew you down, you would have reason to wish that\n      you had grown up a Bramble, not a Fir-Tree.\" Better poverty without care, than riches with."
+}

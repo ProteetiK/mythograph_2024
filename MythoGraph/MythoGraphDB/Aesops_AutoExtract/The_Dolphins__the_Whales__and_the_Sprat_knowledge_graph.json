@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "dolphins"
+    },
+    {
+      "id": "whales"
+    },
+    {
+      "id": "war"
+    },
+    {
+      "id": "sprat"
+    },
+    {
+      "id": "battle height"
+    },
+    {
+      "id": "head"
+    }
+  ],
+  "links": [
+    {
+      "source": "dolphins",
+      "target": "whales",
+      "label": "war",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "dolphins",
+      "target": "war",
+      "label": "wage",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "sprat",
+      "target": "battle height",
+      "label": "lift",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sprat",
+      "target": "head",
+      "label": "lift",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE DOLPHINS and Whales waged a fierce war with each other. When the\n      battle was at its height, a Sprat lifted its head out of the waves and\n      said that he would reconcile their differences if they would accept him as\n      an umpire. One of the Dolphins replied, \"We would far rather be destroyed\n      in our battle with each other than admit any interference from you in our\n      affairs.\""
+}

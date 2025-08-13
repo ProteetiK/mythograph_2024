@@ -1,0 +1,109 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "jupiter"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "goods"
+    },
+    {
+      "id": "themselves"
+    },
+    {
+      "id": "nothing"
+    },
+    {
+      "id": "request"
+    },
+    {
+      "id": "ills"
+    },
+    {
+      "id": "earth"
+    },
+    {
+      "id": "habitations"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "abound"
+    },
+    {
+      "id": "one"
+    }
+  ],
+  "links": [
+    {
+      "source": "jupiter",
+      "target": "which",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "jupiter",
+      "label": "entreat",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "nothing",
+      "label": "have",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "request",
+      "label": "grant",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "one",
+      "label": "come",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "goods",
+      "target": "themselves",
+      "label": "waft",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "goods",
+      "target": "habitations",
+      "label": "enter",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "ills",
+      "target": "earth",
+      "label": "visit",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "abound",
+      "label": "ill",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "ALL the Goods were once driven out by the Ills from that common share\n      which they each had in the affairs of mankind; for the Ills by reason of\n      their numbers had prevailed to possess the earth. The Goods wafted\n      themselves to heaven and asked for a righteous vengeance on their\n      persecutors. They entreated Jupiter that they might no longer be\n      associated with the Ills, as they had nothing in common and could not live\n      together, but were engaged in unceasing warfare; and that an indissoluble\n      law might be laid down for their future protection. Jupiter granted their\n      request and decreed that henceforth the Ills should visit the earth in\n      company with each other, but that the Goods should one by one enter the\n      habitations of men. Hence it arises that Ills abound, for they come not\n      one by one, but in troops, and by no means singly: while the Goods proceed\n      from Jupiter, and are given, not alike to all, but singly, and separately;\n      and one by one to those who are able to discern them."
+}

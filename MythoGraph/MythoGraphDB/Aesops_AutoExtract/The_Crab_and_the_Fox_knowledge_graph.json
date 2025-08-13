@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "crab"
+    },
+    {
+      "id": "meadow"
+    },
+    {
+      "id": "point"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "fate"
+    }
+  ],
+  "links": [
+    {
+      "source": "crab",
+      "target": "meadow",
+      "label": "choose",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "crab",
+      "target": "point",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "fate",
+      "label": "deserve",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CRAB, forsaking the seashore, chose a neighboring green meadow as its\n      feeding ground. A Fox came across him, and being very hungry ate him up.\n      Just as he was on the point of being eaten, the Crab said, \"I well deserve\n      my fate, for what business had I on the land, when by my nature and habits\n      I am only adapted for the sea?\" Contentment with our lot is an element of happiness."
+}

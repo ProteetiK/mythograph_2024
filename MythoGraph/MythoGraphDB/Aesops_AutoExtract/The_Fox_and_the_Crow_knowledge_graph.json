@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "crow"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "fox"
+    },
+    {
+      "id": "meat"
+    },
+    {
+      "id": "it"
+    }
+  ],
+  "links": [
+    {
+      "source": "crow",
+      "target": "tree",
+      "label": "perched",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "meat",
+      "label": "succeeded",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "it",
+      "label": "pick",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CROW having stolen a bit of meat, perched in a tree and held it in her\n      beak. A Fox, seeing this, longed to possess the meat himself, and by a\n      wily stratagem succeeded. \"How handsome is the Crow,\" he exclaimed, \"in\n      the beauty of her shape and in the fairness of her complexion! Oh, if her\n      voice were only equal to her beauty, she would deservedly be considered\n      the Queen of Birds!\" This he said deceitfully; but the Crow, anxious to\n      refute the reflection cast upon her voice, set up a loud caw and dropped\n      the flesh. The Fox quickly picked it up, and thus addressed the Crow: \"My\n      good Crow, your voice is right enough, but your wit is wanting.\""
+}

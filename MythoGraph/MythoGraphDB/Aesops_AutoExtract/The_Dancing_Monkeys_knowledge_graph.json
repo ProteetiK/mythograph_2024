@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "prince"
+    },
+    {
+      "id": "pupils"
+    },
+    {
+      "id": "courtier"
+    },
+    {
+      "id": "handful"
+    },
+    {
+      "id": "monkeys"
+    },
+    {
+      "id": "dancing"
+    }
+  ],
+  "links": [
+    {
+      "source": "prince",
+      "target": "pupils",
+      "label": "danced",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "courtier",
+      "target": "handful",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "monkeys",
+      "target": "dancing",
+      "label": "forget",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A PRINCE had some Monkeys trained to dance. Being naturally great mimics\n      of men's actions, they showed themselves most apt pupils, and when arrayed\n      in their rich clothes and masks, they danced as well as any of the\n      courtiers. The spectacle was often repeated with great applause, till on\n      one occasion a courtier, bent on mischief, took from his pocket a handful\n      of nuts and threw them upon the stage. The Monkeys at the sight of the\n      nuts forgot their dancing and became (as indeed they were) Monkeys instead\n      of actors. Pulling off their masks and tearing their robes, they fought\n      with one another for the nuts. The dancing spectacle thus came to an end\n      amidst the laughter and ridicule of the audience."
+}

@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "hen"
+    },
+    {
+      "id": "viper"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "injury"
+    }
+  ],
+  "links": [
+    {
+      "source": "hen",
+      "target": "viper",
+      "label": "##shed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "which",
+      "target": "injury",
+      "label": "inflict",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A HEN finding the eggs of a viper and carefully keeping them warm,\n      nourished them into life. A Swallow, observing what she had done, said,\n      \"You silly creature! why have you hatched these vipers which, when they\n      shall have grown, will inflict injury on all, beginning with yourself?\""
+}

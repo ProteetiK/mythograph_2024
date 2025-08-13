@@ -1,0 +1,53 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "cat"
+    },
+    {
+      "id": "venus"
+    },
+    {
+      "id": "habits"
+    },
+    {
+      "id": "nature"
+    },
+    {
+      "id": "nurture"
+    }
+  ],
+  "links": [
+    {
+      "source": "cat",
+      "target": "venus",
+      "label": "change",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "cat",
+      "target": "habits",
+      "label": "alter",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "venus",
+      "target": "venus",
+      "label": "love",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "nature",
+      "target": "nurture",
+      "label": "exceed",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CAT fell in love with a handsome young man, and entreated Venus to\n      change her into the form of a woman. Venus consented to her request and\n      transformed her into a beautiful damsel, so that the youth saw her and\n      loved her, and took her home as his bride. While the two were reclining in\n      their chamber, Venus wishing to discover if the Cat in her change of shape\n      had also altered her habits of life, let down a mouse in the middle of the\n      room. The Cat, quite forgetting her present condition, started up from the\n      couch and pursued the mouse, wishing to eat it. Venus was much\n      disappointed and again caused her to return to her former shape. Nature exceeds nurture."
+}

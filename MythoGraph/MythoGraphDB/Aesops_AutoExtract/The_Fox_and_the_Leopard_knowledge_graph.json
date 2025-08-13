@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fox"
+    },
+    {
+      "id": "was"
+    },
+    {
+      "id": "leopard"
+    },
+    {
+      "id": "spots"
+    },
+    {
+      "id": "body mind"
+    }
+  ],
+  "links": [
+    {
+      "source": "fox",
+      "target": "was",
+      "label": "dispute",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "body mind",
+      "label": "speak",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "leopard",
+      "target": "spots",
+      "label": "exhibit",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE FOX and the Leopard disputed which was the more beautiful of the two.\n      The Leopard exhibited one by one the various spots which decorated his\n      skin. But the Fox, interrupting him, said, \"And how much more beautiful\n      than you am I, who am decorated, not in body, but in mind.\""
+}

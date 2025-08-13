@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "cat"
+    },
+    {
+      "id": "way"
+    },
+    {
+      "id": "mice"
+    },
+    {
+      "id": "themselves"
+    },
+    {
+      "id": "holes"
+    }
+  ],
+  "links": [
+    {
+      "source": "cat",
+      "target": "way",
+      "label": "make",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "mice",
+      "target": "themselves",
+      "label": "keep",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "mice",
+      "target": "holes",
+      "label": "keep",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CERTAIN HOUSE was overrun with Mice. A Cat, discovering this, made her\n      way into it and began to catch and eat them one by one. Fearing for their\n      lives, the Mice kept themselves close in their holes. The Cat was no\n      longer able to get at them and perceived that she must tempt them forth by\n      some device. For this purpose she jumped upon a peg, and suspending\n      herself from it, pretended to be dead. One of the Mice, peeping stealthily\n      out, saw her and said, \"Ah, my good madam, even though you should turn\n      into a meal-bag, we will not come near you.\""
+}

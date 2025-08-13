@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "carpenter"
+    },
+    {
+      "id": "offerings"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "image"
+    },
+    {
+      "id": "thou"
+    },
+    {
+      "id": "poorer"
+    },
+    {
+      "id": "being"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "honor"
+    }
+  ],
+  "links": [
+    {
+      "source": "carpenter",
+      "target": "offerings",
+      "label": "begged",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "carpenter",
+      "target": "which",
+      "label": "pick",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "image",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "thou",
+      "target": "offerings",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "thou",
+      "target": "poorer",
+      "label": "become",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "thou",
+      "target": "being",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "thou",
+      "target": "image",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "honor",
+      "label": "pay",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A VERY POOR MAN, a Carpenter by trade, had a wooden image of Mercury,\n      before which he made offerings day by day, and begged the idol to make him\n      rich, but in spite of his entreaties he became poorer and poorer. At last,\n      being very angry, he took his image down from its pedestal and dashed it\n      against the wall. When its head was knocked off, out came a stream of\n      gold, which the Carpenter quickly picked up and said, \"Well, I think thou\n      art altogether contradictory and unreasonable; for when I paid you honor,\n      I reaped no benefits: but now that I maltreat you I am loaded with an\n      abundance of riches.\""
+}

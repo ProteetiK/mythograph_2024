@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "crow"
+    },
+    {
+      "id": "tree"
+    },
+    {
+      "id": "flight"
+    },
+    {
+      "id": "course"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "character"
+    },
+    {
+      "id": "ridiculous"
+    }
+  ],
+  "links": [
+    {
+      "source": "crow",
+      "target": "tree",
+      "label": "flew",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "flight",
+      "target": "course",
+      "label": "note",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "character",
+      "label": "assume",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "character",
+      "target": "ridiculous",
+      "label": "make",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CROW was jealous of the Raven, because he was considered a bird of good\n      omen and always attracted the attention of men, who noted by his flight\n      the good or evil course of future events. Seeing some travelers\n      approaching, the Crow flew up into a tree, and perching herself on one of\n      the branches, cawed as loudly as she could. The travelers turned towards\n      the sound and wondered what it foreboded, when one of them said to his\n      companion, \"Let us proceed on our journey, my friend, for it is only the\n      caw of a crow, and her cry, you know, is no omen.\" Those who assume a character which does not belong to them, only make\n      themselves ridiculous."
+}

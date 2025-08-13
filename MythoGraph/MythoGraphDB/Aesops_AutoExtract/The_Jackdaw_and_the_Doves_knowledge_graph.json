@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "jack"
+    },
+    {
+      "id": "food"
+    },
+    {
+      "id": "jackdaw"
+    },
+    {
+      "id": "white"
+    },
+    {
+      "id": "doves"
+    },
+    {
+      "id": "be"
+    }
+  ],
+  "links": [
+    {
+      "source": "jack",
+      "target": "food",
+      "label": "painted",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jackdaw",
+      "target": "white",
+      "label": "paint",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "doves",
+      "target": "be",
+      "label": "suppose",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A JACKDAW, seeing some Doves in a cote abundantly provided with food,\n      painted himself white and joined them in order to share their plentiful\n      maintenance. The Doves, as long as he was silent, supposed him to be one\n      of themselves and admitted him to their cote. But when one day he forgot\n      himself and began to chatter, they discovered his true character and drove\n      him forth, pecking him with their beaks. Failing to obtain food among the\n      Doves, he returned to the Jackdaws. They too, not recognizing him on\n      account of his color, expelled him from living with them. So desiring two\n      ends, he obtained neither."
+}

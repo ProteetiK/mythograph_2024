@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fox"
+    },
+    {
+      "id": "oak"
+    },
+    {
+      "id": "huntsman"
+    },
+    {
+      "id": "notice"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "life"
+    }
+  ],
+  "links": [
+    {
+      "source": "fox",
+      "target": "oak",
+      "label": "begged",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "huntsman",
+      "target": "notice",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "life",
+      "label": "owe",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FOX, running before the hounds, came across a Woodcutter felling an oak\n      and begged him to show him a safe hiding-place. The Woodcutter advised him\n      to take shelter in his own hut, so the Fox crept in and hid himself in a\n      corner. The huntsman soon came up with his hounds and inquired of the\n      Woodcutter if he had seen the Fox. He declared that he had not seen him,\n      and yet pointed, all the time he was speaking, to the hut where the Fox\n      lay hidden. The huntsman took no notice of the signs, but believing his\n      word, hastened forward in the chase. As soon as they were well away, the\n      Fox departed without taking any notice of the Woodcutter: whereon he\n      called to him and reproached him, saying, \"You ungrateful fellow, you owe\n      your life to me, and yet you leave me without a word of thanks.\" The Fox\n      replied, \"Indeed, I should have thanked you fervently if your deeds had\n      been as good as your words, and if your hands had not been traitors to\n      your speech.\""
+}

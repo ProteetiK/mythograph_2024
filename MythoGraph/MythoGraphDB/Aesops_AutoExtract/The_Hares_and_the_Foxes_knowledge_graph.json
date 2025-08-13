@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "hare"
+    },
+    {
+      "id": "foxes"
+    },
+    {
+      "id": "hares"
+    },
+    {
+      "id": "war"
+    }
+  ],
+  "links": [
+    {
+      "source": "hare",
+      "target": "foxes",
+      "label": "count",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hares",
+      "target": "war",
+      "label": "wage",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE HARES waged war with the Eagles, and called upon the Foxes to help\n      them. They replied, \"We would willingly have helped you, if we had not\n      known who you were, and with whom you were fighting.\" Count the cost before you commit yourselves."
+}

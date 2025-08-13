@@ -1,0 +1,72 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "##r"
+    },
+    {
+      "id": "gold"
+    },
+    {
+      "id": "cottager"
+    },
+    {
+      "id": "hen"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "egg"
+    },
+    {
+      "id": "lump"
+    },
+    {
+      "id": "pair"
+    },
+    {
+      "id": "themselves"
+    }
+  ],
+  "links": [
+    {
+      "source": "##r",
+      "target": "gold",
+      "label": "supposed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "cottager",
+      "target": "hen",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "hen",
+      "target": "lump",
+      "label": "contain",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "egg",
+      "label": "lay",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "pair",
+      "target": "themselves",
+      "label": "deprive",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A COTTAGER and his wife had a Hen that laid a golden egg every day. They\n      supposed that the Hen must contain a great lump of gold in its inside, and\n      in order to get the gold they killed it. Having done so, they found to\n      their surprise that the Hen differed in no respect from their other hens.\n      The foolish pair, thus hoping to become rich all at once, deprived\n      themselves of the gain of which they were assured day by day."
+}

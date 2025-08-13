@@ -1,0 +1,83 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "lion"
+    },
+    {
+      "id": "ass"
+    },
+    {
+      "id": "spoil"
+    },
+    {
+      "id": "fox"
+    },
+    {
+      "id": "heap"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "fellow"
+    }
+  ],
+  "links": [
+    {
+      "source": "lion",
+      "target": "ass",
+      "label": "ask",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "lion",
+      "target": "ass",
+      "label": "devour",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "spoil",
+      "label": "divide",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "fox",
+      "label": "request",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "that",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "heap",
+      "label": "accumulate",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "fellow",
+      "label": "teach",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE LION, the Fox and the Ass entered into an agreement to assist each\n      other in the chase. Having secured a large booty, the Lion on their return\n      from the forest asked the Ass to allot his due portion to each of the\n      three partners in the treaty. The Ass carefully divided the spoil into\n      three equal shares and modestly requested the two others to make the first\n      choice. The Lion, bursting out into a great rage, devoured the Ass. Then\n      he requested the Fox to do him the favor to make a division. The Fox\n      accumulated all that they had killed into one large heap and left to\n      himself the smallest possible morsel. The Lion said, \"Who has taught you,\n      my very excellent fellow, the art of division? You are perfect to a\n      fraction.\" He replied, \"I learned it from the Ass, by witnessing his\n      fate.\" Happy is the man who learns from the misfortunes of others."
+}

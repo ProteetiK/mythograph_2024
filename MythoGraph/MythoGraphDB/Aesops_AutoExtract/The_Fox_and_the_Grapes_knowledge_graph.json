@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fox"
+    },
+    {
+      "id": "clusters"
+    }
+  ],
+  "links": [
+    {
+      "source": "fox",
+      "target": "clusters",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FAMISHED FOX saw some clusters of ripe black grapes hanging from a\n      trellised vine. She resorted to all her tricks to get at them, but wearied\n      herself in vain, for she could not reach them. At last she turned away,\n      hiding her disappointment and saying: \"The Grapes are sour, and not ripe\n      as I thought.\""
+}

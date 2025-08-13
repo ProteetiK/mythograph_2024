@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fox"
+    },
+    {
+      "id": "flies"
+    },
+    {
+      "id": "hedgehog"
+    },
+    {
+      "id": "anguish"
+    },
+    {
+      "id": "is"
+    }
+  ],
+  "links": [
+    {
+      "source": "fox",
+      "target": "flies",
+      "label": "carried",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hedgehog",
+      "target": "anguish",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "hedgehog",
+      "target": "is",
+      "label": "speak",
+      "motif": "Guidance",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FOX swimming across a rapid river was carried by the force of the\n      current into a very deep ravine, where he lay for a long time very much\n      bruised, sick, and unable to move. A swarm of hungry blood-sucking flies\n      settled upon him. A Hedgehog, passing by, saw his anguish and inquired if\n      he should drive away the flies that were tormenting him. \"By no means,\"\n       replied the Fox; \"pray do not molest them.\" \"How is this?\" said the\n      Hedgehog; \"do you not want to be rid of them?\" \"No,\" returned the Fox,\n      \"for these flies which you see are full of blood, and sting me but little,\n      and if you rid me of these which are already satiated, others more hungry\n      will come in their place, and will drink up all the blood I have left.\""
+}

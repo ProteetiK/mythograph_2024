@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "dog"
+    },
+    {
+      "id": "egg"
+    },
+    {
+      "id": "oyster"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "torment"
+    }
+  ],
+  "links": [
+    {
+      "source": "dog",
+      "target": "egg",
+      "label": "swallowed",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "dog",
+      "target": "oyster",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "torment",
+      "label": "deserve",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A DOG, used to eating eggs, saw an Oyster and, opening his mouth to its\n      widest extent, swallowed it down with the utmost relish, supposing it to\n      be an egg. Soon afterwards suffering great pain in his stomach, he said,\n      \"I deserve all this torment, for my folly in thinking that everything\n      round must be an egg.\" They who act without sufficient thought, will often fall into unsuspected\n      danger."
+}

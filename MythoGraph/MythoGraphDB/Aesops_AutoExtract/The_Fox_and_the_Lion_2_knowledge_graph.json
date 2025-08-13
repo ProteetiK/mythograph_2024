@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fox"
+    },
+    {
+      "id": "cage"
+    },
+    {
+      "id": "lion"
+    },
+    {
+      "id": "thou mischance"
+    }
+  ],
+  "links": [
+    {
+      "source": "fox",
+      "target": "cage",
+      "label": "##iled",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "lion",
+      "target": "thou mischance",
+      "label": "speak",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FOX saw a Lion confined in a cage, and standing near him, bitterly\n      reviled him. The Lion said to the Fox, \"It is not thou who revilest me;\n      but this mischance which has befallen me.\""
+}

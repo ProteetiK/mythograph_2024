@@ -1,0 +1,129 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "feast"
+    },
+    {
+      "id": "hind paws"
+    },
+    {
+      "id": "friends"
+    },
+    {
+      "id": "dog"
+    },
+    {
+      "id": "himself"
+    },
+    {
+      "id": "master"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "chance"
+    },
+    {
+      "id": "care"
+    },
+    {
+      "id": "yelling"
+    },
+    {
+      "id": "street dogs"
+    },
+    {
+      "id": "supper"
+    },
+    {
+      "id": "wine"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "feast",
+      "label": "invited",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "feast",
+      "label": "give",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "hind paws",
+      "target": "friends",
+      "label": "invite",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "hind paws",
+      "target": "himself",
+      "label": "congratulate",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "hind paws",
+      "target": "supper",
+      "label": "enjoy",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "dog",
+      "target": "himself",
+      "label": "avail",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "master",
+      "target": "feast",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "chance",
+      "label": "get",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "care",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "wine",
+      "label": "drink",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "yelling",
+      "target": "street dogs",
+      "label": "attract",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A RICH MAN gave a great feast, to which he invited many friends and\n      acquaintances. His Dog availed himself of the occasion to invite a\n      stranger Dog, a friend of his, saying, \"My master gives a feast, and there\n      is always much food remaining; come and sup with me tonight.\" The Dog thus\n      invited went at the hour appointed, and seeing the preparations for so\n      grand an entertainment, said in the joy of his heart, \"How glad I am that\n      I came! I do not often get such a chance as this. I will take care and eat\n      enough to last me both today and tomorrow.\" While he was congratulating\n      himself and wagging his tail to convey his pleasure to his friend, the\n      Cook saw him moving about among his dishes and, seizing him by his fore\n      and hind paws, bundled him without ceremony out of the window. He fell\n      with force upon the ground and limped away, howling dreadfully. His\n      yelling soon attracted other street dogs, who came up to him and inquired\n      how he had enjoyed his supper. He replied, \"Why, to tell you the truth, I\n      drank so much wine that I remember nothing. I do not know how I got out of\n      the house.\""
+}

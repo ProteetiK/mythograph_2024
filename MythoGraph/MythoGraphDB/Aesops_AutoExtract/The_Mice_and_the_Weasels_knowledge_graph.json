@@ -1,0 +1,92 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "weasel"
+    },
+    {
+      "id": "mice"
+    },
+    {
+      "id": "weasels"
+    },
+    {
+      "id": "war"
+    },
+    {
+      "id": "cause defeats leaders army dangers lack discipline"
+    },
+    {
+      "id": "leaders"
+    },
+    {
+      "id": "family descent strength counsel courage fight"
+    },
+    {
+      "id": "herald mouse"
+    },
+    {
+      "id": "generals"
+    },
+    {
+      "id": "heads"
+    },
+    {
+      "id": "rout"
+    }
+  ],
+  "links": [
+    {
+      "source": "weasel",
+      "target": "mice",
+      "label": "exposed",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "mice",
+      "target": "cause defeats leaders army dangers lack discipline",
+      "label": "think",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "weasels",
+      "target": "war",
+      "label": "wage",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "leaders",
+      "target": "family descent strength counsel courage fight",
+      "label": "mice",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "herald mouse",
+      "target": "war",
+      "label": "proclaim",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "generals",
+      "target": "heads",
+      "label": "bind",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "rout",
+      "target": "mice",
+      "label": "overwhelm",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE WEASELS and the Mice waged a perpetual war with each other, in which\n      much blood was shed. The Weasels were always the victors. The Mice thought\n      that the cause of their frequent defeats was that they had no leaders set\n      apart from the general army to command them, and that they were exposed to\n      dangers from lack of discipline. They therefore chose as leaders Mice that\n      were most renowned for their family descent, strength, and counsel, as\n      well as those most noted for their courage in the fight, so that they\n      might be better marshaled in battle array and formed into troops,\n      regiments, and battalions. When all this was done, and the army\n      disciplined, and the herald Mouse had duly proclaimed war by challenging\n      the Weasels, the newly chosen generals bound their heads with straws, that\n      they might be more conspicuous to all their troops. Scarcely had the\n      battle begun, when a great rout overwhelmed the Mice, who scampered off as\n      fast as they could to their holes. The generals, not being able to get in\n      on account of the ornaments on their heads, were all captured and eaten by\n      the Weasels. The more honor the more danger."
+}

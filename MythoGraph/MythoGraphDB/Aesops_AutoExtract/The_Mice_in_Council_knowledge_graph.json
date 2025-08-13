@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "mice"
+    },
+    {
+      "id": "council"
+    },
+    {
+      "id": "that"
+    },
+    {
+      "id": "favor"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "cat"
+    }
+  ],
+  "links": [
+    {
+      "source": "mice",
+      "target": "council",
+      "label": "summon",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "that",
+      "target": "favor",
+      "label": "find",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "cat",
+      "label": "bell",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE MICE summoned a council to decide how they might best devise means of\n      warning themselves of the approach of their great enemy the Cat. Among the\n      many plans suggested, the one that found most favor was the proposal to\n      tie a bell to the neck of the Cat, so that the Mice, being warned by the\n      sound of the tinkling, might run away and hide themselves in their holes\n      at his approach. But when the Mice further debated who among them should\n      thus \"bell the Cat,\" there was no one found to do it."
+}

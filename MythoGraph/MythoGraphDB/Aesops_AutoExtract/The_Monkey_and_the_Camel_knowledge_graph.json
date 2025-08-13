@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "beasts"
+    },
+    {
+      "id": "assembly"
+    },
+    {
+      "id": "entertainment"
+    },
+    {
+      "id": "camel"
+    },
+    {
+      "id": "praises monkey favor guests"
+    }
+  ],
+  "links": [
+    {
+      "source": "beasts",
+      "target": "assembly",
+      "label": "sat",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "beasts",
+      "target": "entertainment",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "camel",
+      "target": "praises monkey favor guests",
+      "label": "propose",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE BEASTS of the forest gave a splendid entertainment at which the Monkey\n      stood up and danced. Having vastly delighted the assembly, he sat down\n      amidst universal applause. The Camel, envious of the praises bestowed on\n      the Monkey and desiring to divert to himself the favor of the guests,\n      proposed to stand up in his turn and dance for their amusement. He moved\n      about in so utterly ridiculous a manner that the Beasts, in a fit of\n      indignation, set upon him with clubs and drove him out of the assembly. It is absurd to ape our betters."
+}

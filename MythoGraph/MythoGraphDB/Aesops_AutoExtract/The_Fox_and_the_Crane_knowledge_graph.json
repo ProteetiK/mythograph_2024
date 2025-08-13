@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fox"
+    },
+    {
+      "id": "pulse"
+    },
+    {
+      "id": "crane"
+    },
+    {
+      "id": "neck"
+    }
+  ],
+  "links": [
+    {
+      "source": "fox",
+      "target": "pulse",
+      "label": "invited",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "crane",
+      "label": "invite",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "fox",
+      "target": "neck",
+      "label": "insert",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "crane",
+      "target": "fox",
+      "label": "ask",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FOX invited a Crane to supper and provided nothing for his entertainment\n      but some soup made of pulse, which was poured out into a broad flat stone\n      dish. The soup fell out of the long bill of the Crane at every mouthful,\n      and his vexation at not being able to eat afforded the Fox much amusement.\n      The Crane, in his turn, asked the Fox to sup with him, and set before her\n      a flagon with a long narrow mouth, so that he could easily insert his neck\n      and enjoy its contents at his leisure. The Fox, unable even to taste it,\n      met with a fitting requital, after the fashion of her own hospitality."
+}

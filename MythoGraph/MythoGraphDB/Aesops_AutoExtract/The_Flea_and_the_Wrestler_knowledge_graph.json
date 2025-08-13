@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "flea"
+    },
+    {
+      "id": "hercules"
+    }
+  ],
+  "links": [
+    {
+      "source": "flea",
+      "target": "hercules",
+      "label": "hope",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A FLEA settled upon the bare foot of a Wrestler and bit him, causing the\n      man to call loudly upon Hercules for help. When the Flea a second time\n      hopped upon his foot, he groaned and said, \"O Hercules! if you will not\n      help me against a Flea, how can I hope for your assistance against greater\n      antagonists?\""
+}

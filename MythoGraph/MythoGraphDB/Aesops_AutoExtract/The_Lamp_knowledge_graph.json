@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "it"
+    },
+    {
+      "id": "light"
+    },
+    {
+      "id": "owner"
+    },
+    {
+      "id": "stars"
+    },
+    {
+      "id": "be"
+    }
+  ],
+  "links": [
+    {
+      "source": "it",
+      "target": "light",
+      "label": "give",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "owner",
+      "target": "it",
+      "label": "light",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "stars",
+      "target": "be",
+      "label": "need",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A LAMP, soaked with too much oil and flaring brightly, boasted that it\n      gave more light than the sun. Then a sudden puff of wind arose, and the\n      Lamp was immediately extinguished. Its owner lit it again, and said:\n      \"Boast no more, but henceforth be content to give thy light in silence.\n      Know that not even the stars need to be relit.\""
+}
