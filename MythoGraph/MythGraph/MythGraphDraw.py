@@ -42,40 +42,6 @@ def save_graph_to_json(G, filepath, myth_text=""):
     with open(filepath, "w") as f:
         json.dump(data, f, indent=2)
 
-# def draw_graph(G, title="Knowledge Graph"):
-#     pos = nx.spring_layout(G, seed=123, k=2)
-#     fig, ax = plt.subplots(figsize=(12, 8))
-#     nx.draw_networkx_nodes(G, pos, node_color='#FFBF00', node_size=500, ax=ax, alpha=0.2)
-#     nx.draw_networkx_labels(G, pos, font_size=15, ax=ax)
-#     edge_count = defaultdict(int)
-#     for u, v, k, data in G.edges(keys=True, data=True):
-#         source = u
-#         target = v
-#         label = data.get('label', '')
-#         motif = data.get('motif', '')
-#         rel = label
-#         if motif:
-#             rel = f"{label} / {motif}"
-#         edge_count[(u, v)] += 1
-#         rad = 0.15 * edge_count[(u, v)]
-#         nx.draw_networkx_edges(
-#             G, pos,
-#             edgelist=[(u, v)],
-#             connectionstyle=f'arc3,rad={rad}',
-#             arrowstyle='-|>',
-#             arrowsize=20,
-#             edge_color='gray',
-#             ax=ax
-#         )
-#         mid_x = (pos[u][0] + pos[v][0]) / 2
-#         mid_y = (pos[u][1] + pos[v][1]) / 2 + rad * 0.5
-#         ax.text(mid_x, mid_y, rel, fontsize=12, color='red', ha='center',
-#                 bbox=dict(facecolor='white', alpha=0.6, edgecolor='none'))
-#     ax.set_title(title)
-#     ax.axis('off')
-#     fig.tight_layout()
-#     return fig
-
 def draw_graph(G, title="Knowledge Graph"):
     pos = nx.spring_layout(G, seed=123, k=2)
     fig, ax = plt.subplots(figsize=(12, 8))
