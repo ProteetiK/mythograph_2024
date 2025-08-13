@@ -1,0 +1,64 @@
+ID,Title,AnonSim,SurfaceSim,OppositionSim,TextSim,JaccardSim,FinalScore,Result,ABC
+aesops1,The Wolf And The Lamb,41.74,64.82,14.29,1,0,31.24,FAIL,46.356
+aesops2,The Bat And The Weasels,69.65,67.85,60,1,0,57.28,FAIL,69.29
+aesops3,The Ass And The Grasshopper,40.56,43.84,0,1,0,26.63,FAIL,41.216
+aesops4,The Lion And The Mouse,60.47,63.73,0,1,0,39.57,FAIL,61.122
+aesops5,The Charcoal-Burner And The Fuller,52.29,44.76,-1,1,0,33.51,FAIL,50.784
+aesops6,The Father And His Sons,83.61,69.77,33.33,1,0.25,61.67,PASS,80.842
+aesops7,The Boy Hunting Locusts,67.78,68.89,-1,1,0.25,45.26,FAIL,68.002
+aesops8,The Cock and the Jewel,81.88,83.02,-1,1,0,53.18,FAIL,82.108
+aesops9,The Kingdom of the Lion,47.8,51.94,100,1,0.1111,51.93,FAIL,48.628
+aesops10,The Wolf and the Crane,69.97,67.24,40,1,0,53.44,FAIL,69.424
+aesops11,The Fisherman Piping,74.06,73.31,-1,1,1,53,FAIL,73.91
+aesops12,Hercules and the Wagoner,68.41,75.89,-1,1,0,44.74,FAIL,69.906
+aesops13,The Ants and the Grasshopper,85.85,79.82,0,1,0.25,56.85,FAIL,84.644
+aesops14,The Traveler and His Dog,54.85,56.71,-1,1,0.25,36.9,FAIL,55.222
+aesops15,The Dog and the Shadow,71.93,66.86,33.33,1,0.2,54.27,FAIL,70.916
+aesops16,The Mole and His Mother,63.14,64.94,33.33,1,0,47.9,FAIL,63.5
+aesops17,The Herdsman and the Lost Bull,44.36,36.91,0,1,0,28.56,FAIL,42.87
+aesops18,The Hare and the Tortoise,48.5,42.9,20,1,0,35.34,FAIL,47.38
+aesops19,"The Pomegranate, Apple-Tree, and Bramble",0,0,-1,1,0,0,FAIL,0
+aesops20,The Farmer and the Stork,65.69,54.57,33.33,1,0.2,49.91,FAIL,63.466
+aesops21,The Farmer and the Snake,66.44,81.45,-1,1,0,43.84,FAIL,69.442
+aesops22,The Fawn and His Mother,0,0,-1,1,0,0,FAIL,0
+aesops23,The Bear and the Fox,81.52,83.43,0,1,0.1429,53.9,FAIL,81.902
+aesops24,The Swallow and the Crow,78.19,75.51,33.33,1,0,57.46,FAIL,77.654
+aesops25,The Mountain in Labor,100,100,-1,1,0,64.9,PASS,100
+aesops26,"The Ass, the Fox, and the Lion",52.19,57.25,-1,1,0,34.08,FAIL,53.202
+aesops27,The Tortoise and the Eagle,49.67,46.8,0,1,0,32.24,FAIL,49.096
+aesops28,The Flies and the Honey-Pot,0,0,-1,1,0,0,FAIL,0
+aesops29,The Man and the Lion,60.13,69.82,-1,1,0,39.47,FAIL,62.068
+aesops30,The Farmer and the Cranes,70.39,30.48,40,1,0,51.86,FAIL,62.408
+aesops31,The Dog in the Manger,81.22,71.76,-1,1,0,52.22,FAIL,79.328
+aesops32,The Fox and the Goat,53.04,59.88,100,1,0,54.92,FAIL,54.408
+aesops33,The Bear and the Two Travelers,47.64,30.97,20,1,0,34.23,FAIL,44.306
+aesops34,The Oxen and the Axle-Trees,69.92,61.47,-1,1,0.2,45.93,FAIL,68.23
+aesops35,The Thirsty Pigeon,41.97,17.68,100,1,0.1667,47,FAIL,37.112
+aesops36,The Raven and the Swan,75.5,70.99,100,1,0.2,69.95,PASS,74.598
+aesops37,The Goat and the Goatherd,0,0,-1,1,0,0,FAIL,0
+aesops38,The Miser,63.76,41.17,20,1,0,44.41,FAIL,59.242
+aesops39,The Sick Lion,63.28,53.44,33.33,1,0.25,48.66,FAIL,61.312
+aesops40,The Horse and Groom,56.68,65.33,-1,1,0.2,38.17,FAIL,58.41
+aesops41,The Ass and the Lapdog,50.08,40.08,20,1,0,36.15,FAIL,48.08
+aesops42,The Lioness,59.46,67.76,-1,1,0,38.96,FAIL,61.12
+aesops43,The Boasting Traveler,31.38,28.52,-1,1,0,20.15,FAIL,30.808
+aesops44,The Cat and the Cock,67.4,67.55,66.67,1,0.3333,58.92,FAIL,67.43
+aesops45,"The Piglet, the Sheep, and the Goat",74.46,67.32,100,1,0,68.14,PASS,73.032
+aesops46,The Boy and the Filberts,95.25,60.02,-1,1,0,60.05,PASS,88.204
+aesops47,The Lion in Love,55.7,46.99,-1,1,0.1667,36.5,FAIL,53.958
+aesops48,The Laborer and the Snake,71.31,70.82,-1,1,0,46.23,FAIL,71.212
+aesops49,The Wolf in Sheep's Clothing,70.85,80.44,-1,1,0,46.43,FAIL,72.768
+aesops50,The Ass and the Mule,44.56,51.32,16.67,1,0,32.74,FAIL,45.912
+aesops51,The Frogs Asking for a King,60.75,58.75,66.67,1,0,52.82,FAIL,60.35
+aesops52,The Boys and the Frogs,66.1,65.9,-1,1,0,42.86,FAIL,66.06
+aesops53,The Sick Stag,49.14,50.98,-1,1,0,31.93,FAIL,49.508
+aesops54,The Salt Merchant and His Ass,33.94,45.04,0,1,0,22.72,FAIL,36.16
+aesops55,The Oxen and the Butchers,75.8,72.74,-1,1,0.4,51.02,FAIL,75.188
+aesops56,"The Lion, the Mouse, and the Fox",63.62,73.55,-1,1,0.25,43,FAIL,65.606
+aesops57,The Vain Jackdaw,65.28,61.66,20,1,0,46.35,FAIL,64.556
+aesops58,The Goatherd and the Wild Goats,48.68,56.91,0,1,0.2,33.15,FAIL,50.326
+aesops59,The Mischievous Dog,66.53,60.08,-1,1,0.2,43.82,FAIL,65.24
+aesops60,The Fox Who Had Lost His Tail,67.84,73.5,25,1,0,49.48,FAIL,68.972
+aesops61,The Boy and the Nettles,32.75,56.51,-1,1,0,22.38,FAIL,37.502
+aesops62,The Man and His Two Sweethearts,41.67,29.62,-1,1,0,26.38,FAIL,39.26
+aesops63,The Astronomer,80.52,90.03,-1,1,0.2,53.71,FAIL,82.422
