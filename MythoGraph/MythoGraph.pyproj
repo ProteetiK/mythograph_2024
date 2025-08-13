@@ -1,0 +1,133 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c3b63431-1ed6-4cee-a4a7-07c973c294bd</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>app.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>MythoGraph</Name>
+    <RootNamespace>MythoGraph</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="MythExtraction\MythExtract.py" />
+    <Compile Include="MythExtraction\MythExtractEval.py" />
+    <Compile Include="MythExtraction\MythExtractIsomorphism.py" />
+    <Compile Include="MythExtraction\MythExtractUtil.py" />
+    <Compile Include="MythGraph\MythGraphDraw.py" />
+    <Compile Include="MythIsomorphism\MythIsomorphismUtil.py" />
+    <Compile Include="MythModelTrain\TripleTrainer.py" />
+    <Compile Include="MythoGraphDB\Utility\ExtractBerezKinMotif.py" />
+    <Compile Include="MythoMapping\Mapping.py" />
+    <Compile Include="MythoMapping\MappingHelper.py" />
+    <Compile Include="app.py" />
+    <Compile Include="pages\1_View_Myths_in_DB.py" />
+    <Compile Include="pages\2_View_Isomorphic_Clusters.py" />
+    <Compile Include="MythModelTrain\MotifTrainer.py" />
+    <Compile Include="tests\test_cluster_formation.py" />
+    <Compile Include="tests\test_knowledge_graph.py" />
+    <Compile Include="tests\test_visualizations.py" />
+    <Compile Include="tests\test_visualization_aesops.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MythIsomorphism\" />
+    <Folder Include="MythoGraphDB\" />
+    <Folder Include=".streamlit\" />
+    <Folder Include="MythoGraphDB\Utility\" />
+    <Folder Include="MythoMapping\" />
+    <Folder Include="MythExtraction\" />
+    <Folder Include="MythGraph\" />
+    <Folder Include="MythModelTrain\" />
+    <Folder Include="tests\" />
+    <Folder Include="pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".streamlit\config.toml" />
+    <Content Include="MythoGraphDB\aesops10.json" />
+    <Content Include="MythoGraphDB\aesops11.json" />
+    <Content Include="MythoGraphDB\aesops12.json" />
+    <Content Include="MythoGraphDB\aesops13.json" />
+    <Content Include="MythoGraphDB\aesops14.json" />
+    <Content Include="MythoGraphDB\aesops15.json" />
+    <Content Include="MythoGraphDB\aesops16.json" />
+    <Content Include="MythoGraphDB\aesops17.json" />
+    <Content Include="MythoGraphDB\aesops18.json" />
+    <Content Include="MythoGraphDB\aesops19.json" />
+    <Content Include="MythoGraphDB\aesops20.json" />
+    <Content Include="MythoGraphDB\aesops21.json" />
+    <Content Include="MythoGraphDB\aesops22.json" />
+    <Content Include="MythoGraphDB\aesops23.json" />
+    <Content Include="MythoGraphDB\aesops24.json" />
+    <Content Include="MythoGraphDB\aesops25.json" />
+    <Content Include="MythoGraphDB\aesops26.json" />
+    <Content Include="MythoGraphDB\aesops27.json" />
+    <Content Include="MythoGraphDB\aesops28.json" />
+    <Content Include="MythoGraphDB\aesops29.json" />
+    <Content Include="MythoGraphDB\aesops30.json" />
+    <Content Include="MythoGraphDB\aesops31.json" />
+    <Content Include="MythoGraphDB\aesops32.json" />
+    <Content Include="MythoGraphDB\aesops33.json" />
+    <Content Include="MythoGraphDB\aesops34.json" />
+    <Content Include="MythoGraphDB\aesops35.json" />
+    <Content Include="MythoGraphDB\aesops36.json" />
+    <Content Include="MythoGraphDB\aesops37.json" />
+    <Content Include="MythoGraphDB\aesops38.json" />
+    <Content Include="MythoGraphDB\aesops39.json" />
+    <Content Include="MythoGraphDB\aesops40.json" />
+    <Content Include="MythoGraphDB\aesops41.json" />
+    <Content Include="MythoGraphDB\aesops42.json" />
+    <Content Include="MythoGraphDB\aesops43.json" />
+    <Content Include="MythoGraphDB\aesops44.json" />
+    <Content Include="MythoGraphDB\aesops45.json" />
+    <Content Include="MythoGraphDB\aesops46.json" />
+    <Content Include="MythoGraphDB\aesops47.json" />
+    <Content Include="MythoGraphDB\aesops48.json" />
+    <Content Include="MythoGraphDB\aesops49.json" />
+    <Content Include="MythoGraphDB\aesops50.json" />
+    <Content Include="MythoGraphDB\aesops51.json" />
+    <Content Include="MythoGraphDB\aesops52.json" />
+    <Content Include="MythoGraphDB\aesops53.json" />
+    <Content Include="MythoGraphDB\aesops54.json" />
+    <Content Include="MythoGraphDB\aesops55.json" />
+    <Content Include="MythoGraphDB\aesops56.json" />
+    <Content Include="MythoGraphDB\aesops57.json" />
+    <Content Include="MythoGraphDB\aesops58.json" />
+    <Content Include="MythoGraphDB\aesops59.json" />
+    <Content Include="MythoGraphDB\aesops6.json" />
+    <Content Include="MythoGraphDB\aesops1.json" />
+    <Content Include="MythoGraphDB\aesops2.json" />
+    <Content Include="MythoGraphDB\aesops3.json" />
+    <Content Include="MythoGraphDB\aesops4.json" />
+    <Content Include="MythoGraphDB\aesops5.json" />
+    <Content Include="MythoGraphDB\aesops60.json" />
+    <Content Include="MythoGraphDB\aesops61.json" />
+    <Content Include="MythoGraphDB\aesops62.json" />
+    <Content Include="MythoGraphDB\aesops63.json" />
+    <Content Include="MythoGraphDB\aesops7.json" />
+    <Content Include="MythoGraphDB\aesops8.json" />
+    <Content Include="MythoGraphDB\aesops9.json" />
+    <Content Include="README.md" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
