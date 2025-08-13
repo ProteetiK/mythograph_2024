@@ -46,7 +46,6 @@ def evaluate_extraction_accuracy(text, extract_function, db_folder="MythoGraphDB
     if not matched:
         print("No matching mythograph found in DB.")
         return None
-    #print(f"Matching myth found: {matched.get('myth_text')[:60]}...")
     extracted_triples = extract_function(text)
     ref_triples = matched.get("links", [])
     def dict_triple_to_tuple(d):
