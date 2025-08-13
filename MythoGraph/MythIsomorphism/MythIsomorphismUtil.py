@@ -419,7 +419,8 @@ def get_similarity_scores(current_graph_json, other_graph_json):
     jaccard_sim_anon = jaccard_similarity_wl(predicted_graph_anon, ref_graph_anon)
     jaccard_sim_surface = jaccard_similarity_wl(predicted_graph_surface, ref_graph_surface)
 
-    jaccard_sim = (jaccard_sim_anon+jaccard_sim_surface)/2.0
+    #jaccard_sim = (jaccard_sim_anon+jaccard_sim_surface)/2.0
+    jaccard_sim = jaccard_sim_anon
     return anon_sim, surf_sim, opposition_sim, jaccard_sim
 
 def strip_extension(filename):
