@@ -1,0 +1,69 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "dove"
+    },
+    {
+      "id": "leaf"
+    },
+    {
+      "id": "dove tree water"
+    },
+    {
+      "id": "design"
+    },
+    {
+      "id": "ant"
+    },
+    {
+      "id": "birdcatcher"
+    },
+    {
+      "id": "twigs"
+    },
+    {
+      "id": "wing"
+    }
+  ],
+  "links": [
+    {
+      "source": "dove",
+      "target": "leaf",
+      "label": "climbed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "dove",
+      "target": "wing",
+      "label": "take",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "dove tree water",
+      "target": "leaf",
+      "label": "pluck",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "design",
+      "target": "ant",
+      "label": "sting",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "birdcatcher",
+      "target": "twigs",
+      "label": "throw",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN ANT went to the bank of a river to quench its thirst, and being carried\n      away by the rush of the stream, was on the point of drowning. A Dove\n      sitting on a tree overhanging the water plucked a leaf and let it fall\n      into the stream close to her. The Ant climbed onto it and floated in\n      safety to the bank. Shortly afterwards a birdcatcher came and stood under\n      the tree, and laid his lime-twigs for the Dove, which sat in the branches.\n      The Ant, perceiving his design, stung him in the foot. In pain the\n      birdcatcher threw down the twigs, and the noise made the Dove take wing."
+}

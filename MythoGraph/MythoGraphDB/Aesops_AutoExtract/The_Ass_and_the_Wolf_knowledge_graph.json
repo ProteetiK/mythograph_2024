@@ -1,0 +1,136 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "ass"
+    },
+    {
+      "id": "thorn"
+    },
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "cause"
+    },
+    {
+      "id": "hedge trod foot thorn"
+    },
+    {
+      "id": "trod"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "throat"
+    },
+    {
+      "id": "teeth"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "art"
+    },
+    {
+      "id": "father"
+    },
+    {
+      "id": "me"
+    },
+    {
+      "id": "trade"
+    }
+  ],
+  "links": [
+    {
+      "source": "ass",
+      "target": "thorn",
+      "label": "pull",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "wolf",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "hedge trod foot thorn",
+      "label": "reply",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "ass",
+      "target": "teeth",
+      "label": "kick",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "cause",
+      "label": "inquire",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "trod",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "it",
+      "label": "pull",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "wolf",
+      "label": "eat",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "it",
+      "target": "throat",
+      "label": "injure",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "art",
+      "label": "attempt",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "me",
+      "label": "teach",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "father",
+      "target": "trade",
+      "label": "teach",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN ASS feeding in a meadow saw a Wolf approaching to seize him, and\n      immediately pretended to be lame. The Wolf, coming up, inquired the cause\n      of his lameness. The Ass replied that passing through a hedge he had trod\n      with his foot upon a sharp thorn. He requested that the Wolf pull it out,\n      lest when he ate him it should injure his throat. The Wolf consented and\n      lifted up the foot, and was giving his whole mind to the discovery of the\n      thorn, when the Ass, with his heels, kicked his teeth into his mouth and\n      galloped away. The Wolf, being thus fearfully mauled, said, \"I am rightly\n      served, for why did I attempt the art of healing, when my father only\n      taught me the trade of a butcher?\""
+}

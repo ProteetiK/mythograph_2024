@@ -1,0 +1,30 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bitch"
+    },
+    {
+      "id": "shepherd"
+    }
+  ],
+  "links": [
+    {
+      "source": "bitch",
+      "target": "shepherd",
+      "label": "consent",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bitch",
+      "target": "shepherd",
+      "label": "beg",
+      "motif": "Appeal",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BITCH, ready to whelp, earnestly begged a shepherd for a place where she\n      might litter. When her request was granted, she besought permission to\n      rear her puppies in the same spot. The shepherd again consented. But at\n      last the Bitch, protected by the bodyguard of her Whelps, who had now\n      grown up and were able to defend themselves, asserted her exclusive right\n      to the place and would not permit the shepherd to approach."
+}

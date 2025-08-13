@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "who"
+    },
+    {
+      "id": "king"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "present"
+    },
+    {
+      "id": "flatterer"
+    },
+    {
+      "id": "reward"
+    },
+    {
+      "id": "great"
+    }
+  ],
+  "links": [
+    {
+      "source": "who",
+      "target": "king",
+      "label": "raise",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "king",
+      "label": "seem",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "present",
+      "target": "flatterer",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "reward",
+      "target": "great",
+      "label": "give",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "TWO MEN, one who always spoke the truth and the other who told nothing but\n      lies, were traveling together and by chance came to the land of Apes. One\n      of the Apes, who had raised himself to be king, commanded them to be\n      seized and brought before him, that he might know what was said of him\n      among men. He ordered at the same time that all the Apes be arranged in a\n      long row on his right hand and on his left, and that a throne be placed\n      for him, as was the custom among men. After these preparations he\n      signified that the two men should be brought before him, and greeted them\n      with this salutation: \"What sort of a king do I seem to you to be, O\n      strangers?\" The Lying Traveler replied, \"You seem to me a most mighty\n      king.\" \"And what is your estimate of those you see around me?\" \"These,\" he\n      made answer, \"are worthy companions of yourself, fit at least to be\n      ambassadors and leaders of armies.\" The Ape and all his court, gratified\n      with the lie, commanded that a handsome present be given to the flatterer.\n      On this the truthful Traveler thought to himself, \"If so great a reward be\n      given for a lie, with what gift may not I be rewarded, if, according to my\n      custom, I tell the truth?\" The Ape quickly turned to him. \"And pray how do\n      I and these my friends around me seem to you?\" \"Thou art,\" he said, \"a\n      most excellent Ape, and all these thy companions after thy example are\n      excellent Apes too.\" The King of the Apes, enraged at hearing these\n      truths, gave him over to the teeth and claws of his companions."
+}

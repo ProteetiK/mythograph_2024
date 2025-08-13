@@ -1,0 +1,90 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bee"
+    },
+    {
+      "id": "jupiter"
+    },
+    {
+      "id": "whatever"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "thee"
+    },
+    {
+      "id": "race"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "sting"
+    }
+  ],
+  "links": [
+    {
+      "source": "bee",
+      "target": "jupiter",
+      "label": "ascended",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "whatever",
+      "label": "ask",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "jupiter",
+      "label": "besought",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "race",
+      "label": "love",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "bee",
+      "label": "answer",
+      "motif": "Communication",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "thee",
+      "label": "pray",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "i",
+      "target": "jupiter",
+      "label": "kill",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "sting",
+      "label": "use",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BEE from Mount Hymettus, the queen of the hive, ascended to Olympus to\n      present Jupiter some honey fresh from her combs. Jupiter, delighted with\n      the offering of honey, promised to give whatever she should ask. She\n      therefore besought him, saying, \"Give me, I pray thee, a sting, that if\n      any mortal shall approach to take my honey, I may kill him.\" Jupiter was\n      much displeased, for he loved the race of man, but could not refuse the\n      request because of his promise. He thus answered the Bee: \"You shall have\n      your request, but it will be at the peril of your own life. For if you use\n      your sting, it shall remain in the wound you make, and then you will die\n      from the loss of it.\" Evil wishes, like chickens, come home to roost."
+}

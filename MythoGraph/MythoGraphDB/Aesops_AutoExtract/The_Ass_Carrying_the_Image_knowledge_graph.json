@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "crowd"
+    },
+    {
+      "id": "prostration"
+    },
+    {
+      "id": "driver"
+    },
+    {
+      "id": "whip"
+    }
+  ],
+  "links": [
+    {
+      "source": "crowd",
+      "target": "prostration",
+      "label": "make",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "driver",
+      "target": "whip",
+      "label": "lay",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN ASS once carried through the streets of a city a famous wooden Image,\n      to be placed in one of its Temples. As he passed along, the crowd made\n      lowly prostration before the Image. The Ass, thinking that they bowed\n      their heads in token of respect for himself, bristled up with pride, gave\n      himself airs, and refused to move another step. The driver, seeing him\n      thus stop, laid his whip lustily about his shoulders and said, \"O you\n      perverse dull-head! it is not yet come to this, that men pay worship to an\n      Ass.\" They are not wise who give to themselves the credit due to others."
+}

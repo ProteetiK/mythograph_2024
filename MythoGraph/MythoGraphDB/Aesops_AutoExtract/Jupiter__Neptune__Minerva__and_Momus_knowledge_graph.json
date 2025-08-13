@@ -1,0 +1,126 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "jupiter"
+    },
+    {
+      "id": "minerva"
+    },
+    {
+      "id": "momus"
+    },
+    {
+      "id": "handicraft"
+    },
+    {
+      "id": "fault"
+    },
+    {
+      "id": "work"
+    },
+    {
+      "id": "horns"
+    },
+    {
+      "id": "heart"
+    },
+    {
+      "id": "everyone"
+    },
+    {
+      "id": "thoughts"
+    },
+    {
+      "id": "iron wheels"
+    },
+    {
+      "id": "neighbor"
+    },
+    {
+      "id": "unpleasant"
+    }
+  ],
+  "links": [
+    {
+      "source": "jupiter",
+      "target": "minerva",
+      "label": "dispute",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "work",
+      "label": "blame",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "work",
+      "label": "condemn",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "horns",
+      "label": "make",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "heart",
+      "label": "place",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "iron wheels",
+      "label": "contrive",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "jupiter",
+      "label": "drive",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "momus",
+      "target": "handicraft",
+      "label": "find",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "momus",
+      "target": "fault",
+      "label": "find",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "everyone",
+      "target": "thoughts",
+      "label": "read",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "neighbor",
+      "target": "unpleasant",
+      "label": "prove",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "ACCORDING to an ancient legend, the first man was made by Jupiter, the\n      first bull by Neptune, and the first house by Minerva. On the completion\n      of their labors, a dispute arose as to which had made the most perfect\n      work. They agreed to appoint Momus as judge, and to abide by his decision.\n      Momus, however, being very envious of the handicraft of each, found fault\n      with all. He first blamed the work of Neptune because he had not made the\n      horns of the bull below his eyes, so he might better see where to strike.\n      He then condemned the work of Jupiter, because he had not placed the heart\n      of man on the outside, that everyone might read the thoughts of the evil\n      disposed and take precautions against the intended mischief. And, lastly,\n      he inveighed against Minerva because she had not contrived iron wheels in\n      the foundation of her house, so its inhabitants might more easily remove\n      if a neighbor proved unpleasant. Jupiter, indignant at such inveterate\n      faultfinding, drove him from his office of judge, and expelled him from\n      the mansions of Olympus."
+}

@@ -1,0 +1,121 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "nobleman"
+    },
+    {
+      "id": "performers"
+    },
+    {
+      "id": "theaters"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "amusement"
+    },
+    {
+      "id": "report"
+    },
+    {
+      "id": "stir"
+    },
+    {
+      "id": "buffoon"
+    },
+    {
+      "id": "alone"
+    },
+    {
+      "id": "sense"
+    },
+    {
+      "id": "silence"
+    },
+    {
+      "id": "imitation"
+    },
+    {
+      "id": "rustic"
+    },
+    {
+      "id": "pig"
+    },
+    {
+      "id": "proof"
+    },
+    {
+      "id": "greatness"
+    }
+  ],
+  "links": [
+    {
+      "source": "nobleman",
+      "target": "performers",
+      "label": "contend",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "nobleman",
+      "target": "theaters",
+      "label": "open",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "amusement",
+      "label": "invent",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "report",
+      "target": "stir",
+      "label": "make",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "buffoon",
+      "target": "alone",
+      "label": "appear",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "buffoon",
+      "target": "imitation",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "sense",
+      "target": "silence",
+      "label": "cause",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "rustic",
+      "target": "pig",
+      "label": "produce",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "proof",
+      "target": "greatness",
+      "label": "show",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A RICH NOBLEMAN once opened the theaters without charge to the people, and\n      gave a public notice that he would handsomely reward any person who\n      invented a new amusement for the occasion. Various public performers\n      contended for the prize. Among them came a Buffoon well known among the\n      populace for his jokes, and said that he had a kind of entertainment which\n      had never been brought out on any stage before. This report being spread\n      about made a great stir, and the theater was crowded in every part. The\n      Buffoon appeared alone upon the platform, without any apparatus or\n      confederates, and the very sense of expectation caused an intense silence.\n      He suddenly bent his head towards his bosom and imitated the squeaking of\n      a little pig so admirably with his voice that the audience declared he had\n      a porker under his cloak, and demanded that it should be shaken out. When\n      that was done and nothing was found, they cheered the actor, and loaded\n      him with the loudest applause. A Countryman in the crowd, observing all\n      that has passed, said, \"So help me, Hercules, he shall not beat me at that\n      trick!\" and at once proclaimed that he would do the same thing on the next\n      day, though in a much more natural way. On the morrow a still larger crowd\n      assembled in the theater, but now partiality for their favorite actor very\n      generally prevailed, and the audience came rather to ridicule the\n      Countryman than to see the spectacle. Both of the performers appeared on\n      the stage. The Buffoon grunted and squeaked away first, and obtained, as\n      on the preceding day, the applause and cheers of the spectators. Next the\n      Countryman commenced, and pretending that he concealed a little pig\n      beneath his clothes (which in truth he did, but not suspected by the\n      audience ) contrived to take hold of and to pull his ear causing the pig\n      to squeak. The Crowd, however, cried out with one consent that the Buffoon\n      had given a far more exact imitation, and clamored for the Countryman to\n      be kicked out of the theater. On this the rustic produced the little pig\n      from his cloak and showed by the most positive proof the greatness of\n      their mistake. \"Look here,\" he said, \"this shows what sort of judges you\n      are.\""
+}

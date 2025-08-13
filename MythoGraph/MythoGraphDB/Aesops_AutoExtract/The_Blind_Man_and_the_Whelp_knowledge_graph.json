@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "wolf"
+    },
+    {
+      "id": "whelp"
+    },
+    {
+      "id": "it"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "wolf",
+      "label": "doubt",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "it",
+      "label": "feel",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "wolf",
+      "target": "it",
+      "label": "feel",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "whelp",
+      "target": "wolf",
+      "label": "bring",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BLIND MAN was accustomed to distinguishing different animals by touching\n      them with his hands. The whelp of a Wolf was brought him, with a request\n      that he would feel it, and say what it was. He felt it, and being in\n      doubt, said: \"I do not quite know whether it is the cub of a Fox, or the\n      whelp of a Wolf, but this I know full well. It would not be safe to admit\n      him to the sheepfold.\" Evil tendencies are shown in early life."
+}

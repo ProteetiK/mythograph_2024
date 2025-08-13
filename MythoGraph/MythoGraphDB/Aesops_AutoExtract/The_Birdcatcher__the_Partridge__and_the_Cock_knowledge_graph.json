@@ -1,0 +1,49 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "##cher"
+    },
+    {
+      "id": "partridge"
+    },
+    {
+      "id": "birdcatcher"
+    },
+    {
+      "id": "life"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "appearance"
+    }
+  ],
+  "links": [
+    {
+      "source": "##cher",
+      "target": "partridge",
+      "label": "##ated",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "birdcatcher",
+      "target": "life",
+      "label": "spare",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "appearance",
+      "label": "announce",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BIRDCATCHER was about to sit down to a dinner of herbs when a friend\n      unexpectedly came in. The bird-trap was quite empty, as he had caught\n      nothing, and he had to kill a pied Partridge, which he had tamed for a\n      decoy. The bird entreated earnestly for his life: \"What would you do\n      without me when next you spread your nets? Who would chirp you to sleep,\n      or call for you the covey of answering birds?\" The Birdcatcher spared his\n      life, and determined to pick out a fine young Cock just attaining to his\n      comb. But the Cock expostulated in piteous tones from his perch: \"If you\n      kill me, who will announce to you the appearance of the dawn? Who will\n      wake you to your daily tasks or tell you when it is time to visit the\n      bird-trap in the morning?\" He replied, \"What you say is true. You are a\n      capital bird at telling the time of day. But my friend and I must have our\n      dinners.\" Necessity knows no law."
+}

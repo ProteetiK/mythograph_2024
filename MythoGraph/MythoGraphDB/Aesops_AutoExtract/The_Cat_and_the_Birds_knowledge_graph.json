@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "cat"
+    },
+    {
+      "id": "inmates"
+    }
+  ],
+  "links": [
+    {
+      "source": "cat",
+      "target": "inmates",
+      "label": "inquired",
+      "motif": "Trickery",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A CAT, hearing that the Birds in a certain aviary were ailing dressed\n      himself up as a physician, and, taking his cane and a bag of instruments\n      becoming his profession, went to call on them. He knocked at the door and\n      inquired of the inmates how they all did, saying that if they were ill, he\n      would be happy to prescribe for them and cure them. They replied, \"We are\n      all very well, and shall continue so, if you will only be good enough to\n      go away, and leave us as we are.\""
+}

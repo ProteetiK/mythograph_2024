@@ -1,0 +1,73 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "##man"
+    },
+    {
+      "id": "mercury"
+    },
+    {
+      "id": "workman"
+    },
+    {
+      "id": "axe drop accident pool"
+    },
+    {
+      "id": "was"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "axe"
+    }
+  ],
+  "links": [
+    {
+      "source": "##man",
+      "target": "mercury",
+      "label": "demanded",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "mercury",
+      "target": "axe",
+      "label": "take",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "workman",
+      "target": "axe drop accident pool",
+      "label": "let",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "workman",
+      "target": "was",
+      "label": "speak",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "workman",
+      "target": "it",
+      "label": "claim",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "workman",
+      "target": "it",
+      "label": "seize",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A WORKMAN, felling wood by the side of a river, let his axe drop by\n      accident into a deep pool. Being thus deprived of the means of his\n      livelihood, he sat down on the bank and lamented his hard fate. Mercury\n      appeared and demanded the cause of his tears. After he told him his\n      misfortune, Mercury plunged into the stream, and, bringing up a golden\n      axe, inquired if that were the one he had lost. On his saying that it was\n      not his, Mercury disappeared beneath the water a second time, returned\n      with a silver axe in his hand, and again asked the Workman if it were his.\n      When the Workman said it was not, he dived into the pool for the third\n      time and brought up the axe that had been lost. The Workman claimed it and\n      expressed his joy at its recovery. Mercury, pleased with his honesty, gave\n      him the golden and silver axes in addition to his own. The Workman, on his\n      return to his house, related to his companions all that had happened. One\n      of them at once resolved to try and secure the same good fortune for\n      himself. He ran to the river and threw his axe on purpose into the pool at\n      the same place, and sat down on the bank to weep. Mercury appeared to him\n      just as he hoped he would; and having learned the cause of his grief,\n      plunged into the stream and brought up a golden axe, inquiring if he had\n      lost it. The Workman seized it greedily, and declared that truly it was\n      the very same axe that he had lost. Mercury, displeased at his knavery,\n      not only took away the golden axe, but refused to recover for him the axe\n      he had thrown into the pool."
+}

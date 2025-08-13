@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "birds"
+    },
+    {
+      "id": "beasts"
+    },
+    {
+      "id": "war"
+    },
+    {
+      "id": "bat"
+    },
+    {
+      "id": "was"
+    }
+  ],
+  "links": [
+    {
+      "source": "birds",
+      "target": "beasts",
+      "label": "wage",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "birds",
+      "target": "war",
+      "label": "wage",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "bat",
+      "target": "was",
+      "label": "fight",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "THE BIRDS waged war with the Beasts, and each were by turns the\n      conquerors. A Bat, fearing the uncertain issues of the fight, always\n      fought on the side which he felt was the strongest. When peace was\n      proclaimed, his deceitful conduct was apparent to both combatants.\n      Therefore being condemned by each for his treachery, he was driven forth\n      from the light of day, and henceforth concealed himself in dark\n      hiding-places, flying always alone and at night."
+}

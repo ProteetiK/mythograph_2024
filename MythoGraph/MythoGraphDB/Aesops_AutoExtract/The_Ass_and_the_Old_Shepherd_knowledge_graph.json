@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "shepherd"
+    },
+    {
+      "id": "enemy"
+    },
+    {
+      "id": "conqueror"
+    },
+    {
+      "id": "sets"
+    }
+  ],
+  "links": [
+    {
+      "source": "shepherd",
+      "target": "enemy",
+      "label": "appealed",
+      "motif": "Appeal",
+      "weight": 0.9
+    },
+    {
+      "source": "conqueror",
+      "target": "sets",
+      "label": "place",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A SHEPHERD, watching his Ass feeding in a meadow, was alarmed all of a\n      sudden by the cries of the enemy. He appealed to the Ass to fly with him,\n      lest they should both be captured, but the animal lazily replied, \"Why\n      should I, pray? Do you think it likely the conqueror will place on me two\n      sets of panniers?\" \"No,\" rejoined the Shepherd. \"Then,\" said the Ass, \"as\n      long as I carry the panniers, what matters it to me whom I serve?\" In a change of government the poor change nothing beyond the name of their\n      master."
+}

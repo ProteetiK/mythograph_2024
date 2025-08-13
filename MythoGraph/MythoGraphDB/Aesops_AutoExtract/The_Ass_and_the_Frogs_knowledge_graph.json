@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "ass"
+    },
+    {
+      "id": "pond"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "fuss"
+    }
+  ],
+  "links": [
+    {
+      "source": "ass",
+      "target": "pond",
+      "label": "groaned",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "fuss",
+      "label": "make",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN ASS, carrying a load of wood, passed through a pond. As he was crossing\n      through the water he lost his footing, stumbled and fell, and not being\n      able to rise on account of his load, groaned heavily. Some Frogs\n      frequenting the pool heard his lamentation, and said, \"What would you do\n      if you had to live here always as we do, when you make such a fuss about a\n      mere fall into the water?\""
+}

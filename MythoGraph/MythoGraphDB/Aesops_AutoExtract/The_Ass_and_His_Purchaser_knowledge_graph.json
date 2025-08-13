@@ -1,0 +1,43 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "animal"
+    },
+    {
+      "id": "others"
+    },
+    {
+      "id": "halter"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "animal",
+      "label": "try",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "halter",
+      "label": "put",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "animal",
+      "target": "others",
+      "label": "leave",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A MAN wished to purchase an Ass, and agreed with its owner that he should\n      try out the animal before he bought him. He took the Ass home and put him\n      in the straw-yard with his other Asses, upon which the new animal left all\n      the others and at once joined the one that was most idle and the greatest\n      eater of them all. Seeing this, the man put a halter on him and led him\n      back to his owner. On being asked how, in so short a time, he could have\n      made a trial of him, he answered, \"I do not need a trial; I know that he\n      will be just the same as the one he chose for his companion.\" A man is known by the company he keeps."
+}

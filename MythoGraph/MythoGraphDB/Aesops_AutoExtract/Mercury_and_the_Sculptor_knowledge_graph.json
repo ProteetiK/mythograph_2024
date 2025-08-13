@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "mercury"
+    },
+    {
+      "id": "mortals"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "juno"
+    },
+    {
+      "id": "character"
+    },
+    {
+      "id": "price"
+    }
+  ],
+  "links": [
+    {
+      "source": "mercury",
+      "target": "mortals",
+      "label": "assumed",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "man",
+      "target": "juno",
+      "label": "demanded",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "juno",
+      "target": "character",
+      "label": "assume",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "juno",
+      "target": "price",
+      "label": "demand",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "MERCURY ONCE DETERMINED to learn in what esteem he was held among mortals.\n      For this purpose he assumed the character of a man and visited in this\n      disguise a Sculptor's studio having looked at various statues, he demanded\n      the price of two figures of Jupiter and Juno. When the sum at which they\n      were valued was named, he pointed to a figure of himself, saying to the\n      Sculptor, \"You will certainly want much more for this, as it is the statue\n      of the Messenger of the Gods, and author of all your gain.\" The Sculptor\n      replied, \"Well, if you will buy these, I'll fling you that into the\n      bargain.\""
+}

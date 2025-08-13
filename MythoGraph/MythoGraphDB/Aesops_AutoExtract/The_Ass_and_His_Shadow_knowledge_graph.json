@@ -1,0 +1,79 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "traveler"
+    },
+    {
+      "id": "sun"
+    },
+    {
+      "id": "ass"
+    },
+    {
+      "id": "day sun strength"
+    },
+    {
+      "id": "this"
+    },
+    {
+      "id": "protection"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "we"
+    },
+    {
+      "id": "substance"
+    }
+  ],
+  "links": [
+    {
+      "source": "traveler",
+      "target": "sun",
+      "label": "hired",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "traveler",
+      "target": "ass",
+      "label": "hire",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "traveler",
+      "target": "day sun strength",
+      "label": "stop",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "traveler",
+      "target": "it",
+      "label": "claim",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "this",
+      "target": "protection",
+      "label": "afford",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "we",
+      "target": "substance",
+      "label": "lose",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A TRAVELER hired an Ass to convey him to a distant place. The day being\n      intensely hot, and the sun shining in its strength, the Traveler stopped\n      to rest, and sought shelter from the heat under the Shadow of the Ass. As\n      this afforded only protection for one, and as the Traveler and the owner\n      of the Ass both claimed it, a violent dispute arose between them as to\n      which of them had the right to the Shadow. The owner maintained that he\n      had let the Ass only, and not his Shadow. The Traveler asserted that he\n      had, with the hire of the Ass, hired his Shadow also. The quarrel\n      proceeded from words to blows, and while the men fought, the Ass galloped\n      off. In quarreling about the shadow we often lose the substance."
+}

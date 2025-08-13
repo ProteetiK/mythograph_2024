@@ -1,0 +1,90 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "ass"
+    },
+    {
+      "id": "tile"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "jupiter"
+    },
+    {
+      "id": "food"
+    },
+    {
+      "id": "request"
+    },
+    {
+      "id": "loads"
+    },
+    {
+      "id": "time request"
+    }
+  ],
+  "links": [
+    {
+      "source": "ass",
+      "target": "tile",
+      "label": "petition",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "jupiter",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "food",
+      "label": "give",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "request",
+      "label": "repent",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "request",
+      "label": "grant",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "loads",
+      "label": "have_carry",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "jupiter",
+      "label": "tell",
+      "motif": "Victory",
+      "weight": 0.9
+    },
+    {
+      "source": "jupiter",
+      "target": "time request",
+      "label": "tell",
+      "motif": "Victory",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN ASS, belonging to an herb-seller who gave him too little food and too\n      much work made a petition to Jupiter to be released from his present\n      service and provided with another master. Jupiter, after warning him that\n      he would repent his request, caused him to be sold to a tile-maker.\n      Shortly afterwards, finding that he had heavier loads to carry and harder\n      work in the brick-field, he petitioned for another change of master.\n      Jupiter, telling him that it would be the last time that he could grant\n      his request, ordained that he be sold to a tanner. The Ass found that he\n      had fallen into worse hands, and noting his master's occupation, said,\n      groaning: \"It would have been better for me to have been either starved by\n      the one, or to have been overworked by the other of my former masters,\n      than to have been bought by my present owner, who will even after I am\n      dead tan my hide, and make me useful to him.\""
+}

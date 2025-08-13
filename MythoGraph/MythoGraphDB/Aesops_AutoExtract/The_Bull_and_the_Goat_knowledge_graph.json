@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bull"
+    },
+    {
+      "id": "cave"
+    },
+    {
+      "id": "shepherds"
+    },
+    {
+      "id": "which"
+    },
+    {
+      "id": "he goat cave"
+    },
+    {
+      "id": "goat"
+    }
+  ],
+  "links": [
+    {
+      "source": "bull",
+      "target": "cave",
+      "label": "addressed",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "bull",
+      "target": "goat",
+      "label": "address",
+      "motif": "Guidance",
+      "weight": 0.9
+    },
+    {
+      "source": "shepherds",
+      "target": "which",
+      "label": "occupy",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "he goat cave",
+      "target": "goat",
+      "label": "attack",
+      "motif": "Defeat",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BULL, escaping from a Lion, hid in a cave which some shepherds had\n      recently occupied. As soon as he entered, a He-Goat left in the cave\n      sharply attacked him with his horns. The Bull quietly addressed him: \"Butt\n      away as much as you will. I have no fear of you, but of the Lion. Let that\n      monster go away and I will soon let you know what is the respective\n      strength of a Goat and a Bull.\" It shows an evil disposition to take advantage of a friend in distress."
+}

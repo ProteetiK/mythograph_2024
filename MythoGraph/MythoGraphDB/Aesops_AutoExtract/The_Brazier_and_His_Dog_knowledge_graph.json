@@ -1,0 +1,62 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "##zier"
+    },
+    {
+      "id": "dinner"
+    },
+    {
+      "id": "brazier"
+    },
+    {
+      "id": "dog"
+    },
+    {
+      "id": "master"
+    },
+    {
+      "id": "stick"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "sluggard"
+    }
+  ],
+  "links": [
+    {
+      "source": "##zier",
+      "target": "dinner",
+      "label": "slept",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "brazier",
+      "target": "dog",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "master",
+      "target": "stick",
+      "label": "pretend",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "you",
+      "target": "sluggard",
+      "label": "wretche",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BRAZIER had a little Dog, which was a great favorite with his master,\n      and his constant companion. While he hammered away at his metals the Dog\n      slept; but when, on the other hand, he went to dinner and began to eat,\n      the Dog woke up and wagged his tail, as if he would ask for a share of his\n      meal. His master one day, pretending to be angry and shaking his stick at\n      him, said, \"You wretched little sluggard! what shall I do to you? While I\n      am hammering on the anvil, you sleep on the mat; and when I begin to eat\n      after my toil, you wake up and wag your tail for food. Do you not know\n      that labor is the source of every blessing, and that none but those who\n      work are entitled to eat?\""
+}

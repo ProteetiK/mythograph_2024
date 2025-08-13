@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "lion"
+    },
+    {
+      "id": "hunger"
+    },
+    {
+      "id": "spot"
+    },
+    {
+      "id": "cock"
+    },
+    {
+      "id": "aversion"
+    }
+  ],
+  "links": [
+    {
+      "source": "lion",
+      "target": "hunger",
+      "label": "crowe",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "lion",
+      "target": "spot",
+      "label": "approach",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "cock",
+      "target": "aversion",
+      "label": "have",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN ASS and a Cock were in a straw-yard together when a Lion, desperate\n      from hunger, approached the spot. He was about to spring upon the Ass,\n      when the Cock (to the sound of whose voice the Lion, it is said, has a\n      singular aversion) crowed loudly, and the Lion fled away as fast as he\n      could. The Ass, observing his trepidation at the mere crowing of a Cock\n      summoned courage to attack him, and galloped after him for that purpose.\n      He had run no long distance, when the Lion, turning about, seized him and\n      tore him to pieces. False confidence often leads into danger."
+}

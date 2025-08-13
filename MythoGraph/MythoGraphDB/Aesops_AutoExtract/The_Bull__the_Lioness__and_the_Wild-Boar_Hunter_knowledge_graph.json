@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bull"
+    },
+    {
+      "id": "horns"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "reason"
+    }
+  ],
+  "links": [
+    {
+      "source": "bull",
+      "target": "horns",
+      "label": "##nted",
+      "motif": "Conflict",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "reason",
+      "label": "have",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BULL finding a lion's cub asleep gored him to death with his horns. The\n      Lioness came up, and bitterly lamented the death of her whelp. A wild-boar\n      Hunter, seeing her distress, stood at a distance and said to her, \"Think\n      how many men there are who have reason to lament the loss of their\n      children, whose deaths have been caused by you.\""
+}

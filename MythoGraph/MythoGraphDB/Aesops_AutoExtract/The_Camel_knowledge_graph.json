@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "man"
+    },
+    {
+      "id": "camel"
+    }
+  ],
+  "links": [
+    {
+      "source": "man",
+      "target": "camel",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "WHEN MAN first saw the Camel, he was so frightened at his vast size that\n      he ran away. After a time, perceiving the meekness and gentleness of the\n      beast's temper, he summoned courage enough to approach him. Soon\n      afterwards, observing that he was an animal altogether deficient in\n      spirit, he assumed such boldness as to put a bridle in his mouth, and to\n      let a child drive him. Use serves to overcome dread."
+}

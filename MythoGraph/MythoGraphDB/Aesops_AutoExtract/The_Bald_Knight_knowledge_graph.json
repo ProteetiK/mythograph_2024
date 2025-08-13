@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "knight"
+    },
+    {
+      "id": "horse"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "wig"
+    },
+    {
+      "id": "puff"
+    },
+    {
+      "id": "hat"
+    },
+    {
+      "id": "man"
+    },
+    {
+      "id": "head"
+    }
+  ],
+  "links": [
+    {
+      "source": "knight",
+      "target": "horse",
+      "label": "hunt",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "wig",
+      "label": "wear",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wig",
+      "target": "horse",
+      "label": "pull",
+      "motif": "Quest",
+      "weight": 0.9
+    },
+    {
+      "source": "wig",
+      "target": "man",
+      "label": "forsake",
+      "motif": "Defeat",
+      "weight": 0.9
+    },
+    {
+      "source": "wig",
+      "target": "head",
+      "label": "grow",
+      "motif": "General",
+      "weight": 0.9
+    },
+    {
+      "source": "puff",
+      "target": "hat",
+      "label": "blow",
+      "motif": "Conflict",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BALD KNIGHT, who wore a wig, went out to hunt. A sudden puff of wind\n      blew off his hat and wig, at which a loud laugh rang forth from his\n      companions. He pulled up his horse, and with great glee joined in the joke\n      by saying, \"What a marvel it is that hairs which are not mine should fly\n      from me, when they have forsaken even the man on whose head they grew.\""
+}

@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "i"
+    },
+    {
+      "id": "stall"
+    },
+    {
+      "id": "who"
+    },
+    {
+      "id": "matter"
+    }
+  ],
+  "links": [
+    {
+      "source": "i",
+      "target": "stall",
+      "label": "reach",
+      "motif": "Trickery",
+      "weight": 0.9
+    },
+    {
+      "source": "who",
+      "target": "matter",
+      "label": "refuse",
+      "motif": "General",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "AN ASS besought a Horse to spare him a small portion of his feed. \"Yes,\"\n       said the Horse; \"if any remains out of what I am now eating I will give it\n      you for the sake of my own superior dignity, and if you will come when I\n      reach my own stall in the evening, I will give you a little sack full of\n      barley.\" The Ass replied, \"Thank you. But I can't think that you, who\n      refuse me a little matter now, will by and by confer on me a greater\n      benefit.\""
+}

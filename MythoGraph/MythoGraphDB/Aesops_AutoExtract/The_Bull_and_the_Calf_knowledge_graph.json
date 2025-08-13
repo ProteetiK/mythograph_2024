@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "bull"
+    },
+    {
+      "id": "stall"
+    }
+  ],
+  "links": [
+    {
+      "source": "bull",
+      "target": "stall",
+      "label": "squeeze",
+      "motif": "Quest",
+      "weight": 0.9
+    }
+  ],
+  "myth_text": "A BULL was striving with all his might to squeeze himself through a narrow\n      passage which led to his stall. A young Calf came up, and offered to go\n      before and show him the way by which he could manage to pass. \"Save\n      yourself the trouble,\" said the Bull; \"I knew that way long before you\n      were born.\""
+}
