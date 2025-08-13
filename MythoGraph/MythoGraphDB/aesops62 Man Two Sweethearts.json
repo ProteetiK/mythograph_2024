@@ -1,0 +1,48 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Man" },
+	{ "id": "Woman_Young" },
+	{ "id": "Woman_Old" }
+  ],
+  "links": [
+    {
+      "source": "Man",
+      "target": "Woman_Young",
+      "label": "court",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Man",
+      "target": "Woman_Old",
+      "label": "court",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Woman_Old",
+      "target": "Man",
+      "label": "pull_black_hair",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Woman_Young",
+      "target": "Man",
+      "label": "pull_gray_hair",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Man",
+      "target": "Hair",
+      "label": "not_leave",
+      "motif": "Defeat",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A MIDDLE-AGED MAN, whose hair had begun to turn gray, courted two women at the same time. One of them was young, and the other well advanced in years. The elder woman, ashamed to be courted by a man younger than herself, made a point, whenever her admirer visited her, to pull out some portion of his black hairs. The younger, on the contrary, not wishing to become the wife of an old man, was equally zealous in removing every gray hair she could find. Thus it came to pass that between them both he very soon found that he had not a hair left on his head. Those who seek to please everybody please nobody."
+}

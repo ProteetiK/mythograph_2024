@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Ass" },
+    { "id": "Lion" },
+    { "id": "Fox" }
+  ],
+  "links": [
+    {
+      "source": "Ass",
+      "target": "Fox",
+      "label": "enter_partnership",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Ass",
+      "target": "Lion",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Fox",
+      "target": "Lion",
+      "label": "see",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Fox",
+      "target": "Lion",
+      "label": "contrive",
+      "motif": "Trickery",
+      "weight": 0.70
+    },
+	{
+      "source": "Fox",
+      "target": "Ass",
+      "label": "assure",
+      "motif": "Trickery",
+      "weight": 0.70
+    },
+	{
+      "source": "Fox",
+      "target": "Ass",
+      "label": "led",
+      "motif": "Trickery",
+      "weight": 0.70
+    },{
+      "source": "Lion",
+      "target": "Fox",
+      "label": "clutch",
+      "motif": "Defeat",
+      "weight": 0.70
+    },
+	{
+      "source": "Lion",
+      "target": "Ass",
+      "label": "attack",
+      "motif": "Defeat",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "THE ASS and the Fox, having entered into partnership together for their mutual protection, went out into the forest to hunt. They had not proceeded far when they met a Lion. The Fox, seeing imminent danger, approached the Lion and promised to contrive for him the capture of the Ass if the Lion would pledge his word not to harm the Fox. Then, upon assuring the Ass that he would not be injured, the Fox led him to a deep pit and arranged that he should fall into it. The Lion, seeing that the Ass was secured, immediately clutched the Fox, and attacked the Ass at his leisure."
+}

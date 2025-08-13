@@ -1,0 +1,69 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Lion" },
+    { "id": "Mouse" },
+    { "id": "Hunters" }
+  ],
+  "links": [
+    {
+      "source": "Lion",
+      "target": "Mouse",
+      "label": "run_over",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+    {
+      "source": "Lion",
+      "target": "Mouse",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+    {
+      "source": "Mouse",
+      "target": "Lion",
+      "label": "beg",
+      "motif": "Trickery",
+      "weight": 0.70
+    },
+    {
+      "source": "Lion",
+      "target": "Mouse",
+      "label": "free",
+      "motif": "Victory",
+      "weight": 0.70
+    },
+    {
+      "source": "Hunters",
+      "target": "Lion",
+      "label": "catch",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+    {
+      "source": "Mouse",
+      "target": "Lion",
+      "label": "recognize",
+      "motif": "Decision",
+      "weight": 0.70
+    },
+    {
+      "source": "Mouse",
+      "target": "Lion",
+      "label": "gnaw_rope",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+    {
+      "source": "Mouse",
+      "target": "Lion",
+      "label": "free",
+      "motif": "Victory",
+      "weight": 0.70
+    }
+  ],
+  "myth_text":  "A LION was awakened from sleep by a Mouse running over his face. Rising up angrily, he caught him and was about to kill him, when the Mouse piteously entreated, saying: \"If you would only spare my life, I would be sure to repay your kindness.\" The Lion laughed and let him go. It happened shortly after this that the Lion was caught by some hunters, who bound him by strong ropes to the ground. The Mouse, recognizing his roar, came and gnawed the rope with his teeth, and set him free, exclaiming: \"You ridiculed the idea of my ever being able to help you, not expecting to receive from me any repayment of your favor; now you know that it is possible for even a Mouse to confer benefits on a Lion."
+}

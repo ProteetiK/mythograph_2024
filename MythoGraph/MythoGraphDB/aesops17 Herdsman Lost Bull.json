@@ -1,0 +1,72 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Herdsman" },
+	{ "id": "Bull_Calf" },
+	{ "id": "Pan" },
+	{ "id": "Hermes" },
+	{ "id": "Guardian_Deity" },
+	{ "id": "Bull" }
+  ],
+  "links": [
+    {
+      "source": "Herdsman",
+      "target": "Bull_Calf",
+      "label": "lost",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Herdsman",
+      "target": "Bull_Calf",
+      "label": "search",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Herdsman",
+      "target": "Hermes",
+      "label": "vow",
+      "motif": "Appeal",
+      "weight": 0.70
+    },
+	{
+      "source": "Herdsman",
+      "target": "Pan",
+      "label": "vow",
+      "motif": "Appeal",
+      "weight": 0.70
+    },
+	{
+      "source": "Herdsman",
+      "target": "Guardian_Deity",
+      "label": "vow",
+      "motif": "Appeal",
+      "weight": 0.70
+    },
+	{
+      "source": "Herdsman",
+      "target": "Lion",
+      "label": "see",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Lion",
+      "target": "Herdsman",
+      "label": "terrify",
+      "motif": "Defeat",
+      "weight": 0.70
+    },
+	{
+      "source": "Herdsman",
+      "target": "Guardian_Deity",
+      "label": "vow",
+      "motif": "Appeal",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A HERDSMAN tending his flock in a forest lost a Bull-calf from the fold. After a long and fruitless search, he made a vow that, if he could only discover the thief who had stolen the Calf, he would offer a lamb in sacrifice to Hermes, Pan, and the Guardian Deities of the forest. Not long afterwards, as he ascended a small hillock, he saw at its foot a Lion feeding on the Calf. Terrified at the sight, he lifted his eyes and his hands to heaven, and said: \"Just now I vowed to offer a lamb to the Guardian Deities of the forest if I could only find out who had robbed me; but now that I have discovered the thief, I would willingly add a full-grown Bull to the Calf I have lost, if I may only secure my own escape from him in safety.\""
+}

@@ -1,0 +1,33 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Bear" },
+	{ "id": "hounds" },
+  { "id": "Mother" }],
+  "links": [
+    {
+      "source": "Bear",
+      "target": "philanthropy",
+      "label": "boast",
+      "motif": "Appeal",
+      "weight": 0.70
+    },
+	{
+      "source": "Bear",
+      "target": "Man",
+      "label": "respect",
+      "motif": "Appeal",
+      "weight": 0.70
+    },
+	{
+      "source": "Fox",
+      "target": "Bear",
+      "label": "smile",
+      "motif": "Trickery",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A BEAR boasted very much of his philanthropy, saying that of all animals he was the most tender in his regard for man, for he had such respect for him that he would not even touch his dead body. A Fox hearing these words said with a smile to the Bear, \"Oh! that you would eat the dead and not the living.\""
+}

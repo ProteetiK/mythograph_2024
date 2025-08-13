@@ -1,0 +1,41 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Boy" },
+    { "id": "Scorpion" },
+    { "id": "Locusts" }
+  ],
+  "links": [
+    {
+      "source": "Boy",
+      "target": "Locusts",
+      "label": "hunt",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+    {
+      "source": "Boy",
+      "target": "Scorpion",
+      "label": "saw",
+      "motif": "General",
+      "weight": 0.70
+    },
+    {
+      "source": "Scorpion",
+      "target": "Boy",
+      "label": "show_sting",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+    {
+      "source": "Boy",
+      "target": "Scorpion",
+      "label": "not_touch",
+      "motif": "Victory",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A BOY was hunting for locusts. He had caught a goodly number, when he saw a Scorpion, and mistaking him for a locust, reached out his hand to take him. The Scorpion, showing his sting, said: \"If you had but touched me, my friend, you would have lost me, and all your locusts too!"
+}

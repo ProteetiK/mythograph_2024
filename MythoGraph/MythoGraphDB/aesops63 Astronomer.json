@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Astronomer" },
+	{ "id": "Neighbor" }
+  ],
+  "links": [
+    {
+      "source": "Astronomer",
+      "target": "Stars",
+      "label": "observe",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Astronomer",
+      "target": "Suburbs",
+      "label": "wander",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Astronomer",
+      "target": "Sky",
+      "label": "fix_attention",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+	{
+      "source": "Astronomer",
+      "target": "Well",
+      "label": "fall",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Astronomer",
+      "target": "Well",
+      "label": "lament",
+      "motif": "Defeat",
+      "weight": 0.70
+    },
+	{
+      "source": "Neighbor",
+      "target": "Astronomer",
+      "label": "said_hark",
+      "motif": "Guidance",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "AN ASTRONOMER used to go out at night to observe the stars. One evening, as he wandered through the suburbs with his whole attention fixed on the sky, he fell accidentally into a deep well. While he lamented and bewailed his sores and bruises, and cried loudly for help, a neighbor ran to the well, and learning what had happened said: \"Hark ye, old fellow, why, in striving to pry into what is in heaven, do you not manage to see what is on earth?\""
+}

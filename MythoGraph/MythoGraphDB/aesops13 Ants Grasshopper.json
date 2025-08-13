@@ -1,0 +1,47 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Grasshopper" },
+    { "id": "Ants" }
+  ],
+  "links": [
+    {
+      "source": "Ants",
+      "target": "Grain",
+      "label": "dry",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+    {
+      "source": "Grasshopper",
+      "target": "Ants",
+      "label": "beg",
+      "motif": "Quest",
+      "weight": 0.70
+    },
+    {
+      "source": "Ants",
+      "target": "Grasshopper",
+      "label": "inquire",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Grasshopper",
+      "target": "Ants",
+      "label": "reply",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Ants",
+      "target": "Grasshopper",
+      "label": "derise",
+      "motif": "Defeat",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "THE ANTS were spending a fine winter's day drying grain collected in the summertime. A Grasshopper, perishing with famine, passed by and earnestly begged for a little food. The Ants inquired of him, \"Why did you not treasure up food during the summer?\" He replied, \"I had not leisure enough. I passed the days in singing.\" They then said in derision: \"If you were foolish enough to sing all the summer, you must dance supperless to bed in the winter.\""
+}

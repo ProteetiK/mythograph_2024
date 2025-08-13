@@ -1,0 +1,40 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    { "id": "Groom" },
+    { "id": "Horse" }
+  ],
+  "links": [
+    {
+      "source": "Groom",
+      "target": "Horse",
+      "label": "currycomb",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Groom",
+      "target": "Horse",
+      "label": "rub",
+      "motif": "General",
+      "weight": 0.70
+    },
+	{
+      "source": "Groom",
+      "target": "Oats",
+      "label": "stole",
+      "motif": "Conflict",
+      "weight": 0.70
+    },
+	{
+      "source": "Horse",
+      "target": "Groom",
+      "label": "said_alas",
+      "motif": "Conflict",
+      "weight": 0.70
+    }
+  ],
+  "myth_text": "A GROOM used to spend whole days in currycombing and rubbing down his Horse, but at the same time stole his oats and sold them for his own profit. \"Alas!\" said the Horse, \"if you really wish me to be in good condition, you should groom me less, and feed me more.\""
+}
