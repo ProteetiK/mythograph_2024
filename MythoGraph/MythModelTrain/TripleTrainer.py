@@ -2,6 +2,7 @@ import os, json, torch, string
 import torch.nn as nn
 from tqdm import tqdm
 from torch.utils.data import Dataset, DataLoader
+import spacy
 from transformers import (
     BertTokenizerFast, BertForTokenClassification,
     get_linear_schedule_with_warmup
@@ -10,14 +11,15 @@ from torch.nn import CrossEntropyLoss
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, precision_score, recall_score, f1_score
 from sklearn.utils.class_weight import compute_class_weight
+import string
 
 LABELS = ["O", "B-source", "I-source", "B-PRED", "I-PRED", "B-OBJ", "I-OBJ"]
 LABEL2ID = {label: idx for idx, label in enumerate(LABELS)}
 ID2LABEL = {idx: label for label, idx in LABEL2ID.items()}
 tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
 
+
 def load_data_from_json_folder(folder_path):
-    #load all training data
     data = []
     for file_name in os.listdir(folder_path):
         if file_name.endswith(".json"):
@@ -219,11 +221,9 @@ def evaluate_motif_model(model, dataloader, device):
             logits = outputs.logits
             preds = torch.argmax(logits, dim=-1)
 
-            # Loss computation
             loss = loss_fct(logits.view(-1, len(LABELS)), labels.view(-1))
             total_loss += loss.item()
 
-            # Flatten predictions and labels (skip special tokens)
             for true_seq, pred_seq in zip(labels, preds):
                 for true_label, pred_label in zip(true_seq, pred_seq):
                     if true_label != -100:
@@ -265,9 +265,11 @@ def decode_triples(tokens, label_ids):
     subj, pred, obj = [], [], []
     current = None
 
-    def add_token(token_list, token, current_state):
+    def add_token(token_list, token):
+        if not is_valid_token(token):
+            return
         if token.startswith("##") and token_list:
-            token_list[-1] = token_list[-1] + token[2:]
+            token_list[-1] += token[2:]
         else:
             token_list.append(token)
 
@@ -276,36 +278,46 @@ def decode_triples(tokens, label_ids):
 
         if label == "B-source":
             if subj and pred and obj:
-                #print("SUBJ tokens:", subj)
-                #print("PRED tokens:", pred)
-                #print("OBJ tokens:", obj)
                 triples.append((" ".join(subj), " ".join(pred), " ".join(obj)))
-            subj, pred, obj = [], [], []
-            add_token(subj, token, "subj")
+                subj, pred, obj = [], [], []
+            subj = []
+            add_token(subj, token)
             current = "subj"
+
         elif label == "I-source" and current == "subj":
-            add_token(subj, token, "subj")
+            add_token(subj, token)
+
         elif label == "B-PRED":
+            if subj and pred and obj:
+                triples.append((" ".join(subj), " ".join(pred), " ".join(obj)))
+                subj, pred, obj = subj, [], []
             pred = []
-            add_token(pred, token, "pred")
+            add_token(pred, token)
             current = "pred"
+
         elif label == "I-PRED" and current == "pred":
-            add_token(pred, token, "pred")
+            add_token(pred, token)
+
         elif label == "B-OBJ":
+            if subj and pred and obj:
+                triples.append((" ".join(subj), " ".join(pred), " ".join(obj)))
+                subj, pred, obj = subj, pred, []
             obj = []
-            add_token(obj, token, "obj")
+            add_token(obj, token)
             current = "obj"
+
         elif label == "I-OBJ" and current == "obj":
-            add_token(obj, token, "obj")
-        else:
+            add_token(obj, token)
+
+        elif label == "O":
             current = None
 
     if subj and pred and obj:
         triples.append((" ".join(subj), " ".join(pred), " ".join(obj)))
+
     return triples
 
-
-def extract_triples_from_text(model, text, max_len=64, device=None):
+def extract_triples_from_text(model, text, max_len=256, device=None):
     if device is None:
         device = "cuda" if torch.cuda.is_available() else "cpu"
     encoding = tokenizer(text, return_tensors="pt", truncation=True, padding="max_length", max_length=max_len)
@@ -325,3 +337,5 @@ def extract_triples_from_text(model, text, max_len=64, device=None):
         filtered_tokens.append(tok)
         filtered_labels.append(lab)
     return decode_triples(filtered_tokens, filtered_labels)
+
+nlp = spacy.load("en_core_web_sm")
