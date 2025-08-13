@@ -46,7 +46,7 @@ def find_any_isomorphic(current_graph_json, all_graph_files):
 def find_any_similar(current_graph_json, all_graph_files,
                          weight_anonymized=0.6, weight_surface=0.05, 
                          weight_opposition=0.2, weight_text=0.1, 
-                         weight_jaccard=0.05, similarity_threshold=40.0):
+                         weight_jaccard=0.05, similarity_threshold=20.0):
 
     similarity_results = []
     current_text = current_graph_json.get("myth_text", "")
@@ -69,7 +69,7 @@ def find_any_similar(current_graph_json, all_graph_files,
                     weight_text * text_sim +
                     weight_jaccard * jaccard_sim * 100, 2)
                 else:
-                    weight_anonymized = 0.8
+                    weight_anonymized = 0.6
                     final_score = round(
                         weight_anonymized * anon_sim + 
                         weight_surface * surf_sim + 
